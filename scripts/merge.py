@@ -50,6 +50,26 @@ def filter_by_group(entries, prefix):
     return [(g, n, u) for g, n, u in entries if g.lower().startswith(prefix.lower())]
 
 
+def filter_excluded(entries, exclude_keywords):
+    if not exclude_keywords:
+        return entries
+    result = []
+    removed = 0
+    for group_title, name, url in entries:
+        exclude = False
+        for kw in exclude_keywords:
+            if kw.lower() in name.lower():
+                exclude = True
+                break
+        if exclude:
+            removed += 1
+        else:
+            result.append((group_title, name, url))
+    if removed:
+        print(f"[LiveWatch] Removendo canais indesejados: {removed} removidos")
+    return result
+
+
 def dedup_by_url(entries):
     seen = set()
     result = []
@@ -122,6 +142,7 @@ def main():
 
     print(f"[LiveWatch] Total canais (pos-filtro): {len(filtered)}")
 
+    filtered = filter_excluded(filtered, p.get("name_exclude", []))
     filtered = dedup_by_url(filtered)
     filtered = rename_duplicates(filtered)
 
