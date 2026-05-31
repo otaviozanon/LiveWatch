@@ -1,10 +1,10 @@
 {
   "sources": [
-    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista1.m3u",
-    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista2.m3u",
-    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista3.m3u",
-    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista4.m3u",
-    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista5.m3u"
+    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR01.m3u8",
+    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR02.m3u8",
+    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR03.m3u8",
+    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR04.m3u8",
+    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR05.m3u8"
   ],
   "filter_group": "Canais"
 }
