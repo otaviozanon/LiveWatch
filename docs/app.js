@@ -132,10 +132,14 @@ function updateClock(d) {
 }
 
 function loadLastRun() {
-  fetch(getPlaylistUrl(), { method: "HEAD", cache: "no-cache" })
-    .then(function (resp) {
-      var lm = resp.headers.get("Last-Modified");
-      if (lm) updateClock(new Date(lm));
+  fetch(WORKER_URL + "/file-time", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ path: PLAYLISTS[currentProfile].file }),
+  })
+    .then(function (resp) { return resp.json(); })
+    .then(function (data) {
+      if (data.date) updateClock(new Date(data.date));
     })
     .catch(function () {});
 }

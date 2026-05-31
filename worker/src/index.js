@@ -33,6 +33,8 @@ export default {
         return await handleLogs(request, env, githubHeaders, corsHeaders);
       } else if (url.pathname === "/status") {
         return await handleStatus(request, env, githubHeaders, corsHeaders);
+      } else if (url.pathname === "/file-time") {
+        return await handleFileTime(request, env, githubHeaders, corsHeaders);
       }
       return new Response(JSON.stringify({ ok: false, error: "Unknown endpoint" }), {
         status: 404,
@@ -118,6 +120,19 @@ async function handleStatus(request, env, headers, corsHeaders) {
   const data = await resp.text();
   return new Response(data, {
     status: resp.status,
+    headers: { ...corsHeaders, "Content-Type": "application/json" },
+  });
+}
+
+async function handleFileTime(request, env, headers, corsHeaders) {
+  const body = await request.json();
+  const path = body.path || "";
+  const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/commits?path=${encodeURIComponent(path)}&per_page=1`;
+
+  const resp = await fetch(url, { method: "GET", headers });
+  const data = await resp.json();
+  const ts = (data[0] && data[0].commit && data[0].commit.committer) ? data[0].commit.committer.date : null;
+  return new Response(JSON.stringify({ date: ts }), {
     headers: { ...corsHeaders, "Content-Type": "application/json" },
   });
 }
