@@ -1,6 +1,6 @@
 var WORKER_URL = "https://REPLACE_ME.workers.dev/trigger";
-var GH_OWNER = "REPLACE_ME";
-var GH_REPO = "REPLACE_ME";
+var GH_OWNER = "otaviozanon";
+var GH_REPO = "LiveWatch";
 
 var logsEl = document.getElementById("logs");
 var btnEl = document.getElementById("btn-update");
