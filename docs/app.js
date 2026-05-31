@@ -1,6 +1,4 @@
-var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev/trigger";
-var GH_OWNER = "otaviozanon";
-var GH_REPO = "LiveWatch";
+var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
 
 var logsEl = document.getElementById("logs");
 var btnEl = document.getElementById("btn-update");
@@ -18,7 +16,7 @@ function triggerWorkflow() {
   btnEl.disabled = true;
   log("Disparando workflow...", "action");
 
-  fetch(WORKER_URL, { method: "POST" })
+  fetch(WORKER_URL + "/trigger", { method: "POST" })
     .then(function (resp) { return resp.json(); })
     .then(function (data) {
       if (!data.ok) {
@@ -49,10 +47,10 @@ function pollLogs() {
       return;
     }
 
-    fetch("https://api.github.com/repos/" + GH_OWNER + "/" + GH_REPO + "/actions/runs?per_page=3")
+    fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
       .then(function (resp) { return resp.json(); })
       .then(function (data) {
-        var run = data.workflow_runs[0];
+        var run = (data.workflow_runs || [])[0];
         if (!run) {
           setTimeout(tick, delay);
           return;
@@ -89,7 +87,11 @@ function fetchAndDisplayLogs(runId, cb, attempt) {
     return;
   }
 
-  fetch("https://api.github.com/repos/" + GH_OWNER + "/" + GH_REPO + "/actions/runs/" + runId + "/logs")
+  fetch(WORKER_URL + "/logs", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ runId: runId }),
+  })
     .then(function (resp) {
       if (!resp.ok) {
         if (resp.status === 410 || resp.status === 404) {
