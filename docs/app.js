@@ -2,8 +2,8 @@ var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
 var BASE_RAW = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/";
 
 var PLAYLISTS = {
-  brasil: { file: "LiveWatch-PlaylistBrasil.m3u8" },
-  global: { file: "LiveWatch-PlaylistGlobal.m3u8" },
+  brasil: { file: "LiveWatch-PlaylistBR.m3u8" },
+  global: { file: "LiveWatch-PlaylistWorld.m3u8" },
 };
 var profileSelect = null;
 
