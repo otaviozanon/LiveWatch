@@ -81,12 +81,26 @@ function pollLogs() {
   setTimeout(tick, delay);
 }
 
-function fetchAndDisplayLogs(runId, cb) {
+function fetchAndDisplayLogs(runId, cb, attempt) {
+  attempt = attempt || 0;
+  if (attempt > 5) {
+    log("Logs nao disponiveis apos varias tentativas.", "warn");
+    if (cb) cb();
+    return;
+  }
+
   fetch("https://api.github.com/repos/" + GH_OWNER + "/" + GH_REPO + "/actions/runs/" + runId + "/logs")
     .then(function (resp) {
       if (!resp.ok) {
-        log("Nao foi possivel buscar logs (talvez ainda nao estejam disponiveis).", "warn");
-        if (cb) cb();
+        if (resp.status === 410 || resp.status === 404) {
+          log("Aguardando logs ficarem disponiveis... (tentativa " + (attempt + 1) + "/5)", "dim");
+          setTimeout(function () {
+            fetchAndDisplayLogs(runId, cb, attempt + 1);
+          }, 2000);
+        } else {
+          log("Nao foi possivel buscar logs (status " + resp.status + ").", "warn");
+          if (cb) cb();
+        }
         return;
       }
       return resp.text();
