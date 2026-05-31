@@ -1,4 +1,4 @@
-var WORKER_URL = "https://REPLACE_ME.workers.dev/trigger";
+var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev/trigger";
 var GH_OWNER = "otaviozanon";
 var GH_REPO = "LiveWatch";
 
