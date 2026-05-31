@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -57,6 +58,8 @@ body {
 
 .btn:hover { background: #2ea043; }
 .btn:disabled { background: #21262d; color: #484f58; cursor: not-allowed; }
+.btn.dl { background: #1f6feb; }
+.btn.dl:hover { background: #388bfd; }
 
 .hint { color: #484f58; font-size: 11px; }
 

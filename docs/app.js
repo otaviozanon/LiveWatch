@@ -1,7 +1,10 @@
 var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
+var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/playlist.m3u8";
 
 var logsEl = document.getElementById("logs");
 var btnEl = document.getElementById("btn-update");
+var dlBtn = document.getElementById("btn-download");
+var updatedEl = document.getElementById("last-updated");
 
 function log(msg, cls) {
   cls = cls || "info";
@@ -12,8 +15,26 @@ function log(msg, cls) {
   logsEl.scrollTop = logsEl.scrollHeight;
 }
 
+function updateLastModified() {
+  fetch(PLAYLIST_URL, { method: "HEAD", cache: "no-cache" })
+    .then(function (resp) {
+      var lm = resp.headers.get("Last-Modified");
+      if (lm) {
+        var d = new Date(lm);
+        updatedEl.textContent = d.toLocaleString("pt-BR");
+        updatedEl.className = "";
+      } else {
+        updatedEl.textContent = "N/A";
+      }
+    })
+    .catch(function () {
+      updatedEl.textContent = "Erro";
+    });
+}
+
 function triggerWorkflow() {
   btnEl.disabled = true;
+  dlBtn.disabled = true;
   log("Disparando workflow...", "action");
 
   fetch(WORKER_URL + "/trigger", { method: "POST" })
@@ -22,28 +43,32 @@ function triggerWorkflow() {
       if (!data.ok) {
         log("Erro ao disparar: " + data.error, "error");
         btnEl.disabled = false;
+        dlBtn.disabled = false;
         return;
       }
       log("Workflow iniciado. Aguardando inicio da action...", "success");
       pollLogs();
     })
     .catch(function (e) {
-      log("Falha: " + e.message, "error");
+      log("Falha ao conectar: " + e.message, "error");
       btnEl.disabled = false;
+      dlBtn.disabled = false;
     });
 }
 
 function pollLogs() {
-  var found = false;
   var maxAttempts = 120;
   var delay = 3000;
   var attempt = 0;
+  var lastStatus = "";
+  var startedAt = Date.now();
 
   function tick() {
     attempt++;
     if (attempt > maxAttempts) {
       log("Timeout — a action pode ainda estar rodando.", "warn");
       btnEl.disabled = false;
+      dlBtn.disabled = false;
       return;
     }
 
@@ -56,16 +81,22 @@ function pollLogs() {
           return;
         }
 
-        if (!found) {
-          log("Run ID: #" + run.id + " — Status: " + run.status, "dim");
-          found = true;
+        if (lastStatus !== run.status) {
+          lastStatus = run.status;
+          log("Status: " + run.status + " | Run #" + run.id, "dim");
         }
 
         if (run.status === "completed") {
-          fetchAndDisplayLogs(run.id, function () {
-            log("Concluido. Sistema pronto para proxima acao.", "success");
-            btnEl.disabled = false;
-          });
+          var elapsed = Math.round((Date.now() - startedAt) / 1000);
+          if (run.conclusion === "success") {
+            log("Action concluida com SUCESSO em " + elapsed + "s.", "success");
+            fetchSummary(run.id);
+          } else {
+            log("Action FALHOU! Verifique: https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id, "error");
+          }
+          updateLastModified();
+          btnEl.disabled = false;
+          dlBtn.disabled = false;
         } else {
           setTimeout(tick, delay);
         }
@@ -79,61 +110,49 @@ function pollLogs() {
   setTimeout(tick, delay);
 }
 
-function fetchAndDisplayLogs(runId, cb, attempt) {
-  attempt = attempt || 0;
-  if (attempt > 5) {
-    log("Logs nao disponiveis apos varias tentativas.", "warn");
-    if (cb) cb();
-    return;
-  }
-
+function fetchSummary(runId) {
   fetch(WORKER_URL + "/logs", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ runId: runId }),
   })
     .then(function (resp) {
-      if (!resp.ok) {
-        if (resp.status === 410 || resp.status === 404) {
-          log("Aguardando logs ficarem disponiveis... (tentativa " + (attempt + 1) + "/5)", "dim");
-          setTimeout(function () {
-            fetchAndDisplayLogs(runId, cb, attempt + 1);
-          }, 2000);
-        } else {
-          log("Nao foi possivel buscar logs (status " + resp.status + ").", "warn");
-          if (cb) cb();
-        }
-        return;
-      }
+      if (!resp.ok) return;
       return resp.text();
     })
     .then(function (text) {
       if (!text) return;
       var lines = text.split("\n");
+      var liveLines = [];
       for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
-        if (!line.trim()) continue;
-        var idx = line.indexOf("[LiveWatch]");
-        if (idx === -1) continue;
-        var msg = line.substring(idx + 12).trim();
-        if (msg.indexOf("ERRO") !== -1 || msg.indexOf("Falha") !== -1) {
-          log(msg, "error");
-        } else if (msg.indexOf("Removendo") !== -1 || msg.indexOf("Renomeando") !== -1 || msg.indexOf("Total") !== -1) {
-          log(msg, "warn");
-        } else if (msg.indexOf("gerada") !== -1 || msg.indexOf("salva") !== -1 || msg.indexOf("Concluido") !== -1) {
-          log(msg, "success");
-        } else if (msg.indexOf("Extraindo") !== -1 || msg.indexOf("Encontrados") !== -1) {
-          log(msg, "info");
-        } else {
-          log(msg, "dim");
+        if (line.indexOf("LiveWatch") !== -1) {
+          liveLines.push(line);
         }
       }
-      if (cb) cb();
+      if (liveLines.length > 0) {
+        log("--- Resumo da execucao ---", "dim");
+        for (var j = 0; j < liveLines.length; j++) {
+          var m = liveLines[j];
+          if (m.indexOf("ERRO") !== -1 || m.indexOf("Falha") !== -1) {
+            log(m, "error");
+          } else if (m.indexOf("Removendo") !== -1 || m.indexOf("Renomeando") !== -1 || m.indexOf("Total") !== -1) {
+            log(m, "warn");
+          } else if (m.indexOf("gerada") !== -1 || m.indexOf("salva") !== -1) {
+            log(m, "success");
+          } else if (m.indexOf("Extraindo") !== -1 || m.indexOf("Encontrados") !== -1) {
+            log(m, "info");
+          } else {
+            log(m, "dim");
+          }
+        }
+      }
     })
-    .catch(function (e) {
-      log("Erro ao buscar logs: " + e.message, "error");
-      if (cb) cb();
-    });
+    .catch(function () {});
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
+dlBtn.addEventListener("click", function () {
+  window.open(PLAYLIST_URL, "_blank");
+});
+updateLastModified();
