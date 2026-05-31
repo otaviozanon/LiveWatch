@@ -123,28 +123,24 @@ function fetchSummary(runId) {
     .then(function (text) {
       if (!text) return;
       var lines = text.split("\n");
-      var liveLines = [];
+      var shown = {};
       for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
-        if (line.indexOf("LiveWatch") !== -1) {
-          liveLines.push(line);
-        }
-      }
-      if (liveLines.length > 0) {
-        log("--- Resumo da execucao ---", "dim");
-        for (var j = 0; j < liveLines.length; j++) {
-          var m = liveLines[j];
-          if (m.indexOf("ERRO") !== -1 || m.indexOf("Falha") !== -1) {
-            log(m, "error");
-          } else if (m.indexOf("Removendo") !== -1 || m.indexOf("Renomeando") !== -1 || m.indexOf("Total") !== -1) {
-            log(m, "warn");
-          } else if (m.indexOf("gerada") !== -1 || m.indexOf("salva") !== -1) {
-            log(m, "success");
-          } else if (m.indexOf("Extraindo") !== -1 || m.indexOf("Encontrados") !== -1) {
-            log(m, "info");
-          } else {
-            log(m, "dim");
-          }
+        var idx = line.indexOf("[LiveWatch]");
+        if (idx === -1) continue;
+        var m = line.substring(idx + 12).trim();
+        if (shown[m]) continue;
+        shown[m] = true;
+        if (m.indexOf("ERRO") !== -1 || m.indexOf("Falha") !== -1) {
+          log(m, "error");
+        } else if (m.indexOf("Removendo") !== -1 || m.indexOf("Renomeando") !== -1 || m.indexOf("Total") !== -1) {
+          log(m, "warn");
+        } else if (m.indexOf("gerada") !== -1 || m.indexOf("salva") !== -1) {
+          log(m, "success");
+        } else if (m.indexOf("Extraindo") !== -1 || m.indexOf("Encontrados") !== -1) {
+          log(m, "info");
+        } else {
+          log(m, "dim");
         }
       }
     })

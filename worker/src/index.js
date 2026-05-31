@@ -1,3 +1,5 @@
+import { unzipSync, strFromU8 } from "fflate";
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -76,13 +78,29 @@ async function handleLogs(request, env, headers, corsHeaders) {
     redirect: "follow",
   });
 
-  return new Response(resp.body, {
-    status: resp.status,
-    headers: {
-      ...corsHeaders,
-      "Content-Type": resp.headers.get("Content-Type") || "text/plain",
-    },
-  });
+  if (!resp.ok) {
+    return new Response(JSON.stringify({ ok: false, error: "Logs not available" }), {
+      status: resp.status,
+      headers: { ...corsHeaders, "Content-Type": "application/json" },
+    });
+  }
+
+  try {
+    const buf = new Uint8Array(await resp.arrayBuffer());
+    const unzipped = unzipSync(buf);
+    const texts = [];
+    for (const [name, data] of Object.entries(unzipped)) {
+      texts.push(strFromU8(data));
+    }
+    const combined = texts.join("\n");
+    return new Response(combined, {
+      headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" },
+    });
+  } catch (e) {
+    return new Response(await resp.text(), {
+      headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" },
+    });
+  }
 }
 
 async function handleStatus(request, env, headers, corsHeaders) {
