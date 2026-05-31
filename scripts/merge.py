@@ -90,13 +90,13 @@ def generate_playlist(entries, output_path):
         for group_title, name, url in entries:
             f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
             f.write(f"{url}\n")
-    print(f"[LiveWatch] playlist.m3u8 gerada: {len(entries)} canais")
+    print(f"[LiveWatch] LiveWatch-Playlist.m3u8 gerada: {len(entries)} canais")
 
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, "config.json")
-    output_path = os.path.join(os.path.dirname(script_dir), "playlist.m3u8")
+    output_path = os.path.join(os.path.dirname(script_dir), "LiveWatch-Playlist.m3u8")
 
     with open(config_path, "r", encoding="utf-8") as f:
         config = json.load(f)

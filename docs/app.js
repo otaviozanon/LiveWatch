@@ -1,5 +1,5 @@
 var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
-var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/playlist.m3u8";
+var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
 
 var logsEl = document.getElementById("logs");
 var progressWrap = document.getElementById("progress-wrap");
