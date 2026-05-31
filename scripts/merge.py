@@ -43,9 +43,65 @@ def fetch_all(urls):
     return results
 
 
+def filter_by_group(entries, prefix):
+    return [(g, n, u) for g, n, u in entries if g.lower().startswith(prefix.lower())]
+
+
+def dedup_by_url(entries):
+    seen = set()
+    result = []
+    removed = 0
+    for entry in entries:
+        url = entry[2]
+        if url not in seen:
+            seen.add(url)
+            result.append(entry)
+        else:
+            removed += 1
+    if removed:
+        print(f"[LiveWatch] Removendo duplicados por URL: {removed} removidos")
+    return result
+
+
+def rename_duplicates(entries):
+    name_counts = {}
+    renamed = 0
+    result = []
+    for group_title, name, url in entries:
+        key = name.lower()
+        if key not in name_counts:
+            name_counts[key] = 1
+            result.append((group_title, name, url))
+        else:
+            name_counts[key] += 1
+            new_name = f"{name} [{name_counts[key]}]"
+            result.append((group_title, new_name, url))
+            renamed += 1
+    if renamed:
+        print(f"[LiveWatch] Renomeando conflitos: {renamed} canais ajustados")
+    return result
+
+
 if __name__ == "__main__":
     sample = '#EXTINF:-1 group-title="Canais | Globo",GLOBO SP\nhttp://example.com/globo.m3u8\n'
     result = parse_m3u(sample)
     assert len(result) == 1
     assert result[0] == ("Canais | Globo", "GLOBO SP", "http://example.com/globo.m3u8")
     print("parse_m3u: OK")
+
+    e = [("Canais | Globo", "GLOBO SP", "http://x"), ("Filmes", "Filme A", "http://y")]
+    r = filter_by_group(e, "Canais")
+    assert len(r) == 1
+    assert r[0][0] == "Canais | Globo"
+    print("filter_by_group: OK")
+
+    e = [("A", "X", "http://same"), ("B", "Y", "http://same")]
+    r = dedup_by_url(e)
+    assert len(r) == 1
+    print("dedup_by_url: OK")
+
+    e = [("C", "GLOBO SP", "http://a"), ("C", "GLOBO SP", "http://b")]
+    r = rename_duplicates(e)
+    assert r[0][1] == "GLOBO SP"
+    assert r[1][1] == "GLOBO SP [2]"
+    print("rename_duplicates: OK")
