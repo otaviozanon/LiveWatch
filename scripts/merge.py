@@ -1,3 +1,5 @@
+import json
+import os
 import re
 
 import requests
@@ -91,33 +93,29 @@ def generate_playlist(entries, output_path):
     print(f"[LiveWatch] playlist.m3u8 gerada: {len(entries)} canais")
 
 
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    config_path = os.path.join(script_dir, "config.json")
+    output_path = os.path.join(os.path.dirname(script_dir), "playlist.m3u8")
+
+    with open(config_path, "r", encoding="utf-8") as f:
+        config = json.load(f)
+
+    all_results = fetch_all(config["sources"])
+
+    filtered = []
+    for entries in all_results.values():
+        filtered.extend(filter_by_group(entries, config["filter_group"]))
+
+    print(f"[LiveWatch] Total canais (pos-filtro): {len(filtered)}")
+
+    filtered = dedup_by_url(filtered)
+    filtered = rename_duplicates(filtered)
+
+    print(f"[LiveWatch] Total final: {len(filtered)} canais")
+    generate_playlist(filtered, output_path)
+    print("[LiveWatch] Playlist salva e pronta para commit!")
+
+
 if __name__ == "__main__":
-    sample = '#EXTINF:-1 group-title="Canais | Globo",GLOBO SP\nhttp://example.com/globo.m3u8\n'
-    result = parse_m3u(sample)
-    assert len(result) == 1
-    assert result[0] == ("Canais | Globo", "GLOBO SP", "http://example.com/globo.m3u8")
-    print("parse_m3u: OK")
-
-    e = [("Canais | Globo", "GLOBO SP", "http://x"), ("Filmes", "Filme A", "http://y")]
-    r = filter_by_group(e, "Canais")
-    assert len(r) == 1
-    assert r[0][0] == "Canais | Globo"
-    print("filter_by_group: OK")
-
-    e = [("A", "X", "http://same"), ("B", "Y", "http://same")]
-    r = dedup_by_url(e)
-    assert len(r) == 1
-    print("dedup_by_url: OK")
-
-    e = [("C", "GLOBO SP", "http://a"), ("C", "GLOBO SP", "http://b")]
-    r = rename_duplicates(e)
-    assert r[0][1] == "GLOBO SP"
-    assert r[1][1] == "GLOBO SP [2]"
-    print("rename_duplicates: OK")
-
-    import os
-    e = [("Canais | Globo", "GLOBO SP", "http://x")]
-    generate_playlist(e, "test_out.m3u8")
-    assert os.path.exists("test_out.m3u8")
-    os.remove("test_out.m3u8")
-    print("generate_playlist: OK")
+    main()
