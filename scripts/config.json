@@ -3,7 +3,7 @@
     "brasil": {
       "filter_group": "Canais",
       "output": "LiveWatch-PlaylistBR.m3u8",
-      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "[PORNO]", "[SEXO]"],
+      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "[PORNO]", "[SEXO]", "FAP TV"],
       "sources": [
         "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR01.m3u8",
         "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR02.m3u8",
@@ -15,7 +15,7 @@
     "global": {
       "filter_group": "CANAL",
       "output": "LiveWatch-PlaylistWorld.m3u8",
-      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "[PORNO]", "[SEXO]"],
+      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "[PORNO]", "[SEXO]", "FAP TV"],
       "sources": [
         "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial01.m3u",
         "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial02.m3u",
