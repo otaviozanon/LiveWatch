@@ -1,0 +1,10 @@
+{
+  "sources": [
+    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista1.m3u",
+    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista2.m3u",
+    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista3.m3u",
+    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista4.m3u",
+    "https://raw.githubusercontent.com/REPO_OWNER/REPO_NAME/main/lista5.m3u"
+  ],
+  "filter_group": "Canais"
+}
