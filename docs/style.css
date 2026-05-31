@@ -124,11 +124,11 @@ body {
 .btn-refresh:disabled { background: #1a1a22; color: #3f3f46; border-color: #27272a; cursor: not-allowed; }
 
 .btn-download {
-  background: #1d1d28;
-  color: #a1a1aa;
-  border-color: #27272a;
+  background: #27272a;
+  color: #d4d4d8;
+  border-color: #3f3f46;
 }
-.btn-download:hover { background: #27272a; color: #e4e4e7; border-color: #3f3f46; }
+.btn-download:hover { background: #3f3f46; color: #fafafa; border-color: #52525b; }
 
 .hint {
   color: #52525b;
