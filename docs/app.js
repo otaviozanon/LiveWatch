@@ -71,7 +71,6 @@ function completeProgress(label) {
 
 function triggerWorkflow() {
   btnEl.disabled = true;
-  dlBtn.disabled = true;
   log("Disparando workflow...", "action");
 
   fetch(WORKER_URL + "/trigger", { method: "POST" })
@@ -80,7 +79,7 @@ function triggerWorkflow() {
       if (!data.ok) {
         log("Erro ao disparar: " + data.error, "error");
         btnEl.disabled = false;
-        dlBtn.disabled = false;
+
         return;
       }
       log("Workflow iniciado.", "success");
@@ -134,7 +133,7 @@ function pollLogs() {
             log("Workflow FALHOU.", "error");
             log("https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id, "dim");
             btnEl.disabled = false;
-            dlBtn.disabled = false;
+    
           }
         } else {
           setTimeout(tick, delay);
@@ -157,7 +156,7 @@ function fetchSummary(runId) {
       if (!text) {
         log("Playlist atualizada.", "success");
         btnEl.disabled = false;
-        dlBtn.disabled = false;
+
         return;
       }
       renderSummary(text);

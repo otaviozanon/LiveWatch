@@ -123,7 +123,6 @@ body {
   border-color: #27272a;
 }
 .btn-download:hover { background: #27272a; color: #e4e4e7; border-color: #3f3f46; }
-.btn-download:disabled { opacity: 0.3; cursor: not-allowed; }
 
 .hint {
   color: #52525b;
