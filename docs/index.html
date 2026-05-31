@@ -8,15 +8,23 @@
 </head>
 <body>
   <div class="terminal">
-    <div class="terminal-header">LiveWatch — Merge Playlist</div>
+    <div class="terminal-header">
+      <span class="dot"></span> LiveWatch &mdash; IPTV List
+    </div>
     <div class="terminal-body" id="logs">
-      <div class="log info">[LiveWatch] Sistema pronto.</div>
-      <div class="log dim">[LiveWatch] Aguardando acao...</div>
+      <div class="log dim">&#9654; Sistema pronto.</div>
     </div>
     <div class="terminal-footer">
-      <button class="btn" id="btn-update">&gt; ATUALIZAR PLAYLIST</button>
-      <button class="btn dl" id="btn-download">&darr; DOWNLOAD</button>
-      <span class="hint">Ultima atualizacao: <span id="last-updated">...</span></span>
+      <button class="btn btn-refresh" id="btn-update">
+        &#8635; ATUALIZAR
+      </button>
+      <button class="btn btn-download" id="btn-download">
+        &#8615; DOWNLOAD
+      </button>
+      <span class="hint">
+        <span class="time-icon">&#9200;</span>
+        Ultima atualizacao: <span id="last-updated">---</span>
+      </span>
     </div>
   </div>
   <script src="app.js"></script>
