@@ -43,6 +43,38 @@ body {
   background: #34d399;
   box-shadow: 0 0 8px #34d39955;
   animation: pulse 2s ease-in-out infinite;
+  margin-right: auto;
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 2px;
+  margin-left: auto;
+}
+
+.lang-btn {
+  background: transparent;
+  color: #52525b;
+  border: 1px solid #27272a;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: all 0.15s;
+}
+
+.lang-btn.active {
+  background: #1f6feb;
+  color: #fff;
+  border-color: #1f6feb;
+}
+
+.lang-btn:hover:not(.active) {
+  color: #a1a1aa;
+  border-color: #3f3f46;
 }
 
 @keyframes pulse {

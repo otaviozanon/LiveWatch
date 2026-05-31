@@ -1,6 +1,67 @@
 var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
-var PLAYLIST_URL =
-  "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
+var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
+
+var T = {
+  pt: {
+    systemReady: "Sistema pronto.",
+    dispatching: "Disparando workflow...",
+    errorDispatch: "Erro ao disparar: {0}",
+    workflowStarted: "Workflow iniciado.",
+    fail: "Falha: {0}",
+    waitingStart: "Aguardando inicio...",
+    running: "Executando...",
+    completed: "Concluido",
+    playlistUpdated: "Playlist atualizada.",
+    workflowFailed: "Workflow FALHOU.",
+    summary: "Resumo:",
+    divider: "---------------------",
+    listsExtracted: "Listas extraidas: {0}",
+    listStats: "  {0} | {1} linhas -> {2} entradas",
+    totalFiltered: "Total de canais filtrados: {0}",
+    totalFinal: "Total final: {0} canais",
+    playlistGenerated: "LiveWatch-Playlist.m3u8 gerado.",
+    timeout: "Tempo limite atingido.",
+    timeoutShort: "Tempo limite",
+    failed: "Falhou",
+    btnUpdate: "ATUALIZAR",
+    btnDownload: "DOWNLOAD",
+  },
+  en: {
+    systemReady: "System ready.",
+    dispatching: "Dispatching workflow...",
+    errorDispatch: "Error dispatching: {0}",
+    workflowStarted: "Workflow started.",
+    fail: "Error: {0}",
+    waitingStart: "Waiting to start...",
+    running: "Running...",
+    completed: "Completed",
+    playlistUpdated: "Playlist updated.",
+    workflowFailed: "Workflow FAILED.",
+    summary: "Summary:",
+    divider: "---------------------",
+    listsExtracted: "Extracted lists: {0}",
+    listStats: "  {0} | {1} lines -> {2} entries",
+    totalFiltered: "Total filtered channels: {0}",
+    totalFinal: "Final total: {0} channels",
+    playlistGenerated: "LiveWatch-Playlist.m3u8 generated.",
+    timeout: "Timeout reached.",
+    timeoutShort: "Timeout",
+    failed: "Failed",
+    btnUpdate: "UPDATE",
+    btnDownload: "DOWNLOAD",
+  },
+};
+
+var lang = localStorage.getItem("livewatch-lang") || "pt";
+
+function t(key) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  var msg = (T[lang] && T[lang][key]) || (T.en[key] || key);
+  for (var i = 0; i < args.length; i++) {
+    msg = msg.replace("{" + i + "}", args[i]);
+  }
+  return msg;
+}
 
 var logsEl = document.getElementById("logs");
 var progressWrap = document.getElementById("progress-wrap");
@@ -13,6 +74,23 @@ var updatedEl = document.getElementById("last-updated");
 var progressTimer = null;
 var progressVal = 0;
 
+function applyLang() {
+  document.querySelectorAll(".lang-btn").forEach(function (b) {
+    b.classList.toggle("active", b.dataset.lang === lang);
+  });
+  btnEl.innerHTML = "&#x21BB; " + t("btnUpdate");
+  dlBtn.innerHTML = "&#x21E9; " + t("btnDownload");
+  logsEl.innerHTML = '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
+  localStorage.setItem("livewatch-lang", lang);
+}
+
+document.getElementById("lang-toggle").addEventListener("click", function (e) {
+  var btn = e.target.closest(".lang-btn");
+  if (!btn || btn.dataset.lang === lang) return;
+  lang = btn.dataset.lang;
+  applyLang();
+});
+
 function log(msg, cls) {
   cls = cls || "dim";
   var div = document.createElement("div");
@@ -24,25 +102,17 @@ function log(msg, cls) {
 }
 
 function updateClock(d) {
-  if (!d) {
-    updatedEl.textContent = "---";
-    return;
-  }
-  updatedEl.textContent = d.toLocaleString("pt-BR");
+  if (!d) { updatedEl.textContent = "---"; return; }
+  updatedEl.textContent = d.toLocaleString(lang === "pt" ? "pt-BR" : "en-US");
 }
 
 function loadLastRun() {
   fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-    .then(function (resp) {
-      return resp.json();
-    })
+    .then(function (resp) { return resp.json(); })
     .then(function (data) {
       var runs = data.workflow_runs || [];
       for (var i = 0; i < runs.length; i++) {
-        if (
-          runs[i].conclusion === "success" &&
-          runs[i].status === "completed"
-        ) {
+        if (runs[i].conclusion === "success" && runs[i].status === "completed") {
           updateClock(new Date(runs[i].updated_at));
           return;
         }
@@ -53,7 +123,7 @@ function loadLastRun() {
 
 function showProgress(label) {
   progressWrap.style.display = "block";
-  progressLabel.textContent = label || "Processando...";
+  progressLabel.textContent = label || t("waitingStart");
   progressVal = 0;
   progressFill.style.width = "0%";
   progressVal = 8;
@@ -80,27 +150,23 @@ function completeProgress(label) {
 
 function triggerWorkflow() {
   btnEl.disabled = true;
-  log("Disparando workflow...", "action");
+  log(t("dispatching"), "action");
 
   fetch(WORKER_URL + "/trigger", { method: "POST" })
-    .then(function (resp) {
-      return resp.json();
-    })
+    .then(function (resp) { return resp.json(); })
     .then(function (data) {
       if (!data.ok) {
-        log("Erro ao disparar: " + data.error, "error");
+        log(t("errorDispatch", data.error), "error");
         btnEl.disabled = false;
-
         return;
       }
-      log("Workflow iniciado.", "success");
-      showProgress("Aguardando inicio...");
+      log(t("workflowStarted"), "success");
+      showProgress(t("waitingStart"));
       pollLogs();
     })
     .catch(function (e) {
-      log("Falha: " + e.message, "error");
+      log(t("fail", e.message), "error");
       btnEl.disabled = false;
-      dlBtn.disabled = false;
     });
 }
 
@@ -108,58 +174,43 @@ function pollLogs() {
   var maxAttempts = 180;
   var delay = 3000;
   var attempt = 0;
-  var lastStatus = "";
 
   function tick() {
     attempt++;
     if (attempt > maxAttempts) {
-      completeProgress("Tempo limite");
-      log("Timeout.", "warn");
+      completeProgress(t("timeoutShort"));
+      log(t("timeout"), "warn");
       btnEl.disabled = false;
-      dlBtn.disabled = false;
       return;
     }
 
     fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-      .then(function (resp) {
-        return resp.json();
-      })
+      .then(function (resp) { return resp.json(); })
       .then(function (data) {
         var run = (data.workflow_runs || [])[0];
-        if (!run) {
-          setTimeout(tick, delay);
-          return;
-        }
+        if (!run) { setTimeout(tick, delay); return; }
 
-        if (lastStatus !== run.status) {
-          lastStatus = run.status;
-          if (run.status === "in_progress") {
-            progressLabel.textContent = "Executando...";
-          }
+        if (run.status === "in_progress") {
+          progressLabel.textContent = t("running");
         }
 
         if (run.status === "completed") {
           if (run.conclusion === "success") {
-            completeProgress("Concluido");
+            completeProgress(t("completed"));
             var ts = new Date(run.updated_at || run.created_at);
             updateClock(ts);
             fetchSummary(run.id);
           } else {
-            completeProgress("Falhou");
-            log("Workflow FALHOU.", "error");
-            log(
-              "https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id,
-              "dim",
-            );
+            completeProgress(t("failed"));
+            log(t("workflowFailed"), "error");
+            log("https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id, "dim");
             btnEl.disabled = false;
           }
         } else {
           setTimeout(tick, delay);
         }
       })
-      .catch(function () {
-        setTimeout(tick, delay);
-      });
+      .catch(function () { setTimeout(tick, delay); });
   }
 
   setTimeout(tick, 2500);
@@ -171,22 +222,18 @@ function fetchSummary(runId) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ runId: runId }),
   })
-    .then(function (resp) {
-      return resp.ok ? resp.text() : null;
-    })
+    .then(function (resp) { return resp.ok ? resp.text() : null; })
     .then(function (text) {
       if (!text) {
-        log("Playlist atualizada.", "success");
+        log(t("playlistUpdated"), "success");
         btnEl.disabled = false;
-
         return;
       }
       renderSummary(text);
     })
     .catch(function () {
-      log("Playlist atualizada.", "success");
+      log(t("playlistUpdated"), "success");
       btnEl.disabled = false;
-      dlBtn.disabled = false;
     });
 }
 
@@ -205,7 +252,6 @@ function renderSummary(text) {
     var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "");
     if (seen[clean]) continue;
     seen[clean] = true;
-
     var m = clean;
 
     var em = m.match(/Extraindo lista \d+\/\d+: (.+)/);
@@ -226,42 +272,34 @@ function renderSummary(text) {
     if (dm) totals.final = dm[1];
   }
 
-  log("---------------------", "dim");
+  log(t("summary"), "white");
+  log(t("divider"), "dim");
 
   if (files.length > 0) {
-    log("Listas extraidas: " + files.join(" | "), "info");
+    log(t("listsExtracted", files.join(" | ")), "info");
   }
 
   for (var k = 0; k < files.length; k++) {
     var f = files[k];
     if (stats[f]) {
-      log(
-        "  " +
-          f +
-          " | " +
-          stats[f].lines +
-          " linhas -> " +
-          stats[f].entries +
-          " entradas",
-        "dim",
-      );
+      log(t("listStats", f, stats[f].lines, stats[f].entries), "dim");
     }
   }
 
   if (totals.filtered) {
-    log("Total de canais filtrados: " + totals.filtered, "warn");
+    log(t("totalFiltered", totals.filtered), "warn");
   }
   if (totals.final) {
-    log("Total final: " + totals.final + " canais", "success");
+    log(t("totalFinal", totals.final), "success");
   }
 
-  log("LiveWatch-Playlist.m3u8 gerado.", "success");
+  log(t("playlistGenerated"), "success");
   btnEl.disabled = false;
-  dlBtn.disabled = false;
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
 dlBtn.addEventListener("click", function () {
   window.open(PLAYLIST_URL, "_blank");
 });
+applyLang();
 loadLastRun();
