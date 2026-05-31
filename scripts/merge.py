@@ -82,6 +82,15 @@ def rename_duplicates(entries):
     return result
 
 
+def generate_playlist(entries, output_path):
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for group_title, name, url in entries:
+            f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
+            f.write(f"{url}\n")
+    print(f"[LiveWatch] playlist.m3u8 gerada: {len(entries)} canais")
+
+
 if __name__ == "__main__":
     sample = '#EXTINF:-1 group-title="Canais | Globo",GLOBO SP\nhttp://example.com/globo.m3u8\n'
     result = parse_m3u(sample)
@@ -105,3 +114,10 @@ if __name__ == "__main__":
     assert r[0][1] == "GLOBO SP"
     assert r[1][1] == "GLOBO SP [2]"
     print("rename_duplicates: OK")
+
+    import os
+    e = [("Canais | Globo", "GLOBO SP", "http://x")]
+    generate_playlist(e, "test_out.m3u8")
+    assert os.path.exists("test_out.m3u8")
+    os.remove("test_out.m3u8")
+    print("generate_playlist: OK")
