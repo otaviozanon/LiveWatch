@@ -28,7 +28,7 @@ export default {
 
     try {
       if (url.pathname === "/trigger") {
-        return await handleTrigger(env, githubHeaders, corsHeaders);
+        return await handleTrigger(request, env, githubHeaders, corsHeaders);
       } else if (url.pathname === "/logs") {
         return await handleLogs(request, env, githubHeaders, corsHeaders);
       } else if (url.pathname === "/status") {
