@@ -47,12 +47,16 @@ export default {
   },
 };
 
-async function handleTrigger(env, headers, corsHeaders) {
+async function handleTrigger(request, env, headers, corsHeaders) {
+  let body = {};
+  try { body = await request.json(); } catch (e) {}
+  const profile = body.profile || "brasil";
+
   const url = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/actions/workflows/${env.WORKFLOW_ID}/dispatches`;
   const resp = await fetch(url, {
     method: "POST",
     headers,
-    body: JSON.stringify({ ref: "main" }),
+    body: JSON.stringify({ ref: "main", inputs: { profile: profile } }),
   });
 
   if (resp.ok) {

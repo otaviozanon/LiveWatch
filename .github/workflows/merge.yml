@@ -2,6 +2,15 @@ name: Merge Playlists
 
 on:
   workflow_dispatch:
+    inputs:
+      profile:
+        description: "Playlist profile"
+        required: true
+        type: choice
+        default: "brasil"
+        options:
+          - brasil
+          - global
   schedule:
     - cron: "0 */6 * * *"
 
@@ -19,13 +28,13 @@ jobs:
         run: pip install requests
 
       - name: Run merge script
-        run: python scripts/merge.py
+        run: python scripts/merge.py --profile ${{ inputs.profile || 'brasil' }}
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add LiveWatch-Playlist.m3u8
+          git add LiveWatch-Playlist*.m3u8
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

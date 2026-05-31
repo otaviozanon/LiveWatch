@@ -1,10 +1,26 @@
 {
-  "sources": [
-    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR01.m3u8",
-    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR02.m3u8",
-    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR03.m3u8",
-    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR04.m3u8",
-    "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR05.m3u8"
-  ],
-  "filter_group": "Canais"
+  "profiles": {
+    "brasil": {
+      "filter_group": "Canais",
+      "output": "LiveWatch-PlaylistBrasil.m3u8",
+      "sources": [
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR01.m3u8",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR02.m3u8",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR03.m3u8",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR04.m3u8",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR05.m3u8"
+      ]
+    },
+    "global": {
+      "filter_group": "CANAL",
+      "output": "LiveWatch-PlaylistGlobal.m3u8",
+      "sources": [
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial01.m3u",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial02.m3u",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial03.m3u",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial04.m3u",
+        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial05.m3u"
+      ]
+    }
+  }
 }

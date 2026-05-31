@@ -1,5 +1,11 @@
 var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
-var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
+var BASE_RAW = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/";
+
+var PLAYLISTS = {
+  brasil: { file: "LiveWatch-PlaylistBrasil.m3u8" },
+  global: { file: "LiveWatch-PlaylistGlobal.m3u8" },
+};
+var profileSelect = null;
 
 var T = {
   pt: {
@@ -19,7 +25,7 @@ var T = {
     listStats: "  {0} | {1} linhas -> {2} entradas",
     totalFiltered: "Total de canais filtrados: {0}",
     totalFinal: "Total final: {0} canais",
-    playlistGenerated: "LiveWatch-Playlist.m3u8 gerado.",
+    playlistGenerated: "{0} gerado.",
     timeout: "Tempo limite atingido.",
     timeoutShort: "Tempo limite",
     failed: "Falhou",
@@ -43,7 +49,7 @@ var T = {
     listStats: "  {0} | {1} lines -> {2} entries",
     totalFiltered: "Total filtered channels: {0}",
     totalFinal: "Final total: {0} channels",
-    playlistGenerated: "LiveWatch-Playlist.m3u8 generated.",
+    playlistGenerated: "{0} generated.",
     timeout: "Timeout reached.",
     timeoutShort: "Timeout",
     failed: "Failed",
@@ -53,6 +59,7 @@ var T = {
 };
 
 var lang = localStorage.getItem("livewatch-lang") || "pt";
+var currentProfile = localStorage.getItem("livewatch-profile") || "brasil";
 
 function t(key) {
   var args = Array.prototype.slice.call(arguments, 1);
@@ -70,9 +77,14 @@ var progressLabel = document.getElementById("progress-label");
 var btnEl = document.getElementById("btn-update");
 var dlBtn = document.getElementById("btn-download");
 var updatedEl = document.getElementById("last-updated");
+profileSelect = document.getElementById("profile-select");
 
 var progressTimer = null;
 var progressVal = 0;
+
+function getPlaylistUrl() {
+  return BASE_RAW + PLAYLISTS[currentProfile].file;
+}
 
 function applyLang() {
   document.querySelectorAll(".lang-btn").forEach(function (b) {
@@ -90,6 +102,14 @@ document.getElementById("lang-toggle").addEventListener("click", function (e) {
   lang = btn.dataset.lang;
   applyLang();
 });
+
+profileSelect.addEventListener("change", function () {
+  currentProfile = profileSelect.value;
+  localStorage.setItem("livewatch-profile", currentProfile);
+  loadLastRun();
+});
+
+profileSelect.value = currentProfile;
 
 function log(msg, cls) {
   cls = cls || "dim";
@@ -150,9 +170,13 @@ function completeProgress(label) {
 
 function triggerWorkflow() {
   btnEl.disabled = true;
-  log(t("dispatching"), "action");
+  log(t("dispatching") + " (" + currentProfile + ")", "action");
 
-  fetch(WORKER_URL + "/trigger", { method: "POST" })
+  fetch(WORKER_URL + "/trigger", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ profile: currentProfile }),
+  })
     .then(function (resp) { return resp.json(); })
     .then(function (data) {
       if (!data.ok) {
@@ -293,13 +317,13 @@ function renderSummary(text) {
     log(t("totalFinal", totals.final), "success");
   }
 
-  log(t("playlistGenerated"), "success");
+  log(t("playlistGenerated", PLAYLISTS[currentProfile].file), "success");
   btnEl.disabled = false;
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
 dlBtn.addEventListener("click", function () {
-  window.open(PLAYLIST_URL, "_blank");
+  window.open(getPlaylistUrl(), "_blank");
 });
 applyLang();
 loadLastRun();

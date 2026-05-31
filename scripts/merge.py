@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import re
@@ -84,28 +85,40 @@ def rename_duplicates(entries):
     return result
 
 
-def generate_playlist(entries, output_path):
+def generate_playlist(entries, output_path, output_name):
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for group_title, name, url in entries:
             f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
             f.write(f"{url}\n")
-    print(f"[LiveWatch] LiveWatch-Playlist.m3u8 gerada: {len(entries)} canais")
+    print(f"[LiveWatch] {output_name} gerada: {len(entries)} canais")
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--profile", default="brasil", help="Which playlist profile to use")
+    args = parser.parse_args()
+    profile = args.profile
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_dir, "config.json")
-    output_path = os.path.join(os.path.dirname(script_dir), "LiveWatch-Playlist.m3u8")
 
     with open(config_path, "r", encoding="utf-8") as f:
         config = json.load(f)
 
-    all_results = fetch_all(config["sources"])
+    if profile not in config.get("profiles", {}):
+        print(f"[LiveWatch] ERRO: Perfil '{profile}' nao encontrado no config.json")
+        return
+
+    p = config["profiles"][profile]
+    output_name = p["output"]
+    output_path = os.path.join(os.path.dirname(script_dir), output_name)
+
+    all_results = fetch_all(p["sources"])
 
     filtered = []
     for entries in all_results.values():
-        filtered.extend(filter_by_group(entries, config["filter_group"]))
+        filtered.extend(filter_by_group(entries, p["filter_group"]))
 
     print(f"[LiveWatch] Total canais (pos-filtro): {len(filtered)}")
 
@@ -113,7 +126,7 @@ def main():
     filtered = rename_duplicates(filtered)
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
-    generate_playlist(filtered, output_path)
+    generate_playlist(filtered, output_path, output_name)
     print("[LiveWatch] Playlist salva e pronta para commit!")
 
 

@@ -132,6 +132,25 @@ body {
   background: #16161d;
 }
 
+.profile-select {
+  appearance: none;
+  background: #1d1d28;
+  color: #e4e4e7;
+  border: 1px solid #27272a;
+  padding: 8px 28px 8px 12px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23a1a1aa' d='M3 5l3 3 3-3z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
+
+.profile-select:hover { border-color: #3f3f46; }
+.profile-select:focus { outline: none; border-color: #818cf8; }
+
 .btn {
   display: inline-flex;
   align-items: center;
