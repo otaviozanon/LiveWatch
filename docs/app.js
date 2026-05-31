@@ -31,6 +31,8 @@ var T = {
     failed: "Falhou",
     btnUpdate: "ATUALIZAR",
     btnDownload: "DOWNLOAD",
+    btnCopy: "COPIAR URL",
+    copied: "COPIADO",
   },
   en: {
     systemReady: "System ready.",
@@ -55,6 +57,8 @@ var T = {
     failed: "Failed",
     btnUpdate: "UPDATE",
     btnDownload: "DOWNLOAD",
+    btnCopy: "COPY URL",
+    copied: "COPIED",
   },
 };
 
@@ -92,6 +96,7 @@ function applyLang() {
   });
   btnEl.innerHTML = "&#x21BB; " + t("btnUpdate");
   dlBtn.innerHTML = "&#x21E9; " + t("btnDownload");
+  copyBtn.innerHTML = "&#x2398; " + t("btnCopy");
   logsEl.innerHTML = '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
   localStorage.setItem("livewatch-lang", lang);
 }
@@ -325,5 +330,24 @@ btnEl.addEventListener("click", triggerWorkflow);
 dlBtn.addEventListener("click", function () {
   window.open(getPlaylistUrl(), "_blank");
 });
+
+var copyBtn = document.getElementById("btn-copy");
+copyBtn.addEventListener("click", function () {
+  var url = getPlaylistUrl();
+  navigator.clipboard.writeText(url).then(function () {
+    var orig = copyBtn.innerHTML;
+    copyBtn.innerHTML = "&#x2714; COPIADO";
+    copyBtn.style.color = "#34d399";
+    copyBtn.style.borderColor = "#34d399";
+    setTimeout(function () {
+      copyBtn.innerHTML = orig;
+      copyBtn.style.color = "";
+      copyBtn.style.borderColor = "";
+    }, 2000);
+  }).catch(function () {
+    log("Erro ao copiar URL.", "error");
+  });
+});
+
 applyLang();
 loadLastRun();
