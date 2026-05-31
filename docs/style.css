@@ -26,15 +26,14 @@ body {
   background: #16161d;
   padding: 14px 20px;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   color: #fafafa;
   border-bottom: 1px solid #1e1e2a;
-  letter-spacing: 0.2px;
   display: flex;
   align-items: center;
   gap: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
 }
 
 .terminal-header .dot {
@@ -47,17 +46,43 @@ body {
 
 .terminal-body {
   padding: 20px;
-  min-height: 400px;
-  max-height: 60vh;
+  min-height: 380px;
+  max-height: 56vh;
   overflow-y: auto;
   font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   font-size: 12.5px;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .terminal-body::-webkit-scrollbar { width: 5px; }
 .terminal-body::-webkit-scrollbar-track { background: transparent; }
 .terminal-body::-webkit-scrollbar-thumb { background: #1e1e2a; border-radius: 3px; }
+
+.progress-wrap {
+  padding: 0 20px 16px;
+}
+
+.progress-bar {
+  height: 3px;
+  background: #1e1e2a;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #818cf8, #a78bfa);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.progress-label {
+  font-size: 11px;
+  color: #52525b;
+  margin-top: 6px;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+}
 
 .terminal-footer {
   padding: 14px 20px;
@@ -109,14 +134,12 @@ body {
   gap: 6px;
 }
 
-.hint .time-icon { color: #71717a; }
 #last-updated { color: #a1a1aa; font-weight: 500; }
 
 .log {
   padding: 2px 0;
   white-space: pre-wrap;
   word-break: break-all;
-  transition: opacity 0.25s, transform 0.25s;
 }
 
 .log.success { color: #34d399; }
