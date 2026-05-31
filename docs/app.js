@@ -27,11 +27,17 @@ function updateClock(d) {
   updatedEl.textContent = d.toLocaleString("pt-BR");
 }
 
-function loadLastModified() {
-  fetch(PLAYLIST_URL, { method: "HEAD", cache: "no-cache" })
-    .then(function (resp) {
-      var lm = resp.headers.get("Last-Modified");
-      if (lm) updateClock(new Date(lm));
+function loadLastRun() {
+  fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
+    .then(function (resp) { return resp.json(); })
+    .then(function (data) {
+      var runs = data.workflow_runs || [];
+      for (var i = 0; i < runs.length; i++) {
+        if (runs[i].conclusion === "success" && runs[i].status === "completed") {
+          updateClock(new Date(runs[i].updated_at));
+          return;
+        }
+      }
     })
     .catch(function () {});
 }
@@ -229,4 +235,4 @@ btnEl.addEventListener("click", triggerWorkflow);
 dlBtn.addEventListener("click", function () {
   window.open(PLAYLIST_URL, "_blank");
 });
-loadLastModified();
+loadLastRun();
