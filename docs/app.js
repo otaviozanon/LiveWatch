@@ -1,5 +1,6 @@
 var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
-var PLAYLIST_URL = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
+var PLAYLIST_URL =
+  "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/LiveWatch-Playlist.m3u8";
 
 var logsEl = document.getElementById("logs");
 var progressWrap = document.getElementById("progress-wrap");
@@ -23,17 +24,25 @@ function log(msg, cls) {
 }
 
 function updateClock(d) {
-  if (!d) { updatedEl.textContent = "---"; return; }
+  if (!d) {
+    updatedEl.textContent = "---";
+    return;
+  }
   updatedEl.textContent = d.toLocaleString("pt-BR");
 }
 
 function loadLastRun() {
   fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-    .then(function (resp) { return resp.json(); })
+    .then(function (resp) {
+      return resp.json();
+    })
     .then(function (data) {
       var runs = data.workflow_runs || [];
       for (var i = 0; i < runs.length; i++) {
-        if (runs[i].conclusion === "success" && runs[i].status === "completed") {
+        if (
+          runs[i].conclusion === "success" &&
+          runs[i].status === "completed"
+        ) {
           updateClock(new Date(runs[i].updated_at));
           return;
         }
@@ -74,7 +83,9 @@ function triggerWorkflow() {
   log("Disparando workflow...", "action");
 
   fetch(WORKER_URL + "/trigger", { method: "POST" })
-    .then(function (resp) { return resp.json(); })
+    .then(function (resp) {
+      return resp.json();
+    })
     .then(function (data) {
       if (!data.ok) {
         log("Erro ao disparar: " + data.error, "error");
@@ -110,10 +121,15 @@ function pollLogs() {
     }
 
     fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-      .then(function (resp) { return resp.json(); })
+      .then(function (resp) {
+        return resp.json();
+      })
       .then(function (data) {
         var run = (data.workflow_runs || [])[0];
-        if (!run) { setTimeout(tick, delay); return; }
+        if (!run) {
+          setTimeout(tick, delay);
+          return;
+        }
 
         if (lastStatus !== run.status) {
           lastStatus = run.status;
@@ -131,15 +147,19 @@ function pollLogs() {
           } else {
             completeProgress("Falhou");
             log("Workflow FALHOU.", "error");
-            log("https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id, "dim");
+            log(
+              "https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id,
+              "dim",
+            );
             btnEl.disabled = false;
-    
           }
         } else {
           setTimeout(tick, delay);
         }
       })
-      .catch(function () { setTimeout(tick, delay); });
+      .catch(function () {
+        setTimeout(tick, delay);
+      });
   }
 
   setTimeout(tick, 2500);
@@ -151,7 +171,9 @@ function fetchSummary(runId) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ runId: runId }),
   })
-    .then(function (resp) { return resp.ok ? resp.text() : null; })
+    .then(function (resp) {
+      return resp.ok ? resp.text() : null;
+    })
     .then(function (text) {
       if (!text) {
         log("Playlist atualizada.", "success");
@@ -204,7 +226,6 @@ function renderSummary(text) {
     if (dm) totals.final = dm[1];
   }
 
-  log("Resumo:", "white");
   log("---------------------", "dim");
 
   if (files.length > 0) {
@@ -214,7 +235,16 @@ function renderSummary(text) {
   for (var k = 0; k < files.length; k++) {
     var f = files[k];
     if (stats[f]) {
-      log("  " + f + " | " + stats[f].lines + " linhas -> " + stats[f].entries + " entradas", "dim");
+      log(
+        "  " +
+          f +
+          " | " +
+          stats[f].lines +
+          " linhas -> " +
+          stats[f].entries +
+          " entradas",
+        "dim",
+      );
     }
   }
 
