@@ -1,5 +1,7 @@
 import re
 
+import requests
+
 
 def parse_m3u(text):
     entries = []
@@ -18,6 +20,27 @@ def parse_m3u(text):
                 entries.append((group_title, name, url))
         i += 1
     return entries
+
+
+def fetch_playlist(url):
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+    return resp.text
+
+
+def fetch_all(urls):
+    results = {}
+    for i, url in enumerate(urls, 1):
+        try:
+            text = fetch_playlist(url)
+            entries = parse_m3u(text)
+            results[url] = entries
+            print(f"[LiveWatch] Extraindo lista {i}/{len(urls)}: {url.rsplit('/', 1)[-1]}")
+            print(f"[LiveWatch]   Encontrados: {len(text.splitlines())} linhas -> {len(entries)} entradas")
+        except Exception as e:
+            print(f"[LiveWatch]   ERRO: {e}")
+            results[url] = []
+    return results
 
 
 if __name__ == "__main__":
