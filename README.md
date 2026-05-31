@@ -14,10 +14,10 @@ Automated IPTV playlist merger that fetches raw M3U channel lists from GitHub, f
 
 ```
 [GitHub Pages] ---POST---> [Cloudflare Worker] ---GitHub API---> [GitHub Actions]
-                                                                       |
-                                                                [merge.py]
-                                                                       |
-                                                              [LiveWatch-Playlist*.m3u8]
+                                                                        |
+                                                                    [merge.py]
+                                                                        |
+                                                             [LiveWatch-Playlist*.m3u8]
 ```
 
 | Component | Technology | Purpose |
