@@ -1,0 +1,81 @@
+<h2>Arquitetura Geral</h2>
+<p class="subtitle">Como os componentes se conectam</p>
+
+<div class="section">
+  <div class="label">Fluxo principal (botao manual)</div>
+  <div class="mockup">
+    <div class="mockup-header">1. Frontend (GitHub Pages) &rarr; 2. Cloudflare Worker &rarr; 3. GitHub Actions &rarr; 4. Python Script &rarr; 5. Push resultado</div>
+    <div class="mockup-body" style="font-family: monospace; font-size: 13px; line-height: 1.8; padding: 16px;">
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+        <div class="mockup" style="flex: 1; min-width: 140px; margin: 0;">
+          <div class="mockup-header">GitHub Pages</div>
+          <div class="mockup-body" style="font-size: 11px; text-align: center;">
+            Terminal UI<br>
+            Botao "Atualizar"<br>
+            Logs em tempo real
+          </div>
+        </div>
+        <div style="align-self: center; font-size: 20px;">&rarr;</div>
+        <div class="mockup" style="flex: 1; min-width: 140px; margin: 0;">
+          <div class="mockup-header">Cloudflare Worker</div>
+          <div class="mockup-body" style="font-size: 11px; text-align: center;">
+            POST /trigger<br>
+            Le Secret PAT<br>
+            Chama workflow_dispatch
+          </div>
+        </div>
+        <div style="align-self: center; font-size: 20px;">&rarr;</div>
+        <div class="mockup" style="flex: 1; min-width: 140px; margin: 0;">
+          <div class="mockup-header">GitHub Actions</div>
+          <div class="mockup-body" style="font-size: 11px; text-align: center;">
+            Python fetch 5 raws<br>
+            Merge + Dedup<br>
+            Push lista final<br>
+            <br>
+            <em>Cron: 6h</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">Repos envolvidos</div>
+  
+  <div style="display: flex; gap: 16px;">
+    <div class="mockup" style="flex: 1; margin: 0;">
+      <div class="mockup-header">Repo 1: Origem (X)</div>
+      <div class="mockup-body" style="font-size: 12px;">
+        Contem as 5 playlists<br>
+        .m3u / .m3u8 raw<br>
+        <br>
+        <em>Leitura anonima (raw URL)</em>
+      </div>
+    </div>
+    <div class="mockup" style="flex: 1; margin: 0;">
+      <div class="mockup-header">Repo 2: Processamento</div>
+      <div class="mockup-body" style="font-size: 12px;">
+        Script Python<br>
+        Workflow YAML<br>
+        Lista final gerada<br>
+        <br>
+        <em>PAT com acesso contents+workflows</em>
+      </div>
+    </div>
+    <div class="mockup" style="flex: 1; margin: 0;">
+      <div class="mockup-header">Repo 3: Frontend</div>
+      <div class="mockup-body" style="font-size: 12px;">
+        index.html + app.js<br>
+        GitHub Pages enabled<br>
+        <br>
+        <em>Publico, sem secrets</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Fluxo de polling</h3>
+  <p style="font-size: 13px;">Apos disparar, o frontend consulta <code>GET /repos/{owner}/{repo}/actions/runs?status=in_progress</code> a cada 3s. Quando concluir, busca os logs via <code>GET /repos/{owner}/{repo}/actions/runs/{id}/logs</code> e exibe no terminal.</p>
+</div>

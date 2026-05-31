@@ -19,20 +19,33 @@ LiveWatch e uma ferramenta que extrai 5 playlists IPTV raw do GitHub, mescla em 
                                                                    [git push playlist.m3u8]
 ```
 
-### Repos
+### Estrutura do Repositorio
 
-| Repo | Proposito | Visibilidade |
-|------|-----------|--------------|
-| Repo Origem (X) | Contem as 5 playlists raw | Leitura anonima (raw URL) |
-| Repo Processamento | Script Python + workflow + playlist gerada | Publico (PAT em Secrets) |
-| Repo Frontend | HTML/CSS/JS + GitHub Pages | Publico |
+Tudo fica em um unico repositorio, organizado por pastas:
+
+```
+LiveWatch/
+├── .github/workflows/merge.yml       # GitHub Action
+├── scripts/merge.py                   # Python — fetch, filtro, dedup, merge
+├── scripts/config.json                # URLs das 5 playlists raw
+├── frontend/                          # GitHub Pages (source: /frontend)
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+├── worker/                            # Cloudflare Worker
+│   ├── wrangler.toml
+│   └── src/index.js
+└── playlist.m3u8                      # Resultado gerado (push pela action)
+```
+
+As 5 playlists raw continuam em um repo externo (Origem X), lidas via raw URL anonima.
 
 ### Flow
 
-1. Usuario clica "ATUALIZAR PLAYLIST" no frontend
+1. Usuario clica "ATUALIZAR PLAYLIST" no frontend (GitHub Pages, servido da pasta `/frontend`)
 2. Frontend chama `POST /trigger` no Cloudflare Worker
-3. Worker le o PAT dos secrets e dispara `workflow_dispatch` no repo de processamento
-4. GitHub Actions inicia, roda `merge.py`, gera `playlist.m3u8`, da push
+3. Worker le o PAT e dispara `workflow_dispatch` neste mesmo repositorio
+4. GitHub Actions inicia, roda `scripts/merge.py`, gera `playlist.m3u8`, da push
 5. Frontend consulta `GET /repos/{owner}/{repo}/actions/runs/{id}/logs` a cada 3s e exibe os logs no terminal
 
 ### Auto-update
@@ -43,7 +56,7 @@ Cron: `0 */6 * * *` no workflow YAML. Executa o mesmo pipeline automaticamente.
 
 ### Entrada
 
-Arquivo `config.json` no repo de processamento:
+Arquivo `scripts/config.json` no repositorio:
 
 ```json
 {
@@ -85,7 +98,7 @@ Cada etapa imprime uma linha no stdout formatada:
 
 ## 4. GitHub Actions Workflow
 
-Arquivo: `.github/workflows/merge.yml` (no repo de processamento)
+Arquivo: `.github/workflows/merge.yml` (neste repositorio)
 
 ### Triggers
 
@@ -120,8 +133,8 @@ O commit so ocorre se `playlist.m3u8` foi alterada (evita commits vazios).
 ### Secrets (via `wrangler secret put`)
 
 - `GITHUB_PAT` — token com permissoes `workflow`
-- `GITHUB_OWNER` — nome do usuario/proprietario do repo
-- `GITHUB_REPO` — nome do repo de processamento
+- `GITHUB_OWNER` — nome do usuario/proprietario deste repositorio
+- `GITHUB_REPO` — nome deste repositorio
 - `WORKFLOW_ID` — nome do arquivo YAML (`merge.yml`)
 
 ### Comportamento
@@ -174,9 +187,9 @@ Apos o Worker retornar sucesso, o frontend:
 2. A cada 3 segundos, busca logs via `GET /repos/{owner}/{repo}/actions/runs/{id}/logs`
 3. Quando o status muda para `completed`, busca os logs finais e exibe "Concluido em Xs"
 
-### Repo de processamento publico
+### Repositorio publico
 
-O repo de processamento deve ser publico para que o frontend (sem autenticacao) possa consultar os logs da action via API do GitHub. O PAT fica protegido nos Secrets, nunca exposto no codigo ou no historico.
+O repositorio deve ser publico para que o frontend (sem autenticacao) possa consultar os logs da action via API do GitHub. O PAT fica protegido nos Secrets, nunca exposto no codigo ou no historico.
 
 ## 7. Error Handling
 
@@ -190,10 +203,10 @@ O repo de processamento deve ser publico para que o frontend (sem autenticacao) 
 
 ## 8. Configuracao Inicial (one-time setup)
 
-1. Criar repo de processamento (publico) com o script Python e workflow
-2. Criar repo de frontend com GitHub Pages habilitado
+1. Criar este repositorio no GitHub (publico)
+2. Habilitar GitHub Pages apontando para a pasta `/frontend`
 3. Gerar PAT com permissoes `contents` e `workflows`
-4. Adicionar PAT como secret `PAT_GH` no repo de processamento
+4. Adicionar PAT como secret `PAT_GH` no repositorio (Settings > Secrets > Actions)
 5. Deploy do Cloudflare Worker com `wrangler secret put` para os 4 secrets
-6. Configurar `config.json` com as 5 URLs raw
-7. Atualizar `app.js` com a URL do Worker e o nome do repo de processamento
+6. Configurar `scripts/config.json` com as 5 URLs raw
+7. Atualizar `frontend/app.js` com a URL do Worker
