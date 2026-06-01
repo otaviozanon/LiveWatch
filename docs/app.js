@@ -2,8 +2,14 @@ var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
 var BASE_RAW = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/";
 
 var PLAYLISTS = {
-  brasil: { file: "LiveWatch-PlaylistBR.m3u8" },
-  global: { file: "LiveWatch-PlaylistWorld.m3u8" },
+  brasil: {
+    m3u: "playlists/m3u/LiveWatch-PlaylistBR.m3u",
+    m3u8: "playlists/m3u8/LiveWatch-PlaylistBR.m3u8",
+  },
+  global: {
+    m3u: "playlists/m3u/LiveWatch-PlaylistWorld.m3u",
+    m3u8: "playlists/m3u8/LiveWatch-PlaylistWorld.m3u8",
+  },
 };
 var profileSelect = null;
 
@@ -67,7 +73,7 @@ var currentProfile = localStorage.getItem("livewatch-profile") || "brasil";
 
 function t(key) {
   var args = Array.prototype.slice.call(arguments, 1);
-  var msg = (T[lang] && T[lang][key]) || (T.en[key] || key);
+  var msg = (T[lang] && T[lang][key]) || T.en[key] || key;
   for (var i = 0; i < args.length; i++) {
     msg = msg.replace("{" + i + "}", args[i]);
   }
@@ -79,15 +85,19 @@ var progressWrap = document.getElementById("progress-wrap");
 var progressFill = document.getElementById("progress-fill");
 var progressLabel = document.getElementById("progress-label");
 var btnEl = document.getElementById("btn-update");
-var dlBtn = document.getElementById("btn-download");
+var dlBtnM3u = document.getElementById("btn-download-m3u");
+var dlBtnM3u8 = document.getElementById("btn-download-m3u8");
+var copyBtnM3u = document.getElementById("btn-copy-m3u");
+var copyBtnM3u8 = document.getElementById("btn-copy-m3u8");
 var updatedEl = document.getElementById("last-updated");
 profileSelect = document.getElementById("profile-select");
 
 var progressTimer = null;
 var progressVal = 0;
 
-function getPlaylistUrl() {
-  return BASE_RAW + PLAYLISTS[currentProfile].file;
+function getPlaylistUrl(format) {
+  format = format || "m3u8";
+  return BASE_RAW + PLAYLISTS[currentProfile][format];
 }
 
 function applyLang() {
@@ -95,9 +105,12 @@ function applyLang() {
     b.classList.toggle("active", b.dataset.lang === lang);
   });
   btnEl.innerHTML = "&#x21BB; " + t("btnUpdate");
-  dlBtn.innerHTML = "&#x21E9; " + t("btnDownload");
-  copyBtn.innerHTML = "&#x2398; " + t("btnCopy");
-  logsEl.innerHTML = '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
+  dlBtnM3u.innerHTML = "&#x21E9; M3U";
+  dlBtnM3u8.innerHTML = "&#x21E9; M3U8";
+  copyBtnM3u.innerHTML = "&#x2398; M3U";
+  copyBtnM3u8.innerHTML = "&#x2398; M3U8";
+  logsEl.innerHTML =
+    '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
   localStorage.setItem("livewatch-lang", lang);
 }
 
@@ -127,7 +140,10 @@ function log(msg, cls) {
 }
 
 function updateClock(d) {
-  if (!d) { updatedEl.textContent = "---"; return; }
+  if (!d) {
+    updatedEl.textContent = "---";
+    return;
+  }
   updatedEl.textContent = d.toLocaleString(lang === "pt" ? "pt-BR" : "en-US");
 }
 
@@ -135,9 +151,11 @@ function loadLastRun() {
   fetch(WORKER_URL + "/file-time", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ path: PLAYLISTS[currentProfile].file }),
+    body: JSON.stringify({ path: PLAYLISTS[currentProfile].m3u8 }),
   })
-    .then(function (resp) { return resp.json(); })
+    .then(function (resp) {
+      return resp.json();
+    })
     .then(function (data) {
       if (data.date) updateClock(new Date(data.date));
     })
@@ -180,7 +198,9 @@ function triggerWorkflow() {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ profile: currentProfile }),
   })
-    .then(function (resp) { return resp.json(); })
+    .then(function (resp) {
+      return resp.json();
+    })
     .then(function (data) {
       if (!data.ok) {
         log(t("errorDispatch", data.error), "error");
@@ -212,10 +232,15 @@ function pollLogs() {
     }
 
     fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-      .then(function (resp) { return resp.json(); })
+      .then(function (resp) {
+        return resp.json();
+      })
       .then(function (data) {
         var run = (data.workflow_runs || [])[0];
-        if (!run) { setTimeout(tick, delay); return; }
+        if (!run) {
+          setTimeout(tick, delay);
+          return;
+        }
 
         if (run.status === "in_progress") {
           progressLabel.textContent = t("running");
@@ -230,14 +255,19 @@ function pollLogs() {
           } else {
             completeProgress(t("failed"));
             log(t("workflowFailed"), "error");
-            log("https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id, "dim");
+            log(
+              "https://github.com/otaviozanon/LiveWatch/actions/runs/" + run.id,
+              "dim",
+            );
             btnEl.disabled = false;
           }
         } else {
           setTimeout(tick, delay);
         }
       })
-      .catch(function () { setTimeout(tick, delay); });
+      .catch(function () {
+        setTimeout(tick, delay);
+      });
   }
 
   setTimeout(tick, 2500);
@@ -249,7 +279,9 @@ function fetchSummary(runId) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ runId: runId }),
   })
-    .then(function (resp) { return resp.ok ? resp.text() : null; })
+    .then(function (resp) {
+      return resp.ok ? resp.text() : null;
+    })
     .then(function (text) {
       if (!text) {
         log(t("playlistUpdated"), "success");
@@ -320,32 +352,50 @@ function renderSummary(text) {
     log(t("totalFinal", totals.final), "success");
   }
 
-  log(t("playlistGenerated", PLAYLISTS[currentProfile].file), "success");
+  log(t("playlistGenerated", "M3U & M3U8"), "success");
   btnEl.disabled = false;
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
-dlBtn.addEventListener("click", function () {
-  window.open(getPlaylistUrl(), "_blank");
+
+// Download M3U
+dlBtnM3u.addEventListener("click", function () {
+  window.open(getPlaylistUrl("m3u"), "_blank");
 });
 
-var copyBtn = document.getElementById("btn-copy");
-copyBtn.addEventListener("click", function () {
-  var url = getPlaylistUrl();
-  navigator.clipboard.writeText(url).then(function () {
-    var orig = copyBtn.innerHTML;
-    copyBtn.innerHTML = "&#x2714; COPIADO";
-    copyBtn.style.color = "#34d399";
-    copyBtn.style.borderColor = "#34d399";
-    setTimeout(function () {
-      copyBtn.innerHTML = orig;
-      copyBtn.style.color = "";
-      copyBtn.style.borderColor = "";
-    }, 2000);
-  }).catch(function () {
-    log("Erro ao copiar URL.", "error");
-  });
+// Download M3U8
+dlBtnM3u8.addEventListener("click", function () {
+  window.open(getPlaylistUrl("m3u8"), "_blank");
 });
+
+// Copy M3U URL
+copyBtnM3u.addEventListener("click", function () {
+  copyToClipboard(copyBtnM3u, getPlaylistUrl("m3u"));
+});
+
+// Copy M3U8 URL
+copyBtnM3u8.addEventListener("click", function () {
+  copyToClipboard(copyBtnM3u8, getPlaylistUrl("m3u8"));
+});
+
+function copyToClipboard(btn, url) {
+  navigator.clipboard
+    .writeText(url)
+    .then(function () {
+      var orig = btn.innerHTML;
+      btn.innerHTML = "&#x2714; " + t("copied");
+      btn.style.color = "#34d399";
+      btn.style.borderColor = "#34d399";
+      setTimeout(function () {
+        btn.innerHTML = orig;
+        btn.style.color = "";
+        btn.style.borderColor = "";
+      }, 2000);
+    })
+    .catch(function () {
+      log("Erro ao copiar URL.", "error");
+    });
+}
 
 applyLang();
 loadLastRun();

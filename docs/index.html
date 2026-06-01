@@ -1,46 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LiveWatch</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="terminal">
-    <div class="terminal-header">
-      <span class="dot"></span> LiveWatch &mdash; IPTV List
-      <div class="lang-toggle" id="lang-toggle">
-        <button class="lang-btn active" data-lang="pt">PT</button>
-        <button class="lang-btn" data-lang="en">EN</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiveWatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="dot"></span> LiveWatch &mdash; IPTV List
+        <div class="lang-toggle" id="lang-toggle">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+      <div class="terminal-body" id="logs">
+        <div class="log dim">[LiveWatch] Sistema pronto.</div>
+      </div>
+      <div class="progress-wrap" id="progress-wrap" style="display: none">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-label" id="progress-label"></div>
+      </div>
+      <div class="terminal-footer">
+        <select class="profile-select" id="profile-select">
+          <option value="brasil">Brasil</option>
+          <option value="global">Global</option>
+        </select>
+        <button class="btn btn-refresh" id="btn-update">
+          &#x21BB; ATUALIZAR
+        </button>
+        <button class="btn btn-download" id="btn-download-m3u">
+          &#x21E9; M3U
+        </button>
+        <button class="btn btn-download" id="btn-download-m3u8">
+          &#x21E9; M3U8
+        </button>
+        <button class="btn btn-copy" id="btn-copy-m3u">&#x2398; M3U</button>
+        <button class="btn btn-copy" id="btn-copy-m3u8">&#x2398; M3U8</button>
+        <span class="hint"> &#x23F1; <span id="last-updated">---</span> </span>
       </div>
     </div>
-    <div class="terminal-body" id="logs">
-      <div class="log dim">[LiveWatch] Sistema pronto.</div>
-    </div>
-    <div class="progress-wrap" id="progress-wrap" style="display:none">
-      <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
-      <div class="progress-label" id="progress-label"></div>
-    </div>
-    <div class="terminal-footer">
-      <select class="profile-select" id="profile-select">
-        <option value="brasil">Brasil</option>
-        <option value="global">Global</option>
-      </select>
-      <button class="btn btn-refresh" id="btn-update">
-        &#x21BB; ATUALIZAR
-      </button>
-      <button class="btn btn-download" id="btn-download">
-        &#x21E9; DOWNLOAD
-      </button>
-      <button class="btn btn-download" id="btn-copy">
-        &#x2398; COPIAR URL
-      </button>
-      <span class="hint">
-        &#x23F1; <span id="last-updated">---</span>
-      </span>
-    </div>
-  </div>
-  <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

@@ -105,13 +105,25 @@ def rename_duplicates(entries):
     return result
 
 
-def generate_playlist(entries, output_path, output_name):
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for group_title, name, url in entries:
-            f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
-            f.write(f"{url}\n")
-    print(f"[LiveWatch] {output_name} gerada: {len(entries)} canais")
+def generate_playlist(entries, base_name, output_dir):
+    # Cria as pastas m3u e m3u8
+    m3u_dir = os.path.join(output_dir, "playlists", "m3u")
+    m3u8_dir = os.path.join(output_dir, "playlists", "m3u8")
+
+    os.makedirs(m3u_dir, exist_ok=True)
+    os.makedirs(m3u8_dir, exist_ok=True)
+
+    # Gera ambos os formatos
+    for ext, folder in [("m3u", m3u_dir), ("m3u8", m3u8_dir)]:
+        output_path = os.path.join(folder, f"{base_name}.{ext}")
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            for group_title, name, url in entries:
+                f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
+                f.write(f"{url}\n")
+        print(f"[LiveWatch] {base_name}.{ext} gerada: {len(entries)} canais")
+
+    print(f"[LiveWatch] Playlists salvas em playlists/m3u/ e playlists/m3u8/")
 
 
 def main():
@@ -131,8 +143,8 @@ def main():
         return
 
     p = config["profiles"][profile]
-    output_name = p["output"]
-    output_path = os.path.join(os.path.dirname(script_dir), output_name)
+    base_name = p["output"].replace(".m3u8", "").replace(".m3u", "")
+    output_dir = os.path.dirname(script_dir)
 
     all_results = fetch_all(p["sources"])
 
@@ -147,8 +159,8 @@ def main():
     filtered = rename_duplicates(filtered)
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
-    generate_playlist(filtered, output_path, output_name)
-    print("[LiveWatch] Playlist salva e pronta para commit!")
+    generate_playlist(filtered, base_name, output_dir)
+    print("[LiveWatch] Playlists salvas e prontas para commit!")
 
 
 if __name__ == "__main__":
