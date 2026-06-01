@@ -123,8 +123,6 @@ def generate_playlist(entries, base_name, output_dir):
                 f.write(f"{url}\n")
         print(f"[LiveWatch] {base_name}.{ext} gerada: {len(entries)} canais")
 
-    print(f"[LiveWatch] Playlists salvas em playlists/m3u/ e playlists/m3u8/")
-
 
 def main():
     parser = argparse.ArgumentParser()
@@ -160,7 +158,7 @@ def main():
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
     generate_playlist(filtered, base_name, output_dir)
-    print("[LiveWatch] Playlists salvas e prontas para commit!")
+    print("[LiveWatch] Playlist salva com sucesso!")
 
 
 if __name__ == "__main__":

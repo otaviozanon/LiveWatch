@@ -1,9 +1,17 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background: #0c0c0f;
   color: #e4e4e7;
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-family:
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    sans-serif;
   font-size: 13px;
   min-height: 100vh;
   display: flex;
@@ -14,12 +22,12 @@ body {
 
 .terminal {
   width: 100%;
-  max-width: 780px;
+  max-width: 850px;
   border: 1px solid #1e1e2a;
   border-radius: 12px;
   overflow: hidden;
   background: #111116;
-  box-shadow: 0 2px 32px rgba(0,0,0,0.6);
+  box-shadow: 0 2px 32px rgba(0, 0, 0, 0.6);
 }
 
 .terminal-header {
@@ -38,7 +46,8 @@ body {
 
 .terminal-header .dot {
   display: inline-block;
-  width: 9px; height: 9px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: #34d399;
   box-shadow: 0 0 8px #34d39955;
@@ -78,8 +87,15 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(1.4); }
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.4);
+  }
 }
 
 .terminal-body {
@@ -87,14 +103,21 @@ body {
   min-height: 380px;
   max-height: 56vh;
   overflow-y: auto;
-  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
   font-size: 12.5px;
   line-height: 1.75;
 }
 
-.terminal-body::-webkit-scrollbar { width: 5px; }
-.terminal-body::-webkit-scrollbar-track { background: transparent; }
-.terminal-body::-webkit-scrollbar-thumb { background: #1e1e2a; border-radius: 3px; }
+.terminal-body::-webkit-scrollbar {
+  width: 5px;
+}
+.terminal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.terminal-body::-webkit-scrollbar-thumb {
+  background: #1e1e2a;
+  border-radius: 3px;
+}
 
 .progress-wrap {
   padding: 0 20px 16px;
@@ -119,7 +142,7 @@ body {
   font-size: 11px;
   color: #52525b;
   margin-top: 6px;
-  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
 }
 
 .terminal-footer {
@@ -148,8 +171,13 @@ body {
   background-position: right 8px center;
 }
 
-.profile-select:hover { border-color: #3f3f46; }
-.profile-select:focus { outline: none; border-color: #818cf8; }
+.profile-select:hover {
+  border-color: #3f3f46;
+}
+.profile-select:focus {
+  outline: none;
+  border-color: #818cf8;
+}
 
 .btn {
   display: inline-flex;
@@ -171,15 +199,27 @@ body {
   color: #fff;
   border-color: #16a34a;
 }
-.btn-refresh:hover { background: #22c55e; border-color: #22c55e; }
-.btn-refresh:disabled { background: #1a1a22; color: #3f3f46; border-color: #27272a; cursor: not-allowed; }
+.btn-refresh:hover {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+.btn-refresh:disabled {
+  background: #1a1a22;
+  color: #3f3f46;
+  border-color: #27272a;
+  cursor: not-allowed;
+}
 
 .btn-download {
   background: #27272a;
   color: #d4d4d8;
   border-color: #3f3f46;
 }
-.btn-download:hover { background: #3f3f46; color: #fafafa; border-color: #52525b; }
+.btn-download:hover {
+  background: #3f3f46;
+  color: #fafafa;
+  border-color: #52525b;
+}
 
 .hint {
   color: #52525b;
@@ -190,7 +230,10 @@ body {
   gap: 6px;
 }
 
-#last-updated { color: #a1a1aa; font-weight: 500; }
+#last-updated {
+  color: #a1a1aa;
+  font-weight: 500;
+}
 
 .log {
   padding: 2px 0;
@@ -198,10 +241,25 @@ body {
   word-break: break-all;
 }
 
-.log.success { color: #34d399; }
-.log.info   { color: #818cf8; }
-.log.warn   { color: #fbbf24; }
-.log.action { color: #c084fc; }
-.log.dim    { color: #52525b; font-size: 12px; }
-.log.error  { color: #f87171; }
-.log.white  { color: #e4e4e7; }
+.log.success {
+  color: #34d399;
+}
+.log.info {
+  color: #818cf8;
+}
+.log.warn {
+  color: #fbbf24;
+}
+.log.action {
+  color: #c084fc;
+}
+.log.dim {
+  color: #52525b;
+  font-size: 12px;
+}
+.log.error {
+  color: #f87171;
+}
+.log.white {
+  color: #e4e4e7;
+}

@@ -251,7 +251,9 @@ function pollLogs() {
             completeProgress(t("completed"));
             var ts = new Date(run.updated_at || run.created_at);
             updateClock(ts);
-            fetchSummary(run.id);
+            setTimeout(function () {
+              fetchSummary(run.id);
+            }, 2000);
           } else {
             completeProgress(t("failed"));
             log(t("workflowFailed"), "error");
@@ -296,19 +298,24 @@ function fetchSummary(runId) {
     });
 }
 
+function stripAnsi(str) {
+  return str.replace(/\x1b\[[0-9;]*m/g, "");
+}
+
 function renderSummary(text) {
-  var lines = text.split("\n");
+  var lines = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
   var files = [];
   var stats = {};
   var totals = {};
   var seen = {};
 
   for (var i = 0; i < lines.length; i++) {
-    var line = lines[i];
+    var line = stripAnsi(lines[i]);
     var idx = line.indexOf("[LiveWatch]");
     if (idx === -1) continue;
     var msg = line.substring(idx + 12).trim();
     var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "");
+    if (!clean) continue;
     if (seen[clean]) continue;
     seen[clean] = true;
     var m = clean;
@@ -319,15 +326,15 @@ function renderSummary(text) {
       if (files.indexOf(fname) === -1) files.push(fname);
     }
 
-    var sm = m.match(/Encontrados: (\d+) linhas -> (\d+) entradas/);
+    var sm = m.match(/Encontrados:\s*(\d+)\s+linhas\s*->\s*(\d+)\s+entradas/);
     if (sm && files.length > 0) {
       stats[files[files.length - 1]] = { lines: sm[1], entries: sm[2] };
     }
 
-    var tm = m.match(/Total canais \(pos-filtro\): (.+)/);
+    var tm = m.match(/Total canais\s*\(pos-filtro\)\s*:\s*(.+)/);
     if (tm) totals.filtered = tm[1];
 
-    var dm = m.match(/Total final: (.+) canais/);
+    var dm = m.match(/Total final:\s*(.+?)\s+canais/);
     if (dm) totals.final = dm[1];
   }
 

@@ -91,6 +91,7 @@ async function handleLogs(request, env, headers, corsHeaders) {
     });
   }
 
+  const respClone = resp.clone();
   try {
     const buf = new Uint8Array(await resp.arrayBuffer());
     const unzipped = unzipSync(buf);
@@ -103,7 +104,8 @@ async function handleLogs(request, env, headers, corsHeaders) {
       headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" },
     });
   } catch (e) {
-    return new Response(await resp.text(), {
+    const raw = await respClone.text();
+    return new Response(raw, {
       headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" },
     });
   }
