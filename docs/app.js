@@ -97,7 +97,7 @@ var progressVal = 0;
 
 function getPlaylistUrl(format) {
   format = format || "m3u8";
-  return BASE_RAW + PLAYLISTS[currentProfile][format];
+  return WORKER_URL + "/playlist?profile=" + currentProfile + "&format=" + format;
 }
 
 function applyLang() {
