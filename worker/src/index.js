@@ -14,8 +14,12 @@ export default {
 
     const url = new URL(request.url);
 
+    if ((request.method === "GET" || request.method === "HEAD") && url.pathname.startsWith("/playlist/")) {
+      return await handlePlaylist(url, env, corsHeaders, request.method);
+    }
+
     if (request.method === "GET" && url.pathname === "/playlist") {
-      return await handlePlaylist(url, env, corsHeaders);
+      return await handlePlaylist(url, env, corsHeaders, "GET");
     }
 
     if (request.method !== "POST") {
@@ -144,9 +148,21 @@ async function handleFileTime(request, env, headers, corsHeaders) {
   });
 }
 
-async function handlePlaylist(url, env, corsHeaders) {
-  const profile = url.searchParams.get("profile") || "brasil";
-  const format = url.searchParams.get("format") || "m3u8";
+async function handlePlaylist(url, env, corsHeaders, method) {
+  var profile = url.searchParams.get("profile");
+  var format = url.searchParams.get("format");
+
+  if (!profile || !format) {
+    var pathPart = url.pathname.replace("/playlist/", "");
+    var dotIdx = pathPart.lastIndexOf(".");
+    if (dotIdx !== -1) {
+      format = pathPart.substring(dotIdx + 1).toLowerCase();
+      profile = pathPart.substring(0, dotIdx).toLowerCase();
+    }
+  }
+
+  profile = profile || "brasil";
+  format = format || "m3u8";
 
   const playlistNames = {
     brasil: { m3u: "LiveWatch-PlaylistBR.m3u", m3u8: "LiveWatch-PlaylistBR.m3u8" },
@@ -182,11 +198,15 @@ async function handlePlaylist(url, env, corsHeaders) {
     ? "application/vnd.apple.mpegurl"
     : "audio/x-mpegurl";
 
-  return new Response(body, {
-    headers: {
-      ...corsHeaders,
-      "Content-Type": contentType,
-      "Cache-Control": "public, max-age=3600",
-    },
-  });
+  const responseHeaders = {
+    ...corsHeaders,
+    "Content-Type": contentType,
+    "Cache-Control": "public, max-age=3600",
+  };
+
+  if (method === "HEAD") {
+    return new Response(null, { headers: responseHeaders });
+  }
+
+  return new Response(body, { headers: responseHeaders });
 }
