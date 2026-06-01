@@ -2,6 +2,8 @@
 
 Automated IPTV playlist merger that fetches raw M3U channel lists from GitHub, filters, deduplicates, and publishes merged playlists — all triggered from a terminal-style web dashboard.
 
+https://otaviozanon.github.io/LiveWatch/
+
 ## How It Works
 
 1. **Fetch** — Downloads 5 raw `.m3u8`/`.m3u` playlists from a source repository
