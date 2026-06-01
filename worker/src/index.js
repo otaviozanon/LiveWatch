@@ -204,6 +204,10 @@ async function handlePlaylist(url, env, corsHeaders, method) {
     "Cache-Control": "public, max-age=3600",
   };
 
+  if (url.searchParams.get("download") === "1") {
+    responseHeaders["Content-Disposition"] = "attachment; filename=\"" + filename + "\"";
+  }
+
   if (method === "HEAD") {
     return new Response(null, { headers: responseHeaders });
   }

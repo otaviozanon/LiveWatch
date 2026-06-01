@@ -367,12 +367,12 @@ btnEl.addEventListener("click", triggerWorkflow);
 
 // Download M3U
 dlBtnM3u.addEventListener("click", function () {
-  window.open(getPlaylistUrl("m3u"), "_blank");
+  window.open(getPlaylistUrl("m3u") + "?download=1", "_blank");
 });
 
 // Download M3U8
 dlBtnM3u8.addEventListener("click", function () {
-  window.open(getPlaylistUrl("m3u8"), "_blank");
+  window.open(getPlaylistUrl("m3u8") + "?download=1", "_blank");
 });
 
 // Copy M3U URL
