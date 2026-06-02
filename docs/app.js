@@ -85,18 +85,22 @@ var progressWrap = document.getElementById("progress-wrap");
 var progressFill = document.getElementById("progress-fill");
 var progressLabel = document.getElementById("progress-label");
 var btnEl = document.getElementById("btn-update");
-var dlBtnM3u = document.getElementById("btn-download-m3u");
-var dlBtnM3u8 = document.getElementById("btn-download-m3u8");
-var copyBtnM3u = document.getElementById("btn-copy-m3u");
-var copyBtnM3u8 = document.getElementById("btn-copy-m3u8");
+var dlBtnEl = document.getElementById("btn-download");
+var copyBtnEl = document.getElementById("btn-copy");
+var formatSelect = document.getElementById("format-select");
+var sourceSelect = document.getElementById("source-select");
 var updatedEl = document.getElementById("last-updated");
 profileSelect = document.getElementById("profile-select");
 
 var progressTimer = null;
 var progressVal = 0;
 
-function getPlaylistUrl(format) {
-  format = format || "m3u8";
+function getPlaylistUrl(format, source) {
+  format = format || formatSelect.value || "m3u8";
+  source = source || sourceSelect.value || "worker";
+  if (source === "raw") {
+    return BASE_RAW + PLAYLISTS[currentProfile][format];
+  }
   return WORKER_URL + "/playlist/" + currentProfile + "." + format;
 }
 
@@ -105,10 +109,8 @@ function applyLang() {
     b.classList.toggle("active", b.dataset.lang === lang);
   });
   btnEl.innerHTML = "&#x21BB; " + t("btnUpdate");
-  dlBtnM3u.innerHTML = "&#x21E9; M3U";
-  dlBtnM3u8.innerHTML = "&#x21E9; M3U8";
-  copyBtnM3u.innerHTML = "&#x2398; M3U";
-  copyBtnM3u8.innerHTML = "&#x2398; M3U8";
+  dlBtnEl.innerHTML = "&#x21E9; " + t("btnDownload");
+  copyBtnEl.innerHTML = "&#x2398; " + t("btnCopy");
   logsEl.innerHTML =
     '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
   localStorage.setItem("livewatch-lang", lang);
@@ -365,24 +367,12 @@ function renderSummary(text) {
 
 btnEl.addEventListener("click", triggerWorkflow);
 
-// Download M3U
-dlBtnM3u.addEventListener("click", function () {
-  window.open(getPlaylistUrl("m3u") + "?download=1", "_blank");
+dlBtnEl.addEventListener("click", function () {
+  window.open(getPlaylistUrl() + (sourceSelect.value === "worker" ? "?download=1" : ""), "_blank");
 });
 
-// Download M3U8
-dlBtnM3u8.addEventListener("click", function () {
-  window.open(getPlaylistUrl("m3u8") + "?download=1", "_blank");
-});
-
-// Copy M3U URL
-copyBtnM3u.addEventListener("click", function () {
-  copyToClipboard(copyBtnM3u, getPlaylistUrl("m3u"));
-});
-
-// Copy M3U8 URL
-copyBtnM3u8.addEventListener("click", function () {
-  copyToClipboard(copyBtnM3u8, getPlaylistUrl("m3u8"));
+copyBtnEl.addEventListener("click", function () {
+  copyToClipboard(copyBtnEl, getPlaylistUrl());
 });
 
 function copyToClipboard(btn, url) {
