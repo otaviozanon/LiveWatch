@@ -39,6 +39,8 @@ var T = {
     btnDownload: "DOWNLOAD",
     btnCopy: "COPIAR URL",
     copied: "COPIADO",
+    sourceWorker: "Link curto",
+    sourceRaw: "Raw GitHub",
   },
   en: {
     systemReady: "System ready.",
@@ -65,6 +67,8 @@ var T = {
     btnDownload: "DOWNLOAD",
     btnCopy: "COPY URL",
     copied: "COPIED",
+    sourceWorker: "Short link",
+    sourceRaw: "Raw GitHub",
   },
 };
 
@@ -111,6 +115,8 @@ function applyLang() {
   btnEl.innerHTML = "&#x21BB; " + t("btnUpdate");
   dlBtnEl.innerHTML = "&#x21E9; " + t("btnDownload");
   copyBtnEl.innerHTML = "&#x2398; " + t("btnCopy");
+  sourceSelect.options[0].text = t("sourceWorker");
+  sourceSelect.options[1].text = t("sourceRaw");
   logsEl.innerHTML =
     '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
   localStorage.setItem("livewatch-lang", lang);
