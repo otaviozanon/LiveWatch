@@ -22,7 +22,7 @@ body {
 
 .terminal {
   width: 100%;
-  max-width: 850px;
+  max-width: 900px;
   border: 1px solid #1e1e2a;
   border-radius: 12px;
   overflow: hidden;
