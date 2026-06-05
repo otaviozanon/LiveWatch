@@ -4,6 +4,14 @@ Automated IPTV playlist merger that fetches raw M3U channel lists from GitHub, f
 
 https://otaviozanon.github.io/LiveWatch/
 
+## Quick Start (Windows)
+
+1. Install **Simple M3U Player** from the Microsoft Store.
+2. Open Simple M3U Player.
+3. From the LiveWatch dashboard, copy the URL of the desired playlist (`.m3u` or `.m3u8`) — e.g., **Brasil** or **Global**.
+4. In Simple M3U Player, add a new playlist and paste the LiveWatch URL.
+5. Save and use the player to watch channels kept up to date by LiveWatch.
+
 ## How It Works
 
 1. **Fetch** — Downloads 5 raw `.m3u8`/`.m3u` playlists from a source repository
