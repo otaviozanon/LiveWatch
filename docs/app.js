@@ -47,8 +47,14 @@ var T = {
     btnDownload: "DOWNLOAD",
     btnCopy: "COPIAR URL",
     copied: "COPIADO",
+    copyError: "Erro ao copiar URL.",
     sourceWorker: "Link curto",
     sourceRaw: "Raw GitHub",
+    profileBrasil: "Brasil",
+    profileGlobal: "Global",
+    profileIptvorg: "IPTV-ORG",
+    profileAll: "Todos",
+    headerTitle: "LiveWatch &mdash; Lista IPTV",
   },
   en: {
     systemReady: "System ready.",
@@ -75,8 +81,14 @@ var T = {
     btnDownload: "DOWNLOAD",
     btnCopy: "COPY URL",
     copied: "COPIED",
+    copyError: "Error copying URL.",
     sourceWorker: "Short link",
     sourceRaw: "Raw GitHub",
+    profileBrasil: "Brazil",
+    profileGlobal: "Global",
+    profileIptvorg: "IPTV-ORG",
+    profileAll: "All",
+    headerTitle: "LiveWatch &mdash; IPTV List",
   },
 };
 
@@ -125,6 +137,11 @@ function applyLang() {
   copyBtnEl.innerHTML = "&#x2398; " + t("btnCopy");
   sourceSelect.options[0].text = t("sourceWorker");
   sourceSelect.options[1].text = t("sourceRaw");
+  profileSelect.options[0].text = t("profileBrasil");
+  profileSelect.options[1].text = t("profileGlobal");
+  profileSelect.options[2].text = t("profileIptvorg");
+  profileSelect.options[3].text = t("profileAll");
+  document.getElementById("header-title").innerHTML = t("headerTitle");
   logsEl.innerHTML =
     '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
   localStorage.setItem("livewatch-lang", lang);
@@ -324,6 +341,7 @@ function renderSummary(text) {
   var stats = {};
   var totals = {};
   var seen = {};
+  var currentPerfil = null;
 
   for (var i = 0; i < lines.length; i++) {
     var line = stripAnsi(lines[i]);
@@ -336,6 +354,12 @@ function renderSummary(text) {
     seen[clean] = true;
     var m = clean;
 
+    var pm = m.match(/====== Perfil: (.+) ======/);
+    if (pm) {
+      currentPerfil = pm[1];
+      if (files.indexOf(currentPerfil) === -1) files.push(currentPerfil);
+    }
+
     var em = m.match(/Extraindo lista \d+\/\d+: (.+)/);
     if (em) {
       var fname = em[1].replace(/\.m3u8?$/i, "");
@@ -347,7 +371,18 @@ function renderSummary(text) {
       stats[files[files.length - 1]] = { lines: sm[1], entries: sm[2] };
     }
 
-    var tm = m.match(/Total canais\s*\(pos-filtro\)\s*:\s*(.+)/);
+    var jm = m.match(/Baixando JSON: (.+)/);
+    if (jm) {
+      var jname = jm[1] + (currentPerfil ? " (" + currentPerfil + ")" : "");
+      if (files.indexOf(jname) === -1) files.push(jname);
+    }
+
+    var jsm = m.match(/Streams com match para \w+:\s*(\d+)/);
+    if (jsm && files.length > 0) {
+      stats[files[files.length - 1]] = { lines: "-", entries: jsm[1] };
+    }
+
+    var tm = m.match(/Total (?:canais|final)\s*(?:\(pos-filtro\)|combinados)?\s*:\s*(.+)/);
     if (tm) totals.filtered = tm[1];
 
     var dm = m.match(/Total final:\s*(.+?)\s+canais/);
@@ -404,7 +439,7 @@ function copyToClipboard(btn, url) {
       }, 2000);
     })
     .catch(function () {
-      log("Erro ao copiar URL.", "error");
+      log(t("copyError"), "error");
     });
 }
 
