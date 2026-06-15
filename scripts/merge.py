@@ -46,6 +46,24 @@ def fetch_all(urls):
     return results
 
 
+def discover_github_sources(repo, pattern):
+    api_url = f"https://api.github.com/repos/{repo}/contents/"
+    print(f"[LiveWatch] Descobrindo sources: {api_url}")
+    resp = requests.get(api_url, timeout=30)
+    resp.raise_for_status()
+    files = resp.json()
+    regex = re.compile(pattern)
+    matched = sorted(
+        [f["download_url"] for f in files
+         if f["type"] == "file" and regex.search(f["name"])],
+        key=lambda u: u
+    )
+    print(f"[LiveWatch]   Pattern '{pattern}' -> {len(matched)} arquivos encontrados")
+    for u in matched:
+        print(f"[LiveWatch]     {u.rsplit('/', 1)[-1]}")
+    return matched
+
+
 def filter_by_group(entries, prefix):
     return [(g, n, u) for g, n, u in entries if g.lower().startswith(prefix.lower())]
 
@@ -105,6 +123,71 @@ def rename_duplicates(entries):
     return result
 
 
+def fetch_json(url):
+    print(f"[LiveWatch] Baixando JSON: {url.rsplit('/', 1)[-1]}")
+    resp = requests.get(url, timeout=120)
+    resp.raise_for_status()
+    data = resp.json()
+    print(f"[LiveWatch]   Registros: {len(data)}")
+    return data
+
+
+def process_iptv_api(channels_url, streams_url, country):
+    channels_data = fetch_json(channels_url)
+
+    br_channels = [c for c in channels_data if c.get("country") == country]
+    print(f"[LiveWatch] Canais com country={country}: {len(br_channels)}")
+
+    channel_map = {}
+    for c in br_channels:
+        if not c.get("is_nsfw", False) and "xxx" not in [x.lower() for x in c.get("categories", [])]:
+            channel_map[c["id"]] = c
+
+    print(f"[LiveWatch] Canais validos (sem NSFW): {len(channel_map)}")
+
+    streams_data = fetch_json(streams_url)
+
+    entries = []
+    for s in streams_data:
+        ch_id = s.get("channel")
+        if not ch_id or ch_id not in channel_map:
+            continue
+
+        ch = channel_map[ch_id]
+        url = s.get("url")
+        if not url:
+            continue
+
+        title = s.get("title") or ch.get("name", "Sem Nome")
+        cats = ch.get("categories", ["general"])
+        category = cats[0] if cats else "general"
+        group_title = f"CANAIS | IPTV | {category.upper()}"
+
+        entries.append((group_title, title, url))
+
+    print(f"[LiveWatch] Streams com match para {country}: {len(entries)}")
+    return entries
+
+
+def fetch_profile_entries(p):
+    if p.get("type") == "iptv_api":
+        entries = process_iptv_api(p["sources"][0], p["sources"][1], p.get("country", "BR"))
+    else:
+        github_repo = p.get("github_repo")
+        sources = p.get("sources", [])
+        if github_repo:
+            sources = discover_github_sources(github_repo, p.get("source_pattern", ""))
+        all_results = fetch_all(sources)
+        entries = []
+        for e_list in all_results.values():
+            if p.get("filter_group"):
+                e_list = filter_by_group(e_list, p["filter_group"])
+            entries.extend(e_list)
+
+    entries = filter_excluded(entries, p.get("name_exclude", []))
+    return entries
+
+
 def generate_playlist(entries, base_name, output_dir):
     # Cria as pastas m3u e m3u8
     m3u_dir = os.path.join(output_dir, "playlists", "m3u")
@@ -144,17 +227,40 @@ def main():
     base_name = p["output"].replace(".m3u8", "").replace(".m3u", "")
     output_dir = os.path.dirname(script_dir)
 
-    all_results = fetch_all(p["sources"])
+    if p.get("type") == "merge_all":
+        all_entries = []
+        sub_profiles = p.get("include", [k for k in config["profiles"] if k != profile])
+        for sp_name in sub_profiles:
+            if sp_name not in config["profiles"]:
+                print(f"[LiveWatch] AVISO: Sub-perfil '{sp_name}' nao encontrado, pulando")
+                continue
+            print(f"\n[LiveWatch] ====== Perfil: {sp_name} ======")
+            sp = config["profiles"][sp_name]
+            entries = fetch_profile_entries(sp)
+            all_entries.extend(entries)
 
-    filtered = []
-    for entries in all_results.values():
-        filtered.extend(filter_by_group(entries, p["filter_group"]))
+        print(f"\n[LiveWatch] Total canais combinados: {len(all_entries)}")
+        all_entries = dedup_by_url(all_entries)
+        all_entries = rename_duplicates(all_entries)
+        all_entries = [("CANAIS | ALL", name, url) for _, name, url in all_entries]
+        all_entries.sort(key=lambda x: x[1].lower())
 
+        print(f"[LiveWatch] Total final: {len(all_entries)} canais")
+        generate_playlist(all_entries, base_name, output_dir)
+        print("[LiveWatch] Playlist salva com sucesso!")
+        return
+
+    filtered = fetch_profile_entries(p)
     print(f"[LiveWatch] Total canais (pos-filtro): {len(filtered)}")
 
-    filtered = filter_excluded(filtered, p.get("name_exclude", []))
     filtered = dedup_by_url(filtered)
     filtered = rename_duplicates(filtered)
+
+    if p.get("type") == "iptv_api":
+        filtered = [("CANAIS | BR", name, url) for _, name, url in filtered]
+    else:
+        filtered = [(f"CANAIS | {profile.upper()}", name, url) for _, name, url in filtered]
+    filtered.sort(key=lambda x: x[1].lower())
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
     generate_playlist(filtered, base_name, output_dir)

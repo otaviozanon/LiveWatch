@@ -3,26 +3,67 @@
     "brasil": {
       "filter_group": "Canais",
       "output": "LiveWatch-PlaylistBR.m3u8",
-      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "XXX", "[PORNO]", "[SEXO]", "FAP TV"],
-      "sources": [
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR01.m3u8",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR02.m3u8",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR03.m3u8",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR04.m3u8",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/CanaisBR05.m3u8"
-      ]
+      "name_exclude": [
+        "[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]",
+        "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]",
+        "[XXX]", "XXX", "[PORNO]", "[SEXO]",
+        "FAP TV",
+        "adultos:", "brasileirinhas", "only fans", "privacy:",
+        "hotvips", "safado", "safada", "gostos", "gang bang",
+        "playboy", "sexy", "lesbicas", "carnafunk",
+        "coroas gostosas", "moreno safado", "namoradinha safada",
+        "gay masculino",
+        "rdio", "webradio", "web radio", "tiktok radio",
+        " FM"
+      ],
+      "github_repo": "Ramys/Iptv-Brasil-2026",
+      "source_pattern": "^CanaisBR.*\\.m3u8?$"
     },
     "global": {
       "filter_group": "CANAL",
       "output": "LiveWatch-PlaylistWorld.m3u8",
-      "name_exclude": ["[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]", "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]", "[XXX]", "XXX", "[PORNO]", "[SEXO]", "FAP TV"],
+      "name_exclude": [
+        "[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]",
+        "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]",
+        "[XXX]", "XXX", "[PORNO]", "[SEXO]",
+        "FAP TV",
+        "adultos:", "brasileirinhas", "only fans", "privacy:",
+        "hotvips", "safado", "safada", "gostos", "gang bang",
+        "playboy", "sexy", "lesbicas", "carnafunk",
+        "coroas gostosas", "moreno safado", "namoradinha safada",
+        "gay masculino",
+        "rdio", "webradio", "web radio", "tiktok radio",
+        " FM"
+      ],
+      "github_repo": "Ramys/Iptv-Brasil-2026",
+      "source_pattern": "^Lista Mundial.*\\.m3u8?$"
+    },
+    "iptv-org": {
+      "type": "iptv_api",
+      "output": "LiveWatch-PlaylistIPTVORG.m3u8",
+      "country": "BR",
+      "name_exclude": [
+        "[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]",
+        "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]",
+        "[XXX]", "XXX", "[PORNO]", "[SEXO]",
+        "FAP TV",
+        "adultos:", "brasileirinhas", "only fans", "privacy:",
+        "hotvips", "safado", "safada", "gostos", "gang bang",
+        "playboy", "sexy", "lesbicas", "carnafunk",
+        "coroas gostosas", "moreno safado", "namoradinha safada",
+        "gay masculino",
+        "rdio", "webradio", "web radio", "tiktok radio",
+        " FM"
+      ],
       "sources": [
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial01.m3u",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial02.m3u",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial03.m3u",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial04.m3u",
-        "https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/refs/heads/master/Lista%20Mundial05.m3u"
+        "https://iptv-org.github.io/api/channels.json",
+        "https://iptv-org.github.io/api/streams.json"
       ]
+    },
+    "all": {
+      "type": "merge_all",
+      "output": "LiveWatch-PlaylistAll.m3u8",
+      "include": ["brasil", "global", "iptv-org"]
     }
   }
 }

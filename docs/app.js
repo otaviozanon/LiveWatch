@@ -10,6 +10,14 @@ var PLAYLISTS = {
     m3u: "playlists/m3u/LiveWatch-PlaylistWorld.m3u",
     m3u8: "playlists/m3u8/LiveWatch-PlaylistWorld.m3u8",
   },
+  "iptv-org": {
+    m3u: "playlists/m3u/LiveWatch-PlaylistIPTVORG.m3u",
+    m3u8: "playlists/m3u8/LiveWatch-PlaylistIPTVORG.m3u8",
+  },
+  all: {
+    m3u: "playlists/m3u/LiveWatch-PlaylistAll.m3u",
+    m3u8: "playlists/m3u8/LiveWatch-PlaylistAll.m3u8",
+  },
 };
 var profileSelect = null;
 

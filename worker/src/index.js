@@ -167,6 +167,8 @@ async function handlePlaylist(url, env, corsHeaders, method) {
   const playlistNames = {
     brasil: { m3u: "LiveWatch-PlaylistBR.m3u", m3u8: "LiveWatch-PlaylistBR.m3u8" },
     global: { m3u: "LiveWatch-PlaylistWorld.m3u", m3u8: "LiveWatch-PlaylistWorld.m3u8" },
+    "iptv-org": { m3u: "LiveWatch-PlaylistIPTVORG.m3u", m3u8: "LiveWatch-PlaylistIPTVORG.m3u8" },
+    all: { m3u: "LiveWatch-PlaylistAll.m3u", m3u8: "LiveWatch-PlaylistAll.m3u8" },
   };
 
   const pf = playlistNames[profile];
