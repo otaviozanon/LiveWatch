@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import re
+import unicodedata
 
 import requests
 
@@ -66,6 +67,131 @@ def discover_github_sources(repo, pattern):
 
 def filter_by_group(entries, prefix):
     return [(g, n, u) for g, n, u in entries if g.lower().startswith(prefix.lower())]
+
+
+def strip_accents(text):
+    nfkd = unicodedata.normalize('NFKD', text)
+    return ''.join(c for c in nfkd if not unicodedata.combining(c))
+
+
+def filter_by_group_exclude(entries, exclude_keywords):
+    if not exclude_keywords:
+        return entries
+    result = []
+    removed = 0
+    for group_title, name, url in entries:
+        gt = strip_accents(group_title.lower())
+        exclude = False
+        for kw in exclude_keywords:
+            if strip_accents(kw.lower()) in gt:
+                exclude = True
+                break
+        if exclude:
+            removed += 1
+        else:
+            result.append((group_title, name, url))
+    if removed:
+        print(f"[LiveWatch] Removendo por grupo excluido: {removed} removidos")
+    return result
+
+
+def normalize_group_title(group_title, prefix):
+    gt = group_title.strip()
+    gt = re.sub(r'^CANAIS\s*\|\s*', '', gt, flags=re.IGNORECASE)
+    gt = re.sub(r'^CANAL\s+\W+(?=\s*\w)', '', gt, flags=re.IGNORECASE)
+    gt = gt.strip().upper()
+    gt = strip_accents(gt)
+
+    if gt == '85 BRAZILIAN CHANNELS':
+        gt = 'VARIEDADES'
+    if gt == 'INFANTIL':
+        gt = 'INFANTIS'
+    if gt == 'FILMES & SERIES':
+        gt = 'FILMES E SERIES'
+    if gt == 'REALITY SHOW':
+        gt = 'REALITIES'
+    if gt == 'UFC FIGHT PASS':
+        gt = 'UFC'
+    if gt == 'UFC FIGHT':
+        gt = 'UFC'
+    if gt == 'MUSICA':
+        gt = 'MUSICAS'
+    if gt == 'USA':
+        gt = 'ESTADOS UNIDOS'
+    if gt == 'GERAL':
+        gt = 'DIVERSOS'
+    if gt == 'GLOBO SUL':
+        gt = 'GLOBO'
+    if gt == 'FILMES':
+        gt = 'FILMES E SERIES'
+    if gt == 'SERIES':
+        gt = 'FILMES E SERIES'
+    if gt == 'COMEDIA':
+        gt = 'ENTRETENIMENTO'
+    if gt == 'ANIMACAO':
+        gt = 'INFANTIS'
+    if gt == 'RECORDTV':
+        gt = 'RECORD'
+    if gt == 'AGENDA ESPORTIVA':
+        gt = 'ESPORTES DO DIA'
+    if gt == 'MAX':
+        gt = 'FILMES E SERIES'
+    if gt == 'TNT':
+        gt = 'FILMES E SERIES'
+    if gt == 'HBO':
+        gt = 'FILMES E SERIES'
+    if gt == 'ESPN':
+        gt = 'ESPORTES'
+    if gt == 'SPORTV':
+        gt = 'ESPORTES'
+    if gt == 'NBA LEAGUE PASS':
+        gt = 'PAY PER VIEW'
+    if gt == 'BRASILEIRAO':
+        gt = 'PAY PER VIEW'
+    if gt == 'PREMIERE':
+        gt = 'PAY PER VIEW'
+    if gt == 'NBA':
+        gt = 'PAY PER VIEW'
+    if gt == 'ESTADUAIS':
+        gt = 'PAY PER VIEW'
+    if gt == 'FUTSAL':
+        gt = 'PAY PER VIEW'
+    if gt == 'TELECINE':
+        gt = 'FILMES E SERIES'
+    if gt == '24H VARIADOS':
+        gt = '24H'
+    if gt == 'ESPORTES ESTADUAIS':
+        gt = 'PAY PER VIEW'
+    if gt == 'ESPORTES PPV':
+        gt = 'PAY PER VIEW'
+
+    if gt not in CATEGORY_ORDER:
+        gt = 'NOVOS'
+
+    return f"{prefix} | {gt}"
+
+
+CATEGORY_ORDER = [
+    "NOVOS",
+    "24H", "24H INFANTIL", "REALITIES", "4K",
+    "GLOBO", "SBT", "BAND", "RECORD", "ABERTOS",
+    "FILMES E SERIES", "DOCUMENTARIOS", "ESPORTES",
+    "ENTRETENIMENTO", "PAY PER VIEW", "NOTICIAS",
+    "MUSICAS", "DORMIR E RELAXAR", "UFC",
+    "FORMULA 1", "DAZN", "DUAL AUDIO", "PLUTO TV",
+    "INFANTIS", "EDUCACAO", "AR LIVRE", "RELIGIOSOS",
+    "ESTADOS UNIDOS", "ESPORTES DO DIA",
+]
+
+
+def category_sort_key(entry):
+    group_title, name, _ = entry
+    cat = group_title.replace("BR | ", "")
+    try:
+        cat_order = CATEGORY_ORDER.index(cat)
+    except ValueError:
+        cat_order = len(CATEGORY_ORDER)
+    return (cat_order, name.lower())
 
 
 def filter_excluded(entries, exclude_keywords):
@@ -133,6 +259,29 @@ def fetch_json(url):
 
 
 def process_iptv_api(channels_url, streams_url, country):
+    CATEGORY_TRANSLATION = {
+        "general": "GERAL",
+        "news": "NOTICIAS",
+        "entertainment": "ENTRETENIMENTO",
+        "sports": "ESPORTES",
+        "religious": "RELIGIOSOS",
+        "education": "EDUCACAO",
+        "legislative": "LEGISLATIVO",
+        "kids": "INFANTIS",
+        "outdoor": "AR LIVRE",
+        "movies": "FILMES",
+        "animation": "ANIMACAO",
+        "culture": "CULTURA",
+        "comedy": "COMEDIA",
+        "public": "PUBLICO",
+        "series": "SERIES",
+        "travel": "VIAGEM",
+        "shop": "COMPRAS",
+        "classic": "CLASSICOS",
+        "music": "MUSICA",
+        "family": "FAMILIA",
+    }
+
     channels_data = fetch_json(channels_url)
 
     br_channels = [c for c in channels_data if c.get("country") == country]
@@ -161,7 +310,7 @@ def process_iptv_api(channels_url, streams_url, country):
         title = s.get("title") or ch.get("name", "Sem Nome")
         cats = ch.get("categories", ["general"])
         category = cats[0] if cats else "general"
-        group_title = f"CANAIS | IPTV | {category.upper()}"
+        group_title = CATEGORY_TRANSLATION.get(category.lower(), category.upper())
 
         entries.append((group_title, title, url))
 
@@ -185,7 +334,52 @@ def fetch_profile_entries(p):
             entries.extend(e_list)
 
     entries = filter_excluded(entries, p.get("name_exclude", []))
+    entries = remap_by_name(entries, p.get("name_remap", {}), p.get("remap_from"))
+    entries = filter_by_group_exclude(entries, p.get("group_exclude", []))
+    entries = filter_by_group_keep(entries, p.get("group_keep", {}))
     return entries
+
+
+def remap_by_name(entries, name_remap, remap_from_groups=None):
+    if not name_remap:
+        return entries
+    result = []
+    remapped = 0
+    for group_title, name, url in entries:
+        new_group = group_title
+        if remap_from_groups is None or any(g.lower() in group_title.lower() for g in remap_from_groups):
+            for target_group, patterns in name_remap.items():
+                for pat in patterns:
+                    if pat.lower() in name.lower():
+                        new_group = target_group
+                        remapped += 1
+                        break
+                if new_group != group_title:
+                    break
+        result.append((new_group, name, url))
+    if remapped:
+        print(f"[LiveWatch] Redistribuindo canais por nome: {remapped} remapeados")
+    return result
+
+
+def filter_by_group_keep(entries, group_rules):
+    if not group_rules:
+        return entries
+    result = []
+    removed = 0
+    for group_title, name, url in entries:
+        keep = True
+        for group_key, name_patterns in group_rules.items():
+            if group_key.lower() in group_title.lower():
+                keep = any(pat.lower() in name.lower() for pat in name_patterns)
+                break
+        if keep:
+            result.append((group_title, name, url))
+        else:
+            removed += 1
+    if removed:
+        print(f"[LiveWatch] Filtrando por grupo+canal: {removed} removidos")
+    return result
 
 
 def generate_playlist(entries, base_name, output_dir):
@@ -237,13 +431,14 @@ def main():
             print(f"\n[LiveWatch] ====== Perfil: {sp_name} ======")
             sp = config["profiles"][sp_name]
             entries = fetch_profile_entries(sp)
-            all_entries.extend(entries)
+            prefix = sp.get("group_prefix", sp_name.upper())
+            for group_title, name, url in entries:
+                all_entries.append((normalize_group_title(group_title, prefix), name, url))
 
         print(f"\n[LiveWatch] Total canais combinados: {len(all_entries)}")
         all_entries = dedup_by_url(all_entries)
         all_entries = rename_duplicates(all_entries)
-        all_entries = [("CANAIS | ALL", name, url) for _, name, url in all_entries]
-        all_entries.sort(key=lambda x: x[1].lower())
+        all_entries.sort(key=category_sort_key)
 
         print(f"[LiveWatch] Total final: {len(all_entries)} canais")
         generate_playlist(all_entries, base_name, output_dir)
@@ -256,11 +451,12 @@ def main():
     filtered = dedup_by_url(filtered)
     filtered = rename_duplicates(filtered)
 
-    if p.get("type") == "iptv_api":
-        filtered = [("CANAIS | BR", name, url) for _, name, url in filtered]
-    else:
-        filtered = [(f"CANAIS | {profile.upper()}", name, url) for _, name, url in filtered]
-    filtered.sort(key=lambda x: x[1].lower())
+    prefix = p.get("group_prefix", profile.upper())
+    normalized = []
+    for group_title, name, url in filtered:
+        normalized.append((normalize_group_title(group_title, prefix), name, url))
+    filtered = normalized
+    filtered.sort(key=category_sort_key)
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
     generate_playlist(filtered, base_name, output_dir)
