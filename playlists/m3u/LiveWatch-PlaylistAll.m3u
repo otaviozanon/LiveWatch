@@ -3859,6 +3859,8 @@ https://5d82644094cc0.streamlock.net/ricostv/ricostv/playlist.m3u8
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63217.ts
 #EXTINF:-1 group-title="CANAIS | ALL",Canal Rural [2]
 https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
+#EXTINF:-1 group-title="CANAIS | ALL",Canal Rural [3]
+https://cdn2.easy.tv.br/canalrural/index.m3u8
 #EXTINF:-1 group-title="CANAIS | ALL",CANAL RURAL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/338098.ts
 #EXTINF:-1 group-title="CANAIS | ALL",CANAL RURAL HD [2]
@@ -6009,6 +6011,8 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/513027.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/513027.ts
 #EXTINF:-1 group-title="CANAIS | ALL",Fonte TV
 http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
+#EXTINF:-1 group-title="CANAIS | ALL",Fonte TV [2]
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 #EXTINF:-1 group-title="CANAIS | ALL",FONTE TV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/500664.ts
 #EXTINF:-1 group-title="CANAIS | ALL",FONTE TV HD [2]
@@ -10879,6 +10883,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133129.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108328.ts
 #EXTINF:-1 group-title="CANAIS | ALL",Rede Brasil
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37013.ts
+#EXTINF:-1 group-title="CANAIS | ALL",Rede Brasil [2]
+https://redebrasil.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 group-title="CANAIS | ALL",REDE BRASIL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1931849.ts
 #EXTINF:-1 group-title="CANAIS | ALL",REDE BRASIL HD [2]
