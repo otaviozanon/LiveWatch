@@ -553,39 +553,6 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
     return mapper
 
 
-def enrich_entries(entries, epg_ids=None, tvg_url=None):
-    """
-    Enrich M3U entries with tvg-id attribute.
-
-    Args:
-        entries: List of (group_title, name, url) tuples
-        epg_ids: Optional pre-fetched list of EPG IDs
-        tvg_url: Optional x-tvg-url for the #EXTM3U header
-
-    Returns:
-        (header_extras, enriched_entries) where:
-        - header_extras is a dict of extra #EXTM3U attributes (e.g., {'x-tvg-url': '...'})
-        - enriched_entries is a list of (group_title, name, url, tvg_id_or_none) tuples
-    """
-    mapper = build_channel_mapper(epg_ids)
-    header = {}
-    if tvg_url:
-        header["x-tvg-url"] = tvg_url
-
-    enriched = []
-    matched = 0
-    total = 0
-    for group_title, name, url in entries:
-        tvg_id = mapper(name)
-        enriched.append((group_title, name, url, tvg_id))
-        total += 1
-        if tvg_id:
-            matched += 1
-
-    print(f"[EPG] Mapeamento EPG: {matched}/{total} canais com tvg-id ({matched * 100 // max(total, 1)}%)")
-    return header, enriched
-
-
 # ── CLI entry point for testing ───────────────────────────────────────────
 if __name__ == "__main__":
     print("[EPG] Testando modulo EPG...")
