@@ -459,8 +459,8 @@ loadLastRun();
   window._currentTab = "logs";
 
   // EPG data cache
-  var epgData = null; // { channels: {id: name}, programmes: [{channel, start, stop, title, desc}] }
-  var epgChannelMap = null; // name -> tvg-id for matching playlist channels
+  var epgData = null;
+  var playlistTvgIds = null; // Set of tvg-ids from the ALL playlist
 
   tabsEl.addEventListener("click", function (e) {
     var tab = e.target.closest(".tab");
@@ -481,29 +481,35 @@ loadLastRun();
     } else {
       epgView.style.display = "none";
       logsView.style.display = "";
-      // Don't touch progressWrap here - showProgress/completeProgress manage it
     }
   }
 
   window.switchTab = switchTab;
 
   function loadEPG() {
-    if (epgData) {
+    if (epgData && playlistTvgIds) {
       renderEPG();
       return;
     }
 
     epgLoading.style.display = "block";
     epgGrid.innerHTML = "";
+    epgLoading.innerHTML = '<div class="log dim">[EPG] Carregando playlist e guia...</div>';
 
-    var epgUrl = WORKER_URL + "/epg?source=epgshare&country=BR";
+    // Fetch ALL playlist M3U to extract which tvg-ids we care about
+    var m3uUrl = WORKER_URL + "/playlist/all.m3u8";
 
-    fetch(epgUrl)
-      .then(function (resp) {
-        if (!resp.ok) throw new Error("EPG HTTP " + resp.status);
-        return resp.text();
-      })
-      .then(function (xml) {
+    Promise.all([
+      fetch(m3uUrl).then(function (r) { return r.text(); }),
+      fetch(WORKER_URL + "/epg?source=epgshare&country=BR").then(function (r) {
+        if (!r.ok) throw new Error("EPG HTTP " + r.status);
+        return r.text();
+      }),
+    ])
+      .then(function (results) {
+        var m3u = results[0];
+        var xml = results[1];
+        playlistTvgIds = extractTvgIds(m3u);
         parseEPG(xml);
       })
       .catch(function (e) {
@@ -511,10 +517,21 @@ loadLastRun();
       });
   }
 
-  function parseEPG(xml) {
-    epgLoading.innerHTML = '<div class="log dim">[EPG] Processando XML...</div>';
+  function extractTvgIds(m3u) {
+    var ids = {};
+    var lines = m3u.split("\n");
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i];
+      if (line.indexOf("#EXTINF") !== 0) continue;
+      var m = line.match(/tvg-id="([^"]+)"/);
+      if (m) ids[m[1]] = true;
+    }
+    return ids;
+  }
 
-    // Use setTimeout to avoid blocking UI
+  function parseEPG(xml) {
+    epgLoading.innerHTML = '<div class="log dim">[EPG] Processando ' + (xml.length / 1e6).toFixed(1) + ' MB de XML...</div>';
+
     setTimeout(function () {
       try {
         var parser = new DOMParser();
@@ -533,20 +550,22 @@ loadLastRun();
         var programmes = [];
         var progNodes = doc.getElementsByTagName("programme");
         var now = new Date();
-        var windowStart = new Date(now.getTime() - 1 * 3600000); // -1h
-        var windowEnd = new Date(now.getTime() + 6 * 3600000);   // +6h
+        var windowStart = new Date(now.getTime() - 1 * 3600000);
+        var windowEnd = new Date(now.getTime() + 6 * 3600000);
 
         for (var j = 0; j < progNodes.length; j++) {
           var p = progNodes[j];
           var chId = p.getAttribute("channel");
+          // Only include channels from the ALL playlist
+          if (!playlistTvgIds[chId]) continue;
+
           var start = parseXMLTVDate(p.getAttribute("start"));
           var stop = parseXMLTVDate(p.getAttribute("stop"));
           var title = getText(p, "title");
           var desc = getText(p, "desc");
 
-          if (!start || !stop || !chId) continue;
+          if (!start || !stop) continue;
 
-          // Only include programmes in our time window
           if (stop < windowStart || start > windowEnd) continue;
 
           programmes.push({
@@ -558,7 +577,6 @@ loadLastRun();
           });
         }
 
-        // Sort programmes by channel then by start time
         programmes.sort(function (a, b) {
           if (a.channel !== b.channel) return a.channel.localeCompare(b.channel);
           return a.start - b.start;
@@ -575,12 +593,9 @@ loadLastRun();
 
   function parseXMLTVDate(str) {
     if (!str) return null;
-    // Format: 20260119200000 +0000
     var m = str.match(/(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/);
     if (!m) return null;
-    return new Date(
-      Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6])
-    );
+    return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5], +m[6]));
   }
 
   function getText(el, tag) {
@@ -595,7 +610,7 @@ loadLastRun();
     var channels = epgData.channels;
     var now = new Date();
 
-    // Group programmes by channel
+    // Group by channel
     var grouped = {};
     for (var i = 0; i < programmes.length; i++) {
       var p = programmes[i];
@@ -603,7 +618,6 @@ loadLastRun();
       grouped[p.channel].push(p);
     }
 
-    // Get list of channel IDs with programmes, sorted by display name
     var chIds = Object.keys(grouped).sort(function (a, b) {
       var na = (channels[a] || a).toLowerCase();
       var nb = (channels[b] || b).toLowerCase();
@@ -611,7 +625,7 @@ loadLastRun();
     });
 
     if (chIds.length === 0) {
-      epgGrid.innerHTML = '<div class="epg-empty">[EPG] Nenhum programa encontrado no horario atual.</div>';
+      epgGrid.innerHTML = '<div class="epg-empty">[EPG] Nenhum programa encontrado para os canais da playlist.</div>';
       return;
     }
 
@@ -621,11 +635,28 @@ loadLastRun();
       var chName = channels[chId] || chId;
       var progs = grouped[chId];
 
-      html += '<div class="epg-channel">';
-      html += '<div class="epg-channel-header">' + escHtml(chName) + '</div>';
-
+      // Find current programme for the collapsed preview
+      var currentProg = null;
       for (var p = 0; p < progs.length; p++) {
-        var prog = progs[p];
+        if (progs[p].start <= now && progs[p].stop >= now) {
+          currentProg = progs[p];
+          break;
+        }
+      }
+
+      html += '<div class="epg-channel">';
+      html += '<div class="epg-channel-header" onclick="this.parentElement.classList.toggle(\'open\')">';
+      html += '<span class="epg-arrow">&#9654;</span> ';
+      html += '<span class="epg-ch-name">' + escHtml(chName) + '</span>';
+      if (currentProg) {
+        html += '<span class="epg-now">' + escHtml(currentProg.title || "") + '</span>';
+        html += '<span class="epg-now-time">' + formatTime(currentProg.start) + ' - ' + formatTime(currentProg.stop) + '</span>';
+      }
+      html += '</div>';
+
+      html += '<div class="epg-programs">';
+      for (var q = 0; q < progs.length; q++) {
+        var prog = progs[q];
         var isCurrent = prog.start <= now && prog.stop >= now;
         var timeStr = formatTime(prog.start) + " - " + formatTime(prog.stop);
 
@@ -637,11 +668,11 @@ loadLastRun();
         }
         html += '</div></div>';
       }
-
+      html += '</div>';
       html += '</div>';
     }
 
-    html += '<div class="epg-footer">' + chIds.length + ' canais com programacao | Dados: epgshare01.online</div>';
+    html += '<div class="epg-footer">' + chIds.length + ' canais | Dados: epgshare01.online</div>';
     epgGrid.innerHTML = html;
   }
 
