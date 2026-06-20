@@ -62,9 +62,7 @@ var T = {
     epgParseError: "Erro ao processar: {0}",
     epgNoPrograms: "Nenhum programa encontrado para os canais da playlist.",
     epgNoTitle: "Sem titulo",
-    epgFooterChannels: "{0} canais",
-    epgFooterPrograms: "{0} programas",
-    epgFooter: "{0} | {1} | epgshare01 + globetv",
+    epgFooterChannels: "[ EPG ] {0} CANAIS",
   },
   en: {
     systemReady: "System ready.",
@@ -106,9 +104,7 @@ var T = {
     epgParseError: "Error processing: {0}",
     epgNoPrograms: "No programs found for playlist channels.",
     epgNoTitle: "No title",
-    epgFooterChannels: "{0} channels",
-    epgFooterPrograms: "{0} programs",
-    epgFooter: "{0} | {1} | epgshare01 + globetv",
+    epgFooterChannels: "[ EPG ] {0} CHANNELS",
   },
 };
 
@@ -162,7 +158,10 @@ function applyLang() {
   profileSelect.options[2].text = t("profileIptvorg");
   profileSelect.options[3].text = t("profileAll");
   document.getElementById("header-title").innerHTML = t("headerTitle");
-  logsEl.innerHTML = '<div class="log dim" id="first-log">[LiveWatch] ' + t("systemReady") + '</div>';
+  logsEl.innerHTML =
+    '<div class="log dim" id="first-log">[LiveWatch] ' +
+    t("systemReady") +
+    "</div>";
   localStorage.setItem("livewatch-lang", lang);
   refreshFirstLine();
 }
@@ -203,7 +202,10 @@ function log(msg, cls, delay) {
 }
 
 function updateClock(d) {
-  if (!d) { updatedEl.textContent = ""; return; }
+  if (!d) {
+    updatedEl.textContent = "";
+    return;
+  }
   updatedEl.textContent = d.toLocaleString(lang === "pt" ? "pt-BR" : "en-US");
   refreshFirstLine();
 }
@@ -223,7 +225,8 @@ function refreshFirstLine() {
 }
 
 function saveCounts(totalChannels, withEpg) {
-  if (totalChannels) localStorage.setItem("livewatch-last-count", totalChannels);
+  if (totalChannels)
+    localStorage.setItem("livewatch-last-count", totalChannels);
   if (withEpg) localStorage.setItem("livewatch-last-epg", withEpg);
   refreshFirstLine();
 }
@@ -234,7 +237,9 @@ function loadLastRun() {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ path: PLAYLISTS[currentProfile].m3u8 }),
   })
-    .then(function (resp) { return resp.json(); })
+    .then(function (resp) {
+      return resp.json();
+    })
     .then(function (data) {
       if (data.date) updateClock(new Date(data.date));
     })
@@ -278,7 +283,9 @@ function triggerWorkflow() {
   var delay = 0;
   for (var i = lines.length - 1; i >= 0; i--) {
     (function (el, d) {
-      setTimeout(function () { el.remove(); }, d);
+      setTimeout(function () {
+        el.remove();
+      }, d);
     })(lines[i], delay);
     delay += 80;
   }
@@ -290,7 +297,9 @@ function triggerWorkflow() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ profile: currentProfile }),
     })
-      .then(function (resp) { return resp.json(); })
+      .then(function (resp) {
+        return resp.json();
+      })
       .then(function (data) {
         if (!data.ok) {
           log(t("errorDispatch", data.error), "error");
@@ -440,7 +449,9 @@ function renderSummary(text) {
       stats[files[files.length - 1]] = { lines: "-", entries: jsm[1] };
     }
 
-    var tm = m.match(/Total (?:canais|final)\s*(?:\(pos-filtro\)|combinados)?\s*:\s*(.+)/);
+    var tm = m.match(
+      /Total (?:canais|final)\s*(?:\(pos-filtro\)|combinados)?\s*:\s*(.+)/,
+    );
     if (tm) totals.filtered = tm[1];
 
     var dm = m.match(/Total final:\s*(.+?)\s+canais/);
@@ -459,7 +470,11 @@ function renderSummary(text) {
   for (var k = 0; k < files.length; k++) {
     var f = files[k];
     if (stats[f]) {
-      log(t("listStats", f, stats[f].lines, stats[f].entries), "dim", lineDelay);
+      log(
+        t("listStats", f, stats[f].lines, stats[f].entries),
+        "dim",
+        lineDelay,
+      );
       lineDelay += 80;
     }
   }
@@ -476,13 +491,18 @@ function renderSummary(text) {
 
   log(t("playlistGenerated", "M3U & M3U8"), "success", lineDelay);
 
-  setTimeout(function () { btnEl.disabled = false; }, lineDelay + 300);
+  setTimeout(function () {
+    btnEl.disabled = false;
+  }, lineDelay + 300);
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
 
 dlBtnEl.addEventListener("click", function () {
-  window.open(getPlaylistUrl() + (sourceSelect.value === "worker" ? "?download=1" : ""), "_blank");
+  window.open(
+    getPlaylistUrl() + (sourceSelect.value === "worker" ? "?download=1" : ""),
+    "_blank",
+  );
 });
 
 copyBtnEl.addEventListener("click", function () {
@@ -512,21 +532,30 @@ applyLang();
 loadLastRun();
 
 // ── Summary toggle button ──────────────────────────────────────────────────
-document.getElementById("summary-toggle").addEventListener("click", function () {
-  fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-    .then(function (resp) { return resp.json(); })
-    .then(function (data) {
-      var runs = data.workflow_runs || [];
-      for (var i = 0; i < runs.length; i++) {
-        if (runs[i].status === "completed" && runs[i].conclusion === "success") {
-          fetchSummary(runs[i].id);
-          return;
+document
+  .getElementById("summary-toggle")
+  .addEventListener("click", function () {
+    fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
+      .then(function (resp) {
+        return resp.json();
+      })
+      .then(function (data) {
+        var runs = data.workflow_runs || [];
+        for (var i = 0; i < runs.length; i++) {
+          if (
+            runs[i].status === "completed" &&
+            runs[i].conclusion === "success"
+          ) {
+            fetchSummary(runs[i].id);
+            return;
+          }
         }
-      }
-      log("Nenhum run concluido encontrado.", "warn");
-    })
-    .catch(function () { log("Erro ao buscar resumo.", "error"); });
-});
+        log("Nenhum run concluido encontrado.", "warn");
+      })
+      .catch(function () {
+        log("Erro ao buscar resumo.", "error");
+      });
+  });
 // ── EPG Tab ──────────────────────────────────────────────────────────────
 (function () {
   var epgView = document.getElementById("epg-view");
@@ -573,25 +602,34 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
 
     epgLoading.style.display = "block";
     epgGrid.innerHTML = "";
-    epgLoading.innerHTML = '<div class="log dim">[EPG] ' + t("epgLoading") + '</div>';
+    epgLoading.innerHTML =
+      '<div class="log dim">[EPG] ' + t("epgLoading") + "</div>";
 
     var m3uUrl = WORKER_URL + "/playlist/all.m3u8?_=" + Date.now();
 
     Promise.all([
-      fetch(m3uUrl).then(function (r) { return r.text(); }),
-      fetch(WORKER_URL + "/epg?source=all&country=BR&_=" + Date.now()).then(function (r) {
-        if (!r.ok) throw new Error("EPG HTTP " + r.status);
+      fetch(m3uUrl).then(function (r) {
         return r.text();
       }),
+      fetch(WORKER_URL + "/epg?source=all&country=BR&_=" + Date.now()).then(
+        function (r) {
+          if (!r.ok) throw new Error("EPG HTTP " + r.status);
+          return r.text();
+        },
+      ),
     ])
       .then(function (results) {
         playlistTvgIds = extractTvgIds(results[0]);
         var n = Object.keys(playlistTvgIds).length;
-        if (n > 0) { localStorage.setItem("livewatch-last-epg", n); refreshFirstLine(); }
+        if (n > 0) {
+          localStorage.setItem("livewatch-last-epg", n);
+          refreshFirstLine();
+        }
         parseEPG(results[1]);
       })
       .catch(function (e) {
-        epgLoading.innerHTML = '<div class="log error">[EPG] ' + t("epgError", e.message) + '</div>';
+        epgLoading.innerHTML =
+          '<div class="log error">[EPG] ' + t("epgError", e.message) + "</div>";
       });
   }
 
@@ -608,7 +646,10 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
   }
 
   function parseEPG(xml) {
-    epgLoading.innerHTML = '<div class="log dim">[EPG] ' + t("epgParsing", (xml.length / 1e6).toFixed(1)) + '</div>';
+    epgLoading.innerHTML =
+      '<div class="log dim">[EPG] ' +
+      t("epgParsing", (xml.length / 1e6).toFixed(1)) +
+      "</div>";
 
     setTimeout(function () {
       try {
@@ -621,7 +662,9 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
           var ch = chNodes[i];
           var id = ch.getAttribute("id");
           var dn = ch.getElementsByTagName("display-name")[0];
-          var name = dn ? formatChannelName(dn.textContent) : formatChannelName(id);
+          var name = dn
+            ? formatChannelName(dn.textContent)
+            : formatChannelName(id);
           channels[id] = name;
         }
 
@@ -666,7 +709,8 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
         }
 
         programmes.sort(function (a, b) {
-          if (a.channel !== b.channel) return a.channel.localeCompare(b.channel);
+          if (a.channel !== b.channel)
+            return a.channel.localeCompare(b.channel);
           return a.start - b.start;
         });
 
@@ -684,7 +728,10 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
         epgLoading.style.display = "none";
         renderEPG();
       } catch (e) {
-        epgLoading.innerHTML = '<div class="log error">[EPG] ' + t("epgParseError", e.message) + '</div>';
+        epgLoading.innerHTML =
+          '<div class="log error">[EPG] ' +
+          t("epgParseError", e.message) +
+          "</div>";
       }
     }, 50);
   }
@@ -735,7 +782,8 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
     });
 
     if (chIds.length === 0) {
-      epgGrid.innerHTML = '<div class="epg-empty">[EPG] ' + t("epgNoPrograms") + '</div>';
+      epgGrid.innerHTML =
+        '<div class="epg-empty">[EPG] ' + t("epgNoPrograms") + "</div>";
       return;
     }
 
@@ -755,14 +803,26 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
       }
 
       parts.push('<div class="epg-channel">');
-      parts.push('<div class="epg-channel-header" onclick="this.parentElement.classList.toggle(\'open\')">');
+      parts.push(
+        '<div class="epg-channel-header" onclick="this.parentElement.classList.toggle(\'open\')">',
+      );
       parts.push('<span class="epg-arrow">&#9654;</span> ');
-      parts.push('<span class="epg-ch-name">' + escHtml(chName) + '</span>');
+      parts.push('<span class="epg-ch-name">' + escHtml(chName) + "</span>");
       if (currentProg) {
-        parts.push('<span class="epg-now">' + escHtml(currentProg.title || "") + '</span>');
-        parts.push('<span class="epg-now-time">' + formatTime(currentProg.start) + ' - ' + formatTime(currentProg.stop) + '</span>');
+        parts.push(
+          '<span class="epg-now">' +
+            escHtml(currentProg.title || "") +
+            "</span>",
+        );
+        parts.push(
+          '<span class="epg-now-time">' +
+            formatTime(currentProg.start) +
+            " - " +
+            formatTime(currentProg.stop) +
+            "</span>",
+        );
       }
-      parts.push('</div>');
+      parts.push("</div>");
 
       parts.push('<div class="epg-programs">');
       for (var q = 0; q < progs.length; q++) {
@@ -770,22 +830,31 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
         var isCurrent = prog.start <= now && prog.stop >= now;
         var timeStr = formatTime(prog.start) + " - " + formatTime(prog.stop);
 
-        parts.push('<div class="epg-program' + (isCurrent ? " current" : "") + '">');
-        parts.push('<span class="epg-time">' + timeStr + '</span>');
-        parts.push('<div><div class="epg-title">' + escHtml(prog.title || t("epgNoTitle")) + '</div>');
+        parts.push(
+          '<div class="epg-program' + (isCurrent ? " current" : "") + '">',
+        );
+        parts.push('<span class="epg-time">' + timeStr + "</span>");
+        parts.push(
+          '<div><div class="epg-title">' +
+            escHtml(prog.title || t("epgNoTitle")) +
+            "</div>",
+        );
         if (prog.desc) {
-          parts.push('<div class="epg-desc">' + escHtml(prog.desc.substring(0, 120)) + '</div>');
+          parts.push(
+            '<div class="epg-desc">' +
+              escHtml(prog.desc.substring(0, 120)) +
+              "</div>",
+          );
         }
-        parts.push('</div></div>');
+        parts.push("</div></div>");
       }
-      parts.push('</div>');
-      parts.push('</div>');
+      parts.push("</div>");
+      parts.push("</div>");
     }
 
-    var d = epgData.diag || {};
-    parts.push('<div class="epg-footer">' +
-      t("epgFooter", t("epgFooterChannels", chIds.length), t("epgFooterPrograms", d.inWindow)) +
-      '</div>');
+    parts.push(
+      '<div class="epg-footer">' + t("epgFooterChannels", chIds.length) + '</div>',
+    );
     epgGrid.innerHTML = parts.join("");
   }
 
