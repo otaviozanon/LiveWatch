@@ -134,6 +134,7 @@ var copyBtnEl = document.getElementById("btn-copy");
 var formatSelect = document.getElementById("format-select");
 var sourceSelect = document.getElementById("source-select");
 var updatedEl = document.getElementById("last-updated");
+var channelCountEl = document.getElementById("channel-count");
 profileSelect = document.getElementById("profile-select");
 
 var progressTimer = null;
@@ -182,8 +183,18 @@ profileSelect.addEventListener("change", function () {
 
 profileSelect.value = currentProfile;
 
-function log(msg, cls) {
+function log(msg, cls, delay) {
   cls = cls || "dim";
+  if (delay) {
+    setTimeout(function () {
+      var div = document.createElement("div");
+      div.className = "log " + cls;
+      div.textContent = "[LiveWatch] " + msg;
+      logsEl.appendChild(div);
+      logsEl.scrollTop = logsEl.scrollHeight;
+    }, delay);
+    return;
+  }
   var div = document.createElement("div");
   div.className = "log " + cls;
   div.textContent = "[LiveWatch] " + msg;
@@ -198,6 +209,11 @@ function updateClock(d) {
     return;
   }
   updatedEl.textContent = d.toLocaleString(lang === "pt" ? "pt-BR" : "en-US");
+}
+
+function updateChannelCount() {
+  var stored = localStorage.getItem("livewatch-last-count");
+  channelCountEl.textContent = stored ? "| " + stored + " canais" : "";
 }
 
 function loadLastRun() {
@@ -244,30 +260,41 @@ function triggerWorkflow() {
   btnEl.disabled = true;
   // Switch to LOGS tab if on EPG
   if (window._currentTab === "epg") window.switchTab("logs");
-  log(t("dispatching") + " (" + currentProfile + ")", "action");
 
-  fetch(WORKER_URL + "/trigger", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ profile: currentProfile }),
-  })
-    .then(function (resp) {
-      return resp.json();
+  // Animate old log lines out bottom-to-top, then dispatch
+  var lines = logsEl.querySelectorAll(".log");
+  var delay = 0;
+  for (var i = lines.length - 1; i >= 0; i--) {
+    (function (el, d) {
+      setTimeout(function () { el.classList.add("fade-out"); }, d);
+    })(lines[i], delay);
+    delay += 40;
+  }
+  setTimeout(function () {
+    logsEl.innerHTML = "";
+    log(t("dispatching") + " (" + currentProfile + ")", "action");
+
+    fetch(WORKER_URL + "/trigger", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ profile: currentProfile }),
     })
-    .then(function (data) {
-      if (!data.ok) {
-        log(t("errorDispatch", data.error), "error");
+      .then(function (resp) { return resp.json(); })
+      .then(function (data) {
+        if (!data.ok) {
+          log(t("errorDispatch", data.error), "error");
+          btnEl.disabled = false;
+          return;
+        }
+        log(t("workflowStarted"), "success");
+        showProgress(t("waitingStart"));
+        pollLogs();
+      })
+      .catch(function (e) {
+        log(t("fail", e.message), "error");
         btnEl.disabled = false;
-        return;
-      }
-      log(t("workflowStarted"), "success");
-      showProgress(t("waitingStart"));
-      pollLogs();
-    })
-    .catch(function (e) {
-      log(t("fail", e.message), "error");
-      btnEl.disabled = false;
-    });
+      });
+  }, delay + 100);
 }
 
 function pollLogs() {
@@ -409,29 +436,37 @@ function renderSummary(text) {
     if (dm) totals.final = dm[1];
   }
 
-  log(t("summary"), "white");
-  log(t("divider"), "dim");
+  log(t("summary"), "white", 0);
+  log(t("divider"), "dim", 60);
 
+  var lineDelay = 120;
   if (files.length > 0) {
-    log(t("listsExtracted", files.join(" | ")), "info");
+    log(t("listsExtracted", files.join(" | ")), "info", lineDelay);
+    lineDelay += 120;
   }
 
   for (var k = 0; k < files.length; k++) {
     var f = files[k];
     if (stats[f]) {
-      log(t("listStats", f, stats[f].lines, stats[f].entries), "dim");
+      log(t("listStats", f, stats[f].lines, stats[f].entries), "dim", lineDelay);
+      lineDelay += 50;
     }
   }
 
   if (totals.filtered) {
-    log(t("totalFiltered", totals.filtered), "warn");
+    log(t("totalFiltered", totals.filtered), "warn", lineDelay);
+    lineDelay += 150;
   }
   if (totals.final) {
-    log(t("totalFinal", totals.final), "success");
+    log(t("totalFinal", totals.final), "success", lineDelay);
+    localStorage.setItem("livewatch-last-count", totals.final);
+    updateChannelCount();
+    lineDelay += 150;
   }
 
-  log(t("playlistGenerated", "M3U & M3U8"), "success");
-  btnEl.disabled = false;
+  log(t("playlistGenerated", "M3U & M3U8"), "success", lineDelay);
+
+  setTimeout(function () { btnEl.disabled = false; }, lineDelay + 200);
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
@@ -465,6 +500,7 @@ function copyToClipboard(btn, url) {
 
 applyLang();
 loadLastRun();
+updateChannelCount();
 
 // ── EPG Tab ──────────────────────────────────────────────────────────────
 (function () {
