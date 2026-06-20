@@ -134,7 +134,6 @@ var copyBtnEl = document.getElementById("btn-copy");
 var formatSelect = document.getElementById("format-select");
 var sourceSelect = document.getElementById("source-select");
 var updatedEl = document.getElementById("last-updated");
-var channelCountEl = document.getElementById("channel-count");
 profileSelect = document.getElementById("profile-select");
 
 var progressTimer = null;
@@ -163,9 +162,9 @@ function applyLang() {
   profileSelect.options[2].text = t("profileIptvorg");
   profileSelect.options[3].text = t("profileAll");
   document.getElementById("header-title").innerHTML = t("headerTitle");
-  logsEl.innerHTML =
-    '<div class="log dim">[LiveWatch] ' + t("systemReady") + "</div>";
+  logsEl.innerHTML = '<div class="log dim" id="first-log">[LiveWatch] ' + t("systemReady") + '</div>';
   localStorage.setItem("livewatch-lang", lang);
+  refreshFirstLine();
 }
 
 document.getElementById("lang-toggle").addEventListener("click", function (e) {
@@ -204,16 +203,29 @@ function log(msg, cls, delay) {
 }
 
 function updateClock(d) {
-  if (!d) {
-    updatedEl.textContent = "---";
-    return;
-  }
+  if (!d) { updatedEl.textContent = ""; return; }
   updatedEl.textContent = d.toLocaleString(lang === "pt" ? "pt-BR" : "en-US");
+  refreshFirstLine();
 }
 
-function updateChannelCount() {
-  var stored = localStorage.getItem("livewatch-last-count");
-  channelCountEl.textContent = stored ? "| " + stored + " canais" : "";
+function refreshFirstLine() {
+  var el = document.getElementById("first-log");
+  if (!el) return;
+  var parts = ["[LiveWatch] " + t("systemReady")];
+  if (updatedEl.textContent && updatedEl.textContent !== "---") {
+    parts.push("\u23F1 " + updatedEl.textContent);
+  }
+  var count = localStorage.getItem("livewatch-last-count");
+  if (count) parts.push(count + " canais");
+  var epgCount = localStorage.getItem("livewatch-last-epg");
+  if (epgCount) parts.push(epgCount + " c/ EPG");
+  el.textContent = parts.join(" | ");
+}
+
+function saveCounts(totalChannels, withEpg) {
+  if (totalChannels) localStorage.setItem("livewatch-last-count", totalChannels);
+  if (withEpg) localStorage.setItem("livewatch-last-epg", withEpg);
+  refreshFirstLine();
 }
 
 function loadLastRun() {
@@ -459,8 +471,7 @@ function renderSummary(text) {
   }
   if (totals.final) {
     log(t("totalFinal", totals.final), "success", lineDelay);
-    localStorage.setItem("livewatch-last-count", totals.final);
-    updateChannelCount();
+    saveCounts(totals.final, "");
     lineDelay += 150;
   }
 
@@ -500,6 +511,23 @@ function copyToClipboard(btn, url) {
 
 applyLang();
 loadLastRun();
+
+// ── Summary toggle button ──────────────────────────────────────────────────
+document.getElementById("summary-toggle").addEventListener("click", function () {
+  fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
+    .then(function (resp) { return resp.json(); })
+    .then(function (data) {
+      var runs = data.workflow_runs || [];
+      for (var i = 0; i < runs.length; i++) {
+        if (runs[i].status === "completed" && runs[i].conclusion === "success") {
+          fetchSummary(runs[i].id);
+          return;
+        }
+      }
+      log("Nenhum run concluido encontrado.", "warn");
+    })
+    .catch(function () { log("Erro ao buscar resumo.", "error"); });
+});
 updateChannelCount();
 
 // ── EPG Tab ──────────────────────────────────────────────────────────────
@@ -561,6 +589,8 @@ updateChannelCount();
     ])
       .then(function (results) {
         playlistTvgIds = extractTvgIds(results[0]);
+        var n = Object.keys(playlistTvgIds).length;
+        if (n > 0) { localStorage.setItem("livewatch-last-epg", n); refreshFirstLine(); }
         parseEPG(results[1]);
       })
       .catch(function (e) {

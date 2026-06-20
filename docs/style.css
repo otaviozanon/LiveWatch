@@ -278,6 +278,22 @@ body {
   gap: 6px;
 }
 
+.summary-toggle {
+  background: transparent;
+  color: #52525b;
+  border: 1px solid #27272a;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.summary-toggle:hover {
+  color: #a1a1aa;
+  border-color: #3f3f46;
+}
+
 #last-updated {
   color: #a1a1aa;
   font-weight: 500;
