@@ -273,17 +273,16 @@ function triggerWorkflow() {
   // Switch to LOGS tab if on EPG
   if (window._currentTab === "epg") window.switchTab("logs");
 
-  // Animate old log lines out bottom-to-top, then dispatch
+  // Clear old log lines bottom-to-top instantly
   var lines = logsEl.querySelectorAll(".log");
   var delay = 0;
   for (var i = lines.length - 1; i >= 0; i--) {
     (function (el, d) {
-      setTimeout(function () { el.classList.add("fade-out"); }, d);
+      setTimeout(function () { el.remove(); }, d);
     })(lines[i], delay);
-    delay += 40;
+    delay += 30;
   }
   setTimeout(function () {
-    logsEl.innerHTML = "";
     log(t("dispatching") + " (" + currentProfile + ")", "action");
 
     fetch(WORKER_URL + "/trigger", {
@@ -514,6 +513,7 @@ loadLastRun();
 
 // ── Summary toggle button ──────────────────────────────────────────────────
 document.getElementById("summary-toggle").addEventListener("click", function () {
+  logsEl.innerHTML = "";
   fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
     .then(function (resp) { return resp.json(); })
     .then(function (data) {
