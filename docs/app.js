@@ -280,7 +280,7 @@ function triggerWorkflow() {
     (function (el, d) {
       setTimeout(function () { el.remove(); }, d);
     })(lines[i], delay);
-    delay += 30;
+    delay += 80;
   }
   setTimeout(function () {
     log(t("dispatching") + " (" + currentProfile + ")", "action");
@@ -448,35 +448,35 @@ function renderSummary(text) {
   }
 
   log(t("summary"), "white", 0);
-  log(t("divider"), "dim", 60);
+  log(t("divider"), "dim", 100);
 
-  var lineDelay = 120;
+  var lineDelay = 200;
   if (files.length > 0) {
     log(t("listsExtracted", files.join(" | ")), "info", lineDelay);
-    lineDelay += 120;
+    lineDelay += 200;
   }
 
   for (var k = 0; k < files.length; k++) {
     var f = files[k];
     if (stats[f]) {
       log(t("listStats", f, stats[f].lines, stats[f].entries), "dim", lineDelay);
-      lineDelay += 50;
+      lineDelay += 80;
     }
   }
 
   if (totals.filtered) {
     log(t("totalFiltered", totals.filtered), "warn", lineDelay);
-    lineDelay += 150;
+    lineDelay += 250;
   }
   if (totals.final) {
     log(t("totalFinal", totals.final), "success", lineDelay);
     saveCounts(totals.final, "");
-    lineDelay += 150;
+    lineDelay += 250;
   }
 
   log(t("playlistGenerated", "M3U & M3U8"), "success", lineDelay);
 
-  setTimeout(function () { btnEl.disabled = false; }, lineDelay + 200);
+  setTimeout(function () { btnEl.disabled = false; }, lineDelay + 300);
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
@@ -513,7 +513,6 @@ loadLastRun();
 
 // ── Summary toggle button ──────────────────────────────────────────────────
 document.getElementById("summary-toggle").addEventListener("click", function () {
-  logsEl.innerHTML = "";
   fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
     .then(function (resp) { return resp.json(); })
     .then(function (data) {
