@@ -472,30 +472,46 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
     def tokenize(text):
         return set(text.split())
 
-    def word_boundary_match(query_words, target_words):
+    def word_boundary_match(query_words, target_words, target_ordered=None):
         """
-        Check if all query words appear in target_words.
-        Skips very short words (< 3 chars) to avoid false positives
-        like 'id' matching in 'corrida'.
+        Check if query words match target words with strict rules.
+        Prevents false positives like 'LIGA DA JUSTICA' matching 'TV JUSTICA'.
         """
-        query_words = {w for w in query_words if len(w) >= 3}
+        # Common stop words that shouldn't trigger matches
+        stopwords = {"the", "and", "of", "in", "on", "at", "to", "for", "is", "it",
+                     "de", "da", "do", "das", "dos", "e", "em", "no", "na", "a", "o"}
+        query_words = {w for w in query_words if len(w) >= 3 and w not in stopwords}
+        target_words = {w for w in target_words if len(w) >= 3 and w not in stopwords}
         if not query_words:
             return False
-        return query_words.issubset(target_words)
+        matching = query_words & target_words
+        if len(matching) == 0:
+            return False
+        if len(matching) >= 2:
+            return True
+        if target_ordered and len(target_ordered) > 0:
+            target_ordered = [w for w in target_ordered if len(w) >= 3 and w not in stopwords]
+            matched_word = list(matching)[0]
+            for idx, w in enumerate(target_ordered):
+                if w == matched_word:
+                    if idx <= 1:
+                        return True
+                    break
+        return False
 
     def mapper(channel_name):
         core_raw = extract_channel_core(channel_name)
         core = normalize(core_raw)
         core_words = tokenize(core)
+        core_words_ordered = [w for w in core.split() if len(w) >= 3]
 
         # 1. Exact match in manual map
         if core in manual_index:
             return manual_index[core]
 
         # 2. Word-boundary match in manual map
-        #    All significant words from the manual key must appear in the channel core.
         for manual_core, epg_id in manual_index.items():
-            if word_boundary_match(manual_tokens[manual_core], core_words):
+            if word_boundary_match(manual_tokens[manual_core], core_words, core_words_ordered):
                 return epg_id
 
         # 3. Exact match in downloaded EPG index
@@ -517,13 +533,14 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
                 return epg_index[core_no_region]
             # Also try word-boundary with region-stripped core
             core_no_region_words = tokenize(core_no_region)
+            core_no_region_ordered = [w for w in core_no_region.split() if len(w) >= 3]
             for manual_core, epg_id in manual_index.items():
-                if word_boundary_match(manual_tokens[manual_core], core_no_region_words):
+                if word_boundary_match(manual_tokens[manual_core], core_no_region_words, core_no_region_ordered):
                     return epg_id
 
         # 5. Word-boundary match against EPG index
         for epg_core, epg_id in epg_index.items():
-            if word_boundary_match(epg_tokens[epg_core], core_words):
+            if word_boundary_match(epg_tokens[epg_core], core_words, core_words_ordered):
                 return epg_id
 
         return None
