@@ -62,7 +62,7 @@ var T = {
     epgParseError: "Erro ao processar: {0}",
     epgNoPrograms: "Nenhum programa encontrado para os canais da playlist.",
     epgNoTitle: "Sem titulo",
-    epgFooterChannels: "[ EPG ] {0} CANAIS",
+    epgFooterChannels: "{0} CANAIS",
   },
   en: {
     systemReady: "System ready.",
@@ -104,7 +104,7 @@ var T = {
     epgParseError: "Error processing: {0}",
     epgNoPrograms: "No programs found for playlist channels.",
     epgNoTitle: "No title",
-    epgFooterChannels: "[ EPG ] {0} CHANNELS",
+    epgFooterChannels: "{0} CHANNELS",
   },
 };
 
@@ -213,15 +213,7 @@ function updateClock(d) {
 function refreshFirstLine() {
   var el = document.getElementById("first-log");
   if (!el) return;
-  var parts = ["[LiveWatch] " + t("systemReady")];
-  if (updatedEl.textContent && updatedEl.textContent !== "---") {
-    parts.push("\u23F1 " + updatedEl.textContent);
-  }
-  var count = localStorage.getItem("livewatch-last-count");
-  if (count) parts.push(count + " canais");
-  var epgCount = localStorage.getItem("livewatch-last-epg");
-  if (epgCount) parts.push(epgCount + " c/ EPG");
-  el.textContent = parts.join(" | ");
+  el.textContent = "[LiveWatch] " + t("systemReady");
 }
 
 function saveCounts(totalChannels, withEpg) {
@@ -852,9 +844,11 @@ document
       parts.push("</div>");
     }
 
-    parts.push(
-      '<div class="epg-footer">' + t("epgFooterChannels", chIds.length) + '</div>',
-    );
+    // parts.push(
+    //   '<div class="epg-footer">' +
+    //     t("epgFooterChannels", chIds.length) +
+    //     "</div>",
+    // );
     epgGrid.innerHTML = parts.join("");
   }
 
