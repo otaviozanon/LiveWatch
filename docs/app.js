@@ -510,6 +510,7 @@ loadLastRun();
         var m3u = results[0];
         var xml = results[1];
         playlistTvgIds = extractTvgIds(m3u);
+        console.log("[EPG] M3U lines:", m3u.split("\n").length, "tvg-ids found:", Object.keys(playlistTvgIds).length);
         parseEPG(xml);
       })
       .catch(function (e) {
@@ -592,6 +593,8 @@ loadLastRun();
           return a.start - b.start;
         });
 
+        console.log("[EPG] EPG channels:", Object.keys(channels).length, "total prog:", totalProg,
+          "matched:", matchedProg, "in window:", inWindow, "unique channels:", Object.keys(matchedChannels).length);
         epgData = {
           channels: channels,
           programmes: programmes,
