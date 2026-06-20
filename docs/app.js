@@ -527,8 +527,6 @@ document.getElementById("summary-toggle").addEventListener("click", function () 
     })
     .catch(function () { log("Erro ao buscar resumo.", "error"); });
 });
-updateChannelCount();
-
 // ── EPG Tab ──────────────────────────────────────────────────────────────
 (function () {
   var epgView = document.getElementById("epg-view");
