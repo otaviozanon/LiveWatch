@@ -137,6 +137,7 @@ body {
 
 .terminal-body {
   padding: 20px;
+  height: 420px;
   min-height: 420px;
   max-height: 62vh;
   overflow-y: auto;
@@ -330,7 +331,8 @@ body {
 
 /* ── EPG View ────────────────────────────── */
 .epg-view {
-  padding: 0;
+  padding: 0px;
+  height: 420px;
   min-height: 420px;
   max-height: 62vh;
   overflow-y: auto;
