@@ -1,5 +1,14 @@
 import { unzipSync, gunzipSync, strFromU8 } from "fflate";
 
+const PLAYLIST_NAMES = {
+  brasil: { m3u: "LiveWatch-PlaylistBR.m3u", m3u8: "LiveWatch-PlaylistBR.m3u8" },
+  global: { m3u: "LiveWatch-PlaylistWorld.m3u", m3u8: "LiveWatch-PlaylistWorld.m3u8" },
+  "iptv-org": { m3u: "LiveWatch-PlaylistIPTVORG.m3u", m3u8: "LiveWatch-PlaylistIPTVORG.m3u8" },
+  all: { m3u: "LiveWatch-PlaylistAll.m3u", m3u8: "LiveWatch-PlaylistAll.m3u8" },
+};
+
+const CONTENT_TYPES = { m3u8: "application/vnd.apple.mpegurl", m3u: "audio/x-mpegurl" };
+
 export default {
   async fetch(request, env) {
     const corsHeaders = {
@@ -168,14 +177,7 @@ async function handlePlaylist(url, env, corsHeaders, method) {
   profile = profile || "brasil";
   format = format || "m3u8";
 
-  const playlistNames = {
-    brasil: { m3u: "LiveWatch-PlaylistBR.m3u", m3u8: "LiveWatch-PlaylistBR.m3u8" },
-    global: { m3u: "LiveWatch-PlaylistWorld.m3u", m3u8: "LiveWatch-PlaylistWorld.m3u8" },
-    "iptv-org": { m3u: "LiveWatch-PlaylistIPTVORG.m3u", m3u8: "LiveWatch-PlaylistIPTVORG.m3u8" },
-    all: { m3u: "LiveWatch-PlaylistAll.m3u", m3u8: "LiveWatch-PlaylistAll.m3u8" },
-  };
-
-  const pf = playlistNames[profile];
+  const pf = PLAYLIST_NAMES[profile];
   if (!pf) {
     return new Response("Unknown profile", { status: 400, headers: { ...corsHeaders } });
   }
@@ -200,9 +202,7 @@ async function handlePlaylist(url, env, corsHeaders, method) {
   }
 
   const body = await resp.text();
-  const contentType = format === "m3u8"
-    ? "application/vnd.apple.mpegurl"
-    : "audio/x-mpegurl";
+  const contentType = CONTENT_TYPES[format] || "audio/x-mpegurl";
 
   const responseHeaders = {
     ...corsHeaders,
@@ -242,10 +242,10 @@ async function handleEPG(url, env, corsHeaders) {
     allSources.push({ name: "globetv1", url: `https://raw.githubusercontent.com/globetvapp/epg/main/${country}/${country.toLowerCase()}1.xml.gz` });
   }
 
-  // If specific source requested, filter
+  // If specific source requested, filter to just that source
   if (source !== "all") {
-    var filtered = allSources.filter(function (s) { return s.name.indexOf(source) === 0; });
-    if (filtered.length > 0) allSources = filtered.slice(0, 1);
+    var found = allSources.find(function (s) { return s.name.indexOf(source) === 0; });
+    allSources = found ? [found] : allSources;
   }
 
   try {

@@ -17,6 +17,19 @@ import requests
 EPG_BASE = "https://epgshare01.online/epgshare01"
 GLOBETV_BASE = "https://raw.githubusercontent.com/globetvapp/epg/main"
 
+# ── Common stop words excluded from channel name matching ─────────────────
+_STOPWORDS = frozenset({
+    "the", "and", "of", "in", "on", "at", "to", "for", "is", "it",
+    "de", "da", "do", "das", "dos", "e", "em", "no", "na", "a", "o",
+})
+
+# Pre-compiled regex for stripping Brazilian state abbreviations
+_RE_REGION_CODES = re.compile(
+    r"\b(PR|RS|SC|SP|RJ|MG|BA|PE|CE|DF|GO|MT|MS|PA|AM|MA|PI|RN|PB|AL|SE|ES|RO|RR|AP|AC|TO)\b",
+    re.IGNORECASE,
+)
+GLOBETV_BASE = "https://raw.githubusercontent.com/globetvapp/epg/main"
+
 # Country code → list of epgshare01 file names
 EPG_COUNTRY_SOURCES = {
     "BR": ["epg_ripper_BR1.xml.gz", "epg_ripper_BR2.xml.gz"],
@@ -477,11 +490,8 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
         Check if query words match target words with strict rules.
         Prevents false positives like 'LIGA DA JUSTICA' matching 'TV JUSTICA'.
         """
-        # Common stop words that shouldn't trigger matches
-        stopwords = {"the", "and", "of", "in", "on", "at", "to", "for", "is", "it",
-                     "de", "da", "do", "das", "dos", "e", "em", "no", "na", "a", "o"}
-        query_words = {w for w in query_words if len(w) >= 3 and w not in stopwords}
-        target_words = {w for w in target_words if len(w) >= 3 and w not in stopwords}
+        query_words = {w for w in query_words if len(w) >= 3 and w not in _STOPWORDS}
+        target_words = {w for w in target_words if len(w) >= 3 and w not in _STOPWORDS}
         if not query_words:
             return False
         matching = query_words & target_words
@@ -489,8 +499,8 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
             return False
         if len(matching) >= 2:
             return True
-        if target_ordered and len(target_ordered) > 0:
-            target_ordered = [w for w in target_ordered if len(w) >= 3 and w not in stopwords]
+        if target_ordered:
+            target_ordered = [w for w in target_ordered if len(w) >= 3 and w not in _STOPWORDS]
             matched_word = list(matching)[0]
             for idx, w in enumerate(target_ordered):
                 if w == matched_word:
@@ -519,12 +529,7 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
             return epg_index[core]
 
         # 4. Strip region codes (PR, RS, SC, SP, etc.) and try again
-        core_no_region = re.sub(
-            r"\b(PR|RS|SC|SP|RJ|MG|BA|PE|CE|DF|GO|MT|MS|PA|AM|MA|PI|RN|PB|AL|SE|ES|RO|RR|AP|AC|TO)\b",
-            "",
-            core,
-            flags=re.IGNORECASE,
-        )
+        core_no_region = _RE_REGION_CODES.sub("", core)
         core_no_region = re.sub(r"\s+", " ", core_no_region).strip()
         if core_no_region and core_no_region != core:
             if core_no_region in manual_index:

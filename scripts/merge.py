@@ -100,83 +100,57 @@ def filter_by_group_exclude(entries, exclude_keywords):
     return result
 
 
+GT_REMAP = {
+    "85 BRAZILIAN CHANNELS": "VARIEDADES",
+    "INFANTIL": "INFANTIS",
+    "FILMES & SERIES": "FILMES E SERIES",
+    "REALITY SHOW": "REALITIES",
+    "UFC FIGHT PASS": "UFC",
+    "UFC FIGHT": "UFC",
+    "MUSICA": "MUSICAS",
+    "USA": "ESTADOS UNIDOS",
+    "GERAL": "DIVERSOS",
+    "GLOBO SUL": "GLOBO",
+    "FILMES": "FILMES E SERIES",
+    "SERIES": "FILMES E SERIES",
+    "COMEDIA": "ENTRETENIMENTO",
+    "ANIMACAO": "INFANTIS",
+    "RECORDTV": "RECORD",
+    "AGENDA ESPORTIVA": "ESPORTES DO DIA",
+    "MAX": "FILMES E SERIES",
+    "TNT": "FILMES E SERIES",
+    "HBO": "FILMES E SERIES",
+    "ESPN": "ESPORTES",
+    "SPORTV": "ESPORTES",
+    "NBA LEAGUE PASS": "PAY PER VIEW",
+    "BRASILEIRAO": "PAY PER VIEW",
+    "PREMIERE": "PAY PER VIEW",
+    "NBA": "PAY PER VIEW",
+    "ESTADUAIS": "PAY PER VIEW",
+    "FUTSAL": "PAY PER VIEW",
+    "TELECINE": "FILMES E SERIES",
+    "24H VARIADOS": "24H",
+    "ESPORTES ESTADUAIS": "PAY PER VIEW",
+    "ESPORTES PPV": "PAY PER VIEW",
+}
+
+
 def normalize_group_title(group_title, prefix):
     gt = group_title.strip()
-    gt = re.sub(r'^CANAIS\s*\|\s*', '', gt, flags=re.IGNORECASE)
-    gt = re.sub(r'^CANAL\s+\W+(?=\s*\w)', '', gt, flags=re.IGNORECASE)
+    gt = re.sub(r"^CANAIS\s*\|\s*", "", gt, flags=re.IGNORECASE)
+    gt = re.sub(r"^CANAL\s+\W+(?=\s*\w)", "", gt, flags=re.IGNORECASE)
     gt = gt.strip().upper()
     gt = strip_accents(gt)
 
-    if gt == '85 BRAZILIAN CHANNELS':
-        gt = 'VARIEDADES'
-    if gt == 'INFANTIL':
-        gt = 'INFANTIS'
-    if gt == 'FILMES & SERIES':
-        gt = 'FILMES E SERIES'
-    if gt == 'REALITY SHOW':
-        gt = 'REALITIES'
-    if gt == 'UFC FIGHT PASS':
-        gt = 'UFC'
-    if gt == 'UFC FIGHT':
-        gt = 'UFC'
-    if gt == 'MUSICA':
-        gt = 'MUSICAS'
-    if gt == 'USA':
-        gt = 'ESTADOS UNIDOS'
-    if gt == 'GERAL':
-        gt = 'DIVERSOS'
-    if gt == 'GLOBO SUL':
-        gt = 'GLOBO'
-    if gt == 'FILMES':
-        gt = 'FILMES E SERIES'
-    if gt == 'SERIES':
-        gt = 'FILMES E SERIES'
-    if gt == 'COMEDIA':
-        gt = 'ENTRETENIMENTO'
-    if gt == 'ANIMACAO':
-        gt = 'INFANTIS'
-    if gt == 'RECORDTV':
-        gt = 'RECORD'
-    if gt == 'AGENDA ESPORTIVA':
-        gt = 'ESPORTES DO DIA'
-    if gt == 'MAX':
-        gt = 'FILMES E SERIES'
-    if gt == 'TNT':
-        gt = 'FILMES E SERIES'
-    if gt == 'HBO':
-        gt = 'FILMES E SERIES'
-    if gt == 'ESPN':
-        gt = 'ESPORTES'
-    if gt == 'SPORTV':
-        gt = 'ESPORTES'
-    if gt == 'NBA LEAGUE PASS':
-        gt = 'PAY PER VIEW'
-    if gt == 'BRASILEIRAO':
-        gt = 'PAY PER VIEW'
-    if gt == 'PREMIERE':
-        gt = 'PAY PER VIEW'
-    if gt == 'NBA':
-        gt = 'PAY PER VIEW'
-    if gt == 'ESTADUAIS':
-        gt = 'PAY PER VIEW'
-    if gt == 'FUTSAL':
-        gt = 'PAY PER VIEW'
-    if gt == 'TELECINE':
-        gt = 'FILMES E SERIES'
-    if gt == '24H VARIADOS':
-        gt = '24H'
-    if gt == 'ESPORTES ESTADUAIS':
-        gt = 'PAY PER VIEW'
-    if gt == 'ESPORTES PPV':
-        gt = 'PAY PER VIEW'
+    gt = GT_REMAP.get(gt, gt)
 
     if gt not in CATEGORY_ORDER:
-        gt = 'NOVOS'
+        gt = "NOVOS"
 
     return f"{prefix} | {gt}"
 
 
-CATEGORY_ORDER = [
+CATEGORY_ORDER = (
     "NOVOS",
     "24H", "24H INFANTIL", "REALITIES", "4K",
     "GLOBO", "SBT", "BAND", "RECORD", "ABERTOS",
@@ -186,7 +160,7 @@ CATEGORY_ORDER = [
     "FORMULA 1", "DAZN", "DUAL AUDIO", "PLUTO TV",
     "INFANTIS", "EDUCACAO", "AR LIVRE", "RELIGIOSOS",
     "ESTADOS UNIDOS", "ESPORTES DO DIA",
-]
+)
 
 
 def category_sort_key(entry):
@@ -417,8 +391,7 @@ def generate_playlist(entries, base_name, output_dir, tvg_mapper=None, tvg_url=N
                     tvg_id = tvg_mapper(name)
                     if tvg_id:
                         extras += f' tvg-id="{tvg_id}" tvg-name="{name}"'
-                f.write(f'#EXTINF:-1 {extras},{name}\n')
-                f.write(f"{url}\n")
+                f.write(f'#EXTINF:-1 {extras},{name}\n{url}\n')
         print(f"[LiveWatch] {base_name}.{ext} gerada: {len(entries)} canais")
 
 
@@ -455,8 +428,8 @@ def main():
                 sources=epgshare_urls,
                 globetv_sources=globetv_urls,
             )
-            primary_url = epg_config.get("tvg_url", epgshare_urls[0] if epgshare_urls else "")
-            tvg_url = [primary_url] + epgshare_urls + globetv_urls + extra_urls
+            primary_url = epg_config.get("tvg_url", "")
+            tvg_url = [u for u in [primary_url] + epgshare_urls + globetv_urls + extra_urls if u]
             if tvg_mapper:
                 print("[LiveWatch] EPG habilitado - mapeamento pronto")
         except Exception as e:
