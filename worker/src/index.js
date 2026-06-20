@@ -22,6 +22,10 @@ export default {
       return await handlePlaylist(url, env, corsHeaders, "GET");
     }
 
+    if (request.method === "GET" && url.pathname.startsWith("/epg")) {
+      return await handleEPG(url, env, corsHeaders);
+    }
+
     if (request.method !== "POST") {
       return new Response(JSON.stringify({ ok: false, error: "Use POST" }), {
         status: 405,
@@ -215,4 +219,74 @@ async function handlePlaylist(url, env, corsHeaders, method) {
   }
 
   return new Response(body, { headers: responseHeaders });
+}
+
+async function handleEPG(url, env, corsHeaders) {
+  // /epg/BR  or  /epg?country=BR  or  /epg?source=epgshare&country=BR
+  var country = url.searchParams.get("country") || "BR";
+  var source = url.searchParams.get("source") || "epgshare";
+
+  var pathPart = url.pathname.replace("/epg/", "").replace("/epg", "");
+  if (pathPart) country = pathPart.toUpperCase();
+
+  // EPG sources
+  var epgUrls = {
+    epgshare: {
+      url: `https://epgshare01.online/epgshare01/epg_ripper_${country}1.xml.gz`,
+      // For BR, also try BR2
+      altUrl: country === "BR" ? `https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz` : null,
+    },
+    globetv: {
+      url: `https://raw.githubusercontent.com/globetvapp/epg/main/${country}/${country.toLowerCase()}1.xml.gz`,
+    },
+    freeepg: {
+      url: `https://www.free-epg.de/api/epg?country=${country}`,
+    },
+  };
+
+  var sourceConfig = epgUrls[source];
+  if (!sourceConfig) {
+    return new Response("Unknown source. Use: epgshare, globetv, freeepg", {
+      status: 400,
+      headers: { ...corsHeaders },
+    });
+  }
+
+  try {
+    // First try primary URL
+    var epgUrl = sourceConfig.url;
+    var resp = await fetch(epgUrl, {
+      method: "GET",
+      headers: { "User-Agent": "LiveWatch" },
+    });
+
+    if (!resp.ok && sourceConfig.altUrl) {
+      // Fallback to alternative URL
+      resp = await fetch(sourceConfig.altUrl, {
+        method: "GET",
+        headers: { "User-Agent": "LiveWatch" },
+      });
+    }
+
+    if (!resp.ok) {
+      return new Response(`EPG source ${source} returned ${resp.status}`, {
+        status: resp.status,
+        headers: { ...corsHeaders },
+      });
+    }
+
+    var contentType = resp.headers.get("Content-Type") || "application/xml";
+    return new Response(resp.body, {
+      headers: {
+        ...corsHeaders,
+        "Content-Type": contentType,
+        "Cache-Control": "public, max-age=14400",
+      },
+    });
+  } catch (e) {
+    return new Response("EPG fetch error: " + e.message, {
+      status: 500,
+      headers: { ...corsHeaders },
+    });
+  }
 }

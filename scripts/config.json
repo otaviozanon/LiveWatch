@@ -1,4 +1,9 @@
 {
+  "epg": {
+    "enabled": true,
+    "tvg_url": "https://livewatch-trigger.otaviozanonn.workers.dev/epg?source=epgshare&country=BR",
+    "countries": ["BR", "US"]
+  },
   "profiles": {
     "brasil": {
       "filter_group": "Canais",

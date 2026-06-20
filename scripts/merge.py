@@ -6,6 +6,11 @@ import unicodedata
 
 import requests
 
+try:
+    from . import epg
+except ImportError:
+    import epg
+
 
 def parse_m3u(text):
     entries = []
@@ -382,7 +387,7 @@ def filter_by_group_keep(entries, group_rules):
     return result
 
 
-def generate_playlist(entries, base_name, output_dir):
+def generate_playlist(entries, base_name, output_dir, tvg_mapper=None, tvg_url=None):
     # Cria as pastas m3u e m3u8
     m3u_dir = os.path.join(output_dir, "playlists", "m3u")
     m3u8_dir = os.path.join(output_dir, "playlists", "m3u8")
@@ -390,13 +395,29 @@ def generate_playlist(entries, base_name, output_dir):
     os.makedirs(m3u_dir, exist_ok=True)
     os.makedirs(m3u8_dir, exist_ok=True)
 
+    # Normalize tvg_url to list
+    if isinstance(tvg_url, str):
+        tvg_urls = [tvg_url]
+    elif tvg_url:
+        tvg_urls = list(tvg_url)
+    else:
+        tvg_urls = []
+
     # Gera ambos os formatos
     for ext, folder in [("m3u", m3u_dir), ("m3u8", m3u8_dir)]:
         output_path = os.path.join(folder, f"{base_name}.{ext}")
         with open(output_path, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
+            header = "#EXTM3U"
+            for url in tvg_urls:
+                header += f' x-tvg-url="{url}"'
+            f.write(header + "\n")
             for group_title, name, url in entries:
-                f.write(f'#EXTINF:-1 group-title="{group_title}",{name}\n')
+                extras = f'group-title="{group_title}"'
+                if tvg_mapper:
+                    tvg_id = tvg_mapper(name)
+                    if tvg_id:
+                        extras += f' tvg-id="{tvg_id}" tvg-name="{name}"'
+                f.write(f'#EXTINF:-1 {extras},{name}\n')
                 f.write(f"{url}\n")
         print(f"[LiveWatch] {base_name}.{ext} gerada: {len(entries)} canais")
 
@@ -421,6 +442,26 @@ def main():
     base_name = p["output"].replace(".m3u8", "").replace(".m3u", "")
     output_dir = os.path.dirname(script_dir)
 
+    # â”€â”€ EPG integration â”€â”€
+    epg_config = config.get("epg", {})
+    tvg_mapper = None
+    tvg_url = None
+    if epg_config.get("enabled", False):
+        try:
+            epg_countries = epg_config.get("countries", ["BR"])
+            epgshare_urls, globetv_urls, extra_urls = epg.get_epg_sources_for_countries(epg_countries)
+            print(f"[LiveWatch] EPG paises: {epg_countries} ({len(epgshare_urls)} epgshare + {len(globetv_urls)} globetv fontes)")
+            tvg_mapper = epg.build_channel_mapper(
+                sources=epgshare_urls,
+                globetv_sources=globetv_urls,
+            )
+            primary_url = epg_config.get("tvg_url", epgshare_urls[0] if epgshare_urls else "")
+            tvg_url = [primary_url] + epgshare_urls + globetv_urls + extra_urls
+            if tvg_mapper:
+                print("[LiveWatch] EPG habilitado - mapeamento pronto")
+        except Exception as e:
+            print(f"[LiveWatch] AVISO: EPG falhou: {e}")
+
     if p.get("type") == "merge_all":
         all_entries = []
         sub_profiles = p.get("include", [k for k in config["profiles"] if k != profile])
@@ -441,7 +482,7 @@ def main():
         all_entries.sort(key=category_sort_key)
 
         print(f"[LiveWatch] Total final: {len(all_entries)} canais")
-        generate_playlist(all_entries, base_name, output_dir)
+        generate_playlist(all_entries, base_name, output_dir, tvg_mapper, tvg_url)
         print("[LiveWatch] Playlist salva com sucesso!")
         return
 
@@ -459,9 +500,10 @@ def main():
     filtered.sort(key=category_sort_key)
 
     print(f"[LiveWatch] Total final: {len(filtered)} canais")
-    generate_playlist(filtered, base_name, output_dir)
+    generate_playlist(filtered, base_name, output_dir, tvg_mapper, tvg_url)
     print("[LiveWatch] Playlist salva com sucesso!")
 
 
 if __name__ == "__main__":
     main()
+

@@ -9,7 +9,12 @@
   <body>
     <div class="terminal">
       <div class="terminal-header">
-        <span class="dot"></span> <span id="header-title">LiveWatch &mdash; IPTV List</span>
+        <span class="dot"></span>
+        <nav class="tabs" id="tabs">
+          <button class="tab active" data-tab="logs">LOGS</button>
+          <button class="tab" data-tab="epg">EPG</button>
+        </nav>
+        <span id="header-title">LiveWatch &mdash; IPTV List</span>
         <div class="lang-toggle" id="lang-toggle">
           <button class="lang-btn active" data-lang="pt">PT</button>
           <button class="lang-btn" data-lang="en">EN</button>
@@ -17,6 +22,12 @@
       </div>
       <div class="terminal-body" id="logs">
         <div class="log dim">[LiveWatch] Sistema pronto.</div>
+      </div>
+      <div class="epg-view" id="epg-view" style="display:none">
+        <div class="epg-loading" id="epg-loading">
+          <div class="log dim">[EPG] Carregando guia de programacao...</div>
+        </div>
+        <div class="epg-grid" id="epg-grid"></div>
       </div>
       <div class="progress-wrap" id="progress-wrap" style="display: none">
         <div class="progress-bar">
