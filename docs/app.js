@@ -55,6 +55,16 @@ var T = {
     profileIptvorg: "IPTV-ORG",
     profileAll: "Todos",
     headerTitle: "LiveWatch &mdash; Lista IPTV",
+    // EPG tab
+    epgLoading: "Carregando playlist e guia...",
+    epgParsing: "Processando {0} MB de XML...",
+    epgError: "Erro: {0}",
+    epgParseError: "Erro ao processar: {0}",
+    epgNoPrograms: "Nenhum programa encontrado para os canais da playlist.",
+    epgNoTitle: "Sem titulo",
+    epgFooterChannels: "{0} canais",
+    epgFooterPrograms: "{0} programas",
+    epgFooter: "{0} | {1} | epgshare01 + globetv",
   },
   en: {
     systemReady: "System ready.",
@@ -89,6 +99,16 @@ var T = {
     profileIptvorg: "IPTV-ORG",
     profileAll: "All",
     headerTitle: "LiveWatch &mdash; IPTV List",
+    // EPG tab
+    epgLoading: "Loading playlist and guide...",
+    epgParsing: "Processing {0} MB of XML...",
+    epgError: "Error: {0}",
+    epgParseError: "Error processing: {0}",
+    epgNoPrograms: "No programs found for playlist channels.",
+    epgNoTitle: "No title",
+    epgFooterChannels: "{0} channels",
+    epgFooterPrograms: "{0} programs",
+    epgFooter: "{0} | {1} | epgshare01 + globetv",
   },
 };
 
@@ -494,9 +514,8 @@ loadLastRun();
 
     epgLoading.style.display = "block";
     epgGrid.innerHTML = "";
-    epgLoading.innerHTML = '<div class="log dim">[EPG] Carregando playlist e guia...</div>';
+    epgLoading.innerHTML = '<div class="log dim">[EPG] ' + t("epgLoading") + '</div>';
 
-    // Fetch ALL playlist M3U to extract which tvg-ids we care about
     var m3uUrl = WORKER_URL + "/playlist/all.m3u8?_=" + Date.now();
 
     Promise.all([
@@ -507,13 +526,11 @@ loadLastRun();
       }),
     ])
       .then(function (results) {
-        var m3u = results[0];
-        var xml = results[1];
-        playlistTvgIds = extractTvgIds(m3u);
-        parseEPG(xml);
+        playlistTvgIds = extractTvgIds(results[0]);
+        parseEPG(results[1]);
       })
       .catch(function (e) {
-        epgLoading.innerHTML = '<div class="log error">[EPG] Erro: ' + e.message + '</div>';
+        epgLoading.innerHTML = '<div class="log error">[EPG] ' + t("epgError", e.message) + '</div>';
       });
   }
 
@@ -530,7 +547,7 @@ loadLastRun();
   }
 
   function parseEPG(xml) {
-    epgLoading.innerHTML = '<div class="log dim">[EPG] Processando ' + (xml.length / 1e6).toFixed(1) + ' MB de XML...</div>';
+    epgLoading.innerHTML = '<div class="log dim">[EPG] ' + t("epgParsing", (xml.length / 1e6).toFixed(1)) + '</div>';
 
     setTimeout(function () {
       try {
@@ -606,7 +623,7 @@ loadLastRun();
         epgLoading.style.display = "none";
         renderEPG();
       } catch (e) {
-        epgLoading.innerHTML = '<div class="log error">[EPG] Erro ao processar: ' + e.message + '</div>';
+        epgLoading.innerHTML = '<div class="log error">[EPG] ' + t("epgParseError", e.message) + '</div>';
       }
     }, 50);
   }
@@ -657,11 +674,11 @@ loadLastRun();
     });
 
     if (chIds.length === 0) {
-      epgGrid.innerHTML = '<div class="epg-empty">[EPG] Nenhum programa encontrado para os canais da playlist.</div>';
+      epgGrid.innerHTML = '<div class="epg-empty">[EPG] ' + t("epgNoPrograms") + '</div>';
       return;
     }
 
-    var html = "";
+    var parts = [];
     for (var c = 0; c < chIds.length; c++) {
       var chId = chIds[c];
       var chName = formatChannelName(channels[chId] || chId);
@@ -676,41 +693,39 @@ loadLastRun();
         }
       }
 
-      html += '<div class="epg-channel">';
-      html += '<div class="epg-channel-header" onclick="this.parentElement.classList.toggle(\'open\')">';
-      html += '<span class="epg-arrow">&#9654;</span> ';
-      html += '<span class="epg-ch-name">' + escHtml(chName) + '</span>';
+      parts.push('<div class="epg-channel">');
+      parts.push('<div class="epg-channel-header" onclick="this.parentElement.classList.toggle(\'open\')">');
+      parts.push('<span class="epg-arrow">&#9654;</span> ');
+      parts.push('<span class="epg-ch-name">' + escHtml(chName) + '</span>');
       if (currentProg) {
-        html += '<span class="epg-now">' + escHtml(currentProg.title || "") + '</span>';
-        html += '<span class="epg-now-time">' + formatTime(currentProg.start) + ' - ' + formatTime(currentProg.stop) + '</span>';
+        parts.push('<span class="epg-now">' + escHtml(currentProg.title || "") + '</span>');
+        parts.push('<span class="epg-now-time">' + formatTime(currentProg.start) + ' - ' + formatTime(currentProg.stop) + '</span>');
       }
-      html += '</div>';
+      parts.push('</div>');
 
-      html += '<div class="epg-programs">';
+      parts.push('<div class="epg-programs">');
       for (var q = 0; q < progs.length; q++) {
         var prog = progs[q];
         var isCurrent = prog.start <= now && prog.stop >= now;
         var timeStr = formatTime(prog.start) + " - " + formatTime(prog.stop);
 
-        html += '<div class="epg-program' + (isCurrent ? " current" : "") + '">';
-        html += '<span class="epg-time">' + timeStr + '</span>';
-        html += '<div><div class="epg-title">' + escHtml(prog.title || "Sem titulo") + '</div>';
+        parts.push('<div class="epg-program' + (isCurrent ? " current" : "") + '">');
+        parts.push('<span class="epg-time">' + timeStr + '</span>');
+        parts.push('<div><div class="epg-title">' + escHtml(prog.title || t("epgNoTitle")) + '</div>');
         if (prog.desc) {
-          html += '<div class="epg-desc">' + escHtml(prog.desc.substring(0, 120)) + '</div>';
+          parts.push('<div class="epg-desc">' + escHtml(prog.desc.substring(0, 120)) + '</div>');
         }
-        html += '</div></div>';
+        parts.push('</div></div>');
       }
-      html += '</div>';
-      html += '</div>';
+      parts.push('</div>');
+      parts.push('</div>');
     }
 
     var d = epgData.diag || {};
-    html += '<div class="epg-footer">' +
-      chIds.length + ' canais com programacao | ' +
-      d.matchedChannels + '/' + d.playlistChannels + ' canais da playlist | ' +
-      d.inWindow + ' programas de ' + d.totalProg + ' totais' +
-      '</div>';
-    epgGrid.innerHTML = html;
+    parts.push('<div class="epg-footer">' +
+      t("epgFooter", t("epgFooterChannels", chIds.length), t("epgFooterPrograms", d.inWindow)) +
+      '</div>');
+    epgGrid.innerHTML = parts.join("");
   }
 
   function formatTime(d) {
