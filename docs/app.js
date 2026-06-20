@@ -550,14 +550,22 @@ loadLastRun();
         var programmes = [];
         var progNodes = doc.getElementsByTagName("programme");
         var now = new Date();
-        var windowStart = new Date(now.getTime() - 1 * 3600000);
-        var windowEnd = new Date(now.getTime() + 6 * 3600000);
+        var windowStart = new Date(now.getTime() - 2 * 3600000);
+        var windowEnd = new Date(now.getTime() + 12 * 3600000);
+
+        // Diagnostic counters
+        var totalProg = 0;
+        var matchedProg = 0;
+        var inWindow = 0;
+        var matchedChannels = {};
 
         for (var j = 0; j < progNodes.length; j++) {
           var p = progNodes[j];
           var chId = p.getAttribute("channel");
-          // Only include channels from the ALL playlist
+          totalProg++;
+
           if (!playlistTvgIds[chId]) continue;
+          matchedProg++;
 
           var start = parseXMLTVDate(p.getAttribute("start"));
           var stop = parseXMLTVDate(p.getAttribute("stop"));
@@ -567,6 +575,7 @@ loadLastRun();
           if (!start || !stop) continue;
 
           if (stop < windowStart || start > windowEnd) continue;
+          inWindow++;
 
           programmes.push({
             channel: chId,
@@ -575,6 +584,7 @@ loadLastRun();
             title: title,
             desc: desc,
           });
+          matchedChannels[chId] = true;
         }
 
         programmes.sort(function (a, b) {
@@ -582,7 +592,17 @@ loadLastRun();
           return a.start - b.start;
         });
 
-        epgData = { channels: channels, programmes: programmes };
+        epgData = {
+          channels: channels,
+          programmes: programmes,
+          diag: {
+            totalProg: totalProg,
+            matchedProg: matchedProg,
+            inWindow: inWindow,
+            matchedChannels: Object.keys(matchedChannels).length,
+            playlistChannels: Object.keys(playlistTvgIds).length,
+          },
+        };
         epgLoading.style.display = "none";
         renderEPG();
       } catch (e) {
@@ -672,7 +692,12 @@ loadLastRun();
       html += '</div>';
     }
 
-    html += '<div class="epg-footer">' + chIds.length + ' canais | Dados: epgshare01.online</div>';
+    var d = epgData.diag || {};
+    html += '<div class="epg-footer">' +
+      chIds.length + ' canais com programacao | ' +
+      d.matchedChannels + '/' + d.playlistChannels + ' canais da playlist | ' +
+      d.inWindow + ' programas de ' + d.totalProg + ' totais' +
+      '</div>';
     epgGrid.innerHTML = html;
   }
 
