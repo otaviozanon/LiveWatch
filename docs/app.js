@@ -211,20 +211,6 @@ function loadLastRun() {
       if (data.date) updateClock(new Date(data.date));
     })
     .catch(function () {});
-
-  // Fetch last completed workflow run and show its summary
-  fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
-    .then(function (resp) { return resp.json(); })
-    .then(function (data) {
-      var runs = data.workflow_runs || [];
-      for (var i = 0; i < runs.length; i++) {
-        if (runs[i].status === "completed" && runs[i].conclusion === "success") {
-          fetchSummary(runs[i].id);
-          return;
-        }
-      }
-    })
-    .catch(function () {});
 }
 
 function showProgress(label) {
