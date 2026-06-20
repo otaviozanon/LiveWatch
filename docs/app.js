@@ -749,12 +749,10 @@ document
   }
 
   function formatChannelName(raw) {
-    // Clean EPG channel IDs/names: remove .br suffix, replace dots with spaces
     var name = raw.replace(/\.br$/i, "");
     name = name.replace(/\./g, " ");
-    // Remove location prefix like "Sao Paulo/SP  " -> just the channel name
-    var parts = name.split("  ");
-    if (parts.length > 1) name = parts[parts.length - 1];
+    // Remove location prefix patterns like "Sao Paulo/SP  " or "Belo Horizonte/MG  "
+    name = name.replace(/^[A-Za-zÃ£ÉÀçõãéàôêâîûúóíÁÔÊÂÎÛÚÓÍ]+\s*\/\s*[A-Z]{2}\s+/, "");
     // Clean up multiple spaces and trim
     name = name.replace(/\s+/g, " ").trim();
     return name || raw;
