@@ -751,9 +751,11 @@ document
   function formatChannelName(raw) {
     var name = raw.replace(/\.br$/i, "");
     name = name.replace(/\./g, " ");
-    // Remove location prefix patterns like "Sao Paulo/SP  " or "Belo Horizonte/MG  "
-    name = name.replace(/^[A-Za-zÃ£ÉÀçõãéàôêâîûúóíÁÔÊÂÎÛÚÓÍ]+\s*\/\s*[A-Z]{2}\s+/, "");
-    // Clean up multiple spaces and trim
+    // Remove location prefix like "Sao Paulo/SP " or "Sao Paulo/SP  "
+    var idx = name.search(/\/[A-Z]{2}\s+/);
+    if (idx !== -1) {
+      name = name.substring(idx).replace(/^\/[A-Z]{2}\s+/, "");
+    }
     name = name.replace(/\s+/g, " ").trim();
     return name || raw;
   }
