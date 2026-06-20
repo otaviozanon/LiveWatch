@@ -266,9 +266,9 @@ async function handleEPG(url, env, corsHeaders) {
         var xml = strFromU8(decompressed);
 
         if (i === 0) {
-          // First source: keep channels + programmes
+          // First source: keep everything
           xmlParts.push(xml);
-          // Track seen channel IDs for dedup
+          // Track seen channel IDs
           var chMatch = xml.match(/<channel\s+id="([^"]+)"/g);
           if (chMatch) {
             for (var j = 0; j < chMatch.length; j++) {
@@ -277,15 +277,21 @@ async function handleEPG(url, env, corsHeaders) {
             }
           }
         } else {
-          // Subsequent sources: only add programmes for NEW channels
-          var progRegex = /<programme\s[^>]*channel="([^"]+)"[^>]*>[\s\S]*?<\/programme>/g;
-          var match;
-          while ((match = progRegex.exec(xml)) !== null) {
-            var progXml = match[0];
-            var chId = match[1];
-            if (!seenChannels[chId]) {
-              xmlParts.push(progXml);
+          // Subsequent sources: add NEW channels + all programmes
+          var chRegex = /<channel\s[^>]*>[\s\S]*?<\/channel>/g;
+          var chMatch2;
+          while ((chMatch2 = chRegex.exec(xml)) !== null) {
+            var chXml = chMatch2[0];
+            var chId2 = (chXml.match(/id="([^"]+)"/) || [])[1];
+            if (chId2 && !seenChannels[chId2]) {
+              seenChannels[chId2] = true;
+              xmlParts.push(chXml);
             }
+          }
+          var progRegex = /<programme\s[^>]*>[\s\S]*?<\/programme>/g;
+          var progMatch;
+          while ((progMatch = progRegex.exec(xml)) !== null) {
+            xmlParts.push(progMatch[0]);
           }
         }
       } catch (e) {
