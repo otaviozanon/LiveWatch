@@ -543,7 +543,7 @@ loadLastRun();
           var ch = chNodes[i];
           var id = ch.getAttribute("id");
           var dn = ch.getElementsByTagName("display-name")[0];
-          var name = dn ? dn.textContent : id;
+          var name = dn ? formatChannelName(dn.textContent) : formatChannelName(id);
           channels[id] = name;
         }
 
@@ -623,6 +623,18 @@ loadLastRun();
     return child ? child.textContent : "";
   }
 
+  function formatChannelName(raw) {
+    // Clean EPG channel IDs/names: remove .br suffix, replace dots with spaces
+    var name = raw.replace(/\.br$/i, "");
+    name = name.replace(/\./g, " ");
+    // Remove location prefix like "Sao Paulo/SP  " -> just the channel name
+    var parts = name.split("  ");
+    if (parts.length > 1) name = parts[parts.length - 1];
+    // Clean up multiple spaces and trim
+    name = name.replace(/\s+/g, " ").trim();
+    return name || raw;
+  }
+
   function renderEPG() {
     if (!epgData) return;
 
@@ -652,7 +664,7 @@ loadLastRun();
     var html = "";
     for (var c = 0; c < chIds.length; c++) {
       var chId = chIds[c];
-      var chName = channels[chId] || chId;
+      var chName = formatChannelName(channels[chId] || chId);
       var progs = grouped[chId];
 
       // Find current programme for the collapsed preview
