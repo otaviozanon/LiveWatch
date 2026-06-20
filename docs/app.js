@@ -497,7 +497,7 @@ loadLastRun();
     epgLoading.innerHTML = '<div class="log dim">[EPG] Carregando playlist e guia...</div>';
 
     // Fetch ALL playlist M3U to extract which tvg-ids we care about
-    var m3uUrl = WORKER_URL + "/playlist/all.m3u8";
+    var m3uUrl = WORKER_URL + "/playlist/all.m3u8?_=" + Date.now();
 
     Promise.all([
       fetch(m3uUrl).then(function (r) { return r.text(); }),

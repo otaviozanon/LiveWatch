@@ -207,7 +207,7 @@ async function handlePlaylist(url, env, corsHeaders, method) {
   const responseHeaders = {
     ...corsHeaders,
     "Content-Type": contentType,
-    "Cache-Control": "public, max-age=3600",
+    "Cache-Control": "public, max-age=60",
   };
 
   if (url.searchParams.get("download") === "1") {
