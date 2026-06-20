@@ -646,8 +646,8 @@ loadLastRun();
   }
 
   function formatTime(d) {
-    var h = d.getUTCHours().toString().padStart(2, "0");
-    var m = d.getUTCMinutes().toString().padStart(2, "0");
+    var h = d.getHours().toString().padStart(2, "0");
+    var m = d.getMinutes().toString().padStart(2, "0");
     return h + ":" + m;
   }
 

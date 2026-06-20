@@ -1,4 +1,4 @@
-import { unzipSync, strFromU8 } from "fflate";
+import { unzipSync, gunzipSync, strFromU8 } from "fflate";
 
 export default {
   async fetch(request, env) {
@@ -275,11 +275,19 @@ async function handleEPG(url, env, corsHeaders) {
       });
     }
 
-    var contentType = resp.headers.get("Content-Type") || "application/xml";
-    return new Response(resp.body, {
+    // Decompress gzipped EPG so the browser gets plain XML
+    var body = resp.body;
+    var isGzip = epgUrl.endsWith(".gz");
+    if (isGzip) {
+      var compressed = new Uint8Array(await resp.arrayBuffer());
+      var decompressed = gunzipSync(compressed);
+      body = strFromU8(decompressed);
+    }
+
+    return new Response(body, {
       headers: {
         ...corsHeaders,
-        "Content-Type": contentType,
+        "Content-Type": "application/xml; charset=utf-8",
         "Cache-Control": "public, max-age=14400",
       },
     });
