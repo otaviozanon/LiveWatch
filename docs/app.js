@@ -501,7 +501,7 @@ loadLastRun();
 
     Promise.all([
       fetch(m3uUrl).then(function (r) { return r.text(); }),
-      fetch(WORKER_URL + "/epg?source=epgshare&country=BR").then(function (r) {
+      fetch(WORKER_URL + "/epg?source=all&country=BR").then(function (r) {
         if (!r.ok) throw new Error("EPG HTTP " + r.status);
         return r.text();
       }),

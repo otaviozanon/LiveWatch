@@ -222,69 +222,93 @@ async function handlePlaylist(url, env, corsHeaders, method) {
 }
 
 async function handleEPG(url, env, corsHeaders) {
-  // /epg/BR  or  /epg?country=BR  or  /epg?source=epgshare&country=BR
   var country = url.searchParams.get("country") || "BR";
-  var source = url.searchParams.get("source") || "epgshare";
+  var source = url.searchParams.get("source") || "all";
 
   var pathPart = url.pathname.replace("/epg/", "").replace("/epg", "");
   if (pathPart) country = pathPart.toUpperCase();
 
-  // EPG sources
-  var epgUrls = {
-    epgshare: {
-      url: `https://epgshare01.online/epgshare01/epg_ripper_${country}1.xml.gz`,
-      // For BR, also try BR2
-      altUrl: country === "BR" ? `https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz` : null,
-    },
-    globetv: {
-      url: `https://raw.githubusercontent.com/globetvapp/epg/main/${country}/${country.toLowerCase()}1.xml.gz`,
-    },
-    freeepg: {
-      url: `https://www.free-epg.de/api/epg?country=${country}`,
-    },
-  };
+  // All EPG source URLs for this country
+  var allSources = [];
+  if (country === "BR") {
+    allSources.push({ name: "epgshare1", url: `https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz` });
+    allSources.push({ name: "epgshare2", url: `https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz` });
+    allSources.push({ name: "globetv1", url: `https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz` });
+    allSources.push({ name: "globetv2", url: `https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz` });
+    allSources.push({ name: "globetv3", url: `https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz` });
+    allSources.push({ name: "globetv4", url: `https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz` });
+  } else {
+    allSources.push({ name: "epgshare1", url: `https://epgshare01.online/epgshare01/epg_ripper_${country}1.xml.gz` });
+    allSources.push({ name: "globetv1", url: `https://raw.githubusercontent.com/globetvapp/epg/main/${country}/${country.toLowerCase()}1.xml.gz` });
+  }
 
-  var sourceConfig = epgUrls[source];
-  if (!sourceConfig) {
-    return new Response("Unknown source. Use: epgshare, globetv, freeepg", {
-      status: 400,
-      headers: { ...corsHeaders },
-    });
+  // If specific source requested, filter
+  if (source !== "all") {
+    var filtered = allSources.filter(function (s) { return s.name.indexOf(source) === 0; });
+    if (filtered.length > 0) allSources = filtered.slice(0, 1);
   }
 
   try {
-    // First try primary URL
-    var epgUrl = sourceConfig.url;
-    var resp = await fetch(epgUrl, {
-      method: "GET",
-      headers: { "User-Agent": "LiveWatch" },
-    });
+    var xmlParts = [];
+    var seenChannels = {};
 
-    if (!resp.ok && sourceConfig.altUrl) {
-      // Fallback to alternative URL
-      resp = await fetch(sourceConfig.altUrl, {
-        method: "GET",
-        headers: { "User-Agent": "LiveWatch" },
-      });
+    for (var i = 0; i < allSources.length; i++) {
+      var src = allSources[i];
+      try {
+        var resp = await fetch(src.url, {
+          method: "GET",
+          headers: { "User-Agent": "LiveWatch" },
+        });
+        if (!resp.ok) continue;
+
+        var compressed = new Uint8Array(await resp.arrayBuffer());
+        var decompressed = gunzipSync(compressed);
+        var xml = strFromU8(decompressed);
+
+        if (i === 0) {
+          // First source: keep channels + programmes
+          xmlParts.push(xml);
+          // Track seen channel IDs for dedup
+          var chMatch = xml.match(/<channel\s+id="([^"]+)"/g);
+          if (chMatch) {
+            for (var j = 0; j < chMatch.length; j++) {
+              var idm = chMatch[j].match(/id="([^"]+)"/);
+              if (idm) seenChannels[idm[1]] = true;
+            }
+          }
+        } else {
+          // Subsequent sources: only add programmes for NEW channels
+          var progRegex = /<programme\s[^>]*channel="([^"]+)"[^>]*>[\s\S]*?<\/programme>/g;
+          var match;
+          while ((match = progRegex.exec(xml)) !== null) {
+            var progXml = match[0];
+            var chId = match[1];
+            if (!seenChannels[chId]) {
+              xmlParts.push(progXml);
+            }
+          }
+        }
+      } catch (e) {
+        // Skip failed sources
+      }
     }
 
-    if (!resp.ok) {
-      return new Response(`EPG source ${source} returned ${resp.status}`, {
-        status: resp.status,
+    if (xmlParts.length === 0) {
+      return new Response("No EPG data available", {
+        status: 502,
         headers: { ...corsHeaders },
       });
     }
 
-    // Decompress gzipped EPG so the browser gets plain XML
-    var body = resp.body;
-    var isGzip = epgUrl.endsWith(".gz");
-    if (isGzip) {
-      var compressed = new Uint8Array(await resp.arrayBuffer());
-      var decompressed = gunzipSync(compressed);
-      body = strFromU8(decompressed);
+    // Combine: first XML has full structure, rest are just programmes
+    var combined = xmlParts[0];
+    if (xmlParts.length > 1) {
+      // Insert additional programmes before </tv>
+      var extra = xmlParts.slice(1).join("\n");
+      combined = combined.replace("</tv>", extra + "\n</tv>");
     }
 
-    return new Response(body, {
+    return new Response(combined, {
       headers: {
         ...corsHeaders,
         "Content-Type": "application/xml; charset=utf-8",
