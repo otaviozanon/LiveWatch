@@ -5631,6 +5631,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38397.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62840.ts
 #EXTINF:-1 group-title="BR | NOTICIAS",GloboNews HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36917.ts
+#EXTINF:-1 group-title="BR | NOTICIAS",GNT
+http://170.82.202.31/GNT/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",Jovem Pan NEWS
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",Jovem Pan News (JP News)
