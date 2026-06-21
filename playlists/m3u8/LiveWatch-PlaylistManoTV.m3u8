@@ -969,14 +969,10 @@ https://amg01391-sbtinfast-amg01391c11-lg-br-9982.playouts.now.amagi.tv/playlist
 https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-640x360/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN International",CNN International
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN Portugal",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8zMC8yMDI2IDEyOjEyOjE3IFBNJmhhc2hfdmFsdWU9bWNYZ0c1MGdHQVpScXZMSmpMZTkzQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWJmYWVkZmU3LTIyNDItNGY2Yy1iYzlmLWRhMjY3Y2U1YjYxOQ==/
 #EXTINF:-1 group-title="BR | NOTICIAS",ComBrasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="Cultura Internacional",Cultura Internacional
 https://oj7lng29dg82-hls-live.5centscdn.com/lives/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",EuroNews Português
-https://jmp2.uk/plu-679a973a97782f0008ff4bb6.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",Euronews | Rakuten
 https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="FOX News NOW | EUA",FOX News NOW | EUA
@@ -1004,6 +1000,8 @@ https://011news.akamaized.net/011news/011news/chunklist_480p.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RS News WebTV 1",RS News WebTV 1
 https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="Times Brasil | CNBC",Times Brasil | CNBC
+https://jmp2.uk/plu-679a973a97782f0008ff4bb6.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="Times Brasil | CNBC [2]",Times Brasil | CNBC [2]
 https://f593663c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVGltZXNCcmFzaWxsaWNlbmNpYWRvZXhjbHVzaXZvQ05CQ19ITFM/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",TV Câmera HD
 https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
@@ -1129,8 +1127,6 @@ https://tv03.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
 http://stream.digilab.com.br:8081/fertel/fertel/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova.br" tvg-name="Canção Nova HD",Canção Nova HD
 https://gerenciar.vivatele.com:443/viva_padrao/viva2384/5
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova HD.br" tvg-name="Canção Nova Portugal",Canção Nova Portugal
-https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/chunklist_w1282186408.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gospel Cartoon",Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gospel Internacional",Gospel Internacional
