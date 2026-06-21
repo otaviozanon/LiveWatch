@@ -185,6 +185,8 @@ https://5ffab78b24f94.streamlock.net/smart/smart/playlist.m3u8
 https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Comedy.Central.br" tvg-name="CENTRAL TV",CENTRAL TV
 https://tv02.zas.media:1936/centraltv/centraltv/pkaylist.m3u8?ManoTV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Clube HD.br" tvg-name="Clube Web TV",Clube Web TV
+https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ABERTOS",IMG TV
 https://cdn.live.br1.jmvstream.com/w/AVJ-15526/playlist/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Imperial HD.br" tvg-name="Imperial TV MA",Imperial TV MA
@@ -243,6 +245,8 @@ https://stream.ichibantv.com:3827/stream/play.m3u8
 https://stream.ichibantv.com:3827/hybrid/play.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",RTN TV SP HD
 https://stmv1.samcast.com.br/cltv/cltv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="SANTA CRUZ WEB TV",SANTA CRUZ WEB TV
+https://stmv1.srvstm.com/santacruztv9906/santacruztv9906/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",SPTV
 https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="Tela Viva TV",Tela Viva TV
@@ -291,6 +295,8 @@ https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/playlist.m3u8
 https://cdn-diariosm.ciclano.io:1443/diariosm/diariosm/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV Fala Litoral",TV Fala Litoral
 https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/chunklist_w1605044150.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",TV Gallo
+https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV Gazeta BA SD",TV Gazeta BA SD
 https://tv.nuvemplay.live/hls/40gtv/stream.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV Gazeta HD",TV Gazeta HD
@@ -307,6 +313,8 @@ https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8?ManoTV
 https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Guará HD.br" tvg-name="TV Guará MA",TV Guará MA
 https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u
+#EXTINF:-1 group-title="BR | ABERTOS",TV Itapetinga
+https://stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV Japi
 https://stmv1.paineltv.net/tvjapi/tvjapi/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Jornal.br" tvg-name="TV Jornal HD",TV Jornal HD
@@ -381,10 +389,16 @@ https://59f1cbe63db89.streamlock.net:1443/tvmpa/_definst_/tvmpa/playlist.m3u8?Ma
 https://srv5.zcast.com.br/universotv/universotv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vila Real.br" tvg-name="Vila TV",Vila TV
 https://streamserver.streamingdevideo.com.br/8072/8072/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",Viu TV
+https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8?hls_ctx=50177u50
 #EXTINF:-1 group-title="BR | ABERTOS",Vivax TV
 https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",VV8 TV
 https://video01.kshost.com.br:4443/seap8272/seap8272/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",WEB TV BOANOVA
+https://stmv.video.expressolider.com.br/tvboanova/tvboanova/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",Web TV Campeão De Tudo
+https://stmv1.paineldevideo.com.br/claudiorlp/claudiorlp/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Minas HD.br" tvg-name="Wtj TV Minas",Wtj TV Minas
 https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",Ypê TV
@@ -765,8 +779,6 @@ https://br5093.streamingdevideo.com.br/bstv/bstv/chunklist_w1014792137.m3u8
 https://stmv1.srvstm.com/bruno4723/bruno4723/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Caravana Play",Caravana Play
 https://srv4.zcast.com.br/keynni2406/keynni2406/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Clube HD.br" tvg-name="Clube Web TV",Clube Web TV
-https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",CONECTV
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Demais TV
@@ -837,8 +849,6 @@ https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
 https://jmp2.uk/plu-69440d0611f6c6384ab78306.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Salon line
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="SANTA CRUZ WEB TV",SANTA CRUZ WEB TV
-https://stmv1.srvstm.com/santacruztv9906/santacruztv9906/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Sou TV.
 https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Tenda TV
@@ -857,10 +867,6 @@ https://stmv1.srvif.com/emlsilva/emlsilva/playlist.m3u8
 https://stmv1.srvif.com/tvnostalgia/tvnostalgia/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Warner.Channel.br" tvg-name="VRT Channel",VRT Channel
 https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",WEB TV BOANOVA
-https://stmv.video.expressolider.com.br/tvboanova/tvboanova/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Web TV Campeão De Tudo
-https://stmv1.paineldevideo.com.br/claudiorlp/claudiorlp/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Web TV Classicos
 https://live20.bozztv.com/giatvplayout7/giatv-208272/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",WORDING TV
@@ -1041,10 +1047,6 @@ https://d1si3n1st4nkgb.cloudfront.net/10000/88876021/hls/master.m3u8?ads.xumo_ch
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5442
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast HD",Tooncast HD
 https://cdn-5.nxplay.com.br/TOONCAST_TK/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",TV Gallo
-https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",TV Itapetinga
-https://stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="TV Itapetinga Kids",TV Itapetinga Kids
 https://stmv2.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8?hls_ctx=6w6o1x4w
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="TV.Rá.Tim.Bum.br" tvg-name="TV RA TIM BUM HD",TV RA TIM BUM HD
@@ -1053,8 +1055,6 @@ http://gerenciar.vivatele.com/viva_padrao/viva2384/15
 https://d25usgadhphvwi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5w3mfvzg9saoi/playlist.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="Universo Kids",Universo Kids
 https://srv3.zcast.com.br/universo3/universo3/playlist_w554522056.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Viu TV
-https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8?hls_ctx=50177u50
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal Educação",Canal Educação
 https://canaleducacao-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="Canal Futura",Canal Futura

@@ -339,8 +339,8 @@
           "Ministério Infantil", "Mr Bean Animated",
           "Os Jetsons", "Rakuten Família", "RETRO CARTOON",
           "Sonic", "Toon Googles", "Tooncast",
-          "TV Gallo", "TV Itapetinga", "TV RA TIM BUM",
-          "TVZYN", "Universo Kids", "Viu TV",
+          "TV Itapetinga Kids", "TV RA TIM BUM",
+          "TVZYN", "Universo Kids",
           "Cartoon Network", "GLOOB"
         ],
         "DORMIR E RELAXAR": [
@@ -355,7 +355,8 @@
           "LASSTV", "ISTV", "Sou TV",
           "Tenda TV", "Terceira via", "TV CLASSICOS",
           "TV Nostalgia",
-          "WEB TV", "WORDING TV", "WTV", "YEEAAH",
+          "Web TV Classicos",
+          "WORDING TV", "WTV", "YEEAAH",
           "PortaTV", "Salon line",
           "MTV Pluto TV",
           "¡Hola!",
@@ -403,7 +404,10 @@
           "VV8 TV", "Wtj TV", "Ypê TV",
           "Mix Bahia", "O Dia TV",
           "CATVE 2", "CATVE TV Cultura", "RNS TV",
-          "TVC Brasil", "TVC"
+          "TVC Brasil", "TVC",
+          "SANTA CRUZ", "WEB TV BOANOVA",
+          "Web TV Campeão", "Clube Web",
+          "TV Itapetinga", "TV Gallo", "Viu TV"
         ],
         "GLOBO": [
           "Globo RJ", "Globo SP", "RPC Curitiba"
