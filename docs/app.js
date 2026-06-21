@@ -1,6 +1,4 @@
-var WORKER_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.hostname === "")
-  ? "https://ozlivewatch.pages.dev"
-  : window.location.origin;
+var API_URL = "https://ozlivewatch.pages.dev";
 var BASE_RAW = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/";
 
 var PLAYLISTS = {
@@ -153,7 +151,7 @@ function getPlaylistUrl(format, source) {
   if (source === "raw") {
     return BASE_RAW + PLAYLISTS[currentProfile][format];
   }
-  return WORKER_URL + "/p/" + currentProfile + "." + format;
+  return API_URL + "/p/" + currentProfile + "." + format;
 }
 
 function applyLang() {
@@ -247,7 +245,7 @@ function saveCounts(totalChannels, withEpg) {
 }
 
 function loadLastRun() {
-  fetch(WORKER_URL + "/file-time", {
+  fetch(API_URL + "/file-time", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ path: PLAYLISTS[currentProfile].m3u8 }),
@@ -307,7 +305,7 @@ function triggerWorkflow() {
   setTimeout(function () {
     log(t("dispatching") + " (" + currentProfile + ")", "action");
 
-    fetch(WORKER_URL + "/trigger", {
+    fetch(API_URL + "/trigger", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ profile: currentProfile }),
@@ -346,7 +344,7 @@ function pollLogs() {
       return;
     }
 
-    fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
+    fetch(API_URL + "/status", { method: "POST", body: "{}" })
       .then(function (resp) {
         return resp.json();
       })
@@ -391,7 +389,7 @@ function pollLogs() {
 }
 
 function fetchSummary(runId) {
-  fetch(WORKER_URL + "/logs", {
+  fetch(API_URL + "/logs", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ runId: runId }),
@@ -550,7 +548,7 @@ loadLastRun();
 document
   .getElementById("summary-toggle")
   .addEventListener("click", function () {
-    fetch(WORKER_URL + "/status", { method: "POST", body: "{}" })
+    fetch(API_URL + "/status", { method: "POST", body: "{}" })
       .then(function (resp) {
         return resp.json();
       })
@@ -626,13 +624,13 @@ document
     epgLoading.innerHTML =
       '<div class="log dim">[EPG] ' + t("epgLoading") + "</div>";
 
-    var m3uUrl = WORKER_URL + "/playlist/all.m3u8?_=" + Date.now();
+    var m3uUrl = API_URL + "/playlist/all.m3u8?_=" + Date.now();
 
     Promise.all([
       fetch(m3uUrl).then(function (r) {
         return r.text();
       }),
-      fetch(WORKER_URL + "/e/BR?_=" + Date.now()).then(
+      fetch(API_URL + "/e/BR?_=" + Date.now()).then(
         function (r) {
           if (!r.ok) throw new Error("EPG HTTP " + r.status);
           return r.text();
@@ -903,7 +901,7 @@ document
 
   function getEpgUrl() {
     var country = epgCountrySelect.value || "BR";
-    return WORKER_URL + "/e/" + country + "?_=" + Date.now();
+    return API_URL + "/e/" + country + "?_=" + Date.now();
   }
 
   epgRefreshBtn.addEventListener("click", function () {
