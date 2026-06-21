@@ -140,6 +140,70 @@
         "https://iptv-org.github.io/api/streams.json"
       ]
     },
+    "manotv": {
+      "output": "LiveWatch-PlaylistManoTV.m3u8",
+      "group_prefix": "BR",
+      "group_exclude": [
+        "ADULTOS", "+18",
+        "PORTUGAL", "RADIOS",
+        "CINE SKY", "CINE BIT",
+        "DISNEY+", "PARAMOUNT+",
+        "PRIME VIDEO", "VARIEDADES", "DIVERSOS"
+      ],
+      "group_keep": {
+        "GLOBO": ["RPC"],
+        "RECORD": ["PR", "RS", "SC", "PARANA", "BLUMENAU", "JOINVILLE", "FLORIANOPOLIS", "CHAPECO", "CASCAVEL", "MARINGA", "LONDRINA", "CURITIBA", "FOZ", "PASSO FUNDO", "PORTO ALEGRE", "PELOTAS", "CAXIAS", "SANTA MARIA"],
+        "SBT": ["PR", "RS", "SC", "PARANA", "LONDRINA", "MARINGA", "FOZ", "CURITIBA", "CASCAVEL"],
+        "BAND": ["PR", "RS", "SC", "PARANA", "TAROBA", "CURITIBA"]
+      },
+      "name_exclude": [
+        "[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]",
+        "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]",
+        "[XXX]", "XXX", "[PORNO]", "[SEXO]",
+        "FAP TV",
+        "adultos:", "brasileirinhas", "only fans", "privacy:",
+        "hotvips", "safado", "safada", "gostos", "gang bang",
+        "playboy", "sexy", "lesbicas", "carnafunk",
+        "coroas gostosas", "moreno safado", "namoradinha safada",
+        "gay masculino",
+        "rdio", "webradio", "web radio", "tiktok radio",
+        " FM",
+        "K-MUSIC", "Kpop", "K-ASMR",
+        "Waikiki", "Boys Over Flowers",
+        "Cinderella", "Dark Matter",
+        "Heartland", "Moviesphere",
+        "My Secret Romance", "MyTime Movie",
+        "New KMOVIES", "Novelisima",
+        "Dez Mandamentos", "ROMCOM",
+        "Rookie Blue", "Walking Dead",
+        "Tu Cine", "Where Stars",
+        "Dove", "Esperanca",
+        "Refresh my Soul", "Spark TV",
+        "Record TV Belem", "Record TV Brasilia",
+        "Record TV Goias", "Record TV Itapoan",
+        "Record TV Rio", "Record TV SP",
+        "RecordTV Interior",
+        "SBT Cuiaba", "SBT Interior",
+        "SBT Nova Mutum", "SBT Rondonopolis", "SBT Sinop",
+        "Rede Globo", "Rede TV!",
+        "BR IN TV", "Canal L!ke",
+        "TVE RS", "RedeTV! Parana"
+      ],
+      "name_remap": {
+        "24H INFANTIL": ["Palavrinhas", "Baby Einstein", "Baby Shark", "Cocobi", "Duck TV", "Kongsuni", "Mr Bean", "My Little Pet", "Classico", "Nick", "iCarly", "Reino Infantil", "Pocoyo", "Robocar", "TOBOT", "Monica", "Turma", "Toon Goggles"],
+        "MUSICAS": ["MTV", "Mubeat", "Qello", "Qwest", "Show Champion", "Stingray", "TRACE", "Weekly Idol", "YG TV", "YTN"],
+        "ESPORTES": ["Adrenalina", "Billiard", "Caze TV", "Caz", "Desimpedidos", "FIFA", "FUEL", "Fuel", "GLORY", "Hard Knocks", "K-Baseball", "K-STAR", "Motorvision", "Nitro Circus", "Powernation", "RACER", "Racer", "SFT Combat", "Speedvision", "Tennis TV", "Trace Sport", "World Billiards", "World Poker"],
+        "DORMIR E RELAXAR": ["Nature Time", "NatureVision", "Naturescape", "ZenLIFE", "Zenlife"],
+        "NOTICIAS": ["BM&C", "Bloomberg", "NBC News", "Newsmax", "TIME", "USA TODAY"],
+        "FILMES E SERIES": ["American Classics", "Anime Onegai", "CinEspanto", "Cindie Lite", "Film&Arts", "Filmelier", "FreeTV", "Grjngo", "Runtime", "Sony One"],
+        "EDUCACAO": ["Manual do Mundo", "Manual Do Mundo", "PBS Digital"],
+        "ENTRETENIMENTO": ["FailArmy", "Just for Laughs", "People Are Awesome", "Tastemade", "Gusto", "KFOOD", "Homeful", "This Old House", "The Pet Collective", "GoUSA", "Travel Plus", "Wild Earth", "Weather Spy", "Ubisoft", "WaypointTV", "We Play", "WhE Play", "Veja Mais", "Cultne", "Demand Africa", "Caras TV", "Royalworld", "TV BRICS", "Hollywire", "Ideias Incr", "This Is Happening", "Revry", "GeFast", "Sato", "DiaTV", "essential", "Hardcore Pawn", "Acelerados", "MojiTV", "TVMatic"]
+      },
+      "remap_from": ["Diversos"],
+      "sources": [
+        "https://raw.githubusercontent.com/ManoLimah/Manoteste/refs/heads/main/ManoTV.m3u"
+      ]
+    },
     "all": {
       "type": "merge_all",
       "output": "LiveWatch-PlaylistAll.m3u8",

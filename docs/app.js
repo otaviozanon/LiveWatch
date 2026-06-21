@@ -14,6 +14,10 @@ var PLAYLISTS = {
     m3u: "playlists/m3u/LiveWatch-PlaylistIPTVORG.m3u",
     m3u8: "playlists/m3u8/LiveWatch-PlaylistIPTVORG.m3u8",
   },
+  manotv: {
+    m3u: "playlists/m3u/LiveWatch-PlaylistManoTV.m3u",
+    m3u8: "playlists/m3u8/LiveWatch-PlaylistManoTV.m3u8",
+  },
   all: {
     m3u: "playlists/m3u/LiveWatch-PlaylistAll.m3u",
     m3u8: "playlists/m3u8/LiveWatch-PlaylistAll.m3u8",
@@ -53,6 +57,7 @@ var T = {
     profileBrasil: "Brasil",
     profileGlobal: "Global",
     profileIptvorg: "IPTV-ORG",
+    profileManotv: "ManoTV",
     profileAll: "Todos",
     headerTitle: "LiveWatch &mdash; Lista IPTV",
     // EPG tab
@@ -100,6 +105,7 @@ var T = {
     profileBrasil: "Brazil",
     profileGlobal: "Global",
     profileIptvorg: "IPTV-ORG",
+    profileManotv: "ManoTV",
     profileAll: "All",
     headerTitle: "LiveWatch &mdash; IPTV List",
     // EPG tab
@@ -166,7 +172,8 @@ function applyLang() {
   profileSelect.options[0].text = t("profileBrasil");
   profileSelect.options[1].text = t("profileGlobal");
   profileSelect.options[2].text = t("profileIptvorg");
-  profileSelect.options[3].text = t("profileAll");
+  profileSelect.options[3].text = t("profileManotv");
+  profileSelect.options[4].text = t("profileAll");
   document.getElementById("header-title").innerHTML = t("headerTitle");
   var epgRefBtn = document.getElementById("btn-epg-refresh");
   var epgDlBtn2 = document.getElementById("btn-epg-download");

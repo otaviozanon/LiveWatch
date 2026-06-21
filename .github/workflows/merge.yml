@@ -12,6 +12,7 @@ on:
           - brasil
           - global
           - iptv-org
+          - manotv
           - all
   schedule:
     - cron: "0 */6 * * *"
