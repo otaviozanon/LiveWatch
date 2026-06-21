@@ -3675,6 +3675,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/131927.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/131928.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Like + | Claro tv+.br" tvg-name="Apple TV+ 03 (B)",Apple TV+ 03 (B)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952176.ts
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Band Sports",Band Sports
+https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SPORTS 4K²",BAND SPORTS 4K²
 https://dns.p2.wtf/rogerio55x/24992611250/296492
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS FHD H265",BAND SPORTS FHD H265
@@ -5625,6 +5627,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296342
 https://dns.p2.wtf/rogerio55x/24992611250/296343
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews",GloboNews
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37093.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews [2]",GloboNews [2]
+http://41.205.70.146/GLOBONEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews FHD",GloboNews FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38397.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews H265",GloboNews H265
