@@ -1,4 +1,6 @@
-var WORKER_URL = "https://livewatch-trigger.otaviozanonn.workers.dev";
+var WORKER_URL = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.hostname === "")
+  ? "https://ozlivewatch.pages.dev"
+  : window.location.origin;
 var BASE_RAW = "https://raw.githubusercontent.com/otaviozanon/LiveWatch/main/";
 
 var PLAYLISTS = {
@@ -63,6 +65,11 @@ var T = {
     epgNoPrograms: "Nenhum programa encontrado para os canais da playlist.",
     epgNoTitle: "Sem titulo",
     epgFooterChannels: "{0} CANAIS",
+    epgBtnUpdate: "ATUALIZAR",
+    epgBtnDownload: "DOWNLOAD",
+    epgBtnCopy: "COPIAR URL",
+    epgCountryBR: "Brasil",
+    epgCountryUS: "Estados Unidos",
   },
   en: {
     systemReady: "System ready.",
@@ -105,6 +112,11 @@ var T = {
     epgNoPrograms: "No programs found for playlist channels.",
     epgNoTitle: "No title",
     epgFooterChannels: "{0} CHANNELS",
+    epgBtnUpdate: "UPDATE",
+    epgBtnDownload: "DOWNLOAD",
+    epgBtnCopy: "COPY URL",
+    epgCountryBR: "Brazil",
+    epgCountryUS: "United States",
   },
 };
 
@@ -141,7 +153,7 @@ function getPlaylistUrl(format, source) {
   if (source === "raw") {
     return BASE_RAW + PLAYLISTS[currentProfile][format];
   }
-  return WORKER_URL + "/playlist/" + currentProfile + "." + format;
+  return WORKER_URL + "/p/" + currentProfile + "." + format;
 }
 
 function applyLang() {
@@ -158,6 +170,17 @@ function applyLang() {
   profileSelect.options[2].text = t("profileIptvorg");
   profileSelect.options[3].text = t("profileAll");
   document.getElementById("header-title").innerHTML = t("headerTitle");
+  var epgRefBtn = document.getElementById("btn-epg-refresh");
+  var epgDlBtn2 = document.getElementById("btn-epg-download");
+  var epgCopyBtn2 = document.getElementById("btn-epg-copy");
+  if (epgRefBtn) epgRefBtn.innerHTML = "&#x21BB; " + t("epgBtnUpdate");
+  if (epgDlBtn2) epgDlBtn2.innerHTML = "&#x21E9; " + t("epgBtnDownload");
+  if (epgCopyBtn2) epgCopyBtn2.innerHTML = "&#x2398; " + t("epgBtnCopy");
+  var epgCountry = document.getElementById("epg-country-select");
+  if (epgCountry) {
+    epgCountry.options[0].text = t("epgCountryBR");
+    epgCountry.options[1].text = t("epgCountryUS");
+  }
   logsEl.innerHTML =
     '<div class="log dim" id="first-log">[LiveWatch] ' +
     t("systemReady") +
@@ -573,14 +596,20 @@ document
     tabsEl.querySelectorAll(".tab").forEach(function (b) {
       b.classList.toggle("active", b.dataset.tab === tab);
     });
+    var footerLogs = document.getElementById("footer-logs");
+    var footerEpg = document.getElementById("footer-epg");
     if (tab === "epg") {
       logsView.style.display = "none";
       progressWrapEl.style.display = "none";
       epgView.style.display = "block";
+      footerLogs.style.display = "none";
+      footerEpg.style.display = "";
       loadEPG();
     } else {
       epgView.style.display = "none";
       logsView.style.display = "";
+      footerLogs.style.display = "";
+      footerEpg.style.display = "none";
     }
   }
 
@@ -603,7 +632,7 @@ document
       fetch(m3uUrl).then(function (r) {
         return r.text();
       }),
-      fetch(WORKER_URL + "/epg?source=all&country=BR&_=" + Date.now()).then(
+      fetch(WORKER_URL + "/e/BR?_=" + Date.now()).then(
         function (r) {
           if (!r.ok) throw new Error("EPG HTTP " + r.status);
           return r.text();
@@ -865,4 +894,41 @@ document
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   }
+
+  // ── EPG Footer actions ──────────────────────────────────────────────────
+  var epgCountrySelect = document.getElementById("epg-country-select");
+  var epgRefreshBtn = document.getElementById("btn-epg-refresh");
+  var epgCopyBtn = document.getElementById("btn-epg-copy");
+  var epgDlBtn = document.getElementById("btn-epg-download");
+
+  function getEpgUrl() {
+    var country = epgCountrySelect.value || "BR";
+    return WORKER_URL + "/e/" + country + "?_=" + Date.now();
+  }
+
+  epgRefreshBtn.addEventListener("click", function () {
+    epgData = null;
+    playlistTvgIds = null;
+    loadEPG();
+  });
+
+  epgDlBtn.addEventListener("click", function () {
+    window.open(getEpgUrl() + "&download=1", "_blank");
+  });
+
+  epgCopyBtn.addEventListener("click", function () {
+    navigator.clipboard.writeText(getEpgUrl()).then(function () {
+      var orig = epgCopyBtn.innerHTML;
+      epgCopyBtn.innerHTML = "&#x2714; " + t("copied");
+      epgCopyBtn.style.color = "#34d399";
+      epgCopyBtn.style.borderColor = "#34d399";
+      setTimeout(function () {
+        epgCopyBtn.innerHTML = orig;
+        epgCopyBtn.style.color = "";
+        epgCopyBtn.style.borderColor = "";
+      }, 2000);
+    }).catch(function () {
+      log(t("copyError"), "error");
+    });
+  });
 })();

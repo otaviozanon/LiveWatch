@@ -1,7 +1,7 @@
 {
   "epg": {
     "enabled": true,
-    "tvg_url": "https://livewatch-trigger.otaviozanonn.workers.dev/epg?source=epgshare&country=BR",
+    "tvg_url": "https://ozlivewatch.pages.dev/e/BR",
     "countries": ["BR", "US"]
   },
   "profiles": {

@@ -35,7 +35,7 @@
         </div>
         <div class="progress-label" id="progress-label"></div>
       </div>
-      <div class="terminal-footer">
+      <div class="terminal-footer" id="footer-logs">
         <select class="profile-select" id="profile-select">
           <option value="brasil">Brasil</option>
           <option value="global">Global</option>
@@ -58,6 +58,19 @@
           &#x21E9; BAIXAR
         </button>
         <span class="hint"> &#x23F1; <span id="last-updated">---</span> <button class="summary-toggle" id="summary-toggle" title="Ultimo resumo">&#9660;</button></span>
+      </div>
+      <div class="terminal-footer" id="footer-epg" style="display:none">
+        <select class="profile-select" id="epg-country-select">
+          <option value="BR">Brasil</option>
+          <option value="US">Estados Unidos</option>
+        </select>
+        <button class="btn btn-epg-refresh" id="btn-epg-refresh">
+          &#x21BB; ATUALIZAR
+        </button>
+        <button class="btn btn-copy" id="btn-epg-copy">&#x2398; COPIAR</button>
+        <button class="btn btn-download" id="btn-epg-download">
+          &#x21E9; BAIXAR
+        </button>
       </div>
     </div>
     <script src="app.js"></script>
