@@ -193,6 +193,26 @@ def filter_excluded(entries, exclude_keywords):
     return result
 
 
+def filter_by_url(entries, url_exclude_patterns):
+    if not url_exclude_patterns:
+        return entries
+    result = []
+    removed = 0
+    for group_title, name, url in entries:
+        exclude = False
+        for pat in url_exclude_patterns:
+            if pat.lower() in url.lower():
+                exclude = True
+                break
+        if exclude:
+            removed += 1
+        else:
+            result.append((group_title, name, url))
+    if removed:
+        print(f"[LiveWatch] Removendo por URL: {removed} removidos")
+    return result
+
+
 def dedup_by_url(entries):
     seen = set()
     result = []
@@ -312,6 +332,7 @@ def fetch_profile_entries(p):
                 e_list = filter_by_group(e_list, p["filter_group"])
             entries.extend(e_list)
 
+    entries = filter_by_url(entries, p.get("url_exclude", []))
     entries = filter_excluded(entries, p.get("name_exclude", []))
     entries = remap_by_name(entries, p.get("name_remap", {}), p.get("remap_from"))
     entries = filter_by_group_exclude(entries, p.get("group_exclude", []))

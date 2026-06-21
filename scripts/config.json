@@ -156,6 +156,15 @@
         "SBT": ["PR", "RS", "SC", "PARANA", "LONDRINA", "MARINGA", "FOZ", "CURITIBA", "CASCAVEL"],
         "BAND": ["PR", "RS", "SC", "PARANA", "TAROBA", "CURITIBA"]
       },
+      "url_exclude": [
+        "oneplayer.site",
+        "abre.ai/manotv8mp4",
+        "abre.ai/canaldoarmp4",
+        "abre.ai/canaldocliente",
+        "abre.ai/lSy5",
+        "testchamaWhats",
+        "testechamaWhats"
+      ],
       "name_exclude": [
         "[DOC]", "[REELSHORT]", "[XX]", "[+18]", "[18+]",
         "[ADULTO]", "[EROTICO]", "[SENSUAL]", "[HOT]",
@@ -187,7 +196,28 @@
         "SBT Nova Mutum", "SBT Rondonopolis", "SBT Sinop",
         "Rede Globo", "Rede TV!",
         "BR IN TV", "Canal L!ke",
-        "TVE RS", "RedeTV! Parana"
+        "TVE RS", "RedeTV! Parana",
+        "S01 E0",
+        "S01 E1",
+        "S01 E2",
+        "Capítulo",
+        "12/06/",
+        "75 991634025",
+        "Casa do Patrão",
+        "Liberta ",
+        "Liberta1",
+        "Liberta2",
+        "Liberta3",
+        "Liberta5",
+        "ManoFUT",
+        "Whats759",
+        "Prime Vídeo",
+        "Brasileirão 7",
+        "Rádio Cidade",
+        "Rádio Muriaé",
+        "Rádio POP",
+        "Brado Rádio",
+        "Energia 97"
       ],
       "name_remap": {
         "24H INFANTIL": ["Palavrinhas", "Baby Einstein", "Baby Shark", "Cocobi", "Duck TV", "Kongsuni", "Mr Bean", "My Little Pet", "Classico", "Nick", "iCarly", "Reino Infantil", "Pocoyo", "Robocar", "TOBOT", "Monica", "Turma", "Toon Goggles"],
