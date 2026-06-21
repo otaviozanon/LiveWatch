@@ -148,7 +148,7 @@
         "PORTUGAL", "RADIOS",
         "CINE SKY", "CINE BIT",
         "DISNEY+", "PARAMOUNT+",
-        "PRIME VIDEO", "VARIEDADES", "DIVERSOS"
+        "PRIME VIDEO"
       ],
       "group_keep": {
         "GLOBO": ["RPC"],
@@ -226,11 +226,11 @@
           "Canal do Inter", "Desempedido", "FIFA",
           "FUEL TV", "NSPORTS", "PONTV", "Racer Brasil",
           "Trace Sport", "Woohoo", "XSports",
-          "Esportes Brasília"
+          "Esportes Brasília", "Motorvision"
         ],
         "MUSICAS": [
           "Shows por Stingray", "MTV Biggest Pop", "MTV Classic",
-          "MTV Rocks", "Kiss TV", "Hallo! Music"
+          "MTV Rocks", "Kiss TV", "Hallo! Music", "Trace Brasil"
         ],
         "24H": [
           "24h", "Simpsons", "Dragon Ball",
@@ -289,7 +289,11 @@
           "Universal Channel", "USA Network",
           "Warner Channel",
           "Movie Sphere", "Discovery Channel", "Discovery Science",
-          "Discovery Theater", "Discovery Turbo", "Discovery World"
+          "Discovery Theater", "Discovery Turbo", "Discovery World",
+          "Animal Planet", "History HD", "History 2",
+          "ID HD", "Film & Arts", "Prime Box",
+          "Rakuten Document", "Royalworld",
+          "Disc. Home & Health", "TLC HD"
         ],
         "PAY PER VIEW": [
           "UFC Fightpass", "Premiere"
@@ -365,7 +369,10 @@
           "TV Channel Network",
           "40 GRAUS TV", "VRT Channel",
           "Homeful", "FailArmy", "The Pet Collective",
-          "PIXTV"
+          "PIXTV", "ARTE 1", "Cultne TV", "Curta!",
+          "Food Network", "HGTV", "Receita Fast",
+          "Revry", "Tastemade", "Viajando",
+          "WhE Play", "People Are Awesome"
         ],
         "ABERTOS": [
           "ABC BRASIL", "AmazonSat", "Agro Canal",
