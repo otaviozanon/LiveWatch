@@ -901,7 +901,7 @@ document
 
   function getEpgUrl() {
     var country = epgCountrySelect.value || "BR";
-    return API_URL + "/e/" + country + "?_=" + Date.now();
+    return API_URL + "/e/" + country;
   }
 
   epgRefreshBtn.addEventListener("click", function () {
@@ -911,7 +911,7 @@ document
   });
 
   epgDlBtn.addEventListener("click", function () {
-    window.open(getEpgUrl() + "&download=1", "_blank");
+    window.open(getEpgUrl() + "?download=1", "_blank");
   });
 
   epgCopyBtn.addEventListener("click", function () {
