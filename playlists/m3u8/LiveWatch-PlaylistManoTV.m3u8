@@ -297,6 +297,8 @@ https://stream.ichibantv.com:3874/hybrid/play.m3u8
 https://5a0c3936c25c8.streamlock.net/tvvitoriape/tvvitoriape/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TVC
 https://video01.kshost.com.br:4443/inside2133/inside2133/chunklist_w384766910.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TVC Brasil",TVC Brasil
+https://a.cdni.live/tvcbrasil/tvcbrasil/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE Bahia HD",TVE Bahia HD
 http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="TVE FHD",TVE FHD
@@ -619,6 +621,12 @@ https://cdn.live.br1.jmvstream.com/webtv/txsneccr/playlist/playlist.m3u8
 http://79.127.243.211:14445/
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal do Inter",Canal do Inter
 https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV 2 HD
+https://cr7v.short.gy/ManoTV/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV FHD
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV HD
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE GLOBAL",COMBATE GLOBAL
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="Combate HD",Combate HD
@@ -749,12 +757,6 @@ https://br5093.streamingdevideo.com.br/bstv/bstv/chunklist_w1014792137.m3u8
 https://stmv1.srvstm.com/bruno4723/bruno4723/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Caravana Play",Caravana Play
 https://srv4.zcast.com.br/keynni2406/keynni2406/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Cazé TV 2 HD
-https://cr7v.short.gy/ManoTV/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Cazé TV FHD
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Cazé TV HD
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Clube HD.br" tvg-name="Clube Web TV",Clube Web TV
 https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",CONECTV
@@ -767,30 +769,20 @@ https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
 https://cc-l2unazbogzufr.akamaized.net/gpf/tvfl/tvfl_h265.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Gogo Play",Gogo Play
 https://tgn.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Music.Box.Brazil.br" tvg-name="Hallo! Music",Hallo! Music
-https://cdn-5.nxplay.com.br/HALLOMUSIC/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Hip Hop Vai Alem da TV
 https://stmv4.voxtvhd.com.br/carlosdavi6787/carlosdavi6787/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Homeful
 https://jmp2.uk/plu-67603668f433320008760af1.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",ISTV FHD
 https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Kiss TV
-https://isaocorp.cloudecast.com/kisstv/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",LASSTV
 https://tv02.zas.media:1936/lasstv/lasstv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Loading...TV HD
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",MaisUm
 https://stream.ichibantv.com:3230/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Biggest Pop",MTV Biggest Pop
-https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Classic",MTV Classic
-https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Pluto TV",MTV Pluto TV
 https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Rocks",MTV Rocks
-https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Olha TV
 http://24.152.8.38:5001/live/olhatv/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Play TV",Play TV
@@ -849,8 +841,6 @@ https://jmp2.uk/plu-69440d0611f6c6384ab78306.m3u8
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="SANTA CRUZ WEB TV",SANTA CRUZ WEB TV
 https://stmv1.srvstm.com/santacruztv9906/santacruztv9906/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Shows por Stingray
-https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Sou TV.
 https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Tenda TV
@@ -867,8 +857,6 @@ https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
 https://stmv1.srvif.com/emlsilva/emlsilva/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Cine.Nostalgia.us2" tvg-name="TV Nostalgia [2]",TV Nostalgia [2]
 https://stmv1.srvif.com/tvnostalgia/tvnostalgia/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="TVC Brasil",TVC Brasil
-https://a.cdni.live/tvcbrasil/tvcbrasil/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Warner.Channel.br" tvg-name="VRT Channel",VRT Channel
 https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",WEB TV BOANOVA
@@ -975,6 +963,18 @@ https://video01.logicahost.com.br/tvideonews/tvideonews/chunklist.m3u8
 http://201.159.95.110:25461/live/site/site/666.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",Veja+
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15964&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_br&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="Hallo! Music",Hallo! Music
+https://cdn-5.nxplay.com.br/HALLOMUSIC/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
+#EXTINF:-1 group-title="BR | MUSICAS",Kiss TV
+https://isaocorp.cloudecast.com/kisstv/index.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Biggest Pop",MTV Biggest Pop
+https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Classic",MTV Classic
+https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Rocks",MTV Rocks
+https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS",Shows por Stingray
+https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
 #EXTINF:-1 group-title="BR | DORMIR E RELAXAR",NatureTime
 https://jmp2.uk/plu-681ba2ad93d3d19bcab47433.m3u8
 #EXTINF:-1 group-title="BR | DORMIR E RELAXAR",Natureza

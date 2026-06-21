@@ -249,28 +249,30 @@
           "PFL MMA", "Realmadrid TV", "COMBATV", "Combate HD", "COMBATE GLOBAL",
           "LA LIGA", "SFT Combat", "RACER Brasil", "World Poker",
           "Top Barça", "Max 5", "VITRINE ESPORTIVA", "LA LIGA",
-          "Ge TV FHD", "Ge TV HD", "Adrenalina Pura"
+          "Ge TV FHD", "Ge TV HD", "Adrenalina Pura",
+          "Cazé TV"
+        ],
+        "MUSICAS": [
+          "Shows por Stingray", "MTV Biggest Pop", "MTV Classic",
+          "MTV Rocks", "Kiss TV", "Hallo! Music"
         ],
         "ENTRETENIMENTO": [
           "Pluto TV",
-          "Cazé TV",
           "Flow TV", "AgitoMax",
           "Caravana Play", "Gogo Play", "Play TV",
           "Demais TV", "BS TV", "CONECTV",
           "Loading...TV", "Olha TV", "PIXTV",
           "LASSTV", "ISTV", "Sou TV",
           "Tenda TV", "Terceira via", "TV CLASSICOS",
-          "TV Nostalgia", "TVC ", "TVC Brasil",
+          "TV Nostalgia",
           "WEB TV", "WORDING TV", "WTV", "YEEAAH",
           "PortaTV", "Salon line",
-          "Shows por Stingray", "MTV Biggest Pop", "MTV Classic",
-          "MTV Rocks", "MTV Pluto TV",
+          "MTV Pluto TV",
           "¡Hola!",
-          "Kiss TV", "Canal 019",
+          "Canal 019",
           "Hip Hop Vai Alem", "MaisUm",
           "TV Channel Network",
-          "40 GRAUS TV", "VRT Channel", "Homeful",
-          "Hallo! Music"
+          "40 GRAUS TV", "VRT Channel", "Homeful"
         ],
         "RELIGIOSOS": [
           "Canção Nova",
