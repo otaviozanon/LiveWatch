@@ -224,15 +224,20 @@
           "LA LIGA", "SFT Combat", "RACER Brasil", "World Poker",
           "Top Barça", "Max 5", "VITRINE ESPORTIVA",
           "Ge TV FHD", "Ge TV HD", "Adrenalina Pura",
-          "Cazé TV", "Acelerados", "Auto TV", "Band Sports",
+          "Cazé TV", "Auto TV", "Band Sports",
           "Canal do Inter", "Desempedido", "FIFA",
           "FUEL TV", "NSPORTS", "PONTV", "Racer Brasil",
           "Trace Sport", "Woohoo", "XSports",
-          "Esportes Brasília", "Motorvision"
+          "Esportes Brasília", "Motorvision",
+          "Billiard", "GLORY", "Hard Knocks", "K-Baseball",
+          "K-STAR", "Nitro Circus", "Powernation", "Speedvision",
+          "Tennis TV"
         ],
         "MUSICAS": [
           "Shows por Stingray", "MTV Biggest Pop", "MTV Classic",
-          "MTV Rocks", "Kiss TV", "Hallo! Music", "Trace Brasil"
+          "MTV Rocks", "Kiss TV", "Hallo! Music", "Trace Brasil",
+          "Mubeat", "Qello", "Qwest", "Show Champion",
+          "YG TV", "YTN"
         ],
         "24H": [
           "24h", "Simpsons", "Dragon Ball",
@@ -260,6 +265,17 @@
           "Mr. Bean Series", "Mr Bean Series",
           "Drake"
         ],
+        "DOCUMENTARIOS": [
+          "Discovery Channel", "Discovery Science",
+          "Discovery World", "Discovery Theater", "Discovery Turbo",
+          "Animal Planet", "History HD", "History 2",
+          "ID HD", "Smithsonian Channel",
+          "Rakuten Document",
+          "Pluto TV Animais", "Pluto TV Hist",
+          "Pluto TV Investiga", "Pluto TV Curiosidade",
+          "Pluto TV Mist", "Pluto TV Policial",
+          "Disc. Home & Health", "TLC HD"
+        ],
         "FILMES E SERIES": [
           "Pluto TV Cine", "Pluto TV Filmes", "Pluto TV Série",
           "Pluto TV Novel", "Pluto TV NetMovies", "Pluto TV Era",
@@ -276,7 +292,7 @@
           "TNT Novelas HD", "GloboPlay Novelas", "Sony Novelas",
           "Canela Telenovelas",
           "Comedy Central South Park", "Comedy Central Pluto TV",
-          "Coreano by CJ ENM", "Smithsonian Channel",
+          "Coreano by CJ ENM",
           "Clube do Terror", "Filmes Suspense",
           "BET Pluto TV", "BET Pluto",
           "GRJNGO",
@@ -290,12 +306,8 @@
           "Telecine", "TNT HD", "TNT Séries",
           "Universal Channel", "USA Network",
           "Warner Channel",
-          "Movie Sphere", "Discovery Channel", "Discovery Science",
-          "Discovery Theater", "Discovery Turbo", "Discovery World",
-          "Animal Planet", "History HD", "History 2",
-          "ID HD", "Film & Arts", "Prime Box",
-          "Rakuten Document", "Royalworld",
-          "Disc. Home & Health", "TLC HD"
+          "Movie Sphere", "Film & Arts", "Prime Box",
+          "American Classics", "Anime Onegai", "Cindie Lite"
         ],
         "PAY PER VIEW": [
           "UFC Fightpass", "Premiere"
@@ -313,6 +325,7 @@
           "Globo News", "JP NEWS", "JP NEWS",
           "Notícias Agrícolas", "Cultura Internacional",
           "BM&C", "CBS NEWS", "Canal GOV",
+          "Bloomberg", "NBC News", "Newsmax",
           "AVANÇA BRASIL", "4 POR 4", "011 News",
           "Resumo da Ópera", "Times Brasil",
           "TV Câmera", "TV Os", "TV Senado",
@@ -350,7 +363,8 @@
           "Cartoon Network", "GLOOB"
         ],
         "DORMIR E RELAXAR": [
-          "NatureTime", "Natureza"
+          "NatureTime", "Natureza", "NatureVision",
+          "Naturescape", "ZenLIFE", "Zenlife"
         ],
         "ENTRETENIMENTO": [
           "Pluto TV",
@@ -374,7 +388,11 @@
           "PIXTV", "ARTE 1", "Cultne TV", "Curta!",
           "Food Network", "HGTV", "Receita Fast",
           "Revry", "Tastemade", "Viajando",
-          "WhE Play", "People Are Awesome"
+          "WhE Play", "People Are Awesome",
+          "Acelerados", "Royalworld",
+          "Gusto", "GoUSA", "Weather Spy", "Veja Mais",
+          "Caras TV", "TV BRICS", "Hollywire", "Ideias",
+          "GeFast", "Sato", "DiaTV", "TVMatic"
         ],
         "ABERTOS": [
           "ABC BRASIL", "AmazonSat", "Agro Canal",

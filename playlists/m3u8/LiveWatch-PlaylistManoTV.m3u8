@@ -411,8 +411,6 @@ http://79.127.238.228:14551/
 https://cdn-5.nxplay.com.br/AMC_BRASIL_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AMC.br" tvg-name="AMC SD",AMC SD
 https://cdn-5.nxplay.com.br/AMC_BRASIL_TK/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Animal.Planet.br" tvg-name="Animal Planet HD",Animal Planet HD
-https://cdn-5.nxplay.com.br/ANIMAL_PLANET_NX/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",Animax
 https://stream.ichibantv.com:3547/hybrid/play.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",Animes TV
@@ -449,20 +447,6 @@ https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
 https://jmp2.uk/stvp-ES1700003C6
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Flix.us2" tvg-name="Dark Flix",Dark Flix
 https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Home.&.Health.br" tvg-name="Disc. Home & Health HD",Disc. Home & Health HD
-http://hls1.sua.tv:80/live/discoveryhehfhd/s.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel FHD",Discovery Channel FHD
-https://cdn-5.nxplay.com.br/DISCOVERY_CHANNEL_NX/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel HD",Discovery Channel HD
-http://hls1.sua.tv:80/live/discoverychannelfhd/s.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Science.br" tvg-name="Discovery Science HD",Discovery Science HD
-https://cdn-5.nxplay.com.br/DISCOVERY_SCIENCE_NX/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Theater.br" tvg-name="Discovery Theater HD",Discovery Theater HD
-https://cdn-5.nxplay.com.br/DISCOVERY_THEATER_NX/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Turbo.br" tvg-name="Discovery Turbo HD",Discovery Turbo HD
-http://185.152.67.187:14367/
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.World.br" tvg-name="Discovery World HD",Discovery World HD
-https://cdn-5.nxplay.com.br/DISCOVERY_WORLD_NX/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",ESFLIX TV
 https://acesso.ecast.site:3186/live/esflixlive.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Film.&amp;.Arts.br" tvg-name="Film & Arts HD",Film & Arts HD
@@ -499,14 +483,8 @@ https://cr7v.short.gy/ManoTV/temporário/index.m3u8
 https://megaflix.mgfiles.lat/9b84e468352d6a70935cac946f3ee4c5/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD",HBO+ HD
 https://megaflix.mgfiles.lat/d821613ce0d5a46d2cc4d0c322096fba/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="History.2.br" tvg-name="History 2 HD",History 2 HD
-https://cdn-5.nxplay.com.br/HISTORY_2_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="History.Channel.br" tvg-name="History HD",History HD
-https://cdn-5.nxplay.com.br/HISTORY_TK/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",HTO FILMES
 https://cdn-3.nxplay.com.br/HTO_Filmes/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="ID.br" tvg-name="ID HD",ID HD
-https://cdn-5.nxplay.com.br/DISCOVERY_ID_NX/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX HD",MEGAPIX HD
 http://s2.micineovs.com/MEGAPIX/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AFN.movie.us2" tvg-name="MOVIE SPHERE",MOVIE SPHERE
@@ -577,10 +555,6 @@ https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
 https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="Prime Box HD",Prime Box HD
 https://cdn-5.nxplay.com.br/ESPN_3/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Rakuten Documentários | português e inglês
-https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Royalworld Nobreza e Dinastias
-https://cc-4e6doav3fdfaw.akamaized.net/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime
 https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime Ação HD
@@ -597,8 +571,6 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
 #EXTINF:-1 group-title="BR | FILMES E SERIES",Seven TV
 https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="Smithsonian Channel Pluto TV",Smithsonian Channel Pluto TV
-https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="Sony Channel HD",Sony Channel HD
 https://cdn-5.nxplay.com.br/SONY_CHANNEL/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="Sony Novelas | LG",Sony Novelas | LG
@@ -633,8 +605,6 @@ http://s2.micineovs.com/TELECINEPIPOCA/index.m3u8?token=16FOTt9Ae2m8
 http://s2.micineovs.com/TELECINEPREMIUM/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="Telecine Touch HD",Telecine Touch HD
 http://15.235.42.84:8088/rj-live/rj-live/600250.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TLC.br" tvg-name="TLC HD",TLC HD
-http://79.127.238.228:14433/TLChd
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD",TNT HD
 http://s2.micineovs.com/TNT/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD²",TNT HD²
@@ -653,8 +623,46 @@ http://15.235.42.84:8088/rj-live/rj-live/600286.ts
 http://streamer.sattvacabo.com.br/WARNER_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="XTREME TV",XTREME TV
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Acelerados
-https://cc-zvni27dp2ukyu.akamaized.net/ogc/acel/acel.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="Animal Planet HD",Animal Planet HD
+https://cdn-5.nxplay.com.br/ANIMAL_PLANET_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="Disc. Home & Health HD",Disc. Home & Health HD
+http://hls1.sua.tv:80/live/discoveryhehfhd/s.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel FHD",Discovery Channel FHD
+https://cdn-5.nxplay.com.br/DISCOVERY_CHANNEL_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel HD",Discovery Channel HD
+http://hls1.sua.tv:80/live/discoverychannelfhd/s.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="Discovery Science HD",Discovery Science HD
+https://cdn-5.nxplay.com.br/DISCOVERY_SCIENCE_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="Discovery Theater HD",Discovery Theater HD
+https://cdn-5.nxplay.com.br/DISCOVERY_THEATER_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="Discovery Turbo HD",Discovery Turbo HD
+http://185.152.67.187:14367/
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="Discovery World HD",Discovery World HD
+https://cdn-5.nxplay.com.br/DISCOVERY_WORLD_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="History 2 HD",History 2 HD
+https://cdn-5.nxplay.com.br/HISTORY_2_TK/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="History HD",History HD
+https://cdn-5.nxplay.com.br/HISTORY_TK/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="ID HD",ID HD
+https://cdn-5.nxplay.com.br/DISCOVERY_ID_NX/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Animais
+https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Curiosidade
+https://jmp2.uk/plu-6474aadc8e3c0a0008b98493.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV História
+https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Investigaçao Discovery HD.br" tvg-name="Pluto TV Investigação",Pluto TV Investigação
+https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Mistérios
+https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Policial
+https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Rakuten Documentários | português e inglês
+https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Warner.Channel.br" tvg-name="Smithsonian Channel Pluto TV",Smithsonian Channel Pluto TV
+https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC HD",TLC HD
+http://79.127.238.228:14433/TLChd
 #EXTINF:-1 group-title="BR | ESPORTES",Adrenalina Pura TV
 https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",Auto TV
@@ -795,6 +803,8 @@ https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/WPT/World_Poker_Tour_BR/World_Po
 https://cr7v.short.gy/manoitv/X-Sports/Index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",40 GRAUS TV
 https://acesso.ecast.site:3125/stream/play.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Acelerados
+https://cc-zvni27dp2ukyu.akamaized.net/ogc/acel/acel.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",AgitoMax
 https://stmv2.samcast.com.br/agitomax/agitomax/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD",ARTE 1 HD
@@ -847,34 +857,22 @@ https://jukin-peopleareawesome-2-br.samsung.wurl.tv/playlist.m3u8
 https://mpix05.tmwpix.com:6516/pix/pixtv_hi.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Play TV",Play TV
 https://isaocorp.cloudecast.com/playtv/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Animais
-https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Pluto TV Canal UOL",Pluto TV Canal UOL
 https://jmp2.uk/plu-64b9370b409629000802d32b.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Cozinha
 https://jmp2.uk/plu-5f1ef23020a5ac0007e5e8ea.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Curiosidade
-https://jmp2.uk/plu-6474aadc8e3c0a0008b98493.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Esportes
 https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Gaming por Ubisoft
 https://jmp2.uk/plu-64c815e8a1c6130008fef928.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV História
-https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Investigaçao Discovery HD.br" tvg-name="Pluto TV Investigação",Pluto TV Investigação
-https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Karaokê por Stingray
 https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV KFood
 https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Minha Obsessão Favorita
 https://jmp2.uk/plu-61843f5e491af10007f7eefa.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Mistérios
-https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Paisagens por Stingray
 https://jmp2.uk/plu-604a8dedbca75b0007b1c753.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Policial
-https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RETRO.us2" tvg-name="Pluto TV Retrô",Pluto TV Retrô
 https://jmp2.uk/plu-5f1212ad1728050007a523b8.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Discovery.Turbo.br" tvg-name="Pluto TV Turbo",Pluto TV Turbo
@@ -891,6 +889,8 @@ https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Receitas_Fast_BR/Receitas_
 https://revry-brazil.akamaized.net/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="Revry Brasil²",Revry Brasil²
 https://dletvjdknba4f.cloudfront.net/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Royalworld Nobreza e Dinastias
+https://cc-4e6doav3fdfaw.akamaized.net/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Salon line
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",Sou TV.
