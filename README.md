@@ -2,7 +2,7 @@
 
 Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U/JSON playlists, filters unwanted content, deduplicates, and publishes merged playlists. Triggered from a terminal-style web dashboard or cron.
 
-https://otaviozanon.github.io/LiveWatch/
+https://ozlivewatch.pages.dev
 
 ## Quick Start (Windows)
 
@@ -12,6 +12,18 @@ https://otaviozanon.github.io/LiveWatch/
 4. In Simple M3U Player, add a new playlist and paste the LiveWatch URL.
 5. Save and watch channels kept up to date by LiveWatch.
 
+## Quick Links
+
+| Resource | URL |
+|---|---|
+| Dashboard | https://ozlivewatch.pages.dev |
+| Playlist BR | https://ozlivewatch.pages.dev/p/brasil.m3u8 |
+| Playlist Global | https://ozlivewatch.pages.dev/p/global.m3u8 |
+| Playlist IPTV-ORG | https://ozlivewatch.pages.dev/p/iptv-org.m3u8 |
+| Playlist All | https://ozlivewatch.pages.dev/p/all.m3u8 |
+| EPG BR | https://ozlivewatch.pages.dev/e/BR |
+| EPG US | https://ozlivewatch.pages.dev/e/US |
+
 ## How It Works
 
 1. **Discover** — Auto-discovers source files from GitHub repos via API (no manual URL maintenance)
@@ -20,24 +32,22 @@ https://otaviozanon.github.io/LiveWatch/
 4. **Deduplicate** — Same URL = kept once; same name/different URL = renamed with `[2]`, `[3]` suffixes
 5. **Sort** — Alphabetical order by channel name, single unified group-title per profile
 6. **Publish** — Outputs both `.m3u` and `.m3u8` in organized folders, committed back to the repo
-7. **Dashboard** — Terminal-style frontend on GitHub Pages with one-click trigger, live progress, PT/EN toggle
+7. **Dashboard** — Terminal-style frontend with one-click trigger, live progress, PT/EN toggle, LOGS and EPG tabs
 
 ## Architecture
 
 ```
-[GitHub Pages] ---POST---> [Cloudflare Worker] ---GitHub API---> [GitHub Actions]
-                                                                        |
-                                                                    [merge.py]
-                                                                        |
-                                                             [LiveWatch-Playlist*.m3u8]
+[Cloudflare Pages] ---POST---> [GitHub API] ---> [GitHub Actions]
+       |                                                  |
+  frontend + API                                    [merge.py]
+  (_worker.js)                                          |
+                                                   [Playlists]
 ```
 
-| Component | Technology              | Purpose                                                   |
-| --------- | ----------------------- | --------------------------------------------------------- |
-| Frontend  | Vanilla HTML/CSS/JS     | Terminal UI, progress bar, logs, PT/EN toggle             |
-| Worker    | Cloudflare Workers      | Auth proxy — triggers workflow with profile, proxies logs |
-| Pipeline  | Python + GitHub Actions | Fetches, filters, merges, commits                         |
-| Hosting   | GitHub Pages            | Serves the dashboard                                      |
+| Component | Technology | Purpose |
+| --------- | ---------- | ------- |
+| Frontend + API | Cloudflare Pages + Functions | Serves dashboard and proxies all API calls (trigger, logs, playlists, EPG) |
+| Pipeline | Python + GitHub Actions | Fetches, filters, merges, commits |
 
 ## Project Structure
 
@@ -46,20 +56,16 @@ LiveWatch/
 ├── .github/workflows/merge.yml         # CI pipeline (manual + cron every 6h)
 ├── scripts/
 │   ├── merge.py                         # Core logic: discover, fetch, filter, dedup, merge
+│   ├── epg.py                           # EPG channel ID matching
 │   └── config.json                      # Multi-profile config (M3U, iptv_api, merge_all)
-├── worker/
-│   ├── src/index.js                     # Cloudflare Worker proxy
-│   ├── wrangler.toml
-│   └── package.json
-├── docs/                                # Frontend (GitHub Pages source)
+├── docs/                                # Frontend + Pages Worker
+│   ├── _worker.js                       # Cloudflare Pages Functions (API + static serving)
 │   ├── index.html
 │   ├── app.js
 │   └── style.css
 ├── playlists/                           # Generated playlists (auto-committed by Actions)
 │   ├── m3u/
-│   │   ├── (Files)
 │   └── m3u8/
-│       ├── (Files)
 └── .gitignore
 ```
 
