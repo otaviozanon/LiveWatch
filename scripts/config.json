@@ -216,63 +216,101 @@
         "Web Rádio", "TVi"
       ],
       "name_remap": {
-        "FILMES E SERIES": [
-          "Pluto TV Cine", "Pluto TV Filmes", "Pluto TV Série", "Pluto TV Novel",
-          "Pluto TV NetMovies", "Pluto TV Era", "PLUTO TV Terror Trash",
-          "Pluto TV Ficção Científica", "Pluto TV Bang Bang", "Pluto TV Aliens",
-          "CLASSIQUE TV", "CINEPIX", "Cine Espanto", "Filmelier",
-          "Free TV Drama", "GLN TV", "ESFLIX TV", "XTV",
-          "Runtime", "Soul Cine Clube", "VClassic TV", "XTREME TV",
-          "Hallo! Movies", "Hallo! Series", "Hallo! Classic", "Hallo! Doc.",
-          "Hallo Anime", "Animax", "Animes TV", "OTAKU SIGN",
-          "Novelas Turcas", "Novelissima", "Novelissima BR", "Stormcast Novelas",
-          "TNT Novelas HD", "GloboPlay Novelas", "Sony Novelas",
-          "Canela Telenovelas", "Malhação", "Reis",
-          "Comedy Central South Park", "Comedy Central Pluto TV",
-          "Coreano by CJ ENM", "Z NATION",
-          "Star Trek:", "CSI:", "MacGyver", "NCIS", "Numbers",
-          "Charmed:", "Clube do Terror", "Filmes Suspense",
-          "Estado Paranormal", "Mistérios sem Solução", "Detetives Médicos",
-          "Pronto-Socorro", "Negócio Fechado", "Os Arquivos do FBI",
-          "Encantador de Cães", "O Homem que veio do Céu",
-          "ACUMULADORES OBSESSIVOS", "A Caçadora de Relíquias",
-          "A Escrava Isaura", "A Feiticeira", "Assombrações",
-          "Smithsonian Channel",
-          "MasterChef Brasil Profissionais", "MasterChef", "Mais MasterChef Brasil",
-          "Pegadinhas", "Seven TV", "Sony One Shark Tank",
-          "Super Onze", "TakuSato",
-          "BET Pluto TV", "BET Pluto",
-          "GRJNGO", "Caçadores", "AniTV", "A Escrava"
-        ],
         "ESPORTES": [
-          "Eleven sports", "ESPN 6", "DAZN Combat", "SportTV", "SporTV",
+          "Eleven sports", "ESPN", "DAZN Combat", "SportTV", "SporTV",
           "PFL MMA", "Realmadrid TV", "COMBATV", "Combate HD", "COMBATE GLOBAL",
           "LA LIGA", "SFT Combat", "RACER Brasil", "World Poker",
-          "Top Barça", "Max 5", "VITRINE ESPORTIVA", "LA LIGA",
+          "Top Barça", "Max 5", "VITRINE ESPORTIVA",
           "Ge TV FHD", "Ge TV HD", "Adrenalina Pura",
-          "Cazé TV"
+          "Cazé TV", "Acelerados", "Auto TV", "Band Sports",
+          "Canal do Inter", "Desempedido", "FIFA",
+          "FUEL TV", "NSPORTS", "PONTV", "Racer Brasil",
+          "Trace Sport", "Woohoo", "XSports",
+          "Esportes Brasília"
         ],
         "MUSICAS": [
           "Shows por Stingray", "MTV Biggest Pop", "MTV Classic",
           "MTV Rocks", "Kiss TV", "Hallo! Music"
         ],
-        "ENTRETENIMENTO": [
-          "Pluto TV",
-          "Flow TV", "AgitoMax",
-          "Caravana Play", "Gogo Play", "Play TV",
-          "Demais TV", "BS TV", "CONECTV",
-          "Loading...TV", "Olha TV", "PIXTV",
-          "LASSTV", "ISTV", "Sou TV",
-          "Tenda TV", "Terceira via", "TV CLASSICOS",
-          "TV Nostalgia",
-          "WEB TV", "WORDING TV", "WTV", "YEEAAH",
-          "PortaTV", "Salon line",
-          "MTV Pluto TV",
-          "¡Hola!",
-          "Canal 019",
-          "Hip Hop Vai Alem", "MaisUm",
-          "TV Channel Network",
-          "40 GRAUS TV", "VRT Channel", "Homeful"
+        "24H": [
+          "24h", "Simpsons", "Dragon Ball",
+          "Beyblade", "Bob Esponja", "Boruto",
+          "Naruto Shippuden", "Naruto", "One Piece",
+          "Padrinhos Mágicos", "Patrulha Canina",
+          "Pok", "Popeye", "Os Smurfs", "South Park",
+          "Turma da M", "Oggy", "Teletubbies",
+          "Yu-Gi-Oh", "Cocoric",
+          "Avatar: A Lenda de Aang", "AS Tartarugas Ninja",
+          "Death Note", "Hunter x Hunter",
+          "InuYasha", "Jojo", "Bugiganga",
+          "Kenan & Kel", "Diff'rent Strokes",
+          "A Escrava", "A Feiticeira", "A Caçadora",
+          "ACUMULADORES OBSESSIVOS", "Assombrações",
+          "Caçadores de Ovnis",
+          "Charmed:", "CSI:", "MacGyver", "NCIS", "Numbers",
+          "Detetives Médicos", "Estado Paranormal",
+          "Malhação", "MasterChef", "Mais MasterChef",
+          "Mistérios sem Solução", "Negócio Fechado",
+          "O Encantador de Cães", "O Homem que veio do Céu",
+          "Os Arquivos do FBI", "Pronto-Socorro", "Reis",
+          "Star Trek:", "Z NATION",
+          "Pegadinhas", "Super Onze", "Sony One Shark Tank",
+          "Mr. Bean Series", "Mr Bean Series",
+          "Drake"
+        ],
+        "FILMES E SERIES": [
+          "Pluto TV Cine", "Pluto TV Filmes", "Pluto TV Série",
+          "Pluto TV Novel", "Pluto TV NetMovies", "Pluto TV Era",
+          "PLUTO TV Terror Trash", "Pluto TV Ficção Científica",
+          "Pluto TV Bang Bang", "Pluto TV Aliens",
+          "Pluto TV Star Trek",
+          "CLASSIQUE TV", "CINEPIX", "Cine Espanto",
+          "Cine Monde", "Dark Flix", "Filmelier",
+          "Free TV Drama", "GLN TV", "ESFLIX TV",
+          "Runtime", "Soul Cine Clube", "XTREME TV",
+          "Hallo! Movies", "Hallo! Series", "Hallo! Classic", "Hallo! Doc.",
+          "Hallo Anime", "Animax", "Animes TV", "AniTV", "OTAKU SIGN",
+          "Novelas Turcas", "Novelissima", "Novelissima BR", "Stormcast Novelas",
+          "TNT Novelas HD", "GloboPlay Novelas", "Sony Novelas",
+          "Canela Telenovelas",
+          "Comedy Central South Park", "Comedy Central Pluto TV",
+          "Coreano by CJ ENM", "Smithsonian Channel",
+          "Clube do Terror", "Filmes Suspense",
+          "BET Pluto TV", "BET Pluto",
+          "GRJNGO",
+          "A&E HD", "A&E FHD", "A&E SD",
+          "AMC HD", "AMC SD", "AXN HD",
+          "CHANNEL ONE", "CINEMAX", "HBO", "HTO FILMES",
+          "MEGAPIX", "MOVIE SPHERE",
+          "Seven TV", "Sony Channel", "Sony One",
+          "SONY ONE", "SPACE HD", "SPACE HD²",
+          "Studio Universal", "TakuSato",
+          "Telecine", "TNT HD", "TNT Séries",
+          "Universal Channel", "USA Network",
+          "Warner Channel",
+          "Movie Sphere", "Discovery Channel", "Discovery Science",
+          "Discovery Theater", "Discovery Turbo", "Discovery World"
+        ],
+        "PAY PER VIEW": [
+          "UFC Fightpass", "Premiere"
+        ],
+        "REALITIES": [
+          "MTV Reality", "MTV Drag", "MTV Dating",
+          "MTV Com o Ex", "MTV Catfish", "MTV Shore",
+          "MTV Jovens", "MTV Are you the One?",
+          "MTV Just Tattoo"
+        ],
+        "NOTICIAS": [
+          "Euronews", "EuroNews", "FOX News NOW",
+          "CNN", "Record News", "Record Internacional",
+          "RS News", "ComBrasil", "Band News",
+          "Globo News", "JP NEWS", "JP NEWS",
+          "Notícias Agrícolas", "Cultura Internacional",
+          "BM&C", "CBS NEWS", "Canal GOV",
+          "AVANÇA BRASIL", "4 POR 4", "011 News",
+          "Resumo da Ópera", "Times Brasil",
+          "TV Câmera", "TV Os", "TV Senado",
+          "TV VIDEONEWS", "TVD News", "Veja+"
         ],
         "RELIGIOSOS": [
           "Canção Nova",
@@ -284,7 +322,49 @@
           "NBT", "TV Maanaim", "TV Novo Tempo",
           "Recanto da Fé", "TV Sol Comunidade", "TV Sonata",
           "TV Vianney", "ULB TV", "TV gospel",
-          "Gospel ³", "Gospel"
+          "Gospel", "Kuriakos", "Ministério"
+        ],
+        "EDUCACAO": [
+          "Canal Educação", "TV Escola",
+          "TVE MS", "TV Cultura", "Canal Futura"
+        ],
+        "INFANTIS": [
+          "Pluto TV Kids", "Pluto TV Junior", "PLUTO TV KIDS CLUB",
+          "Pluto TV Desenhos", "Pluto TV Anime",
+          "Baby Shark", "Babyfirst", "Nick Jr.", "Nickelodeon",
+          "NickOnline", "Nicktoons",
+          "O Reino Infantil", "CARTOONITO",
+          "Clouding", "D.P.A", "DISCOVERY KIDS",
+          "Fox Kids", "Kid Mais", "Kuriakos Kids",
+          "Ministério Infantil", "Mr Bean Animated",
+          "Os Jetsons", "Rakuten Família", "RETRO CARTOON",
+          "Sonic", "Toon Googles", "Tooncast",
+          "TV Gallo", "TV Itapetinga", "TV RA TIM BUM",
+          "TVZYN", "Universo Kids", "Viu TV",
+          "Cartoon Network", "GLOOB"
+        ],
+        "DORMIR E RELAXAR": [
+          "NatureTime", "Natureza"
+        ],
+        "ENTRETENIMENTO": [
+          "Pluto TV",
+          "Flow TV", "AgitoMax",
+          "Caravana Play", "Gogo Play", "Play TV",
+          "Demais TV", "BS TV", "CONECTV",
+          "Loading...TV", "Olha TV",
+          "LASSTV", "ISTV", "Sou TV",
+          "Tenda TV", "Terceira via", "TV CLASSICOS",
+          "TV Nostalgia",
+          "WEB TV", "WORDING TV", "WTV", "YEEAAH",
+          "PortaTV", "Salon line",
+          "MTV Pluto TV",
+          "¡Hola!",
+          "Canal 019",
+          "Hip Hop Vai Alem", "MaisUm",
+          "TV Channel Network",
+          "40 GRAUS TV", "VRT Channel",
+          "Homeful", "FailArmy", "The Pet Collective",
+          "PIXTV"
         ],
         "ABERTOS": [
           "ABC BRASIL", "AmazonSat", "Agro Canal",
@@ -325,60 +405,17 @@
           "CATVE 2", "CATVE TV Cultura", "RNS TV",
           "TVC Brasil", "TVC"
         ],
-        "NOTICIAS": [
-          "Euronews", "FOX News NOW",
-          "CNN International", "CNN Portugal",
-          "Record Internacional", "RS News", "ComBrasil",
-          "Notícias Agrícolas", "Cultura Internacional",
-          "TV Os"
+        "GLOBO": [
+          "Globo RJ", "Globo SP", "RPC Curitiba"
         ],
-        "EDUCACAO": [
-          "Canal Educação", "TV Escola",
-          "TVE MS", "TV Cultura", "Canal Futura"
-        ],
-        "DORMIR E RELAXAR": [
-          "NatureTime", "Natureza"
-        ],
-        "24H": [
-          "24h", "Dragon Ball", "Beyblade", "Bob Esponja",
-          "Naruto Shippuden", "Naruto",
-          "One Piece", "Padrinhos Mágicos",
-          "Patrulha Canina", "Pok", "Popeye",
-          "Os Smurfs", "South Park",
-          "Turma da M", "Oggy", "Teletubbies",
-          "Yu-Gi-Oh", "Cocoric",
-          "Avatar: A Lenda de Aang", "AS Tartarugas Ninja",
-          "Death Note", "Hunter x Hunter",
-          "InuYasha", "Jojo", "Bugiganga",
-          "Kenan & Kel", "Diff'rent Strokes",
-          "Drake"
-        ],
-        "INFANTIS": [
-          "Pluto TV Kids", "Pluto TV Junior", "PLUTO TV KIDS CLUB",
-          "Pluto TV Desenhos", "Pluto TV Anime",
-          "Baby Shark", "Babyfirst", "Nick Jr.", "Nickelodeon",
-          "O Reino Infantil"
-        ],
-        "REALITIES": [
-          "MTV Reality", "MTV Drag", "MTV Dating",
-          "MTV Com o Ex", "MTV Catfish", "MTV Shore",
-          "MTV Jovens", "MTV Are you the One?",
-          "MTV Just Tattoo"
-        ],
-        "PAY PER VIEW": [
-          "UFC Fightpass"
+        "SBT": [
+          "SBT"
         ],
         "FORMULA 1": [
           "F1 ao Vivo"
         ],
         "ESTADOS UNIDOS": [
           "TV CNB AMERICAN", "TV CNB ORLANDO"
-        ],
-        "GLOBO": [
-          "Globo RJ", "Globo SP", "RPC Curitiba"
-        ],
-        "SBT": [
-          "SBT"
         ]
       },
       "sources": [
