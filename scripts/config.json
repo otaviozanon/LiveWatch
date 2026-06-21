@@ -394,6 +394,9 @@
           "Caras TV", "TV BRICS", "Hollywire", "Ideias",
           "GeFast", "Sato", "DiaTV", "TVMatic"
         ],
+        "ESTADOS UNIDOS": [
+          "TV CNB AMERICAN", "TV CNB ORLANDO"
+        ],
         "ABERTOS": [
           "ABC BRASIL", "AmazonSat", "Agro Canal",
           "Astral TV", "AW TV", "BraziTV",
@@ -412,7 +415,6 @@
           "TV Aracati", "TV BRASIL", "TV Brasil Central",
           "TV Brasil Hits", "TV Candidés",
           "TV CEL", "TV Chroma", "TV Cidade Verde",
-          "TV CNB AMERICAN", "TV CNB ORLANDO",
           "TV Cristal", "TV da Gente",
           "TV Diário", "TV Fala Litoral",
           "TV Gazeta", "TV Gramado",
@@ -444,9 +446,6 @@
         ],
         "FORMULA 1": [
           "F1 ao Vivo"
-        ],
-        "ESTADOS UNIDOS": [
-          "TV CNB AMERICAN", "TV CNB ORLANDO"
         ]
       },
       "sources": [

@@ -281,10 +281,6 @@ https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w636630499.m3u8
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT TV Ponta Verde HD.br" tvg-name="TV Cidade Verde",TV Cidade Verde
 https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="American.Crimes.us2" tvg-name="TV CNB AMERICAN",TV CNB AMERICAN
-https://5cf4a2c2512a2.streamlock.net/tvcnbamerican/tvcnbamerican/chunklist_w144456680.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV CNB ORLANDO
-https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/chunklist_w130040152.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="TV Cristal - TV A Crítica TO",TV Cristal - TV A Crítica TO
 https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV da Gente
@@ -1179,3 +1175,7 @@ https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8
 https://58c8a6b3c74e2.streamlock.net:1936/paroquiavianney/smil:paroquiavianney.smil/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",ULB TV
 https://stmv1.paineltv.net/ulbtv/ulbtv/chunklist_w1050568292.m3u8?ManoTV
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="American.Crimes.us2" tvg-name="TV CNB AMERICAN",TV CNB AMERICAN
+https://5cf4a2c2512a2.streamlock.net/tvcnbamerican/tvcnbamerican/chunklist_w144456680.m3u8
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TV CNB ORLANDO
+https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/chunklist_w130040152.m3u8
