@@ -32,14 +32,14 @@ var T = {
     errorDispatch: "Erro ao disparar: {0}",
     workflowStarted: "Workflow iniciado.",
     fail: "Falha: {0}",
-    waitingStart: "Aguardando inicio...",
+    waitingStart: "Aguardando in\u00edcio...",
     running: "Executando...",
-    completed: "Concluido",
+    completed: "Conclu\u00eddo",
     playlistUpdated: "Playlist atualizada.",
-    workflowFailed: "Workflow FALHOU.",
+    workflowFailed: "Workflow falhou.",
     summary: "Resumo:",
     divider: "---------------------",
-    listsExtracted: "Listas extraidas: {0}",
+    listsExtracted: "Listas extra\u00eddas: {0}",
     listStats: "  {0} | {1} linhas -> {2} entradas",
     totalFiltered: "Total de canais filtrados: {0}",
     totalFinal: "Total final: {0} canais",
@@ -66,7 +66,7 @@ var T = {
     epgError: "Erro: {0}",
     epgParseError: "Erro ao processar: {0}",
     epgNoPrograms: "Nenhum programa encontrado para os canais da playlist.",
-    epgNoTitle: "Sem titulo",
+    epgNoTitle: "Sem t\u00edtulo",
     epgFooterChannels: "{0} CANAIS",
     epgBtnUpdate: "ATUALIZAR",
     epgBtnDownload: "DOWNLOAD",
@@ -441,40 +441,40 @@ function renderSummary(text) {
     seen[clean] = true;
     var m = clean;
 
-    var pm = m.match(/====== Perfil: (.+) ======/);
+    var pm = m.match(/====== (?:Perfil|Profile): (.+) ======/);
     if (pm) {
       currentPerfil = pm[1];
       if (files.indexOf(currentPerfil) === -1) files.push(currentPerfil);
     }
 
-    var em = m.match(/Extraindo lista \d+\/\d+: (.+)/);
+    var em = m.match(/(?:Extraindo lista|Extracting playlist) \d+\/\d+: (.+)/);
     if (em) {
       var fname = em[1].replace(/\.m3u8?$/i, "");
       if (files.indexOf(fname) === -1) files.push(fname);
     }
 
-    var sm = m.match(/Encontrados:\s*(\d+)\s+linhas\s*->\s*(\d+)\s+entradas/);
+    var sm = m.match(/(?:Encontrados|Found):\s*(\d+)\s+(?:linhas|lines)\s*->\s*(\d+)\s+(?:entradas|entries)/);
     if (sm && files.length > 0) {
       stats[files[files.length - 1]] = { lines: sm[1], entries: sm[2] };
     }
 
-    var jm = m.match(/Baixando JSON: (.+)/);
+    var jm = m.match(/(?:Baixando JSON|Downloading JSON): (.+)/);
     if (jm) {
       var jname = jm[1] + (currentPerfil ? " (" + currentPerfil + ")" : "");
       if (files.indexOf(jname) === -1) files.push(jname);
     }
 
-    var jsm = m.match(/Streams com match para \w+:\s*(\d+)/);
+    var jsm = m.match(/(?:Streams com match para|Streams matched for) \w+:\s*(\d+)/);
     if (jsm && files.length > 0) {
       stats[files[files.length - 1]] = { lines: "-", entries: jsm[1] };
     }
 
     var tm = m.match(
-      /Total (?:canais|final)\s*(?:\(pos-filtro\)|combinados)?\s*:\s*(.+)/,
+      /(?:Total (?:canais|channels)|Final total)\s*(?:\(pos-filtro\)|\(post-filter\)|combinados|combined)?\s*:\s*(.+)/,
     );
     if (tm) totals.filtered = tm[1];
 
-    var dm = m.match(/Total final:\s*(.+?)\s+canais/);
+    var dm = m.match(/(?:Total final|Final total):\s*(.+?)\s+(?:canais|channels)/);
     if (dm) totals.final = dm[1];
   }
 
