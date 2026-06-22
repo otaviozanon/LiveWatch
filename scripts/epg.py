@@ -258,23 +258,17 @@ def normalize(text):
 def extract_channel_core(name):
     """
     Extract the "core" channel name from a LiveWatch channel entry.
-    Strips quality suffixes (HD, FHD, SD, 4K, UHD, H265, HEVC),
-    location info patterns, and dedup suffixes like [2], [3].
+    Strips country/location tags, dedup suffixes ([2], [3]),
+    and superscript markers (¹²³). Quality suffixes (HD, FHD, SD, 4K)
+    are preserved so the EPG mapper can distinguish variants.
     """
     core = name
     # Remove leading country/language tags like [US], [BR], [PT], [EN], [DUAL AUDIO]
     core = re.sub(r"^\s*\[[^\]]*\]\s*", "", core)
-    # Remove trailing bracketed suffixes: [2], [3], [4K], [HD], etc.
+    # Remove trailing bracketed dedup suffixes: [2], [3]
     core = re.sub(r"\s*\[[^\]]*\]\s*$", "", core)
-    # Remove quality/resolution suffixes (standalone words)
-    core = re.sub(
-        r"\b(FHD|HD|SD|4K|UHD|H265|HEVC|H\.265|FHD\s*H265)\b",
-        "",
-        core,
-        flags=re.IGNORECASE,
-    )
-    # Remove trailing resolution marker like ², ³
-    core = re.sub(r"[²³]+$", "", core)
+    # Remove superscript markers ¹, ², ³
+    core = re.sub(r"[¹²³]+", "", core)
     # Remove empty brackets/parentheses left after stripping
     core = re.sub(r"\[\s*\]", "", core)
     core = re.sub(r"\(\s*\)", "", core)
@@ -490,8 +484,8 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
         Check if query words match target words with strict rules.
         Prevents false positives like 'LIGA DA JUSTICA' matching 'TV JUSTICA'.
         """
-        query_words = {w for w in query_words if len(w) >= 3 and w not in _STOPWORDS}
-        target_words = {w for w in target_words if len(w) >= 3 and w not in _STOPWORDS}
+        query_words = {w for w in query_words if (len(w) >= 2 or w.isdigit()) and w not in _STOPWORDS}
+        target_words = {w for w in target_words if (len(w) >= 2 or w.isdigit()) and w not in _STOPWORDS}
         if not query_words:
             return False
         matching = query_words & target_words
@@ -499,8 +493,13 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
             return False
         if len(matching) >= 2:
             return True
+        # Single-word match: only allow when query has exactly 1 significant word.
+        # If query has 2+ words (e.g. "telecine premium") and only 1 matches,
+        # it's likely matching a different channel (e.g. "telecine action").
+        if len(query_words) != 1:
+            return False
         if target_ordered:
-            target_ordered = [w for w in target_ordered if len(w) >= 3 and w not in _STOPWORDS]
+            target_ordered = [w for w in target_ordered if (len(w) >= 2 or w.isdigit()) and w not in _STOPWORDS]
             matched_word = list(matching)[0]
             for idx, w in enumerate(target_ordered):
                 if w == matched_word:
@@ -513,14 +512,15 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
         core_raw = extract_channel_core(channel_name)
         core = normalize(core_raw)
         core_words = tokenize(core)
-        core_words_ordered = [w for w in core.split() if len(w) >= 3]
+        core_words_ordered = [w for w in core.split() if len(w) >= 2 or w.isdigit()]
 
         # 1. Exact match in manual map
         if core in manual_index:
             return manual_index[core]
 
-        # 2. Word-boundary match in manual map
-        for manual_core, epg_id in manual_index.items():
+        # 2. Word-boundary match in manual map (sorted by specificity: more words first)
+        sorted_manual = sorted(manual_index.items(), key=lambda kv: -len(manual_tokens[kv[0]]))
+        for manual_core, epg_id in sorted_manual:
             if word_boundary_match(manual_tokens[manual_core], core_words, core_words_ordered):
                 return epg_id
 
@@ -538,7 +538,7 @@ def build_channel_mapper(epg_ids=None, sources=None, globetv_sources=None):
                 return epg_index[core_no_region]
             # Also try word-boundary with region-stripped core
             core_no_region_words = tokenize(core_no_region)
-            core_no_region_ordered = [w for w in core_no_region.split() if len(w) >= 3]
+            core_no_region_ordered = [w for w in core_no_region.split() if len(w) >= 2 or w.isdigit()]
             for manual_core, epg_id in manual_index.items():
                 if word_boundary_match(manual_tokens[manual_core], core_no_region_words, core_no_region_ordered):
                     return epg_id

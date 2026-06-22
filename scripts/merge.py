@@ -23,6 +23,7 @@ def parse_m3u(text):
             group_title = attr_match.group(1) if attr_match else ""
             name_match = re.search(r",\s*(.+)$", line)
             name = name_match.group(1).strip() if name_match else ""
+            name = re.sub(r"[¹²³]+", "", name)
             i += 1
             if i < len(lines) and lines[i].strip() and not lines[i].strip().startswith("#"):
                 url = lines[i].strip()
@@ -165,12 +166,14 @@ CATEGORY_ORDER = (
 
 def category_sort_key(entry):
     group_title, name, _ = entry
-    cat = group_title.replace("BR | ", "")
+    cat = re.sub(r"^[A-Z]{2}\s*\|\s*", "", group_title)
     try:
         cat_order = CATEGORY_ORDER.index(cat)
     except ValueError:
         cat_order = len(CATEGORY_ORDER)
-    return (cat_order, name.lower())
+    name_sort = unicodedata.normalize("NFKD", name.lower())
+    name_sort = "".join(c for c in name_sort if not unicodedata.combining(c))
+    return (cat_order, name_sort)
 
 
 def filter_excluded(entries, exclude_keywords):
@@ -307,6 +310,7 @@ def process_iptv_api(channels_url, streams_url, country):
             continue
 
         title = s.get("title") or ch.get("name", "Sem Nome")
+        title = re.sub(r"[¹²³]+", "", title)
         cats = ch.get("categories", ["general"])
         category = cats[0] if cats else "general"
         group_title = CATEGORY_TRANSLATION.get(category.lower(), category.upper())
