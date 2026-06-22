@@ -192,7 +192,7 @@ def remap_by_name(
         ):
             for target_group, patterns in name_remap.items():
                 for pat in patterns:
-                    if pat.lower() in name.lower():
+                    if _strip_accents(pat.lower()) in _strip_accents(name.lower()):
                         new_group = target_group
                         remapped += 1
                         break
@@ -308,6 +308,7 @@ GT_REMAP: dict[str, str] = {
     "24H VARIADOS": "24H",
     "ESPORTES ESTADUAIS": "PAY PER VIEW",
     "ESPORTES PPV": "PAY PER VIEW",
+    "VARIEDADES": "ENTRETENIMENTO",
 }
 
 CATEGORY_ORDER: tuple[str, ...] = (
