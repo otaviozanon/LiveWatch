@@ -5463,6 +5463,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296335
 https://dns.p2.wtf/rogerio55x/24992611250/120
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND NEWS SD²",BAND NEWS SD²
 https://dns.p2.wtf/rogerio55x/24992611250/296336
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BandNews",BandNews
+https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD",BBC WORLD NEWS HD
 https://dns.p2.wtf/rogerio55x/24992611250/296338
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD²",BBC WORLD NEWS HD²
@@ -6733,6 +6735,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/297462
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91505.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="Rede Vida",Rede Vida
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68533.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="Rede Vida [2]",Rede Vida [2]
+https://cdn-5.nxplay.com.br/REDE_VIDA/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE VIDA EDUCACAO HD",REDE VIDA EDUCACAO HD
 https://dns.p2.wtf/rogerio55x/24992611250/1121
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="Rede Vida FHD",Rede Vida FHD
@@ -6757,6 +6761,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296225
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/59354.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV",RIT TV
 https://acesso.ecast.site:3648/live/ritlive.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV [2]",RIT TV [2]
+https://cdn-5.nxplay.com.br/RIT_TV/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV FHD",RIT TV FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63659.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV HD",RIT TV HD
