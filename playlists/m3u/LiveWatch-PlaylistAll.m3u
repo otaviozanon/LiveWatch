@@ -4613,6 +4613,8 @@ https://cdn.live.br1.jmvstream.com/webtv/txsneccr/playlist/playlist.m3u8
 https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS 4K",BAND SPORTS 4K
 https://dns.p2.wtf/rogerio55x/24992611250/296492
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Band Sports [2]",Band Sports [2]
+http://143.14.178.40:7777/Band_Sports_HD/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS FHD H265",BAND SPORTS FHD H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/339250.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS FHD H265 [2]",BAND SPORTS FHD H265 [2]
@@ -6169,6 +6171,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296142
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002249.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Pluto TV [3]",MTV Pluto TV [3]
 https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="Multishow [2]",Multishow [2]
+http://143.14.178.40:7777/Multishow_HD/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="Multishow HD [6]",Multishow HD [6]
 https://megaflix.mgfiles.lat/967dc441704ce68263139f1f50b6b530/file.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",New KFOOD
@@ -7389,6 +7393,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/120
 https://dns.p2.wtf/rogerio55x/24992611250/296336
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BandNews",BandNews
 https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BandNews [2]",BandNews [2]
+http://143.14.178.40:7777/Band_News_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD",BBC WORLD NEWS HD
 https://dns.p2.wtf/rogerio55x/24992611250/296337
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD [2]",BBC WORLD NEWS HD [2]
@@ -7605,6 +7611,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296343
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37093.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews [2]",GloboNews [2]
 http://41.205.70.146/GLOBONEWS/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews [3]",GloboNews [3]
+http://143.14.178.40:7777/GloboNews_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews FHD",GloboNews FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38397.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GloboNews H265",GloboNews H265
@@ -7613,6 +7621,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62840.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36917.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT [2]",GNT [2]
 http://170.82.202.31/GNT/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT [3]",GNT [3]
+http://143.14.178.40:7777/GNT_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="Jovem Pan NEWS",Jovem Pan NEWS
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="Jovem Pan News (JP News)",Jovem Pan News (JP News)
@@ -8005,6 +8015,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/749
 https://dns.p2.wtf/rogerio55x/24992611250/296117
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="Music Box Brazil",Music Box Brazil
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37069.ts
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="Music Box Brazil [2]",Music Box Brazil [2]
+http://143.14.178.40:7777/Music_Box_HD/index.m3u8
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Prime.Box.Brazil.br" tvg-name="Music Box Brazil FHD",Music Box Brazil FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41494.ts
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Prime.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL FHD H265",MUSIC BOX BRAZIL FHD H265
@@ -8809,6 +8821,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296392
 http://45.235.0.78/Gloob/playlist.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="Gloob [4]",Gloob [4]
 http://79.127.243.211:14436/_.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="Gloob [5]",Gloob [5]
+http://143.14.178.40:7777/Gloob_HD/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="Gloob FHD",Gloob FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38396.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD [2]",GLOOB FHD [2]
@@ -8849,6 +8863,8 @@ https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63720.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [2]",GLOOBINHO [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296393
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="Gloobinho [3]",Gloobinho [3]
+http://143.14.178.40:7777/Gloobinho_HD/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="Gloobinho FHD",Gloobinho FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41483.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD [2]",GLOOBINHO FHD [2]
