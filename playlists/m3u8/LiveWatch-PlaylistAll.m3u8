@@ -7621,6 +7621,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36917.ts
 http://170.82.202.31/GNT/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT [3]",GNT [3]
 http://143.14.178.40:7777/GNT_HD/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",J3NEWS TV
+https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="Jovem Pan NEWS",Jovem Pan NEWS
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="Jovem Pan News (JP News)",Jovem Pan News (JP News)
@@ -9184,7 +9186,7 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/512822.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS",Cidade Gospel [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/512822.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS",Despertar TV
-https://cdn.live.br1.jmvstream.com/webtv/pejexypz/playlist/playlist.m3u8
+https://br.conectmy.com.br/DespertarTV/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",Efraim Gospel
 http://joyfrvr.cc:80/lourenco123/lourenco123/512930.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS",Efraim Gospel [2]
