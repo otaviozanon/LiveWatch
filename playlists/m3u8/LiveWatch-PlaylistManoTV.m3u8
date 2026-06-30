@@ -1,247 +1,215 @@
 #EXTM3U x-tvg-url="https://ozlivewatch.pages.dev/e/BR" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml.gz" x-tvg-url="https://www.free-epg.de/api/epg?country=BR" x-tvg-url="https://www.free-epg.de/api/epg?country=US"
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Film.24h.us2" tvg-name=",🔴 Os Simpsons 24h",,🔴 Os Simpsons 24h
+#EXTINF:-1 group-title="BR | 24H",,🔴 OS SIMPSONS 24H
 http://15.235.9.200:14984/
-#EXTINF:-1 group-title="BR | 24H",A Caçadora de Relíquias
-https://jmp2.uk/plu-67e59a6557487a8b7fe73e23.m3u8
-#EXTINF:-1 group-title="BR | 24H",A Escrava_Isaura
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Samsung/A_Escrava_Isaura_BR/A_Escrava_Isaura.m3u8
-#EXTINF:-1 group-title="BR | 24H",A Feiticeira
-https://jmp2.uk/plu-631fa8dd7f25240007099a40.m3u8
 #EXTINF:-1 group-title="BR | 24H",ACUMULADORES OBSESSIVOS
 https://jmp2.uk/plu-656e2a4b4261ca00083aa99e.m3u8
-#EXTINF:-1 group-title="BR | 24H",AS Tartarugas Ninja
-https://jmp2.uk/plu-63dd5c904e83e700088fb68a.m3u8
-#EXTINF:-1 group-title="BR | 24H",Assombrações
+#EXTINF:-1 group-title="BR | 24H",ASSOMBRAÇÕES
 https://jmp2.uk/plu-620d1512c7986a0007220213.m3u8
-#EXTINF:-1 group-title="BR | 24H",Avatar: A Lenda de Aang
-https://jmp2.uk/plu-6759eeb1bd523200083b4f29.m3u8
-#EXTINF:-1 group-title="BR | 24H",Beyblade
-https://jmp2.uk/plu-633dc392e0282400071b0d39.m3u8
-#EXTINF:-1 group-title="BR | 24H",Bob Esponja Calça Quadrada
-https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
-#EXTINF:-1 group-title="BR | 24H",Boruto: Naruto Next Generations
-https://jmp2.uk/plu-656f389c3944b60008e5bdab.m3u8
-#EXTINF:-1 group-title="BR | 24H",Caçadores de Ovnis
+#EXTINF:-1 group-title="BR | 24H",CAÇADORES DE OVNIS
 https://jmp2.uk/plu-656e2a10954b020008ed167c.m3u8
-#EXTINF:-1 group-title="BR | 24H",Charmed: Jovens Bruxas
-https://jmp2.uk/plu-67f9602ee173fa5664fafae8.m3u8
-#EXTINF:-1 group-title="BR | 24H",Cocoricó
-https://jmp2.uk/plu-62d969fd8451a30007f0fd94.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Comedy.Central.br" tvg-name="Comedy Central South Park",Comedy Central South Park
+#EXTINF:-1 group-title="BR | 24H" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SOUTH PARK",COMEDY CENTRAL SOUTH PARK
 https://jmp2.uk/plu-609ae66b359b270007869ff1.m3u8
-#EXTINF:-1 group-title="BR | 24H",CSI: Miami
+#EXTINF:-1 group-title="BR | 24H",CSI: MIAMI
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
-#EXTINF:-1 group-title="BR | 24H",Death Note
-https://jmp2.uk/plu-625464a945b6a200079257d1.m3u8
-#EXTINF:-1 group-title="BR | 24H",Detetives Médicos
-https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
-#EXTINF:-1 group-title="BR | 24H",Diff'rent Strokes Arnold
-https://jmp2.uk/plu-61f1d27a189ed10007b7393e.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="GOVERNO DO ESTADO DO CEARA ASSEMBLEIA LEGISLATIVA.br" tvg-name="Estado Paranormal",Estado Paranormal
+#EXTINF:-1 group-title="BR | 24H",ESTADO PARANORMAL
 https://jmp2.uk/plu-656e2a81954b020008ed17a4.m3u8
-#EXTINF:-1 group-title="BR | 24H",Hunter x Hunter
-https://jmp2.uk/plu-65d9167818036500080e8780.m3u8
-#EXTINF:-1 group-title="BR | 24H",Inspetor Bugiganga
-https://jmp2.uk/plu-69162648d03565d6c8c8df97.m3u8
-#EXTINF:-1 group-title="BR | 24H",InuYasha BR
-https://jmp2.uk/plu-66b26681d2d50d00083abe8b.m3u8
-#EXTINF:-1 group-title="BR | 24H",Jojo's Bizarre adventure
-https://jmp2.uk/plu-66c7982f6838ee00085f0d24.m3u8
-#EXTINF:-1 group-title="BR | 24H",Kenan & Kel
+#EXTINF:-1 group-title="BR | 24H",KENAN & KEL
 https://jmp2.uk/plu-5ffcc5130fd98c0007f2e216.m3u8
-#EXTINF:-1 group-title="BR | 24H",MacGyver
-https://jmp2.uk/plu-63eb9dc84e83e70008abea92.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="SÃ£o.Paulo/SP..Agro.Mais.br" tvg-name="Mais MasterChef Brasil",Mais MasterChef Brasil
+#EXTINF:-1 group-title="BR | 24H",MAIS MASTERCHEF BRASIL
 https://jmp2.uk/plu-681111be5e0764e297fb200e.m3u8
-#EXTINF:-1 group-title="BR | 24H",Malhação Fast
+#EXTINF:-1 group-title="BR | 24H",MALHAÇÃO FAST
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Malhacao_Fast_BR/576p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR | 24H",Malhação Fast "TCL"
+#EXTINF:-1 group-title="BR | 24H",MALHAÇÃO FAST "TCL"
 https://amg00716-globo-amg00716c4-tcl-br-9499.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | 24H",MasterChef
+#EXTINF:-1 group-title="BR | 24H",MASTERCHEF
 https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/Banijay_Rights/Masterchef_Brasil_BR/Masterchef_Brasil.m3u8
-#EXTINF:-1 group-title="BR | 24H",MasterChef [2]
+#EXTINF:-1 group-title="BR | 24H",MASTERCHEF [2]
 https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Rede.Brasil.HD.br" tvg-name="MasterChef Brasil Profissionais",MasterChef Brasil Profissionais
+#EXTINF:-1 group-title="BR | 24H",MASTERCHEF BRASIL PROFISSIONAIS
 https://jmp2.uk/plu-681110afc188aa63faa147e0.m3u8
-#EXTINF:-1 group-title="BR | 24H",Mistérios sem Solução
+#EXTINF:-1 group-title="BR | 24H",MISTÉRIOS SEM SOLUÇÃO
 https://jmp2.uk/plu-62b5c5a064163d0007b2efe6.m3u8
-#EXTINF:-1 group-title="BR | 24H",Mr. Bean Series
+#EXTINF:-1 group-title="BR | 24H",MR. BEAN SERIES
 https://amg00627-banijay-amg00627c48-tcl-us-8096.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | 24H",Naruto
-https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8
-#EXTINF:-1 group-title="BR | 24H",Naruto Shippuden
-https://jmp2.uk/plu-64c92f965580090008084968.m3u8
 #EXTINF:-1 group-title="BR | 24H",NCIS
 https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8
-#EXTINF:-1 group-title="BR | 24H",Negócio Fechado
+#EXTINF:-1 group-title="BR | 24H",NEGÓCIO FECHADO
 https://jmp2.uk/plu-64ad7394798def00087b2bfe.m3u8
-#EXTINF:-1 group-title="BR | 24H",Numbers
-https://jmp2.uk/plu-67f960c5441853fe50e7afc1.m3u8
-#EXTINF:-1 group-title="BR | 24H",O Encantador de Cães
+#EXTINF:-1 group-title="BR | 24H",O ENCANTADOR DE CÃES
 https://jmp2.uk/plu-61099df8cee03b00074b2ecf.m3u8
-#EXTINF:-1 group-title="BR | 24H",O Homem que veio do Céu
-https://jmp2.uk/plu-62052d3b4eeb740007fbe125.m3u8
-#EXTINF:-1 group-title="BR | 24H",Oggy e as Baratas Tontas
-https://jmp2.uk/plu-63221bafdc6e110007b50270.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Cinema.One.us2" tvg-name="One Piece",One Piece
-https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
-#EXTINF:-1 group-title="BR | 24H",Os Arquivos do FBI
+#EXTINF:-1 group-title="BR | 24H",OS ARQUIVOS DO FBI
 https://jmp2.uk/plu-620d12a82e8ac50007c269c3.m3u8
-#EXTINF:-1 group-title="BR | 24H",Os Padrinhos Mágicos
-https://jmp2.uk/plu-63221e41af69b500076f84e7.m3u8
-#EXTINF:-1 group-title="BR | 24H",Os Smurfs
-https://jmp2.uk/plu-68b88ae1943f6fb1fb2ad749.m3u8
-#EXTINF:-1 group-title="BR | 24H",Patrulha Canina
-https://jmp2.uk/plu-63eba189c111bc0008ff59c5.m3u8
-#EXTINF:-1 group-title="BR | 24H",Pegadinhas - Just for Laughs
+#EXTINF:-1 group-title="BR | 24H",PEGADINHAS - JUST FOR LAUGHS
 https://jmp2.uk/plu-67802a22a5d8215f99dcee30.m3u8
-#EXTINF:-1 group-title="BR | 24H",Pokémon
-https://jmp2.uk/plu-687007a8ee4155e89a8f6d67.m3u8
-#EXTINF:-1 group-title="BR | 24H",Popeye
-https://jmp2.uk/plu-677d93f37bffa600080795e7.m3u8
-#EXTINF:-1 group-title="BR | 24H",Pronto-Socorro: Histórias de Emergência
-https://jmp2.uk/plu-61bb72a7bf8c520007a8fd27.m3u8
-#EXTINF:-1 group-title="BR | 24H",Reis
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Samsung/Os_Dez_Mandamentos_BR/Os_Dez_Mandamentos.m3u8
 #EXTINF:-1 group-title="BR | 24H" tvg-id="Sony.br" tvg-name="SONY ONE SHARK TANK",SONY ONE SHARK TANK
 https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SharkTank/playlist.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Sony.br" tvg-name="Sony One Shark Tank Brasil",Sony One Shark Tank Brasil
+#EXTINF:-1 group-title="BR | 24H" tvg-id="Sony.br" tvg-name="SONY ONE SHARK TANK BRASIL",SONY ONE SHARK TANK BRASIL
 https://jmp2.uk/plu-6647c0b91050b60008390de4.m3u8
-#EXTINF:-1 group-title="BR | 24H",South Park: Coleção Cartman
+#EXTINF:-1 group-title="BR | 24H",SOUTH PARK: COLEÇÃO CARTMAN
 https://jmp2.uk/plu-65df71008b24c80008f04281.m3u8
-#EXTINF:-1 group-title="BR | 24H",South Park: Coleção Kenny
+#EXTINF:-1 group-title="BR | 24H",SOUTH PARK: COLEÇÃO KENNY
 https://jmp2.uk/plu-65df704366eec8000898e32f.m3u8
-#EXTINF:-1 group-title="BR | 24H",South Park: Coleção kyle
+#EXTINF:-1 group-title="BR | 24H",SOUTH PARK: COLEÇÃO KYLE
 https://jmp2.uk/plu-65df713dec9fda0008b7a81d.m3u8
-#EXTINF:-1 group-title="BR | 24H",South Park: Coleção Stan
+#EXTINF:-1 group-title="BR | 24H",SOUTH PARK: COLEÇÃO STAN
 https://jmp2.uk/plu-65df70b0f7f0af0008c3b316.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Star.Channel.br" tvg-name="Star Trek: Deep Space Nine",Star Trek: Deep Space Nine
-https://jmp2.uk/plu-69162af591700f4c4c135c95.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Star.Channel.br" tvg-name="Star Trek: The Next Generation",Star Trek: The Next Generation
-https://jmp2.uk/plu-69162ad79505d0f3b1ebf07d.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Star.Channel.br" tvg-name="Star Trek: Voyager",Star Trek: Voyager
-https://jmp2.uk/plu-69162b1ef189e235142b17ab.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Rede Super HD.br" tvg-name="Super Onze",Super Onze
+#EXTINF:-1 group-title="BR | 24H",SUPER ONZE
 https://jmp2.uk/plu-63988c2750108d00072e2686.m3u8
-#EXTINF:-1 group-title="BR | 24H",TELETUBBIES
+#EXTINF:-1 group-title="BR | 24H INFANTIL",AS TARTARUGAS NINJA
+https://jmp2.uk/plu-63dd5c904e83e700088fb68a.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",AVATAR: A LENDA DE AANG
+https://jmp2.uk/plu-6759eeb1bd523200083b4f29.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",BEYBLADE
+https://jmp2.uk/plu-633dc392e0282400071b0d39.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",BOB ESPONJA CALÇA QUADRADA
+https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",BORUTO: NARUTO NEXT GENERATIONS
+https://jmp2.uk/plu-656f389c3944b60008e5bdab.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",COCORICÓ
+https://jmp2.uk/plu-62d969fd8451a30007f0fd94.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",D.P.A
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/DPA_Fast_BR/DPA_Fast.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",DEATH NOTE
+https://jmp2.uk/plu-625464a945b6a200079257d1.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",HUNTER X HUNTER
+https://jmp2.uk/plu-65d9167818036500080e8780.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",INSPETOR BUGIGANGA
+https://jmp2.uk/plu-69162648d03565d6c8c8df97.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",INUYASHA BR
+https://jmp2.uk/plu-66b26681d2d50d00083abe8b.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",JOJO'S BIZARRE ADVENTURE
+https://jmp2.uk/plu-66c7982f6838ee00085f0d24.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",NARUTO
+https://jmp2.uk/plu-5f6df5a173d7340007c559f7.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",NARUTO SHIPPUDEN
+https://jmp2.uk/plu-64c92f965580090008084968.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",OGGY E AS BARATAS TONTAS
+https://jmp2.uk/plu-63221bafdc6e110007b50270.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",ONE PIECE
+https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",OS JETSONS | BRASIL
+https://stmv1.srvif.com/jetsontv/jetsontv/chunklist.m3u8?ManoTV
+#EXTINF:-1 group-title="BR | 24H INFANTIL",OS PADRINHOS MÁGICOS
+https://jmp2.uk/plu-63221e41af69b500076f84e7.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",OS SMURFS
+https://jmp2.uk/plu-68b88ae1943f6fb1fb2ad749.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",PATRULHA CANINA
+https://jmp2.uk/plu-63eba189c111bc0008ff59c5.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",POKÉMON
+https://jmp2.uk/plu-687007a8ee4155e89a8f6d67.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",POPEYE
+https://jmp2.uk/plu-677d93f37bffa600080795e7.m3u8
+#EXTINF:-1 group-title="BR | 24H INFANTIL",TELETUBBIES
 https://jmp2.uk/plu-64e50055286f6b000838c067.m3u8
-#EXTINF:-1 group-title="BR | 24H",Turma da Mônica
+#EXTINF:-1 group-title="BR | 24H INFANTIL",TURMA DA MÔNICA
 https://jmp2.uk/plu-5f997e44949bc70007a6941e.m3u8
-#EXTINF:-1 group-title="BR | 24H",Yu-Gi-Oh
+#EXTINF:-1 group-title="BR | 24H INFANTIL",YU-GI-OH
 https://jmp2.uk/plu-63988a50be012600070f5db3.m3u8
-#EXTINF:-1 group-title="BR | 24H" tvg-id="Weather.Nation.TV.HD.us2" tvg-name="Z NATION",Z NATION
-https://jmp2.uk/plu-66b3af48d2d50d00083d6936.m3u8
-#EXTINF:-1 group-title="BR | 24H",🔴Dragon Ball Gt 24h
+#EXTINF:-1 group-title="BR | 24H INFANTIL",🔴DRAGON BALL GT 24H
 http://15.235.9.200:14888/
-#EXTINF:-1 group-title="BR | 24H",🔴Dragon Ball Z 24
+#EXTINF:-1 group-title="BR | 24H INFANTIL",🔴DRAGON BALL Z 24
 http://15.235.9.200:14885/
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Are you the One?",MTV Are you the One?
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV ARE YOU THE ONE?",MTV ARE YOU THE ONE?
 https://jmp2.uk/plu-5f6108d8cc331900075e98e4.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Catfish",MTV Catfish
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV CATFISH",MTV CATFISH
 https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Com o Ex",MTV Com o Ex
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV COM O EX",MTV COM O EX
 https://jmp2.uk/plu-61a528267e1b8b0007357920.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Dating",MTV Dating
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV DATING",MTV DATING
 https://jmp2.uk/plu-6851bb3426beced4f2f67ee6.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Drag",MTV Drag
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV DRAG",MTV DRAG
 https://jmp2.uk/plu-645111f1d8436e00081bb2bd.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Jovens e Mães",MTV Jovens e Mães
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV JOVENS E MÃES",MTV JOVENS E MÃES
 https://jmp2.uk/plu-620fdc7d8a36fc000710e3ba.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Just Tattoo of Us",MTV Just Tattoo of Us
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV JUST TATTOO OF US",MTV JUST TATTOO OF US
 https://jmp2.uk/plu-63988b61c8d285000798a22a.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Reality",MTV Reality
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV REALITY",MTV REALITY
 https://jmp2.uk/plu-6851bdfc9ac48fde5e07f5.m3u8
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV Shore",MTV Shore
+#EXTINF:-1 group-title="BR | REALITIES" tvg-id="MTV.br" tvg-name="MTV SHORE",MTV SHORE
 https://jmp2.uk/plu-625463563b8ddc0007134aeb.m3u8
-#EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Curitiba.br" tvg-name="RPC Curitiba HD",RPC Curitiba HD
+#EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Curitiba HD.br" tvg-name="RPC CURITIBA HD",RPC CURITIBA HD
 http://15.235.42.84:8088/rj-live/rj-live/600220.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="ABC BRASIL",ABC BRASIL
+#EXTINF:-1 group-title="BR | ABERTOS",ABC BRASIL
 https://stmv1.srvstm.com/victor7513/victor7513/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Agro Canal",Agro Canal
+#EXTINF:-1 group-title="BR | ABERTOS",AGRO CANAL
 https://aovivo.equipea.com.br:5443/aovivort/streams/RmvrJTkqJYoGD6gD1725309082818.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",AmazonSat
+#EXTINF:-1 group-title="BR | ABERTOS",AMAZONSAT
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS",Astral TV FHD
+#EXTINF:-1 group-title="BR | ABERTOS",ASTRAL TV FHD
 https://isaocorp.cloudecast.com/astraltv/index.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",AW TV
 https://awtv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="BDCTV - TV A Critica",BDCTV - TV A Critica
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="BDCTV - TV A CRITICA",BDCTV - TV A CRITICA
 https://cr7v.short.gy/ManoTV/BDCTV/Index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Super HD.br" tvg-name="BR Super TV",BR Super TV
+#EXTINF:-1 group-title="BR | ABERTOS",BR SUPER TV
 http://brsupertv.brsuper.com.br:9080/hls/brsupertv.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS",BraziTV
+#EXTINF:-1 group-title="BR | ABERTOS",BRAZITV
 https://cbtvnow.com:5866/hls/livest2024.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal do Boi HD",Canal do Boi HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD",CANAL DO BOI HD
 https://gerenciar.vivatele.com:443/viva_padrao/viva2384/7
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal Ok TV",Canal Ok TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Canal Universitário TV UFSC.br" tvg-name="CANAL OK TV",CANAL OK TV
 https://video01.kshost.com.br/oktv6914/oktv6914/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="Canal Rural HD",Canal Rural HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD",CANAL RURAL HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=14073
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal Rural HD²",Canal Rural HD²
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD [2]",CANAL RURAL HD [2]
 https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal Smart",Canal Smart
+#EXTINF:-1 group-title="BR | ABERTOS",CANAL SMART
 https://5ffab78b24f94.streamlock.net/smart/smart/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",CATVE 2
 https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Comedy.Central.br" tvg-name="CENTRAL TV",CENTRAL TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="CCTV4-China.Central.TV.us2" tvg-name="CENTRAL TV",CENTRAL TV
 https://tv02.zas.media:1936/centraltv/centraltv/pkaylist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Clube HD.br" tvg-name="Clube Web TV",Clube Web TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Clube HD.br" tvg-name="CLUBE WEB TV",CLUBE WEB TV
 https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ABERTOS",IMG TV
 https://cdn.live.br1.jmvstream.com/w/AVJ-15526/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Imperial HD.br" tvg-name="Imperial TV MA",Imperial TV MA
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Imperial HD.br" tvg-name="IMPERIAL TV MA",IMPERIAL TV MA
 https://stmv6.voxtvhd.com.br/imperialtv/imperialtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="DirecTV.Sports.Mix.us2" tvg-name="Mix Bahia",Mix Bahia
+#EXTINF:-1 group-title="BR | ABERTOS",MIX BAHIA
 https://8175.brasilstream.com.br/stream
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="NGT.br" tvg-name="NGT",NGT
 https://isaocorp.cloudecast.com/ngt/index.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS",O Dia TV
+#EXTINF:-1 group-title="BR | ABERTOS",O DIA TV
 https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",PBC TV
 https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS",Primer TV
+#EXTINF:-1 group-title="BR | ABERTOS",PRIMER TV
 http://177.74.174.57:8080/hls/primertv.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="Rede Brasil HD",Rede Brasil HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL HD",REDE BRASIL HD
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Brasil MT",Rede Brasil MT
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL MT",REDE BRASIL MT
 https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/chunklist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Brasil PA",Rede Brasil PA
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL PA",REDE BRASIL PA
 https://tvbrasil-stream.ebc.com.br/index.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Brasil SC",Rede Brasil SC
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL SC",REDE BRASIL SC
 https://5a0c3936c25c8.streamlock.net/8032/8032/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Clone TV",Rede Clone TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE CLONE TV",REDE CLONE TV
 https://stmv1.paineltv.net/redeclonetv/redeclonetv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede CNT",Rede CNT
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="CNT HD.br" tvg-name="REDE CNT",REDE CNT
 http://capivara.top:80/play/YmztvPOUaQu6G_uK8dDscH2uzXzheGcubxdV6JAgZesaflEnFih4nFWIp20LhZ-A
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Família",Rede Família
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Familia.br" tvg-name="REDE FAMÍLIA",REDE FAMÍLIA
 https://tv02.zas.media:1936/redefamiliaweb/redefamiliaweb/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede IBTV",Rede IBTV
+#EXTINF:-1 group-title="BR | ABERTOS",REDE IBTV
 https://video01.kshost.com.br:4443/k34006/k34006/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Meio",Rede Meio
+#EXTINF:-1 group-title="BR | ABERTOS",REDE MEIO
 https://maystreaming.cloudecast.com/redemeio/index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Meio Norte FHD",Rede Meio Norte FHD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Meio Norte HD.br" tvg-name="REDE MEIO NORTE FHD",REDE MEIO NORTE FHD
 https://br5093.streamingdevideo.com.br/jztykfkpnu/jztykfkpnu/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE MINAS",REDE MINAS
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Minas.br" tvg-name="REDE MINAS",REDE MINAS
 https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Mundo d Televisão",Rede Mundo d Televisão
-https://video04.logicahost.com.br/redemundotv/redemundotv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede QDM",Rede QDM
+#EXTINF:-1 group-title="BR | ABERTOS",REDE QDM
 https://video03.logicahost.com.br/tvkidmais01/tvkidmais01/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede SDP TV",Rede SDP TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE SDP TV",REDE SDP TV
 https://video01.kshost.com.br/moobi3963/moobi3963/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede Sul",Rede Sul
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Pampa Sul HD  Rede TV.br" tvg-name="REDE SUL",REDE SUL
 https://video05.logicahost.com.br/tvurbana/tvurbana/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="Rede UTV",Rede UTV
+#EXTINF:-1 group-title="BR | ABERTOS",REDE UTV
 https://utvcdn.acessaradios.com.br/utvcdn/utvcdn.stream/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RedeTV!.br" tvg-name="RedeTV! PR HD",RedeTV! PR HD
-https://tv02.zas.media:1936/redetvparana/redetvparana/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RedeTV! Belem.br" tvg-name="RedeTV! TV Pampa RS",RedeTV! TV Pampa RS
-https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",RedTV! Ro
+#EXTINF:-1 group-title="BR | ABERTOS",REDTV! RO
 https://5b33b873179a2.streamlock.net:1443/canal17/livestream/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",RNS TV HD
 https://stream.ichibantv.com:3827/stream/play.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",RNS TV HD²
+#EXTINF:-1 group-title="BR | ABERTOS",RNS TV HD [2]
 https://stream.ichibantv.com:3827/hybrid/play.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",RTN TV SP HD
 https://stmv1.samcast.com.br/cltv/cltv/playlist.m3u8
@@ -249,155 +217,143 @@ https://stmv1.samcast.com.br/cltv/cltv/playlist.m3u8
 https://stmv1.srvstm.com/santacruztv9906/santacruztv9906/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",SPTV
 https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="Tela Viva TV",Tela Viva TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Viva.br" tvg-name="TELA VIVA TV",TELA VIVA TV
 https://srv4.zcast.com.br/telavivatv/telavivatv/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="Terra Viva",Terra Viva
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA",TERRA VIVA
 https://9ada494d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVXBseW5rLU5ld2NvX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA HD",TERRA VIVA HD
 https://gerenciar.vivatele.com:443/viva_padrao/viva2384/82
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="DirecTV.Sports.Mix.us2" tvg-name="TOP Mix TV",TOP Mix TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="MIX TV.br" tvg-name="TOP MIX TV",TOP MIX TV
 https://59f1cbe63db89.streamlock.net:1443/topmixtv/_definst_/topmixtv/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS",TV A Folha
+#EXTINF:-1 group-title="BR | ABERTOS",TV A FOLHA
 https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Alternativa
+#EXTINF:-1 group-title="BR | ABERTOS",TV ALTERNATIVA
 https://stmv1.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Aracati
+#EXTINF:-1 group-title="BR | ABERTOS",TV ARACATI
 https://video04.logicahost.com.br/tvaracati/tvaracati/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL",TV BRASIL
 https://tvbrasil-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TV Brasil Central",TV Brasil Central
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL CENTRAL",TV BRASIL CENTRAL
 https://tbc.zoeweb.tv:443/tbc/tbc/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TV Brasil Hits",TV Brasil Hits
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL HITS",TV BRASIL HITS
 https://video01.logicahost.com.br/brasilhits/brasilhits/chunklist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TV BRASIL PB",TV BRASIL PB
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL PB",TV BRASIL PB
 https://video05.logicahost.com.br/guiatvpombal/guiatvpombal/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TV BRASIL SC",TV BRASIL SC
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL SC",TV BRASIL SC
 https://tv02.zas.media:1936/rbatv/rbatv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Candidés
+#EXTINF:-1 group-title="BR | ABERTOS",TV CANDIDÉS
 https://cdn.live.br1.jmvstream.com/w/LVW-8067/ngrp:LVW8067_ZffQjxn7UC_all/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV CEL
 https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w636630499.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Chroma
+#EXTINF:-1 group-title="BR | ABERTOS",TV CHROMA
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT TV Ponta Verde HD.br" tvg-name="TV Cidade Verde",TV Cidade Verde
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT TV Ponta Verde HD.br" tvg-name="TV CIDADE VERDE",TV CIDADE VERDE
 https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="TV Cristal - TV A Crítica TO",TV Cristal - TV A Crítica TO
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="TV CRISTAL - TV A CRÍTICA TO",TV CRISTAL - TV A CRÍTICA TO
 https://tv03.zas.media:1936/tvcristalto/tvcristalto/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV da Gente
+#EXTINF:-1 group-title="BR | ABERTOS",TV DA GENTE
 https://srv6.zcast.com.br/tvdagente/tvdagente/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV Diário do Sertão",TV Diário do Sertão
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIÁRIO DO SERTÃO",TV DIÁRIO DO SERTÃO
 https://5ffab78b24f94.streamlock.net/pdsertaotv/pdsertaotv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário.br" tvg-name="TV Diário HD",TV Diário HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIÁRIO HD",TV DIÁRIO HD
 https://cdn-diariosm.ciclano.io:1443/diariosm/diariosm/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV Fala Litoral",TV Fala Litoral
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV FALA LITORAL",TV FALA LITORAL
 https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/chunklist_w1605044150.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Gallo
+#EXTINF:-1 group-title="BR | ABERTOS",TV GALLO
 https://5c483b9d1019c.streamlock.net/8202/8202/playlist-480p.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV Gazeta BA SD",TV Gazeta BA SD
-https://tv.nuvemplay.live/hls/40gtv/stream.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV Gazeta HD",TV Gazeta HD
-https://gerenciar.vivatele.com:443/viva_padrao/viva2384/79
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV GAZETA NORTE MINEIRA",TV GAZETA NORTE MINEIRA
-https://59e4b6c1beddc.streamlock.net:443/tvgazeta/tvgazeta/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV Gazeta SP HD",TV Gazeta SP HD
-https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Gramado
+#EXTINF:-1 group-title="BR | ABERTOS",TV GRAMADO
 https://isaocorp.cloudecast.com/tvgramado/tracks-v1/index.fmp4.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT Pará.br" tvg-name="TV Grão Pará",TV Grão Pará
+#EXTINF:-1 group-title="BR | ABERTOS",TV GRÃO PARÁ
 https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Caxias do Sul HD.br" tvg-name="TV Guará Caxias",TV Guará Caxias
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Caxias do Sul HD.br" tvg-name="TV GUARÁ CAXIAS",TV GUARÁ CAXIAS
 https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Guará HD.br" tvg-name="TV Guará MA",TV Guará MA
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Guará HD.br" tvg-name="TV GUARÁ MA",TV GUARÁ MA
 https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u
-#EXTINF:-1 group-title="BR | ABERTOS",TV Itapetinga
-https://stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Japi
+#EXTINF:-1 group-title="BR | ABERTOS",TV JAPI
 https://stmv1.paineltv.net/tvjapi/tvjapi/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Jornal.br" tvg-name="TV Jornal HD",TV Jornal HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Jornal HD.br" tvg-name="TV JORNAL HD",TV JORNAL HD
 https://streaming.jornalmn.com.br/live/tvjornalmn.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV LITORAL",TV LITORAL
 https://srv2.tvmais.net.br/hls/tvlitoral/1_0/index.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV LITORAL Macau",TV LITORAL Macau
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV LITORAL MACAU",TV LITORAL MACAU
 https://video10.logicahost.com.br/zapnovelas/zapnovelas/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="TV LITORAL RN",TV LITORAL RN
 https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SÃ£o.Paulo/SP..Agro.Mais.br" tvg-name="TV Mais",TV Mais
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Rede Mais Varginha.br" tvg-name="TV MAIS",TV MAIS
 https://video01.soultv.com.br/tvmaisabc/tvmaisabc/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TV Mais Brasil",TV Mais Brasil
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV MAIS BRASIL",TV MAIS BRASIL
 https://stmv1.paineltv.net/tvmaisbrasil/tvmaisbrasil/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SÃ£o.Paulo/SP..Agro.Mais.br" tvg-name="TV Mais Família",TV Mais Família
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Rede Mais Varginha.br" tvg-name="TV MAIS FAMÍLIA",TV MAIS FAMÍLIA
 https://video01.logicahost.com.br/redefamiliaa/redefamiliaa/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Marajoara
+#EXTINF:-1 group-title="BR | ABERTOS",TV MARAJOARA
 https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV NBN
 https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV OURO NEGRO
 https://StmV1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Paraense
+#EXTINF:-1 group-title="BR | ABERTOS",TV PARAENSE
 https://cdn.jmvstream.com/w/AVJ-13102/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Paraná Turismo
+#EXTINF:-1 group-title="BR | ABERTOS",TV PARANÁ TURISMO
 https://aovivo.paranaeducativa.pr.gov.br/hls/tve.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TV RBC
 https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Recon
+#EXTINF:-1 group-title="BR | ABERTOS",TV RECON
 https://acesso.ecast.site:3862/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Rio Grande do Sul HD.br" tvg-name="TV RIO MADEIRA",TV RIO MADEIRA
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Rio Grande HD.br" tvg-name="TV RIO MADEIRA",TV RIO MADEIRA
 https://stmv1.srvif.com/tvriomadeira/tvriomadeira/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Rio Grande do Sul HD.br" tvg-name="TV Rio Preto",TV Rio Preto
-https://video02.logicahost.com.br/tvriopreto/tvriopreto/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Santa Cruz do Sul HD.br" tvg-name="TV Santa Maria",TV Santa Maria
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Santa Cruz do Sul HD.br" tvg-name="TV SANTA MARIA",TV SANTA MARIA
 https://cdn-tvsantamaria.ciclano.io:1443/tvsantamaria/tvsantamaria/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="BBC.America.HD.us2" tvg-name="TV Serra América",TV Serra América
-https://stmv2.srvsh.com.br/tvserraamerica4639/tvserraamerica4639/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="InterTV Serra Mar HD.br" tvg-name="TV Serra Dourada",TV Serra Dourada
-https://livestream.zazerconer.workers.dev/channel/UCuODGS_c39psNvI8f3bYN_g.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Sim.br" tvg-name="TV SIM Colatina",TV SIM Colatina
-https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Sim.br" tvg-name="TV SIM Linhares",TV SIM Linhares
-https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV SIM São Mateus",TV SIM São Mateus
-https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV São Luís Maranhão",TV São Luís Maranhão
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV SÃO LUÍS MARANHÃO",TV SÃO LUÍS MARANHÃO
 https://stmv1.srvif.com/tvsaoluis8/tvsaoluis8/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Brasília HD.br" tvg-name="TV União Brasília",TV União Brasília
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT Goiania TV Serra Dourada.br" tvg-name="TV SERRA AMÉRICA",TV SERRA AMÉRICA
+https://stmv2.srvsh.com.br/tvserraamerica4639/tvserraamerica4639/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT Goiania TV Serra Dourada.br" tvg-name="TV SERRA DOURADA",TV SERRA DOURADA
+https://livestream.zazerconer.workers.dev/channel/UCuODGS_c39psNvI8f3bYN_g.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",TV SIM COLATINA
+https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS",TV SIM LINHARES
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV SIM SÃO MATEUS",TV SIM SÃO MATEUS
+https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Brasília HD.br" tvg-name="TV UNIÃO BRASÍLIA",TV UNIÃO BRASÍLIA
 https://live.uniaoplus.com/hls/sqYJRqIsBLTW36TC.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Fortaleza.br" tvg-name="TV União Fortaleza",TV União Fortaleza
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Fortaleza.br" tvg-name="TV UNIÃO FORTALEZA",TV UNIÃO FORTALEZA
 https://live.uniaoplus.com/hls/0gmf9QNc7bQ6V0Lu.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Rio Grande do Sul HD.br" tvg-name="TV União Rio Branco",TV União Rio Branco
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Rio Grande HD.br" tvg-name="TV UNIÃO RIO BRANCO",TV UNIÃO RIO BRANCO
 https://live.uniaoplus.com/hls/8b43MluBjzR7M1Uk.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",TV Visual
+#EXTINF:-1 group-title="BR | ABERTOS",TV VISUAL
 https://stream.ichibantv.com:3874/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vitoria.br" tvg-name="TV Vitória PE",TV Vitória PE
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vitoria.br" tvg-name="TV VITÓRIA PE",TV VITÓRIA PE
 https://5a0c3936c25c8.streamlock.net/tvvitoriape/tvvitoriape/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",TVC
 https://video01.kshost.com.br:4443/inside2133/inside2133/chunklist_w384766910.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="TVC Brasil",TVC Brasil
+#EXTINF:-1 group-title="BR | ABERTOS",TVC BRASIL
 https://a.cdni.live/tvcbrasil/tvcbrasil/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE Bahia HD",TVE Bahia HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA HD",TVE BAHIA HD
 http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="TVE FHD",TVE FHD
 https://streaming.procergs.com.br:8443/tve/smil:tve-s.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE FHD²",TVE FHD²
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="TVE FHD [2]",TVE FHD [2]
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT Pará.br" tvg-name="TVM Pará",TVM Pará
+#EXTINF:-1 group-title="BR | ABERTOS",TVM PARÁ
 https://59f1cbe63db89.streamlock.net:1443/tvmpa/_definst_/tvmpa/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="UNIVERSO.HD.us2" tvg-name="Universo TV",Universo TV
+#EXTINF:-1 group-title="BR | ABERTOS",UNIVERSO TV
 https://srv5.zcast.com.br/universotv/universotv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vila Real.br" tvg-name="Vila TV",Vila TV
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vila Real.br" tvg-name="VILA TV",VILA TV
 https://streamserver.streamingdevideo.com.br/8072/8072/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",Viu TV
+#EXTINF:-1 group-title="BR | ABERTOS",VIU TV
 https://stmv5.samcast.com.br/val4355/val4355/playlist.m3u8?hls_ctx=50177u50
-#EXTINF:-1 group-title="BR | ABERTOS",Vivax TV
+#EXTINF:-1 group-title="BR | ABERTOS",VIVAX TV
 https://stmv2.samcast.com.br/marcus8647/marcus8647/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",VV8 TV
 https://video01.kshost.com.br:4443/seap8272/seap8272/playlist.m3u8
 #EXTINF:-1 group-title="BR | ABERTOS",WEB TV BOANOVA
 https://stmv.video.expressolider.com.br/tvboanova/tvboanova/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",Web TV Campeão De Tudo
+#EXTINF:-1 group-title="BR | ABERTOS",WEB TV CAMPEÃO DE TUDO
 https://stmv1.paineldevideo.com.br/claudiorlp/claudiorlp/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Minas HD.br" tvg-name="Wtj TV Minas",Wtj TV Minas
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Minas HD.br" tvg-name="WTJ TV MINAS",WTJ TV MINAS
 https://video02.logicahost.com.br/wtjtvminas/wtjtvminas/playlist.m3u8
-#EXTINF:-1 group-title="BR | ABERTOS",Ypê TV
+#EXTINF:-1 group-title="BR | ABERTOS",YPÊ TV
 https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E FHD",A&E FHD
 http://148.113.209.34:80/rj-live/rj-live/600001.ts
@@ -407,23 +363,21 @@ http://79.127.238.228:14551/
 https://cdn-5.nxplay.com.br/AMC_BRASIL_TK/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AMC.br" tvg-name="AMC SD",AMC SD
 https://cdn-5.nxplay.com.br/AMC_BRASIL_TK/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Animax
+#EXTINF:-1 group-title="BR | FILMES E SERIES",ANIMAX
 https://stream.ichibantv.com:3547/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Animes TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",ANIMES TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | FILMES E SERIES",AniTV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",ANITV
 https://stream.ichibantv.com:3764/hybrid/play.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN HD",AXN HD
 https://cdn-5.nxplay.com.br/AXN_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="BET.GOSPEL.us2" tvg-name="BET Pluto TV",BET Pluto TV
-https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Canela Telenovelas
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CANELA TELENOVELAS
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1152
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="CHANNEL ONE",CHANNEL ONE
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CHANNEL ONE
 https://video02.logicahost.com.br/tvone/tvone/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Cine Espanto",Cine Espanto
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE ESPANTO
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TV5.Monde.br" tvg-name="Cine Monde",Cine Monde
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE MONDE
 https://video01.soultv.com.br/cinemonde/cinemonde/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX HD",CINEMAX HD
 https://megaflix.mgfiles.lat/3b8b64555fa7b54bd2219c85929f14c0/file.m3u8
@@ -431,51 +385,55 @@ https://megaflix.mgfiles.lat/3b8b64555fa7b54bd2219c85929f14c0/file.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6178
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CLASSIQUE TV
 https://stmv1.srvif.com/classique/classique/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="CLASSIQUE TV SERIES",CLASSIQUE TV SERIES
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CLASSIQUE TV SERIES
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CLASSIQUE TV WETERN
 https://stmv2.painelvideocast.com.br/classiquew/classiquew/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TV Clube HD.br" tvg-name="Clube do Terror",Clube do Terror
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CLUBE DO TERROR
 https://jmp2.uk/plu-64e501eec630a900088ed0f8.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Comedy.Central.br" tvg-name="Comedy Central Pluto TV",Comedy Central Pluto TV
-https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Coreano by CJ ENM
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN INTERNATIONAL",CNN INTERNATIONAL
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES",COREANO BY CJ ENM
 https://jmp2.uk/stvp-ES1700003C6
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Flix.us2" tvg-name="Dark Flix",Dark Flix
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="CULTURA INTERNACIONAL",CULTURA INTERNACIONAL
+https://oj7lng29dg82-hls-live.5centscdn.com/lives/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES",DARK FLIX
 https://video01.soultv.com.br/darkflix/darkflix/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | FILMES E SERIES",ESFLIX TV
 https://acesso.ecast.site:3186/live/esflixlive.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Film.&amp;.Arts.br" tvg-name="Film & Arts HD",Film & Arts HD
-https://cdn-5.nxplay.com.br/Film_Arts_Brasil_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Filmelier TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",FILMELIER TV
 https://jmp2.uk/plu-633dcebd80386500074a2461.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Starz.Encore.Suspense.us2" tvg-name="Filmes Suspense",Filmes Suspense
+#EXTINF:-1 group-title="BR | FILMES E SERIES",FILMES SUSPENSE
 https://jmp2.uk/plu-5f171d3442a0500007362f22.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Free.Speech.TV.us2" tvg-name="Free TV Drama",Free TV Drama
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Free.Speech.TV.us2" tvg-name="FREE TV DRAMA",FREE TV DRAMA
 https://oly-ftvcbr.otteravision.com/oly/ftvdrbr/ftvdrbr.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",GLN TV
 https://stmv1.paineltv.net/glnfilmes/glnfilmes/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="GloboPlay Novelas HD",GloboPlay Novelas HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS FHD",GLOBOPLAY NOVELAS FHD
+http://s2.micineovs.com/VIVA/index.m3u8?token=16FOTt9Ae2m8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD",GLOBOPLAY NOVELAS HD
 http://79.127.238.228:14455/
+#EXTINF:-1 group-title="BR | FILMES E SERIES",GOSPEL INTERNACIONAL
+https://stream.vagalume.fm/hls/1470245767122628/aac.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",GRJNGO
 https://amogonetworx-grjngo-1-eu.plex.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Hallo Anime HD²
+#EXTINF:-1 group-title="BR | FILMES E SERIES",HALLO ANIME HD
 https://cdn-5.nxplay.com.br/HALLOANIME/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TCM.-.Turner.Classic.br" tvg-name="Hallo! Classic",Hallo! Classic
+#EXTINF:-1 group-title="BR | FILMES E SERIES",HALLO! CLASSIC
 https://cdn-5.nxplay.com.br/HALLOCLASSIC/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Hallo! Doc.
+#EXTINF:-1 group-title="BR | FILMES E SERIES",HALLO! DOC.
 https://cdn-5.nxplay.com.br/HALLODOC/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="Hallo! Movies",Hallo! Movies
+#EXTINF:-1 group-title="BR | FILMES E SERIES",HALLO! MOVIES
 https://cdn-5.nxplay.com.br/HALLOMOVIES/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Hallo! Series",Hallo! Series
+#EXTINF:-1 group-title="BR | FILMES E SERIES",HALLO! SERIES
 https://cdn-5.nxplay.com.br/HALLOSERIES/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD",HBO 2 HD
 https://megaflix.mgfiles.lat/271358327102dbcb00df1e1b08f2298e/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO Family HD",HBO Family HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD",HBO FAMILY HD
 https://megaflix.mgfiles.lat/8ea50dc6ffce55fe09cf2468ab78d9c7/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD",HBO HD
 https://cr7v.short.gy/ManoTV/temporário/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO Xtreme HD",HBO Xtreme HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD",HBO XTREME HD
 https://megaflix.mgfiles.lat/9b84e468352d6a70935cac946f3ee4c5/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD",HBO+ HD
 https://megaflix.mgfiles.lat/d821613ce0d5a46d2cc4d0c322096fba/file.m3u8
@@ -483,225 +441,137 @@ https://megaflix.mgfiles.lat/d821613ce0d5a46d2cc4d0c322096fba/file.m3u8
 https://cdn-3.nxplay.com.br/HTO_Filmes/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX HD",MEGAPIX HD
 http://s2.micineovs.com/MEGAPIX/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AFN.movie.us2" tvg-name="MOVIE SPHERE",MOVIE SPHERE
+#EXTINF:-1 group-title="BR | FILMES E SERIES",MOVIE SPHERE
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-moviespherebrazil-samsungbr/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="Novelas Turcas",Novelas Turcas
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5088
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Novelissima
+#EXTINF:-1 group-title="BR | FILMES E SERIES",NOVELISSIMA
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2380
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Novelissima BR
+#EXTINF:-1 group-title="BR | FILMES E SERIES",NOVELISSIMA BR
 https://cis-no-samsung.otteravision.com/cis/no/no_h265.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",OTAKU SIGN TV
 https://stmv1.srvif.com/otaku/otaku/chunklist_w776677652.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Aliens
-https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Bang.U.us2" tvg-name="Pluto TV Bang Bang",Pluto TV Bang Bang
-https://jmp2.uk/plu-663b9dc7cb3ea10008f1a0ce.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Clássicos",Pluto TV Cine Clássicos
-https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Comédia",Pluto TV Cine Comédia
-https://jmp2.uk/plu-5f12101f0b12f00007844c7c.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Comédia Romântica",Pluto TV Cine Comédia Romântica
-https://jmp2.uk/plu-62545ed3dab4380007582f7c.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Crime",Pluto TV Cine Crime
-https://jmp2.uk/plu-6479ff764f5ba5000878dfe2.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Drama",Pluto TV Cine Drama
-https://jmp2.uk/plu-5f1210d14ae1f80007bafb1d.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Família",Pluto TV Cine Família
-https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Inspiração",Pluto TV Cine Inspiração
-https://jmp2.uk/plu-5fa991b1f09e020007e78626.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Romance",Pluto TV Cine Romance
-https://jmp2.uk/plu-5f171f988ab9780007fa95ea.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Sucessos",Pluto TV Cine Sucessos
-https://jmp2.uk/plu-5f120e94a5714d00074576a1.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cine.Estelar.us2" tvg-name="Pluto TV Cine Terror",Pluto TV Cine Terror
-https://jmp2.uk/plu-5f12111c9e6c2c00078ef3bb.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Era de Ouro do Cinema
-https://jmp2.uk/plu-69441fd9e4674206f0a51245.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Ficção Científica
-https://jmp2.uk/plu-5fa15ad6367e170007cdd098.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",PLUTO TV Filmes Aventura
-https://jmp2.uk/plu-66c79a4262e5510008ff68a5.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Filmes Ação
-https://jmp2.uk/plu-5f120f41b7d403000783a6d6.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Filmes de Luta
-https://jmp2.uk/plu-6806d62369aec5b19cd628c0.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV Filmes Nacionais
-https://jmp2.uk/plu-5f5a545d0dbf7f0007c09408.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Pluto TV NetMovies
-https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="PLUTO TV NOVELAS",PLUTO TV NOVELAS
-https://jmp2.uk/plu-5f512365abe1f50007d3ff56.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Star.Channel.br" tvg-name="Pluto TV Star Trek",Pluto TV Star Trek
-https://jmp2.uk/plu-5f99ac4fded33000078f29ab.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Ação",Pluto TV Séries Ação
-https://jmp2.uk/plu-6474ab1da51cb80008bfb5f4.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Comédia",Pluto TV Séries Comédia
-https://jmp2.uk/plu-655e5bc94261ca000810cb17.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Criminais",Pluto TV Séries Criminais
-https://jmp2.uk/plu-6474ab5cdc7a760008745008.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Drama",Pluto TV Séries Drama
-https://jmp2.uk/plu-65f060d84e01740008d7421f.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Novelescas",Pluto TV Séries Novelescas
-https://jmp2.uk/plu-691627e4a29a6123e400b3e0.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="Pluto TV Séries Sci-Fi",Pluto TV Séries Sci-Fi
-https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",PLUTO TV Terror Trash
-https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="Prime Box HD",Prime Box HD
-https://cdn-5.nxplay.com.br/ESPN_3/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD INTERNACIONAL",RECORD INTERNACIONAL
+https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME
 https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime Ação HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME AÇÃO HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime Comédia HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME COMÉDIA HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Crime.and.Investigation.Network.HD.us2" tvg-name="Runtime Crime",Runtime Crime
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME CRIME
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Discovery.Familia.En.EspaÃ±ol.us2" tvg-name="Runtime Família",Runtime Família
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME FAMÍLIA
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5589
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Movie.Hub.Romance.us2" tvg-name="Runtime Romance",Runtime Romance
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME ROMANCE
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4866
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Runtime TV e Filmes Grátis
+#EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME TV E FILMES GRÁTIS
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Seven TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",SEVEN TV
 https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="Sony Channel HD",Sony Channel HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY CHANNEL HD",SONY CHANNEL HD
 https://cdn-5.nxplay.com.br/SONY_CHANNEL/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="Sony Novelas | LG",Sony Novelas | LG
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY NOVELAS | LG",SONY NOVELAS | LG
 https://spt-novelas-1-us.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="Sony One Classics",Sony One Classics
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE CLASSICS",SONY ONE CLASSICS
 https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE EMOCOES",SONY ONE EMOCOES
 https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SonyOneEmocoes/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="BET.Soul.us2" tvg-name="Soul Cine Clube",Soul Cine Clube
+#EXTINF:-1 group-title="BR | FILMES E SERIES",SOUL CINE CLUBE
 https://video01.soultv.com.br/soulcine/soulcine/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD",SPACE HD
 https://cdn-5.nxplay.com.br/SPACE_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD²",SPACE HD²
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD [2]",SPACE HD [2]
 http://15.235.42.84:8088/rj-live/rj-live/600230.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="Stormcast Novelas TV",Stormcast Novelas TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",STORMCAST NOVELAS TV
 https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="Studio Universal HD",Studio Universal HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD",STUDIO UNIVERSAL HD
 http://15.235.42.84:8088/rj-live/rj-live/600239.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",TakuSato Pluto TV
-https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="Telecine Action HD",Telecine Action HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD",TELECINE ACTION HD
 http://15.235.42.84:8088/rj-live/rj-live/600241.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="Telecine Action HD²",Telecine Action HD²
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [2]",TELECINE ACTION HD [2]
 http://46.151.196.223:14326/
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="Telecine Cult HD",Telecine Cult HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT HD",TELECINE CULT HD
 http://15.235.42.84:8088/rj-live/rj-live/600243.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="Telecine Fun HD",Telecine Fun HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN HD",TELECINE FUN HD
 http://15.235.42.84:8088/rj-live/rj-live/600245.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="Telecine Pipoca HD",Telecine Pipoca HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA HD",TELECINE PIPOCA HD
 http://s2.micineovs.com/TELECINEPIPOCA/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="Telecine Premium HD",Telecine Premium HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM HD",TELECINE PREMIUM HD
 http://s2.micineovs.com/TELECINEPREMIUM/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="Telecine Touch HD",Telecine Touch HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH HD",TELECINE TOUCH HD
 http://15.235.42.84:8088/rj-live/rj-live/600250.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD",TNT HD
 http://s2.micineovs.com/TNT/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD²",TNT HD²
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [2]",TNT HD [2]
 https://cdn-5.nxplay.com.br/TNT_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD³",TNT HD³
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [3]",TNT HD [3]
 http://15.235.42.84:8088/rj-live/rj-live/600255.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT Novelas HD",TNT Novelas HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS HD",TNT NOVELAS HD
 http://15.235.42.84:8088/rj-live/rj-live/600256.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT Séries HD",TNT Séries HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SÉRIES HD",TNT SÉRIES HD
 http://15.235.42.84:8088/rj-live/rj-live/600258.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="Universal Channel HD",Universal Channel HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
 http://79.127.243.211:14623/
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cartoon.Network.br" tvg-name="USA Network HD",USA Network HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="USA.Network.HD.us2" tvg-name="USA NETWORK HD",USA NETWORK HD
 http://15.235.42.84:8088/rj-live/rj-live/600286.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="Warner Channel HD",Warner Channel HD
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="WARNER CHANNEL HD",WARNER CHANNEL HD
 http://streamer.sattvacabo.com.br/WARNER_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="XTREME TV",XTREME TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",XTREME TV
 https://stmv.webtvninjas.com.br/xtremetv54/xtremetv54/playlist.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="Animal Planet HD",Animal Planet HD
-https://cdn-5.nxplay.com.br/ANIMAL_PLANET_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="Disc. Home & Health HD",Disc. Home & Health HD
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET HD",ANIMAL PLANET HD
+http://185.152.67.187:14386/
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISC. HOME & HEALTH HD",DISC. HOME & HEALTH HD
 http://hls1.sua.tv:80/live/discoveryhehfhd/s.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel FHD",Discovery Channel FHD
-https://cdn-5.nxplay.com.br/DISCOVERY_CHANNEL_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="Discovery Channel HD",Discovery Channel HD
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL FHD",DISCOVERY CHANNEL FHD
+https://megaflix.mgfiles.lat/b79220c0a11a0b150dbebd0eee4238e0/file.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL HD",DISCOVERY CHANNEL HD
 http://hls1.sua.tv:80/live/discoverychannelfhd/s.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="Discovery Science HD",Discovery Science HD
-https://cdn-5.nxplay.com.br/DISCOVERY_SCIENCE_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="Discovery Theater HD",Discovery Theater HD
-https://cdn-5.nxplay.com.br/DISCOVERY_THEATER_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="Discovery Turbo HD",Discovery Turbo HD
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE HD",DISCOVERY SCIENCE HD
+https://megaflix.mgfiles.lat/4f9b45a8d9320c4f545c1b19f30a5037/file.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="DISCOVERY THEATER HD",DISCOVERY THEATER HD
+https://megaflix.mgfiles.lat/24161214808fec7d4e71d683bc18cf2d/file.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO HD",DISCOVERY TURBO HD
 http://185.152.67.187:14367/
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="Discovery World HD",Discovery World HD
-https://cdn-5.nxplay.com.br/DISCOVERY_WORLD_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="History 2 HD",History 2 HD
-https://cdn-5.nxplay.com.br/HISTORY_2_TK/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="History HD",History HD
-https://cdn-5.nxplay.com.br/HISTORY_TK/index.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="DISCOVERY WORLD HD",DISCOVERY WORLD HD
+https://megaflix.mgfiles.lat/37a0a53a454048db23150f64817cfa37/file.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 HD",HISTORY 2 HD
+http://185.152.67.187:14392/
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY HD",HISTORY HD
+https://megaflix.mgfiles.lat/cc13c1734b1bb80b512e88ed402d1af8/file.m3u8
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="ID HD",ID HD
-https://cdn-5.nxplay.com.br/DISCOVERY_ID_NX/index.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Animais
-https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Curiosidade
-https://jmp2.uk/plu-6474aadc8e3c0a0008b98493.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV História
-https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Investigaçao Discovery HD.br" tvg-name="Pluto TV Investigação",Pluto TV Investigação
-https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Mistérios
-https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Pluto TV Policial
-https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",Rakuten Documentários | português e inglês
+https://megaflix.mgfiles.lat/a0c986815ff38ac3d75b30dfd42afa9d/file.m3u8
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS",RAKUTEN DOCUMENTÁRIOS | PORTUGUÊS E INGLÊS
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Warner.Channel.br" tvg-name="Smithsonian Channel Pluto TV",Smithsonian Channel Pluto TV
-https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC HD",TLC HD
 http://79.127.238.228:14433/TLChd
-#EXTINF:-1 group-title="BR | ESPORTES",Adrenalina Pura TV
+#EXTINF:-1 group-title="BR | ESPORTES",ADRENALINA PURA TV
 https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Auto TV
+#EXTINF:-1 group-title="BR | ESPORTES",AUTO TV
 https://cdn.live.br1.jmvstream.com/webtv/txsneccr/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Band Sports HD",Band Sports HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD",BAND SPORTS HD
 http://79.127.243.211:14445/
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal do Inter",Canal do Inter
+#EXTINF:-1 group-title="BR | ESPORTES",CANAL DO INTER
 https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV 2 HD
-https://cr7v.short.gy/ManoTV/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV FHD
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Cazé TV HD
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE GLOBAL",COMBATE GLOBAL
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="Combate HD",Combate HD
-http://46.151.196.223:14468/
-#EXTINF:-1 group-title="BR | ESPORTES",COMBATV
-https://aym-cbtv.otteravision.com/aym/cbtv/cbtv_480p.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",DAZN Combat
-https://jmp2.uk/plu-64df7ab4dfa32400083c517b.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Desempedido FHD
+#EXTINF:-1 group-title="BR | ESPORTES",DESEMPEDIDO FHD
 https://cc-vvkv6xjfc6w5v.akamaized.net/ogc/desi/desi_h265.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Desempedido HD
+#EXTINF:-1 group-title="BR | ESPORTES",DESEMPEDIDO HD
 https://cc-vvkv6xjfc6w5v.akamaized.net/ogc/desi/desi.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Eleven sports 1 HD",Eleven sports 1 HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="ELEVEN SPORTS 1 HD",ELEVEN SPORTS 1 HD
 http://znty.dyndns.org:5010/hls/eleven1.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Eleven sports 2 HD",Eleven sports 2 HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="ELEVEN SPORTS 2 HD",ELEVEN SPORTS 2 HD
 http://znty.dyndns.org:5010/hls/eleven2.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Eleven sports 3 HD",Eleven sports 3 HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="NBC.Sports.California.Plus.3.us2" tvg-name="ELEVEN SPORTS 3 HD",ELEVEN SPORTS 3 HD
 http://znty.dyndns.org:5010/hls/eleven3.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Eleven sports 4 HD",Eleven sports 4 HD
+#EXTINF:-1 group-title="BR | ESPORTES",ELEVEN SPORTS 4 HD
 http://znty.dyndns.org:5010/hls/eleven4.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="Eleven sports 5 HD",Eleven sports 5 HD
+#EXTINF:-1 group-title="BR | ESPORTES",ELEVEN SPORTS 5 HD
 http://znty.dyndns.org:5010/hls/eleven5.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 HD",ESPN 2 HD
 http://46.151.196.223:14438/
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN 2 HD²",ESPN 2 HD²
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 HD [2]",ESPN 2 HD [2]
 http://cdn-5.nxplay.com.br/ESPN_2/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 HD",ESPN 3 HD
 http://46.151.196.223:14444/
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN 3 HD²",ESPN 3 HD²
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 HD [2]",ESPN 3 HD [2]
 http://cdn-5.nxplay.com.br/ESPN_3/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD",ESPN 4 HD
 http://79.127.243.211:14514/
@@ -715,467 +585,549 @@ http://hls1.sua.tv:80/live/espnextrafhd/s.m3u8
 https://cr7v.short.gy/manoiTVOP2/spnHD²/Index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN HD",ESPN HD
 https://cr7v.short.gy/live25/spn/Index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band Brasília HD.br" tvg-name="Esportes Brasília",Esportes Brasília
+#EXTINF:-1 group-title="BR | ESPORTES",ESPORTES BRASÍLIA
 https://a.cdni.live/radioesporte/radioesporte/chunklist_w1002148111.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="HBO.Plus.br" tvg-name="FIFA PLUS",FIFA PLUS
+#EXTINF:-1 group-title="BR | ESPORTES",FIFA PLUS
 https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",FIFA+
 https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",FUEL TV
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-samsungbr/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Ge TV FHD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD",GE TV FHD
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Ge TV FHD (TCL TV)
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD (TCL TV)",GE TV FHD (TCL TV)
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Ge TV HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD",GE TV HD
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/720p-cc/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Ge TV HD (SamsungTV)
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (SAMSUNGTV)",GE TV HD (SAMSUNGTV)
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",LA LIGA
 https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=ESBD3600001Q1
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Max Up.br" tvg-name="Max 5",Max 5
+#EXTINF:-1 group-title="BR | ESPORTES",MAX 5
 https://cr7v.short.gy/live/JOGOO8/Index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Motorvision FHD
+#EXTINF:-1 group-title="BR | ESPORTES",MOTORVISION FHD
 https://mvg-mv-pt.otteravision.com/mvg/mv_pt/mv_pt.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Motorvision |PT HD
+#EXTINF:-1 group-title="BR | ESPORTES",MOTORVISION |PT HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2182
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="NSports.br" tvg-name="NSPORTS",NSPORTS
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",PFL MMA
-https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",PONTV
 https://video01.soultv.com.br/pontepreta/pontepreta/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Rede.Brasil.HD.br" tvg-name="Racer Brasil",Racer Brasil
+#EXTINF:-1 group-title="BR | ESPORTES",RACER BRASIL
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/7N_Sports/MAVTV_Brasil_BR/MAVTV_Brasil.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Rede.Brasil.HD.br" tvg-name="RACER Brasil [2]",RACER Brasil [2]
+#EXTINF:-1 group-title="BR | ESPORTES",RACER BRASIL [2]
 https://jmp2.uk/plu-65a6818c7bdc8d0008457b21.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Realmadrid TV
+#EXTINF:-1 group-title="BR | ESPORTES",REALMADRID TV
 https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SFT Combat
-https://jmp2.uk/plu-6660b636cb3ea10008429c6a.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 1 FHD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 1 FHD
 http://dns.explouddev.com:80/632270679/F823j7133R/111995
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 1 HD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 1 HD
 http://peaky.techcoder40.workers.dev:80/1393.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 2 FHD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 2 FHD
 http://dns.explouddev.com:80/632270679/F823j7133R/111998
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 2 HD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 2 HD
 http://peaky.techcoder40.workers.dev:80/1395.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 3 HD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 3 HD
 http://dns.explouddev.com:80/632270679/F823j7133R/112000
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 4 HD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 4 HD
 http://dns.explouddev.com:80/632270679/F823j7133R/112002
-#EXTINF:-1 group-title="BR | ESPORTES",SportTV 5 HD
+#EXTINF:-1 group-title="BR | ESPORTES",SPORTTV 5 HD
 http://dns.explouddev.com:80/632270679/F823j7133R/112004
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SporTV 2 HD",SporTV 2 HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD",SPORTV 2 HD
 http://15.235.42.84:8088/rj-live/rj-live/600234.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV 3 F1 ao Vivo",SporTV 3 F1 ao Vivo
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 F1 AO VIVO",SPORTV 3 F1 AO VIVO
 https://cr7v.short.gy/FuncionaSoquandoTemF1/ManoTVfree.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SporTV 3 HD",SporTV 3 HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD",SPORTV 3 HD
 http://15.235.42.84:8088/rj-live/rj-live/600236.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV HD",SporTV HD
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD",SPORTV HD
 http://s2.micineovs.com/SPTV1/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV HD [2]",SporTV HD [2]
-https://cr7v.short.gy/manoiTVOP1/sptv1/75991634025/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV HD²",SporTV HD²
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [2]",SPORTV HD [2]
 http://46.151.196.223:14286/
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV HD² [2]",SporTV HD² [2]
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [3]",SPORTV HD [3]
+https://cr7v.short.gy/manoiTVOP1/sptv1/75991634025/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [4]",SPORTV HD [4]
 https://cr7v.short.gy/manoiTVOP3/sptvxtra2/75991634025/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SporTV HD³",SporTV HD³
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [5]",SPORTV HD [5]
 https://cr7v.short.gy/ManoTVfree/SPOREXTRA/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Top Barça
+#EXTINF:-1 group-title="BR | ESPORTES",TOP BARÇA
 https://jmp2.uk/plu-6888ee858f4a4aa11feb9430.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Trace Brazuca.br" tvg-name="Trace Sport Stars",Trace Sport Stars
+#EXTINF:-1 group-title="BR | ESPORTES",TRACE SPORT STARS
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",VITRINE ESPORTIVA
 https://cdn.jmvstream.com/w/AVJ-12930/playlist/chunklist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Woohoo.br" tvg-name="Woohoo",Woohoo
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Woohoo.br" tvg-name="WOOHOO",WOOHOO
 http://gerenciar.vivatele.com/viva_padrao/viva2384/73
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="World Poker lour",World Poker lour
+#EXTINF:-1 group-title="BR | ESPORTES",WORLD POKER LOUR
 https://jmp2.uk/plu-63eba66da8b2270008436b10.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="World Poker Tour",World Poker Tour
+#EXTINF:-1 group-title="BR | ESPORTES",WORLD POKER TOUR
 https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/WPT/World_Poker_Tour_BR/World_Poker_Tour.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Xsports.br" tvg-name="XSports",XSports
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Xsports.br" tvg-name="XSPORTS",XSPORTS
 https://cr7v.short.gy/manoitv/X-Sports/Index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",40 GRAUS TV
 https://acesso.ecast.site:3125/stream/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Acelerados
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ACELERADOS
 https://cc-zvni27dp2ukyu.akamaized.net/ogc/acel/acel.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",AgitoMax
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",AGITOMAX
 https://stmv2.samcast.com.br/agitomax/agitomax/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD",ARTE 1 HD
-http://cdn-5.nxplay.com.br/ARTE1/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",BS TV
 https://br5093.streamingdevideo.com.br/bstv/bstv/chunklist_w1014792137.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal 019",Canal 019
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CANAL 019
 https://stmv1.srvstm.com/bruno4723/bruno4723/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Caravana Play",Caravana Play
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CARAVANA PLAY
 https://srv4.zcast.com.br/keynni2406/keynni2406/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",CONECTV
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Cultne TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CULTNE TV
 https://cc-wn1j3f2wnu5lr.akamaized.net/manifest.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="Curta!",Curta!
-https://video01.logicahost.com.br/canalcurta/canalcurta/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Demais TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",DEMAIS TV
 https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",FailArmy
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",FAILARMY
 https://jmp2.uk/plu-5f5141c1605ddf000748eb1b.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Flow TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",FLOW TV
 https://cc-l2unazbogzufr.akamaized.net/gpf/tvfl/tvfl_h265.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Food.Network.br" tvg-name="Food Network HD",Food Network HD
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Food.Network.br" tvg-name="FOOD NETWORK HD",FOOD NETWORK HD
 http://200.229.190.189:8001/play/a01g
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Gogo Play",Gogo Play
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",GOGO PLAY
 https://tgn.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV HD",HGTV HD
-https://cdn-5.nxplay.com.br/HGTV_BR_NX/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV HD²",HGTV HD²
 http://200.229.190.189:8001/play/a01b
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Hip Hop Vai Alem da TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",HIP HOP VAI ALEM DA TV
 https://stmv4.voxtvhd.com.br/carlosdavi6787/carlosdavi6787/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Homeful
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",HOMEFUL
 https://jmp2.uk/plu-67603668f433320008760af1.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",ISTV FHD
 https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",LASSTV
 https://tv02.zas.media:1936/lasstv/lasstv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Loading...TV HD
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",LOADING...TV HD
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",MaisUm
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",MAISUM
 https://stream.ichibantv.com:3230/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="MTV.br" tvg-name="MTV Pluto TV",MTV Pluto TV
-https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Olha TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW HD",MULTISHOW HD
+https://megaflix.mgfiles.lat/967dc441704ce68263139f1f50b6b530/file.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",OLHA TV
 http://24.152.8.38:5001/live/olhatv/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",People Are Awesome
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",PEOPLE ARE AWESOME
 https://jukin-peopleareawesome-2-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",PIXTV
 https://mpix05.tmwpix.com:6516/pix/pixtv_hi.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="Play TV",Play TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV",PLAY TV
 https://isaocorp.cloudecast.com/playtv/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Pluto TV Canal UOL",Pluto TV Canal UOL
-https://jmp2.uk/plu-64b9370b409629000802d32b.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Cozinha
-https://jmp2.uk/plu-5f1ef23020a5ac0007e5e8ea.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Gaming por Ubisoft
-https://jmp2.uk/plu-64c815e8a1c6130008fef928.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Karaokê por Stingray
-https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV KFood
-https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Minha Obsessão Favorita
-https://jmp2.uk/plu-61843f5e491af10007f7eefa.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Paisagens por Stingray
-https://jmp2.uk/plu-604a8dedbca75b0007b1c753.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RETRO.us2" tvg-name="Pluto TV Retrô",Pluto TV Retrô
-https://jmp2.uk/plu-5f1212ad1728050007a523b8.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Discovery.Turbo.br" tvg-name="Pluto TV Turbo",Pluto TV Turbo
-https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Pluto TV Viagens
-https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="Pluto TV Vida Real",Pluto TV Vida Real
-https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",PortaTV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",PORTATV
 https://jmp2.uk/plu-69440d0611f6c6384ab78306.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Receita Fast HD
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",RECEITA FAST HD
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Receitas_Fast_BR/Receitas_Fast.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="Revry Brasil",Revry Brasil
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RedeTV! HD.br" tvg-name="REDETV! PR HD",REDETV! PR HD
+https://tv02.zas.media:1936/redetvparana/redetvparana/playlist.m3u8?ManoTV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Record TV RS.br" tvg-name="REDETV! TV PAMPA RS",REDETV! TV PAMPA RS
+https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",REVRY BRASIL
 https://revry-brazil.akamaized.net/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="Revry Brasil²",Revry Brasil²
-https://dletvjdknba4f.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Royalworld Nobreza e Dinastias
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ROYALWORLD NOBREZA E DINASTIAS
 https://cc-4e6doav3fdfaw.akamaized.net/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Salon line
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",SALON LINE
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Sou TV.
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",SOU TV.
 https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="Tastemade Brasil",Tastemade Brasil
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TASTEMADE BRASIL
 https://jmp2.uk/plu-5fd1419a3b4f4b000773ba85.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Tastemade.en.EspaÃ±ol.us2" tvg-name="Tastemade Casa",Tastemade Casa
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TASTEMADE CASA
 https://jmp2.uk/plu-68b88821e542386ab0bf5bef.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Tastemade.en.EspaÃ±ol.us2" tvg-name="Tastemade Viagens",Tastemade Viagens
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TASTEMADE VIAGENS
 https://jmp2.uk/plu-68b8875777201ec428d9eaa5.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Tenda TV
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TENDA TV
 https://tv02.zas.media:1936/tendatv/tendatv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Terceira via
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TERCEIRA VIA
 https://video01.kshost.com.br:4443/terceira7669/terceira7669/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",The Pet Collective
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",THE PET COLLECTIVE
 https://jmp2.uk/plu-5f515ebac01c0f00080e8439.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Warner.Channel.br" tvg-name="TV Channel Network",TV Channel Network
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Me.TV.Network.us2" tvg-name="TV CHANNEL NETWORK",TV CHANNEL NETWORK
 https://stmv1.srvif.com/movies1/movies1/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV CLASSICOS
 https://stmv1.srvif.com/canal29/canal29/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Cine.Nostalgia.us2" tvg-name="TV Nostalgia",TV Nostalgia
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV GAZETA BA SD",TV GAZETA BA SD
+https://tv.nuvemplay.live/hls/40gtv/stream.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV GAZETA HD",TV GAZETA HD
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/79
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV GAZETA NORTE MINEIRA",TV GAZETA NORTE MINEIRA
+https://59e4b6c1beddc.streamlock.net:443/tvgazeta/tvgazeta/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Gazeta.br" tvg-name="TV GAZETA SP HD",TV GAZETA SP HD
+https://video08.logicahost.com.br/tvc21/tvc21/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV ITAPETINGA
+https://stmv1.samcast.com.br/eroaldo15634/eroaldo15634/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV NOSTALGIA
 https://stmv1.srvif.com/emlsilva/emlsilva/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Cine.Nostalgia.us2" tvg-name="TV Nostalgia [2]",TV Nostalgia [2]
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV NOSTALGIA [2]
 https://stmv1.srvif.com/tvnostalgia/tvnostalgia/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Viajando pelo Brasil
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Rio Grande HD.br" tvg-name="TV RIO PRETO",TV RIO PRETO
+https://video02.logicahost.com.br/tvriopreto/tvriopreto/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",VIAJANDO PELO BRASIL
 http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Warner.Channel.br" tvg-name="VRT Channel",VRT Channel
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",VRT CHANNEL
 https://sistemavrt2023.vrtchannel.tv.br:3626/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Web TV Classicos
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",WEB TV CLASSICOS
 https://live20.bozztv.com/giatvplayout7/giatv-208272/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="WhE Play",WhE Play
-https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/Offgrid/Whe_Play_BR/Whe_Play.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",WORDING TV
 https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w1264551258.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede.Brasil.HD.br" tvg-name="WTV Brasil",WTV Brasil
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",WTV BRASIL
 https://stmv7.samcast.com.br/wtvbrasil/wtvbrasil/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",YEEAAH
 http://stmv2.painelvideo.top/yeeaahrede/yeeaahrede/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="¡Hola! Play",¡Hola! Play
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",¡HOLA! PLAY
 https://022d66c197dd4a1e9008e0134a74f34e.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-es_HolaPlay/playlist.m3u8?ads.wurl_channel=790&ads.wurl_name=HolaPlay&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="Premiere 2 HD",Premiere 2 HD
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="CAZÉ TV 2 HD",CAZÉ TV 2 HD
+https://cr7v.short.gy/ManoTV/index.m3u8
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZÉ TV FHD
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZÉ TV HD
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 HD",PREMIERE 2 HD
 https://cr7v.short.gy/Canal2/index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="Premiere 3 HD",Premiere 3 HD
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD",PREMIERE 3 HD
 https://cr7v.short.gy/Canal3/index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="Premiere 4 HD",Premiere 4 HD
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 HD",PREMIERE 4 HD
 https://cr7v.short.gy/Canal4/index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="Premiere Clubes FHD",Premiere Clubes FHD
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES FHD",PREMIERE CLUBES FHD
 https://cr7v.short.gy/aoVIVO/PPVaoVIVO/index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="Premiere Clubes HD",Premiere Clubes HD
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES HD",PREMIERE CLUBES HD
 https://cr7v.short.gy/Canal1/index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW",UFC Fightpass HD
-https://cr7v.short.gy/manofree/UFC/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW",UFC Fightpass HD²
-https://cr7v.short.gy/manofree/UFC2/ZAP075991634025/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="011 News HD",011 News HD
+#EXTINF:-1 group-title="BR | NOTICIAS",011 NEWS HD
 https://011news.akamaized.net/011news/011news/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",4 POR 4
 https://video01.soultv.com.br/programa4por4/programa4por4/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="AVANÇA BRASIL",AVANÇA BRASIL
+#EXTINF:-1 group-title="BR | NOTICIAS",AVANÇA BRASIL
 https://video01.soultv.com.br/avancabrasil/avancabrasil/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="Band News HD",Band News HD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD",BAND NEWS HD
 http://gerenciar.vivatele.com:80/viva_padrao/viva2384/21.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="BM&C NEWS",BM&C NEWS
+#EXTINF:-1 group-title="BR | NOTICIAS",BM&C NEWS
 https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal GOV",Canal GOV
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Canal Gov.br" tvg-name="CANAL GOV",CANAL GOV
 https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="CBS NEWS",CBS NEWS
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS NEWS",CBS NEWS
 https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD",CNN BRASIL FHD
 https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1280x720/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD",CNN BRASIL HD
 https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-960x540/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="CNN Brasil Money HD",CNN Brasil Money HD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL MONEY HD",CNN BRASIL MONEY HD
 https://amg01391-sbtinfast-amg01391c11-lg-br-9982.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnmoneyhevc-lgbr/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD",CNN BRASIL SD
 https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-640x360/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN International",CNN International
-https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",ComBrasil
+#EXTINF:-1 group-title="BR | NOTICIAS",COMBRASIL
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="Cultura Internacional",Cultura Internacional
-https://oj7lng29dg82-hls-live.5centscdn.com/lives/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Euronews | Rakuten
+#EXTINF:-1 group-title="BR | NOTICIAS",EURONEWS | RAKUTEN
 https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="FOX News NOW | EUA",FOX News NOW | EUA
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Fox.News.Channel.HD.us2" tvg-name="FOX NEWS NOW | EUA",FOX NEWS NOW | EUA
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-fox-newsnow-samsung/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="Globo News FHD",Globo News FHD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD",GLOBO NEWS FHD
 http://xxip9.top:8080/Gizvid192@giz.com/1234@4321/164945
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="Globo News HD",Globo News HD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD",GLOBO NEWS HD
 http://79.127.238.228:14093/
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="JP NEWS",JP NEWS
+#EXTINF:-1 group-title="BR | NOTICIAS",JP NEWS
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="JP NEWS HD",JP NEWS HD
+#EXTINF:-1 group-title="BR | NOTICIAS",JP NEWS HD
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index_10.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="JP NEWS SD",JP NEWS SD
+#EXTINF:-1 group-title="BR | NOTICIAS",JP NEWS SD
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index_4.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Record.br" tvg-name="Record Internacional",Record Internacional
-https://viamotionhsi.netplus.ch/live/eds/rederecordinternacional/browser-HLS8/rederecordinternacional.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="Record News",Record News
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS",RECORD NEWS
 https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="Record News [2]",Record News [2]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [2]",RECORD NEWS [2]
 https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="Record News HD",Record News HD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS HD",RECORD NEWS HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431&avod=1&coppa=0&is_lat=0&dnt=0&us_privacy=1YN-&did=9794a1b041ad875093e398bc1632460a&app_bundle=com.ammo.runtime&app_store_url=https%3A%2F%2Fwww.runtime.tv%2Fdevices&app_domain=runtime.tv&app_name=runtime&custom_targeting=web&custom_4=internal&h=720&w=1280&content_channel=runtime&content_dist_name=internal&device_make=&device_model=&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=pt-br&custom_16=EN&custom_17=en&site_page=https%253A%252F%252Fwww.runtime.tv%252F&gender=not_specified&yob=0&livestream=1&custom_param_0=&custom_param_1=handset&custom_param_2=&custom_param_3=&custom_param_4=internal&custom_param_5=web&custom_param_6=South%2520America&timestamp=1688604990&id=11709&ip=138.185.238.172&override_expiration=1500&sign=z%2BA66gwNz60ZptKvp8RUzKwjztJdlXb4BFuJDdDAARg%3D
-#EXTINF:-1 group-title="BR | NOTICIAS",Resumo da Ópera
+#EXTINF:-1 group-title="BR | NOTICIAS",RESUMO DA ÓPERA
 https://011news.akamaized.net/011news/011news/chunklist_480p.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RS News WebTV 1",RS News WebTV 1
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Spectrum.News.1.-.Austin.us2" tvg-name="RS NEWS WEBTV 1",RS NEWS WEBTV 1
 https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="Times Brasil | CNBC",Times Brasil | CNBC
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="TIMES | Exclusivo CNBC.br" tvg-name="TIMES BRASIL | CNBC",TIMES BRASIL | CNBC
 https://jmp2.uk/plu-679a973a97782f0008ff4bb6.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Rede.Brasil.HD.br" tvg-name="Times Brasil | CNBC [2]",Times Brasil | CNBC [2]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="TIMES | Exclusivo CNBC.br" tvg-name="TIMES BRASIL | CNBC [2]",TIMES BRASIL | CNBC [2]
 https://f593663c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfVGltZXNCcmFzaWxsaWNlbmNpYWRvZXhjbHVzaXZvQ05CQ19ITFM/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Câmera HD
+#EXTINF:-1 group-title="BR | NOTICIAS",TV CÂMERA HD
 https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Câmera HD²
+#EXTINF:-1 group-title="BR | NOTICIAS",TV CÂMERA HD [2]
 https://stream3.camara.gov.br/tv2/manifest.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Notícias Agrícolas
+#EXTINF:-1 group-title="BR | NOTICIAS",TV NOTÍCIAS AGRÍCOLAS
 https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="TV Osório News",TV Osório News
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="BH News TV.br" tvg-name="TV OSÓRIO NEWS",TV OSÓRIO NEWS
 https://stmv2.srvsh.com.br/0614/0614/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..TV.Senado.br" tvg-name="TV Senado HD",TV Senado HD
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..TV.Senado.br" tvg-name="TV SENADO HD",TV SENADO HD
 https://stream1.freetv.fun/tv-senado-1.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",TV VIDEONEWS
 https://video01.logicahost.com.br/tvideonews/tvideonews/chunklist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="TVD News FHD",TVD News FHD
+#EXTINF:-1 group-title="BR | NOTICIAS",TVD NEWS FHD
 http://201.159.95.110:25461/live/site/site/666.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Veja+
+#EXTINF:-1 group-title="BR | NOTICIAS",VEJA+
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=15964&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]&app_store_url=[APP_STOREURL]&app_name=[APP_NAME]&custom_targeting=html5&custom_4=lg_channels_br&player_height=720&player_width=1280&content_channel=lg_channels&content_dist_name=lg_channels&device_make=[DEVICE_MAKE]&device_model=[DEVICE_MODEL]&device_os=html5&consent=[GDPR_CONSENT]&gdpr=[GDPR]&gender=not_specified&yob=0&livestream=1&custom_param_0=[DEVICE_MODEL]&custom_param_1=tv&custom_param_2=[DEVICE_MAKE]&custom_param_3=[DEVICE_ID]&custom_param_4=lg_channels&custom_param_5=html5&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="Hallo! Music",Hallo! Music
+#EXTINF:-1 group-title="BR | MUSICAS",HALLO! MUSIC
 https://cdn-5.nxplay.com.br/HALLOMUSIC/index.m3u8?token=cdntv_62qwd7eSv1Ihnlni
-#EXTINF:-1 group-title="BR | MUSICAS",Kiss TV
+#EXTINF:-1 group-title="BR | MUSICAS",KISS TV
 https://isaocorp.cloudecast.com/kisstv/index.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Biggest Pop",MTV Biggest Pop
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV BIGGEST POP",MTV BIGGEST POP
 https://jmp2.uk/plu-6047fbdbbb776a0007e7f2ff.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Classic",MTV Classic
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV CLASSIC",MTV CLASSIC
 https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV Rocks",MTV Rocks
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV ROCKS",MTV ROCKS
 https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS",Shows por Stingray
+#EXTINF:-1 group-title="BR | MUSICAS",SHOWS POR STINGRAY
 https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Rede.Brasil.HD.br" tvg-name="Trace Brasil",Trace Brasil
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Trace Brasil.br" tvg-name="TRACE BRASIL",TRACE BRASIL
 https://trace-brazuca-lg-br.amagi.tv/hls/amagi_hls_data_tracetvAA-trace-brazuca-lg-br/CDN/master.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.coppa=0&ads.targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&givn=[NONCE]
-#EXTINF:-1 group-title="BR | DORMIR E RELAXAR",NatureTime
+#EXTINF:-1 group-title="BR | DORMIR E RELAXAR",NATURETIME
 https://jmp2.uk/plu-681ba2ad93d3d19bcab47433.m3u8
-#EXTINF:-1 group-title="BR | DORMIR E RELAXAR",Natureza
+#EXTINF:-1 group-title="BR | DORMIR E RELAXAR",NATUREZA
 https://jmp2.uk/plu-5f1213ba0ecebc00070e170f.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Baby.Tv.br" tvg-name="Baby Shark",Baby Shark
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE GLOBAL",COMBATE GLOBAL
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE HD",COMBATE HD
+http://46.151.196.223:14468/
+#EXTINF:-1 group-title="BR | UFC",COMBATV
+https://aym-cbtv.otteravision.com/aym/cbtv/cbtv_480p.m3u8
+#EXTINF:-1 group-title="BR | UFC",PFL MMA
+https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
+#EXTINF:-1 group-title="BR | UFC",SFT COMBAT
+https://jmp2.uk/plu-6660b636cb3ea10008429c6a.m3u8
+#EXTINF:-1 group-title="BR | UFC",UFC FIGHTPASS HD
+https://cr7v.short.gy/manofree/UFC/tracks-v2a1/mono.m3u8
+#EXTINF:-1 group-title="BR | UFC",UFC FIGHTPASS HD [2]
+https://cr7v.short.gy/manofree/UFC2/ZAP075991634025/index.m3u8
+#EXTINF:-1 group-title="BR | DAZN",DAZN COMBAT
+https://jmp2.uk/plu-64df7ab4dfa32400083c517b.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",BET PLUTO TV
+https://jmp2.uk/plu-5ff768b6a4c8b80008498610.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL PLUTO TV",COMEDY CENTRAL PLUTO TV
+https://jmp2.uk/plu-5f357e91b18f0b00073583d2.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="MTV.br" tvg-name="MTV PLUTO TV",MTV PLUTO TV
+https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV ALIENS
+https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV ANIMAIS
+https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV ANIME
+https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV BANG BANG
+https://jmp2.uk/plu-663b9dc7cb3ea10008f1a0ce.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Canal Universitário TV UFSC.br" tvg-name="PLUTO TV CANAL UOL",PLUTO TV CANAL UOL
+https://jmp2.uk/plu-64b9370b409629000802d32b.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE CLÁSSICOS",PLUTO TV CINE CLÁSSICOS
+https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE COMÉDIA",PLUTO TV CINE COMÉDIA
+https://jmp2.uk/plu-5f12101f0b12f00007844c7c.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE COMÉDIA ROMÂNTICA",PLUTO TV CINE COMÉDIA ROMÂNTICA
+https://jmp2.uk/plu-62545ed3dab4380007582f7c.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE CRIME",PLUTO TV CINE CRIME
+https://jmp2.uk/plu-6479ff764f5ba5000878dfe2.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE DRAMA",PLUTO TV CINE DRAMA
+https://jmp2.uk/plu-5f1210d14ae1f80007bafb1d.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE FAMÍLIA",PLUTO TV CINE FAMÍLIA
+https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE INSPIRAÇÃO",PLUTO TV CINE INSPIRAÇÃO
+https://jmp2.uk/plu-5fa991b1f09e020007e78626.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE ROMANCE",PLUTO TV CINE ROMANCE
+https://jmp2.uk/plu-5f171f988ab9780007fa95ea.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE SUCESSOS",PLUTO TV CINE SUCESSOS
+https://jmp2.uk/plu-5f120e94a5714d00074576a1.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Cine Brasil TV.br" tvg-name="PLUTO TV CINE TERROR",PLUTO TV CINE TERROR
+https://jmp2.uk/plu-5f12111c9e6c2c00078ef3bb.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV COZINHA
+https://jmp2.uk/plu-5f1ef23020a5ac0007e5e8ea.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV CURIOSIDADE
+https://jmp2.uk/plu-6474aadc8e3c0a0008b98493.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV DESENHOS CLÁSSICOS
+https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV ERA DE OURO DO CINEMA
+https://jmp2.uk/plu-69441fd9e4674206f0a51245.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV ESPORTES
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV FICÇÃO CIENTÍFICA
+https://jmp2.uk/plu-5fa15ad6367e170007cdd098.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV FILMES AÇÃO
+https://jmp2.uk/plu-5f120f41b7d403000783a6d6.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV FILMES AVENTURA
+https://jmp2.uk/plu-66c79a4262e5510008ff68a5.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV FILMES DE LUTA
+https://jmp2.uk/plu-6806d62369aec5b19cd628c0.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV FILMES NACIONAIS
+https://jmp2.uk/plu-5f5a545d0dbf7f0007c09408.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV GAMING POR UBISOFT
+https://jmp2.uk/plu-64c815e8a1c6130008fef928.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV INVESTIGAÇÃO
+https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV JUNIOR
+https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV KARAOKÊ POR STINGRAY
+https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV KFOOD
+https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="LooLoo.Kids.TV.us2" tvg-name="PLUTO TV KIDS",PLUTO TV KIDS
+https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="LooLoo.Kids.TV.us2" tvg-name="PLUTO TV KIDS CLUB",PLUTO TV KIDS CLUB
+https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV MINHA OBSESSÃO FAVORITA
+https://jmp2.uk/plu-61843f5e491af10007f7eefa.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV MISTÉRIOS
+https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV NETMOVIES
+https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV NOVELAS
+https://jmp2.uk/plu-5f512365abe1f50007d3ff56.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV PAISAGENS POR STINGRAY
+https://jmp2.uk/plu-604a8dedbca75b0007b1c753.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV POLICIAL
+https://jmp2.uk/plu-678fdf9e3de7c8cf948e8824.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV RETRÔ
+https://jmp2.uk/plu-5f1212ad1728050007a523b8.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES AÇÃO
+https://jmp2.uk/plu-6474ab1da51cb80008bfb5f4.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES COMÉDIA
+https://jmp2.uk/plu-655e5bc94261ca000810cb17.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES CRIMINAIS
+https://jmp2.uk/plu-6474ab5cdc7a760008745008.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES DRAMA
+https://jmp2.uk/plu-65f060d84e01740008d7421f.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES NOVELESCAS
+https://jmp2.uk/plu-691627e4a29a6123e400b3e0.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV SÉRIES SCI-FI
+https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV STAR TREK
+https://jmp2.uk/plu-5f99ac4fded33000078f29ab.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV TERROR TRASH
+https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Discovery.Turbo.TV.us2" tvg-name="PLUTO TV TURBO",PLUTO TV TURBO
+https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",PLUTO TV VIAGENS
+https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="TV Vila Real.br" tvg-name="PLUTO TV VIDA REAL",PLUTO TV VIDA REAL
+https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="Nippon.TV.Channel.us2" tvg-name="SMITHSONIAN CHANNEL PLUTO TV",SMITHSONIAN CHANNEL PLUTO TV
+https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
+#EXTINF:-1 group-title="BR | PLUTO TV",TAKUSATO PLUTO TV
+https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS",BABY SHARK
 https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="BabyFirst.TV.us2" tvg-name="Babyfirst",Babyfirst
+#EXTINF:-1 group-title="BR | INFANTIS",BABYFIRST
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="Cartoon Network HD",Cartoon Network HD
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK HD",CARTOON NETWORK HD
 https://cdn-5.nxplay.com.br/CARTOON_NETWORK_TK/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="Cartoon Network HD²",Cartoon Network HD²
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK HD [2]",CARTOON NETWORK HD [2]
 http://s2.micineovs.com/CARTOONNETWORK/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD",CARTOONITO HD
 https://cdn-5.nxplay.com.br/CARTOONITO_TK/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Clouding
+#EXTINF:-1 group-title="BR | INFANTIS",CLOUDING
 https://video04.logicahost.com.br/cloudingtv/cloudingtv/chunklist_w459304988.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",D.P.A
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/DPA_Fast_BR/DPA_Fast.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD",DISCOVERY KIDS HD
 https://cdn-5.nxplay.com.br/DISCOVERY_KIDS_NX/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="Fox Kids",Fox Kids
+#EXTINF:-1 group-title="BR | INFANTIS",FOX KIDS
 https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8?hls_ctx=h517o66o
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD",GLOOB HD
 http://79.127.243.211:14436/
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="SÃ£o.Paulo/SP..Agro.Mais.br" tvg-name="Kid Mais",Kid Mais
+#EXTINF:-1 group-title="BR | INFANTIS",KID MAIS
 https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Mr Bean Animated
-https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/Banijay/Mr_Bean_BR/Mr_Bean.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nick.Jr..br" tvg-name="Nick Jr. Club",Nick Jr. Club
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nick HD.br" tvg-name="NICK JR. CLUB",NICK JR. CLUB
 https://jmp2.uk/plu-5f121460b73ac6000719fbaf.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="Nickelodeon iCarly",Nickelodeon iCarly
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="NICKELODEON ICARLY",NICKELODEON ICARLY
 https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="Nickelodeon Teen",Nickelodeon Teen
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="NICKELODEON TEEN",NICKELODEON TEEN
 https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="Nickelodeon Toons",Nickelodeon Toons
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="NICKELODEON TOONS",NICKELODEON TOONS
 https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",NickOnline
+#EXTINF:-1 group-title="BR | INFANTIS",NICKONLINE
 https://x1co.com.br/hls/0/stream.m3u8?cachebust=a6809f
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nicktoons.us2" tvg-name="Nicktoons",Nicktoons
+#EXTINF:-1 group-title="BR | INFANTIS",NICKTOONS
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",O Reino Infantil
+#EXTINF:-1 group-title="BR | INFANTIS",O REINO INFANTIL
 https://jmp2.uk/plu-5f5c216df68f920007888315.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Rede.Brasil.HD.br" tvg-name="Os Jetsons | Brasil",Os Jetsons | Brasil
-https://stmv1.srvif.com/jetsontv/jetsontv/chunklist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | INFANTIS",Pluto TV Anime
-https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Pluto TV Desenhos Clássicos
-https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Disney.Junior.HD.us2" tvg-name="Pluto TV Junior",Pluto TV Junior
-https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="Pluto TV Kids",Pluto TV Kids
-https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="PLUTO TV KIDS CLUB",PLUTO TV KIDS CLUB
-https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Familia.En.EspaÃ±ol.us2" tvg-name="Rakuten Família",Rakuten Família
+#EXTINF:-1 group-title="BR | INFANTIS",RAKUTEN FAMÍLIA
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="RETRO CARTOON",RETRO CARTOON
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="CARTOON HD.br" tvg-name="RETRO CARTOON",RETRO CARTOON
 https://stmv6.voxtvhd.com.br/retrotv/retrotv/playlist.m3u8?hls_ctx=7051jd15
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="RETRO CARTOON 2",RETRO CARTOON 2
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="CARTOON HD.br" tvg-name="RETRO CARTOON 2",RETRO CARTOON 2
 https://stmv6.voxtvhd.com.br/retrotv2/retrotv2/playlist.m3u8?hls_ctx=993r4ec4
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="RETRO CARTOON 3",RETRO CARTOON 3
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="CARTOON HD.br" tvg-name="RETRO CARTOON 3",RETRO CARTOON 3
 https://stmv6.voxtvhd.com.br/retrotv3/retrotv3/playlist.m3u8?hls_ctx=nk970np0
-#EXTINF:-1 group-title="BR | INFANTIS",Sonic
+#EXTINF:-1 group-title="BR | INFANTIS",SONIC
 https://d1si3n1st4nkgb.cloudfront.net/10000/88876021/hls/master.m3u8?ads.xumo_channelId=88876021
-#EXTINF:-1 group-title="BR | INFANTIS",Toon Googles HD
+#EXTINF:-1 group-title="BR | INFANTIS",TOON GOOGLES HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5442
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast HD",Tooncast HD
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD",TOONCAST HD
 https://cdn-5.nxplay.com.br/TOONCAST_TK/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="TV Itapetinga Kids",TV Itapetinga Kids
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="TV ITAPETINGA KIDS",TV ITAPETINGA KIDS
 https://stmv2.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8?hls_ctx=6w6o1x4w
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="TV.Rá.Tim.Bum.br" tvg-name="TV RA TIM BUM HD",TV RA TIM BUM HD
 http://gerenciar.vivatele.com/viva_padrao/viva2384/15
 #EXTINF:-1 group-title="BR | INFANTIS",TVZYN
 https://d25usgadhphvwi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5w3mfvzg9saoi/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="Universo Kids",Universo Kids
+#EXTINF:-1 group-title="BR | INFANTIS",UNIVERSO KIDS
 https://srv3.zcast.com.br/universo3/universo3/playlist_w554522056.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="Canal Educação",Canal Educação
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Canal Educaçao.br" tvg-name="CANAL EDUCAÇÃO",CANAL EDUCAÇÃO
 https://canaleducacao-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="Canal Futura",Canal Futura
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="CANAL FUTURA",CANAL FUTURA
 https://tv.unisc.br/hls/test.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="CATVE TV Cultura HD",CATVE TV Cultura HD
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="TV.Cultura.br" tvg-name="CATVE TV CULTURA HD",CATVE TV CULTURA HD
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV Cultura",TV Cultura
+#EXTINF:-1 group-title="BR | EDUCACAO",MR BEAN ANIMATED
+https://dfr80qz435crc.cloudfront.net/ABCD/Amagi/Banijay/Mr_Bean_BR/Mr_Bean.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV CULTURA",TV CULTURA
 https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV Cultura Brasil",TV Cultura Brasil
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV CULTURA BRASIL",TV CULTURA BRASIL
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV Cultura Pará",TV Cultura Pará
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV CULTURA PARÁ",TV CULTURA PARÁ
 https://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/chunklist_w144947531.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV Cultura RN FHD",TV Cultura RN FHD
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="TV CULTURA RN FHD",TV CULTURA RN FHD
 https://tv03.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="TVE.br" tvg-name="TVE MS",TVE MS
 http://stream.digilab.com.br:8081/fertel/fertel/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova.br" tvg-name="Canção Nova HD",Canção Nova HD
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova HD.br" tvg-name="CANÇÃO NOVA HD",CANÇÃO NOVA HD
 https://gerenciar.vivatele.com:443/viva_padrao/viva2384/5
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gospel Cartoon",Gospel Cartoon
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="CARTOON HD.br" tvg-name="GOSPEL CARTOON",GOSPEL CARTOON
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gospel Internacional",Gospel Internacional
-https://stream.vagalume.fm/hls/1470245767122628/aac.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gospel Movies TV",Gospel Movies TV
+#EXTINF:-1 group-title="BR | RELIGIOSOS",GOSPEL MOVIES TV
 https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Gostei Gospel TV",Gostei Gospel TV
+#EXTINF:-1 group-title="BR | RELIGIOSOS",GOSTEI GOSPEL TV
 https://59f1cbe63db89.streamlock.net:1443/redegostei/redegostei/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Mundial HD.br" tvg-name="Igreja Mundial HD",Igreja Mundial HD
+#EXTINF:-1 group-title="BR | RELIGIOSOS",IGREJA MUNDIAL HD
 https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1960836974_b1596000.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Mundial HD.br" tvg-name="Igreja Mundial SD",Igreja Mundial SD
+#EXTINF:-1 group-title="BR | RELIGIOSOS",IGREJA MUNDIAL SD
 https://68882bdaf156a.streamlock.net/impd/ngrp:impd_all/chunklist_w1960836974_b896000.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Studio.Universal.br" tvg-name="Igreja Universal",Igreja Universal
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Universal HD.br" tvg-name="IGREJA UNIVERSAL",IGREJA UNIVERSAL
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Discovery.Kids.br" tvg-name="Kuriakos Kids",Kuriakos Kids
+#EXTINF:-1 group-title="BR | RELIGIOSOS",KURIAKOS KIDS
 https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Ministério Infantil TV
+#EXTINF:-1 group-title="BR | RELIGIOSOS",MINISTÉRIO INFANTIL TV
 http://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",NBT
 https://isaocorp.cloudecast.com/nbt/index.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="Rede Gospel",Rede Gospel
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL",REDE GOSPEL
 https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE SECULO 21",REDE SECULO 21
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE SECULO 21",REDE SECULO 21
 https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/chunklist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="Rede Vida",Rede Vida
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA",REDE VIDA
 https://aovivo.doozytv.com.br/31025556/10150829/chunks.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV",RIT TV
 https://acesso.ecast.site:3648/live/ritlive.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP...TV.Aparecida.(espelho).br" tvg-name="TV Aparecida HD",TV Aparecida HD
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP...TV.Aparecida.(espelho).br" tvg-name="TV APARECIDA HD",TV APARECIDA HD
 https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV Evangelizar",TV Evangelizar
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR",TV EVANGELIZAR
 https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="TV gospel",TV gospel
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV GOSPEL
 https://5cf4a2c2512a2.streamlock.net/8036/8036/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Imaculada
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV IMACULADA
 https://caikron.com.br:19360/tvmi/tvmi.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Maanaim
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV MAANAIM
 https://58c8a6b3c74e2.streamlock.net:1936/maranatalive/smil:maranatalive.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo.br" tvg-name="TV Novo Tempo HD",TV Novo Tempo HD
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo HD.br" tvg-name="TV NOVO TEMPO HD",TV NOVO TEMPO HD
 https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/chunklist_b3628000_slpor.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo.br" tvg-name="TV Novo Tempo SD",TV Novo Tempo SD
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Em Tempo HD.br" tvg-name="TV NOVO TEMPO SD",TV NOVO TEMPO SD
 https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/chunklist_b1628000_slpor.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Tv Recanto da Fé
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV RECANTO DA FÉ
 https://stmv1.srvif.com/2022/2022/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Sol Comunidade
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV SOL COMUNIDADE
 http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Sonata
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV SONATA
 https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Vianney
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV VIANNEY
 https://58c8a6b3c74e2.streamlock.net:1936/paroquiavianney/smil:paroquiavianney.smil/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",ULB TV
 https://stmv1.paineltv.net/ulbtv/ulbtv/chunklist_w1050568292.m3u8?ManoTV
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="American.Crimes.us2" tvg-name="TV CNB AMERICAN",TV CNB AMERICAN
-https://5cf4a2c2512a2.streamlock.net/tvcnbamerican/tvcnbamerican/chunklist_w144456680.m3u8
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TV CNB ORLANDO
 https://5cf4a2c2512a2.streamlock.net/tvcnb/tvcnb/chunklist_w130040152.m3u8

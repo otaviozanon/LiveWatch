@@ -115,6 +115,16 @@ def _strip_accents(text: str) -> str:
     return "".join(c for c in nfkd if not unicodedata.combining(c))
 
 
+def _normalize(text: str) -> str:
+    """Full normalization: accents stripped, smart quotes fixed, lowercase."""
+    t = _strip_accents(text)
+    t = t.replace("\u0091", "'").replace("\u0092", "'")
+    t = t.replace("\u0093", '"').replace("\u0094", '"')
+    t = t.replace("\u2018", "'").replace("\u2019", "'")
+    t = t.replace("\u201c", '"').replace("\u201d", '"')
+    return t.lower()
+
+
 def filter_by_group_exclude(
     entries: list[tuple[str, str, str]], exclude_keywords: list[str]
 ) -> list[tuple[str, str, str]]:
@@ -124,9 +134,9 @@ def filter_by_group_exclude(
     result: list[tuple[str, str, str]] = []
     removed = 0
     for group_title, name, url in entries:
-        gt = _strip_accents(group_title.lower())
+        gt = _normalize(group_title)
         exclude = any(
-            _strip_accents(kw.lower()) in gt for kw in exclude_keywords
+            _normalize(kw) in gt for kw in exclude_keywords
         )
         if exclude:
             removed += 1
@@ -165,7 +175,10 @@ def filter_excluded(
     result: list[tuple[str, str, str]] = []
     removed = 0
     for group_title, name, url in entries:
-        exclude = any(kw.lower() in name.lower() for kw in exclude_keywords)
+        name_norm = _normalize(name)
+        exclude = any(
+            _normalize(kw) in name_norm for kw in exclude_keywords
+        )
         if exclude:
             removed += 1
         else:
@@ -192,7 +205,7 @@ def remap_by_name(
         ):
             for target_group, patterns in name_remap.items():
                 for pat in patterns:
-                    if _strip_accents(pat.lower()) in _strip_accents(name.lower()):
+                    if _normalize(pat) in _normalize(name):
                         new_group = target_group
                         remapped += 1
                         break
@@ -274,6 +287,27 @@ def rename_duplicates(
     return result
 
 
+# ── Channel name cleanup ──────────────────────────────────────────────────
+
+def cleanup_channel_names(
+    entries: list[tuple[str, str, str]],
+) -> list[tuple[str, str, str]]:
+    """Normalize channel names for consistency and dedup."""
+    result: list[tuple[str, str, str]] = []
+    for group_title, name, url in entries:
+        name = name.strip().upper()
+        name = re.sub(r"\b4K\b", "H265", name)
+        if "H265" in name and "FHD" in name:
+            name = re.sub(r"\bFHD\b", "", name)
+        name = re.sub(r"(\bH265\b\s*)+", "H265 ", name)
+        name = re.sub(r"\s+", " ", name).strip()
+        result.append((group_title, name, url))
+    changed = sum(1 for (_, a, _), (_, b, _) in zip(entries, result) if a != b)
+    if changed:
+        print(f"[LiveWatch] Normalized {changed} channel names (case/FHD/4K)")
+    return result
+
+
 # ── Category normalization ────────────────────────────────────────────────
 
 GT_REMAP: dict[str, str] = {
@@ -298,10 +332,10 @@ GT_REMAP: dict[str, str] = {
     "HBO": "FILMES E SERIES",
     "ESPN": "ESPORTES",
     "SPORTV": "ESPORTES",
-    "NBA LEAGUE PASS": "PAY PER VIEW",
+    "NBA LEAGUE PASS": "NBA",
     "BRASILEIRAO": "PAY PER VIEW",
     "PREMIERE": "PAY PER VIEW",
-    "NBA": "PAY PER VIEW",
+    "NBA": "NBA",
     "ESTADUAIS": "PAY PER VIEW",
     "FUTSAL": "PAY PER VIEW",
     "TELECINE": "FILMES E SERIES",
@@ -317,7 +351,7 @@ CATEGORY_ORDER: tuple[str, ...] = (
     "GLOBO", "SBT", "BAND", "RECORD", "ABERTOS",
     "FILMES E SERIES", "DOCUMENTARIOS", "ESPORTES",
     "ENTRETENIMENTO", "PAY PER VIEW", "NOTICIAS",
-    "MUSICAS", "DORMIR E RELAXAR", "UFC",
+    "MUSICAS", "DORMIR E RELAXAR", "UFC", "NBA",
     "FORMULA 1", "DAZN", "DUAL AUDIO", "PLUTO TV",
     "INFANTIS", "EDUCACAO", "AR LIVRE", "RELIGIOSOS",
     "ESTADOS UNIDOS", "ESPORTES DO DIA",
@@ -568,6 +602,15 @@ def main() -> None:
                 )
 
         print(f"\n[LiveWatch] Total combined channels: {len(all_entries)}")
+        all_entries = cleanup_channel_names(all_entries)
+        # Final exclusion pass using combined excludes from all sub-profiles
+        combined_exclude: list[str] = []
+        for sp_name in sub_profiles:
+            sp_cfg = config["profiles"].get(sp_name, {})
+            combined_exclude.extend(sp_cfg.get("name_exclude", []))
+        combined_exclude = list(dict.fromkeys(combined_exclude))
+        if combined_exclude:
+            all_entries = filter_excluded(all_entries, combined_exclude)
         all_entries = dedup_by_url(all_entries)
         all_entries = rename_duplicates(all_entries)
         all_entries.sort(key=category_sort_key)
@@ -580,6 +623,7 @@ def main() -> None:
     filtered = fetch_profile_entries(p)
     print(f"[LiveWatch] Total channels (post-filter): {len(filtered)}")
 
+    filtered = cleanup_channel_names(filtered)
     filtered = dedup_by_url(filtered)
     filtered = rename_duplicates(filtered)
 

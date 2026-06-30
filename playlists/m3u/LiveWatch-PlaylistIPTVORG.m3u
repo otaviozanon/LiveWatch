@@ -1,473 +1,269 @@
-#EXTM3U
-#EXTINF:-1 group-title="BR | COMPRAS",1001 Noites
-https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Adesso TV
-https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE",AgroBrasil TV
-http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE",AgroBrasil TV [2]
-https://server.flixtv.com.br/agrobrasiltv/agrobrasiltv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Alpha Channel
-https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Amazon Sat
-https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Araruna TV
-https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Aratu On
-https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
-#EXTINF:-1 group-title="BR | CLASSICOS",AWTV
-https://awtv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",BDC TV
-https://video01.kshost.com.br/bdctv/bdctv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Blitstv
-https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",BM&C News
-https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Boas Novas
-https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",BR8 TV
-https://cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp:LVW11668_wiJpjbMrks_all/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Cabo Frio TV
-https://59f2354c05961.streamlock.net:1443/ararutv/_definst_/ararutv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal 25 Jundiaí
-https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Canal 38
-https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE",Canal do Criador
-https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Canal do Inter
-https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Canal Educação
-https://canaleducacao-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal FDR
-https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
-#EXTINF:-1 group-title="BR | LEGISLATIVO",Canal Gov
-https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal Libras
-https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal Libras [2]
-https://canallibras-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Canal Metropolitano de Noticias
-https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal Ricos
-https://5d82644094cc0.streamlock.net/ricostv/ricostv/playlist.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE",Canal Rural
-https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE",Canal Rural [2]
-https://cdn2.easy.tv.br/canalrural/index.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Canal Saude
-https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Canal Saúde
-https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Canal Sete
-http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Catve Master TV
-https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Catve2
-https://5b33b873179a2.streamlock.net:1443/catve2/catve2/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",CazeTV
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Chroma TV
-https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
+#EXTM3U x-tvg-url="https://ozlivewatch.pages.dev/e/BR" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml.gz" x-tvg-url="https://www.free-epg.de/api/epg?country=BR" x-tvg-url="https://www.free-epg.de/api/epg?country=US"
+#EXTINF:-1 group-title="BR | NOVOS",LOUPE
+https://gpa-vja-samsungtvplus-br.otteravision.com/gpa/vja/vja.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CINDIE TV
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CINDIE TV [2]
 https://d20xuwbyc4yoag.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-CINDIE/387.m3u8?ads.vf=grWTpG3NQNi
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Classique TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CLASSIQUE TV
 https://stmv1.srvif.com/classique/classique/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",COM Brasil
-https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Combate Global
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Conecta Mais TV
-https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Conecta+ TV
-http://189.14.239.62:1935/webtv/livestream1/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",ConecTV Brasil
-https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Conexão TV
-https://5a57bda70564a.streamlock.net/conexaotv/conexaotv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Cultura Pará
-http://www.portalcultura.com.br/playerhtml/funtelpa/tv_funtelpa/playlist.m3u8
-#EXTINF:-1 group-title="BR | FAMILIA",CWB TV
-https://59d39900ebfb8.streamlock.net/cwbtv/cwbtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Demais TV
-https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Despertar TV
-https://cdn.live.br1.jmvstream.com/webtv/pejexypz/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Elemental Channel
-https://5d82644094cc0.streamlock.net/8116/8116/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Elemental Channel [2]
-https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ElyTV
-https://stmv1.srvsite.com/ely/ely/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",EUTV
-https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",EUTV [2]
-https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Fala Litoral
-https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Fonte TV
-http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Fonte TV [2]
-https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Fora Tedio TV
-https://stmv2.srvif.com/foratedio/foratedio/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",ge Fast
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",ge Fast [2]
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Geekdot
-https://stream.ichibantv.com:3764/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",Ghost TV
+#EXTINF:-1 group-title="BR | FILMES E SERIES",GHOST TV
 https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Gloob
-http://45.235.0.78/Gloob/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Gloob [2]
-http://79.127.243.211:14436/_.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Gloob Web
-https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Gospel Cartoon
-https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Gospel Movie TV
-https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",IMPD TV Worldwide
-https://igrejamundial.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",ISTV
-https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Jovem Pan NEWS
-https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Jovem Pan News (JP News)
-https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS",KpopTV Play
-https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Loading
-https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",MKK Web TV
-https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",NickOnline
-https://x1co.com.br/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",NickToons Brasil
-https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",NickWeb
-https://vs20.live.opencaster.com/nickelodeonbrasil_68f1743d/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Nova Era TV
-http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Novo Tempo
-https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",NTV
-https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Nuevo Tiempo
-https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Play TV
-https://isaocorp.cloudecast.com/playtv/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Plena TV
-https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 1
-https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 2
-https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 3
-https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 4
-https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 5
-https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 6
-https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 7
-https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",Premiere FC 8
-https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | DIVERSOS",Primer TV
-http://200.194.238.229:8383/live/primer/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",RBATV
-https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Record News
-https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Record News [2]
-https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Record News [3]
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV Belem
-https://playpluspa-lh.akamaihd.net/i/pp_pa@377468/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV Brasilia
-https://playplusbsa-lh.akamaihd.net/i/pp_bsa@377860/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV Goias
-https://playplusgoya-lh.akamaihd.net/i/pp_gna@377833/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV Itapoan
-https://playplussdr-lh.akamaihd.net/i/pp_sdr@377858/index_720_av-b.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV Rio
-https://playplusrjo-lh.akamaihd.net/i/pp_rj@377859/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV RS
-https://playpluspoa-lh.akamaihd.net/i/pp_poa@377864/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Record TV SP
-https://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",RecordTV
-https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",RecordTV Interior SP
-http://200.77.176.130:8000/udp/224.0.0.4:49152
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede Brasil
-https://redebrasil.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede CNT Salvador
-http://168.205.87.198:8555/live/1368/123456/150.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede Globo
-https://cors-proxy.cooks.fyi/http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",Rede Gospel
-https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Rede Minas
-https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",Rede NGT
-https://isaocorp.cloudecast.com/ngt/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede RC
-http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede SPTV
-https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede TV! ES
-https://streaming.cloudecast.com/hls/redetves/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede TV! Mais
-https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Rede TV! SP
-https://hls.brasilstream.com.br/live/redetv/redetv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",RedeTV! Parana
-https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",RIT TV
-https://acesso.ecast.site:3648/live/ritlive.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Santa Cecilia TV
-http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",Santa Cecilia TV [2]
-https://5fb29de4928ea.streamlock.net/2063/2063/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SBT Cuiaba
-https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SBT Interior
-https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SBT Nova Mutum
-https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SBT Rondonopolis
-https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SBT Sinop
-https://video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",Sertão TV
-http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SESC TV
-https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/93a9920d-1b24-4c5e-a7d2-63d5489f59b5_index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",SIC TV
-https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS",Slime
-https://slime.x1co.com.br/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SporTV
-https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",SporTV 2
-https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",SporTV 2 Alternativo
-https://stm.sinalmycn.com/19025/video.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",SporTV 3
-https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES",SporTV Alternativo
-https://stm.sinalmycn.com/19024/video.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",STZ TV
-https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TCM 10 HD
-https://live.tcm10.com.br/tcm10hd/stream.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Times Brasil
-https://cr7v.short.gy/ManoTV/TimesBrasil/Whats75991634025/CNBC/Index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",Times Brasil [2]
-https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV A Critica
-https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV A Folha
-https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Aldeia
-https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Aliança Catarinense
-https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Alternativa
-https://stmv5.samcast.com.br/wagner7919/wagner7919/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Aparecida
-https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Arapuan
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Aratu
-https://cdn.jmvstream.com/w/LVW-8379/LVW8379_rIq6ZYiIiA/playlist.m3u8
-#EXTINF:-1 group-title="BR | LEGISLATIVO",TV Assembléia Ceará
-https://jjn5dkk9bd.zoeweb.tv/z404-live/stream/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Bahia
-http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Birigui
-https://59f2354c05961.streamlock.net:1443/tvdigitalbirigui/_definst_/tvdigitalbirigui/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Birigui [2]
-http://tv02.logicahost.com.br:1935/tvdigitalbirigui/tvdigitalbirigui/live.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Birigui [3]
-https://59f2354c05961.streamlock.net:1443/tvdigitalbirigui/tvdigitalbirigui/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Brasil
-https://tvbrasil-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Brasil Oeste
-https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV BRICS Portuguese
-https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Brusque
-https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cancao Nova
-https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cidade de Petrópolis
-https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cidade Oeste
-https://radios.dataprimer.com.br:5443/LiveApp/streams/psuqNyPC1AW1BcUZ1573443847601.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cidade Verde
-https://stmv1.transmissaodigital.com/cidadeverdenovo/cidadeverdenovo/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cidade Verde Cuiaba
-https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Clube
-https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cultura
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Cultura [2]
-https://jmp2.uk/plu-62e010e6cd663f0007e57dc8.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Curuça
-https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8
-#EXTINF:-1 group-title="BR | LEGISLATIVO",TV Câmara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
-#EXTINF:-1 group-title="BR | LEGISLATIVO",TV Câmara 2
-https://stream3.camara.gov.br/tv2/manifest.m3u8
-#EXTINF:-1 group-title="BR | LEGISLATIVO",TV Câmara Salvador
-https://596639ebdd89b.streamlock.net/8114/8114/playlist.m3u8
-#EXTINF:-1 group-title="BR | CULTURA",TV das Artes
-http://tv02.logicahost.com.br:1935/tvdasartes/tvdasartes/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Destak
-http://tv02.logicahost.com.br:1935/pascoal/pascoal/live.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Destak [2]
-https://59f2354c05961.streamlock.net:1443/pascoal/_definst_/pascoal/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Destak [3]
-https://59f2354c05961.streamlock.net:1443/pascoal/pascoal/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Difusora Leste
-https://stream.amsolution.net.br:8443/live/60d0a8ea6b884/index.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Digital Biriguí
-http://wse01.logicahost.com.br:1935/tvdigitalbirigui/_definst_/tvdigitalbirigui/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Diário Macapá
-https://5ad482a77183d.streamlock.net/marliomelohotmail.com/marliomelohotmail.com/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV do Povo
-https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Empire Magazine
-https://5d82644094cc0.streamlock.net/empiremagazinetv/empiremagazinetv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Encontro das Aguas
-https://stmv7.samcast.com.br/sistemaencontrodasaguas/sistemaencontrodasaguas/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Evangelizar
-https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Fronteira
-https://tvfronteira.brasilstream.com.br/hls/tvfronteira/index.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Futuro
-https://tv02.zas.media:1936/tvfuturo/tvfuturo/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Gideoes
-https://streaming01.zas.media/gideoes/programacao/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Grande Natal
-http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Grao Pará
-https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Guará
-https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Interlagos
-https://v8.ciclano.io:1443/tvinterlagos/_definst_/tvinterlagos/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Liberdade
-https://srv1.paineldevideo.com/liberdaderadioetv/liberdaderadioetv/playlist.m3u8
-#EXTINF:-1 group-title="BR | CULTURA",TV Life America
-https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",TV Mackenzie
-https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Mais Maricá
-https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Marajoara
-https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV MAX
-https://5cf4a2c2512a2.streamlock.net/tvmax/tvmax/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Metropole
-https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Modelo
-https://video09.logicahost.com.br/tvmodelo/tvmodelo/playlist.m3u
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Natal
-http://185.228.163.146:8000/play/a01y/index.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Padre Cicero
-https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Pampa
-https://video04.logicahost.com.br/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Pantanal MS
-https://5a2b083e9f360.streamlock.net/tvpantanal/tvpantanal.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Paraense
-https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
-#EXTINF:-1 group-title="BR | VIAGEM",TV Paraná Turismo
-http://200.189.113.201/hls/tve.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Passo Fundo
-https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Sandegi
-https://video01.kshost.com.br/antonio9510/antonio9510/playlist.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES",TV Series 1 As Panteras
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL",SBT NACIONAL
+https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Conmebol TV 1.br" tvg-name="TV SERIES 1 AS PANTERAS",TV SERIES 1 AS PANTERAS
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Sim Cachoeiro
-https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Sim Colatina
-https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TV Sim São Mateus
-https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Sol Comunidade
-http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Sul Bahia
-https://live.cdn.upx.com/00046/myStream.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Sul de Minas
-https://5cf4a2c2512a2.streamlock.net/tvsuldeminas/tvsuldeminas/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV São Raimundo
-https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Terceiro Anjo
-https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Thathi
-https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",TV UFG
-http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
-#EXTINF:-1 group-title="BR | PUBLICO",TV UFOP
-https://app.tvufop.com.br/hls/tvufop.m3u8
-#EXTINF:-1 group-title="BR | RELIGIOSOS",TV Universal
-https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TV Vila Real
-https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Viçosa
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS",BAND SPORTS
+https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [2]",BAND SPORTS [2]
+http://143.14.178.40:7777/Band_Sports_HD/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES",CANAL DO INTER
+https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE FAST",GE FAST
+https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE FAST [2]",GE FAST [2]
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.br" tvg-name="PREMIERE FC 1",PREMIERE FC 1
+https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.2.br" tvg-name="PREMIERE FC 2",PREMIERE FC 2
+https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.3.br" tvg-name="PREMIERE FC 3",PREMIERE FC 3
+https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.4.br" tvg-name="PREMIERE FC 4",PREMIERE FC 4
+https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.5.br" tvg-name="PREMIERE FC 5",PREMIERE FC 5
+https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.6.br" tvg-name="PREMIERE FC 6",PREMIERE FC 6
+https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.7.br" tvg-name="PREMIERE FC 7",PREMIERE FC 7
+https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.br" tvg-name="PREMIERE FC 8",PREMIERE FC 8
+https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV",SPORTV
+https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2",SPORTV 2
+https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 ALTERNATIVO",SPORTV 2 ALTERNATIVO
+https://stm.sinalmycn.com/19025/video.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3",SPORTV 3
+https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV ALTERNATIVO",SPORTV ALTERNATIVO
+https://stm.sinalmycn.com/19024/video.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",BDC TV
+https://video01.kshost.com.br/bdctv/bdctv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",BLITSTV
+https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Cabo Branco HD.br" tvg-name="CABO FRIO TV",CABO FRIO TV
+https://59f2354c05961.streamlock.net:1443/ararutv/_definst_/ararutv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CANAL METROPOLITANO DE NOTICIAS
+https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CANAL SETE
+http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CAZETV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CHROMA TV
+https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Rede Mais Varginha.br" tvg-name="CONECTA MAIS TV",CONECTA MAIS TV
+https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",CONECTA+ TV
+http://189.14.239.62:1935/webtv/livestream1/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ELEMENTAL CHANNEL
+https://5d82644094cc0.streamlock.net/8116/8116/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ELEMENTAL CHANNEL [2]
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",ELYTV
+https://stmv1.srvsite.com/ely/ely/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Loading.br" tvg-name="LOADING",LOADING
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW",MULTISHOW
+http://143.14.178.40:7777/Multishow_HD/index.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Cartoon Network Brazil HD.br" tvg-name="MYTIME MOVIE NETWORK BRAZIL",MYTIME MOVIE NETWORK BRAZIL
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede NGT.br" tvg-name="REDE NGT",REDE NGT
+https://isaocorp.cloudecast.com/ngt/index.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV BRICS PORTUGUESE
+https://porbrics.mediacdn.ru/cdn/brics/portuguese/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Cidade HD.br" tvg-name="TV CIDADE DE PETRÓPOLIS",TV CIDADE DE PETRÓPOLIS
+https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV CURUÇA
+https://stmv1.srvif.com/tvcurucasp/tvcurucasp/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV DIGITAL BIRIGUÍ
+http://wse01.logicahost.com.br:1935/tvdigitalbirigui/_definst_/tvdigitalbirigui/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV EMPIRE MAGAZINE
+https://5d82644094cc0.streamlock.net/empiremagazinetv/empiremagazinetv/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Rio Grande HD.br" tvg-name="TV GRANDE NATAL",TV GRANDE NATAL
+http://tvgrandenatalhd.duckdns.org:8080/hls/live.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV METROPOLE
+https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV VIÇOSA
 http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV Zoom
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TV ZOOM
 https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVC-Rio
-https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVCOM DF
-https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=
-#EXTINF:-1 group-title="BR | DIVERSOS",TVCOM Maceió
-https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVE RS
-http://selpro1348.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVE RS [2]
-http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 group-title="BR | CULTURA",TVE RS [3]
-https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVitapé
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMatic Comedy
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC COMEDY
 http://cdn.tvmatic.net/comedy.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVMatic Crafts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC CRAFTS
 http://cdn.tvmatic.net/crafts.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVMatic Facebook
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC FACEBOOK
 http://cdn.tvmatic.net/facebook.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",TVMatic Fight
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC FIGHT
 http://cdn.tvmatic.net/fight.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVMatic Funny
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC FUNNY
 http://cdn.tvmatic.net/funny.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVMatic TikTok
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",TVMATIC TIKTOK
 http://cdn.tvmatic.net/tiktok.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",TVNBN
-https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS",TVídeoNews
-https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",UMA TV
 https://umatv.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",VRT CHANNEL
+https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",ARATU ON
+https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS",BANDNEWS
+https://cdn-5.nxplay.com.br/BAND_NEWS/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [2]",BANDNEWS [2]
+http://143.14.178.40:7777/Band_News_HD/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",BM&C NEWS
+https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",BR8 TV
+https://cdn.live.br1.jmvstream.com/w/LVW-11668/ngrp:LVW11668_wiJpjbMrks_all/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",CANAL 38
+https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GLOBONEWS",GLOBONEWS
+http://41.205.70.146/GLOBONEWS/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GLOBONEWS [2]",GLOBONEWS [2]
+http://143.14.178.40:7777/GloboNews_HD/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT",GNT
+http://170.82.202.31/GNT/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT [2]",GNT [2]
+http://143.14.178.40:7777/GNT_HD/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",J3NEWS TV
+https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS",JOVEM PAN NEWS
+https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS (JP NEWS)",JOVEM PAN NEWS (JP NEWS)
+https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",PLENA TV
+https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS",RECORD NEWS
+https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [2]",RECORD NEWS [2]
+https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [3]",RECORD NEWS [3]
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
+#EXTINF:-1 group-title="BR | NOTICIAS",STZ TV
+https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="TCM.br" tvg-name="TCM 10 HD",TCM 10 HD
+https://live.tcm10.com.br/tcm10hd/stream.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TIMES BRASIL
+https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd7491406bba86497a24390a25/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TV A FOLHA
+https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TV BRUSQUE
+https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="TV O Povo.br" tvg-name="TV DO POVO",TV DO POVO
+https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TV SIM CACHOEIRO
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TV SIM COLATINA
+https://5cf4a2c2512a2.streamlock.net/8132/8132/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV SIM SÃO MATEUS",TV SIM SÃO MATEUS
+https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS",TVÍDEONEWS
+https://video01.logicahost.com.br/tvideonews/tvideonews/playlist.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS",KPOPTV PLAY
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL",MUSIC BOX BRAZIL
+http://143.14.178.40:7777/Music_Box_HD/index.m3u8
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE GLOBAL",COMBATE GLOBAL
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
+#EXTINF:-1 group-title="BR | INFANTIS",GEEKDOT
+https://stream.ichibantv.com:3764/hybrid/play.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB",GLOOB
+http://45.235.0.78/Gloob/playlist.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [2]",GLOOB [2]
+http://79.127.243.211:14436/_.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [3]",GLOOB [3]
+http://143.14.178.40:7777/Gloob_HD/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB WEB",GLOOB WEB
+https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO",GLOOBINHO
+http://143.14.178.40:7777/Gloobinho_HD/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS",NICKONLINE
+https://x1co.com.br/hls/stream.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS",NICKTOONS BRASIL
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS",NICKWEB
+https://vs20.live.opencaster.com/nickelodeonbrasil_68f1743d/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS",SLIME
+https://slime.x1co.com.br/hls/stream.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Canal Educaçao.br" tvg-name="CANAL EDUCAÇÃO",CANAL EDUCAÇÃO
+https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",CANAL SAÚDE
+https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",CANAL SAUDE
+https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",FORA TEDIO TV
+https://stmv2.srvif.com/foratedio/foratedio/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",ISTV
+https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Rede Minas.br" tvg-name="REDE MINAS",REDE MINAS
+https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Rede Minas.br" tvg-name="REDE MINAS [2]",REDE MINAS [2]
+https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Santa Cecília TV.br" tvg-name="SANTA CECILIA TV",SANTA CECILIA TV
+http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Santa Cecília TV.br" tvg-name="SANTA CECILIA TV [2]",SANTA CECILIA TV [2]
+https://5fb29de4928ea.streamlock.net/2063/2063/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",TV MACKENZIE
+https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO",TV UFG
+http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO",UNISUL TV
 https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
-#EXTINF:-1 group-title="BR | EDUCACAO",UniTV Porto Alegre
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="Band Porto Alegre.br" tvg-name="UNITV PORTO ALEGRE",UNITV PORTO ALEGRE
 http://unitvaovivo.ufrgs.br:8080/live.ogg
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",VRT Channel
-https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8
-#EXTINF:-1 group-title="BR | DIVERSOS",VV8 TV
-https://video01.kshost.com.br/seap8272/seap8272/playlist.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROBRASIL TV
+http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROBRASIL TV [2]
+https://server.flixtv.com.br/agrobrasiltv/agrobrasiltv/playlist.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="Canal do Criador.br" tvg-name="CANAL DO CRIADOR",CANAL DO CRIADOR
+https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL",CANAL RURAL
+https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL [2]",CANAL RURAL [2]
+https://cdn2.easy.tv.br/canalrural/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",DESPERTAR TV
+https://br.conectmy.com.br/DespertarTV/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",FONTE TV
+http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",FONTE TV [2]
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="CARTOON HD.br" tvg-name="GOSPEL CARTOON",GOSPEL CARTOON
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",GOSPEL MOVIE TV
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",IMPD TV WORLDWIDE
+https://igrejamundial.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo HD.br" tvg-name="NOVO TEMPO",NOVO TEMPO
+https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",NUEVO TIEMPO
+https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL",REDE GOSPEL
+https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA",REDE VIDA
+https://cdn-5.nxplay.com.br/REDE_VIDA/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV",RIT TV
+https://acesso.ecast.site:3648/live/ritlive.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..RIT.TV.br" tvg-name="RIT TV [2]",RIT TV [2]
+https://cdn-5.nxplay.com.br/RIT_TV/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP...TV.Aparecida.(espelho).br" tvg-name="TV APARECIDA",TV APARECIDA
+https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR",TV EVANGELIZAR
+https://5f593df7851db.streamlock.net/evangelizar/tv/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV GIDEOES
+https://streaming01.zas.media/gideoes/programacao/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV PADRE CICERO
+https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",TV TERCEIRO ANJO
+https://streamer1.streamhost.org/salive/GMI3anjoh/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Universal.TV.br" tvg-name="TV UNIVERSAL",TV UNIVERSAL
+https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8

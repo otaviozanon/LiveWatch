@@ -3,9 +3,7 @@
 https://dns.p2.wtf/rogerio55x/24992611250/1260558
 #EXTINF:-1 group-title="BR | 24H" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO BA TV SÃO FRANCISCO HD",GLOBO BA TV SÃO FRANCISCO HD
 https://dns.p2.wtf/rogerio55x/24992611250/296823
-#EXTINF:-1 group-title="BR | REALITIES" tvg-id="TruTV.br" tvg-name="[US] TRUTV",[US] TRUTV
-https://dns.p2.wtf/rogerio55x/24992611250/1260927
-#EXTINF:-1 group-title="BR | REALITIES",TRU TV FHD H265
+#EXTINF:-1 group-title="BR | REALITIES",TRU TV H265
 https://dns.p2.wtf/rogerio55x/24992611250/1323
 #EXTINF:-1 group-title="BR | REALITIES",TRU TV HD
 https://dns.p2.wtf/rogerio55x/24992611250/1324
@@ -51,14 +49,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/296865
 https://dns.p2.wtf/rogerio55x/24992611250/296882
 #EXTINF:-1 group-title="BR | SBT" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT PR MARINGÁ HD",SBT PR MARINGÁ HD
 https://dns.p2.wtf/rogerio55x/24992611250/296884
-#EXTINF:-1 group-title="BR | SBT" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT RS FHD",SBT RS FHD
-https://dns.p2.wtf/rogerio55x/24992611250/704607
-#EXTINF:-1 group-title="BR | SBT" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT RS HD",SBT RS HD
-https://dns.p2.wtf/rogerio55x/24992611250/296869
-#EXTINF:-1 group-title="BR | SBT" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT SC HD",SBT SC HD
-https://dns.p2.wtf/rogerio55x/24992611250/296870
-#EXTINF:-1 group-title="BR | SBT" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT SP RIBEIRÃO PRETO HD",SBT SP RIBEIRÃO PRETO HD
-https://dns.p2.wtf/rogerio55x/24992611250/296750
 #EXTINF:-1 group-title="BR | BAND" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PR FHD",BAND PR FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296917
 #EXTINF:-1 group-title="BR | BAND" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PR SD",BAND PR SD
@@ -79,16 +69,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/296677
 https://dns.p2.wtf/rogerio55x/24992611250/296678
 #EXTINF:-1 group-title="BR | RECORD" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD SC FLORIANÓPOLIS",RECORD SC FLORIANÓPOLIS
 https://dns.p2.wtf/rogerio55x/24992611250/296628
-#EXTINF:-1 group-title="BR | RECORD" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD SP RIBEIRÃO PRETO HD",RECORD SP RIBEIRÃO PRETO HD
-https://dns.p2.wtf/rogerio55x/24992611250/296672
-#EXTINF:-1 group-title="BR | RECORD" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD SP RIO PRETO HD",RECORD SP RIO PRETO HD
-https://dns.p2.wtf/rogerio55x/24992611250/296673
-#EXTINF:-1 group-title="BR | ABERTOS",[PT] TVCINE ACTION
-https://dns.p2.wtf/rogerio55x/24992611250/1260744
-#EXTINF:-1 group-title="BR | ABERTOS",[PT] TVCINE EDITION
-https://dns.p2.wtf/rogerio55x/24992611250/1260745
-#EXTINF:-1 group-title="BR | ABERTOS",[PT] TVCINE EMOTION
-https://dns.p2.wtf/rogerio55x/24992611250/1260746
 #EXTINF:-1 group-title="BR | ABERTOS",[PT] TVCINE TOP
 https://dns.p2.wtf/rogerio55x/24992611250/1260747
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="[PT] TVE",[PT] TVE
@@ -127,9 +107,13 @@ https://dns.p2.wtf/rogerio55x/24992611250/296743
 https://dns.p2.wtf/rogerio55x/24992611250/296732
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO SP TV DIÁRIO MOGI DAS CRUZES HD",GLOBO SP TV DIÁRIO MOGI DAS CRUZES HD
 https://dns.p2.wtf/rogerio55x/24992611250/296839
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Ideal TV HD.br" tvg-name="IDEAL TV HD",IDEAL TV HD
+https://dns.p2.wtf/rogerio55x/24992611250/676
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Ideal TV HD.br" tvg-name="IDEAL TV SD",IDEAL TV SD
+https://dns.p2.wtf/rogerio55x/24992611250/677
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL SD",REDE BRASIL SD
 https://dns.p2.wtf/rogerio55x/24992611250/1112
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV 4K",REDE TV 4K
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV H265",REDE TV H265
 https://dns.p2.wtf/rogerio55x/24992611250/299680
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV HD",REDE TV HD
 https://dns.p2.wtf/rogerio55x/24992611250/1117
@@ -139,7 +123,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1119
 https://dns.p2.wtf/rogerio55x/24992611250/296892
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA FHD",TERRA VIVA FHD
 https://dns.p2.wtf/rogerio55x/24992611250/1292
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV ALESP.br" tvg-name="TV ALESP  HD",TV ALESP  HD
+#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV ALESP.br" tvg-name="TV ALESP HD",TV ALESP HD
 https://dns.p2.wtf/rogerio55x/24992611250/1326
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL FHD",TV BRASIL FHD
 https://dns.p2.wtf/rogerio55x/24992611250/305215
@@ -155,31 +139,49 @@ https://dns.p2.wtf/rogerio55x/24992611250/1541
 https://dns.p2.wtf/rogerio55x/24992611250/1542
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA",TVE BAHIA
 https://dns.p2.wtf/rogerio55x/24992611250/288017
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL HD",TVE INTERNATIONAL HD
-https://dns.p2.wtf/rogerio55x/24992611250/296348
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL SD",TVE INTERNATIONAL SD
-https://dns.p2.wtf/rogerio55x/24992611250/296349
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="TVE SD",TVE SD
 https://dns.p2.wtf/rogerio55x/24992611250/1560
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AMC.br" tvg-name="[ES] AMC HD",[ES] AMC HD
 https://dns.p2.wtf/rogerio55x/24992611250/1260562
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[ES] CUBAVISIÓN INTERNACIONAL
+https://dns.p2.wtf/rogerio55x/24992611250/1260591
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[ES] EL TRECE INTERNACIONAL
+https://dns.p2.wtf/rogerio55x/24992611250/1260603
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Conmebol TV 3.br" tvg-name="[ES] LALIGA TV 3 HYPERMOTION",[ES] LALIGA TV 3 HYPERMOTION
+https://dns.p2.wtf/rogerio55x/24992611250/1260618
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[ES] LALIGA TV HYPERMOTION
+https://dns.p2.wtf/rogerio55x/24992611250/1260620
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National Geographic.br" tvg-name="[ES] NATIONAL GEOGRAPHIC",[ES] NATIONAL GEOGRAPHIC
+https://dns.p2.wtf/rogerio55x/24992611250/1260625
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Record TV International.br" tvg-name="[ES] PRO TV INTERNATIONAL",[ES] PRO TV INTERNATIONAL
+https://dns.p2.wtf/rogerio55x/24992611250/1260632
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Rede.Globo.TV.Internacional.us2" tvg-name="[ES] TV CHILE INTERNACIONAL",[ES] TV CHILE INTERNACIONAL
+https://dns.p2.wtf/rogerio55x/24992611250/1260642
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AMC.br" tvg-name="[PT] AMC HD",[PT] AMC HD
 https://dns.p2.wtf/rogerio55x/24992611250/1260654
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="[PT] AXN HD",[PT] AXN HD
 https://dns.p2.wtf/rogerio55x/24992611250/1260656
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="[US] CINEMAX",[US] CINEMAX
-https://dns.p2.wtf/rogerio55x/24992611250/1260804
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="[US] HBO",[US] HBO
-https://dns.p2.wtf/rogerio55x/24992611250/1260861
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="[US] HBO 2",[US] HBO 2
-https://dns.p2.wtf/rogerio55x/24992611250/1260862
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="[US] HBO COMEDY",[US] HBO COMEDY
-https://dns.p2.wtf/rogerio55x/24992611250/1260863
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="[US] HBO ZONE",[US] HBO ZONE
-https://dns.p2.wtf/rogerio55x/24992611250/1260864
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E 4K",A&E 4K
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] CUBAVISIÓN INTERNACIONAL FHD
+https://dns.p2.wtf/rogerio55x/24992611250/1260760
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] FASHION HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260691
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] LALIGA HYPERMOTION TV FHD
+https://dns.p2.wtf/rogerio55x/24992611250/1260770
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National.Geographic.Wild.HD.us2" tvg-name="[PT] NATIONAL GEO WILD HD",[PT] NATIONAL GEO WILD HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260706
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National Geographic.br" tvg-name="[PT] NATIONAL GEOGRAPHIC FHD",[PT] NATIONAL GEOGRAPHIC FHD
+https://dns.p2.wtf/rogerio55x/24992611250/1260773
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National Geographic HD.br" tvg-name="[PT] NATIONAL GEOGRAPHIC HD",[PT] NATIONAL GEOGRAPHIC HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260707
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] TVCINE ACTION
+https://dns.p2.wtf/rogerio55x/24992611250/1260744
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] TVCINE EDITION
+https://dns.p2.wtf/rogerio55x/24992611250/1260745
+#EXTINF:-1 group-title="BR | FILMES E SERIES",[PT] TVCINE EMOTION
+https://dns.p2.wtf/rogerio55x/24992611250/1260746
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E H265",A&E H265
 https://dns.p2.wtf/rogerio55x/24992611250/296469
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E FHD H265",A&E FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E H265 [2]",A&E H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/14
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E HD",A&E HD
 https://dns.p2.wtf/rogerio55x/24992611250/16
@@ -195,20 +197,24 @@ https://dns.p2.wtf/rogerio55x/24992611250/296432
 https://dns.p2.wtf/rogerio55x/24992611250/26
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AMC.br" tvg-name="AMC SD [2]",AMC SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296433
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN 4K",AXN 4K
-https://dns.p2.wtf/rogerio55x/24992611250/296470
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN FHD",AXN FHD
 https://dns.p2.wtf/rogerio55x/24992611250/304028
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN H265",AXN H265
+https://dns.p2.wtf/rogerio55x/24992611250/296470
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN HD",AXN HD
 https://dns.p2.wtf/rogerio55x/24992611250/96
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN SD",AXN SD
 https://dns.p2.wtf/rogerio55x/24992611250/98
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN UHD",AXN UHD
 https://dns.p2.wtf/rogerio55x/24992611250/296434
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL 4K",CANAL BRASIL 4K
-https://dns.p2.wtf/rogerio55x/24992611250/296116
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL FHD H265",CANAL BRASIL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND NACIONAL SD",BAND NACIONAL SD
+https://dns.p2.wtf/rogerio55x/24992611250/114
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TELEVISION",BLOOMBERG TELEVISION
+https://dns.p2.wtf/rogerio55x/24992611250/296649
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL H265",CANAL BRASIL H265
 https://dns.p2.wtf/rogerio55x/24992611250/184
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL H265 [2]",CANAL BRASIL H265 [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296116
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL HD",CANAL BRASIL HD
 https://dns.p2.wtf/rogerio55x/24992611250/186
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL HD [2]",CANAL BRASIL HD [2]
@@ -217,32 +223,46 @@ https://dns.p2.wtf/rogerio55x/24992611250/296115
 https://dns.p2.wtf/rogerio55x/24992611250/188
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Canal.Brasil.br" tvg-name="CANAL BRASIL SD [2]",CANAL BRASIL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296114
-#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL 4K
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL H265
 https://dns.p2.wtf/rogerio55x/24992611250/217
-#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/218
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL HD
 https://dns.p2.wtf/rogerio55x/24992611250/220
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CINE CANAL SD
 https://dns.p2.wtf/rogerio55x/24992611250/222
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX 4K",CINEMAX 4K
-https://dns.p2.wtf/rogerio55x/24992611250/258
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX FHD",CINEMAX FHD
 https://dns.p2.wtf/rogerio55x/24992611250/260
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX H265",CINEMAX H265
+https://dns.p2.wtf/rogerio55x/24992611250/258
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX HD",CINEMAX HD
 https://dns.p2.wtf/rogerio55x/24992611250/262
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX LEGENDADO",CINEMAX LEGENDADO
 https://dns.p2.wtf/rogerio55x/24992611250/296437
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX SD",CINEMAX SD
 https://dns.p2.wtf/rogerio55x/24992611250/296436
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265",CNN INTERNACIONAL H265
+https://dns.p2.wtf/rogerio55x/24992611250/273
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
+https://dns.p2.wtf/rogerio55x/24992611250/274
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL SD",CNN INTERNACIONAL SD
+https://dns.p2.wtf/rogerio55x/24992611250/275
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN INTERNATIONAL HD",CNN INTERNATIONAL HD
+https://dns.p2.wtf/rogerio55x/24992611250/296352
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Eurochannel.br" tvg-name="EUROCHANNEL HD",EUROCHANNEL HD
 https://dns.p2.wtf/rogerio55x/24992611250/296438
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Eurochannel.br" tvg-name="EUROCHANNEL SD",EUROCHANNEL SD
 https://dns.p2.wtf/rogerio55x/24992611250/296439
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 4K",HBO 2 4K
-https://dns.p2.wtf/rogerio55x/24992611250/564
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="FASHION TV HD",FASHION TV HD
+https://dns.p2.wtf/rogerio55x/24992611250/296157
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="FASHION TV SD",FASHION TV SD
+https://dns.p2.wtf/rogerio55x/24992611250/296158
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO NACIONAL FHD",GLOBO NACIONAL FHD
+https://dns.p2.wtf/rogerio55x/24992611250/296856
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 FHD",HBO 2 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296411
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 H265",HBO 2 H265
+https://dns.p2.wtf/rogerio55x/24992611250/564
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD",HBO 2 HD
 https://dns.p2.wtf/rogerio55x/24992611250/566
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD [2]",HBO 2 HD [2]
@@ -251,12 +271,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296418
 https://dns.p2.wtf/rogerio55x/24992611250/568
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 SD [2]",HBO 2 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296419
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO 4K",HBO 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299674
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY 4K",HBO FAMILY 4K
-https://dns.p2.wtf/rogerio55x/24992611250/571
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY FHD",HBO FAMILY FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296397
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY H265",HBO FAMILY H265
+https://dns.p2.wtf/rogerio55x/24992611250/571
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD",HBO FAMILY HD
 https://dns.p2.wtf/rogerio55x/24992611250/573
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD [2]",HBO FAMILY HD [2]
@@ -267,16 +285,18 @@ https://dns.p2.wtf/rogerio55x/24992611250/575
 https://dns.p2.wtf/rogerio55x/24992611250/296399
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO FHD",HBO FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296420
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO FHD H265",HBO FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO H265",HBO H265
+https://dns.p2.wtf/rogerio55x/24992611250/299674
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO H265 [2]",HBO H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/576
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD",HBO HD
 https://dns.p2.wtf/rogerio55x/24992611250/578
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD [2]",HBO HD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296400
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI 4K",HBO MUNDI 4K
-https://dns.p2.wtf/rogerio55x/24992611250/635
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI FHD",HBO MUNDI FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296401
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI H265",HBO MUNDI H265
+https://dns.p2.wtf/rogerio55x/24992611250/635
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD",HBO MUNDI HD
 https://dns.p2.wtf/rogerio55x/24992611250/637
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [2]",HBO MUNDI HD [2]
@@ -285,10 +305,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296402
 https://dns.p2.wtf/rogerio55x/24992611250/639
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI SD [2]",HBO MUNDI SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296412
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP 4K",HBO POP 4K
-https://dns.p2.wtf/rogerio55x/24992611250/641
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP FHD",HBO POP FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296403
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP H265",HBO POP H265
+https://dns.p2.wtf/rogerio55x/24992611250/641
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD",HBO POP HD
 https://dns.p2.wtf/rogerio55x/24992611250/643
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [2]",HBO POP HD [2]
@@ -301,10 +321,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296413
 https://dns.p2.wtf/rogerio55x/24992611250/646
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO SD [2]",HBO SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296414
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE 4K",HBO SIGNATURE 4K
-https://dns.p2.wtf/rogerio55x/24992611250/648
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE FHD",HBO SIGNATURE FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296405
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE H265",HBO SIGNATURE H265
+https://dns.p2.wtf/rogerio55x/24992611250/648
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE HD",HBO SIGNATURE HD
 https://dns.p2.wtf/rogerio55x/24992611250/650
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE HD [2]",HBO SIGNATURE HD [2]
@@ -313,10 +333,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296406
 https://dns.p2.wtf/rogerio55x/24992611250/652
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE SD [2]",HBO SIGNATURE SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296415
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME 4K",HBO XTREME 4K
-https://dns.p2.wtf/rogerio55x/24992611250/654
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME FHD",HBO XTREME FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296407
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME H265",HBO XTREME H265
+https://dns.p2.wtf/rogerio55x/24992611250/654
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD",HBO XTREME HD
 https://dns.p2.wtf/rogerio55x/24992611250/656
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD [2]",HBO XTREME HD [2]
@@ -325,10 +345,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296408
 https://dns.p2.wtf/rogerio55x/24992611250/658
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME SD [2]",HBO XTREME SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296416
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ 4K",HBO+ 4K
-https://dns.p2.wtf/rogerio55x/24992611250/660
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ FHD",HBO+ FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296409
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ H265",HBO+ H265
+https://dns.p2.wtf/rogerio55x/24992611250/660
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD",HBO+ HD
 https://dns.p2.wtf/rogerio55x/24992611250/662
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD [2]",HBO+ HD [2]
@@ -371,11 +391,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/704620
 https://dns.p2.wtf/rogerio55x/24992611250/704621
 #EXTINF:-1 group-title="BR | FILMES E SERIES",MAX 05 HD ALT 01
 https://dns.p2.wtf/rogerio55x/24992611250/704622
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX 4K",MEGAPIX 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299677
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX FHD",MEGAPIX FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296458
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX FHD H265",MEGAPIX FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX H265",MEGAPIX H265
+https://dns.p2.wtf/rogerio55x/24992611250/299677
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX H265 [2]",MEGAPIX H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/725
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX HD",MEGAPIX HD
 https://dns.p2.wtf/rogerio55x/24992611250/728
@@ -385,7 +405,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296457
 https://dns.p2.wtf/rogerio55x/24992611250/730
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Megapix.br" tvg-name="MEGAPIX SD [2]",MEGAPIX SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296440
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT CHANNEL FHD H265",PARAMOUNT CHANNEL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT CHANNEL H265",PARAMOUNT CHANNEL H265
 https://dns.p2.wtf/rogerio55x/24992611250/827
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT CHANNEL HD",PARAMOUNT CHANNEL HD
 https://dns.p2.wtf/rogerio55x/24992611250/829
@@ -395,27 +415,39 @@ https://dns.p2.wtf/rogerio55x/24992611250/296380
 https://dns.p2.wtf/rogerio55x/24992611250/831
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT CHANNEL SD [2]",PARAMOUNT CHANNEL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296381
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRAZIL FHD H265",PRIME BOX BRAZIL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRAZIL H265",PRIME BOX BRAZIL H265
 https://dns.p2.wtf/rogerio55x/24992611250/901
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRAZIL HD",PRIME BOX BRAZIL HD
 https://dns.p2.wtf/rogerio55x/24992611250/903
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRAZIL SD",PRIME BOX BRAZIL SD
 https://dns.p2.wtf/rogerio55x/24992611250/905
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY 4K",SONY 4K
-https://dns.p2.wtf/rogerio55x/24992611250/296396
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT INTERNACIONAL",SBT INTERNACIONAL
+https://dns.p2.wtf/rogerio55x/24992611250/296860
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL FHD",SBT NACIONAL FHD
+https://dns.p2.wtf/rogerio55x/24992611250/296862
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL H265",SBT NACIONAL H265
+https://dns.p2.wtf/rogerio55x/24992611250/1176
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL HD",SBT NACIONAL HD
+https://dns.p2.wtf/rogerio55x/24992611250/1175
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL SD",SBT NACIONAL SD
+https://dns.p2.wtf/rogerio55x/24992611250/1174
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL SD [2]",SBT NACIONAL SD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/1177
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY FHD",SONY FHD
 https://dns.p2.wtf/rogerio55x/24992611250/1201
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY H265",SONY H265
+https://dns.p2.wtf/rogerio55x/24992611250/296396
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY HD",SONY HD
 https://dns.p2.wtf/rogerio55x/24992611250/1203
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY HD [2]",SONY HD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296382
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES 4K",SONY MOVIES 4K
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES H265",SONY MOVIES H265
 https://dns.p2.wtf/rogerio55x/24992611250/296654
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY SD",SONY SD
 https://dns.p2.wtf/rogerio55x/24992611250/1205
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY SD [2]",SONY SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296383
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE FHD H265",SPACE FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE H265",SPACE H265
 https://dns.p2.wtf/rogerio55x/24992611250/1214
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD",SPACE HD
 https://dns.p2.wtf/rogerio55x/24992611250/1216
@@ -425,10 +457,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296441
 https://dns.p2.wtf/rogerio55x/24992611250/1218
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE SD [2]",SPACE SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296442
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL 4K",STUDIO UNIVERSAL 4K
-https://dns.p2.wtf/rogerio55x/24992611250/296461
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL FHD H265",STUDIO UNIVERSAL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL H265",STUDIO UNIVERSAL H265
 https://dns.p2.wtf/rogerio55x/24992611250/1242
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL H265 [2]",STUDIO UNIVERSAL H265 [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296461
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD",STUDIO UNIVERSAL HD
 https://dns.p2.wtf/rogerio55x/24992611250/1244
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD [2]",STUDIO UNIVERSAL HD [2]
@@ -437,7 +469,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296443
 https://dns.p2.wtf/rogerio55x/24992611250/1246
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL SD [2]",STUDIO UNIVERSAL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296444
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TCM.br" tvg-name="TCM FHD H265",TCM FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TCM.br" tvg-name="TCM H265",TCM H265
 https://dns.p2.wtf/rogerio55x/24992611250/1251
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TCM.br" tvg-name="TCM HD",TCM HD
 https://dns.p2.wtf/rogerio55x/24992611250/1252
@@ -447,11 +479,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/296445
 https://dns.p2.wtf/rogerio55x/24992611250/1254
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TCM.br" tvg-name="TCM SD [2]",TCM SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296446
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION 4K",TELECINE ACTION 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299682
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION FHD",TELECINE ACTION FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296198
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION FHD H265",TELECINE ACTION FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION H265",TELECINE ACTION H265
+https://dns.p2.wtf/rogerio55x/24992611250/299682
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION H265 [2]",TELECINE ACTION H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1256
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD",TELECINE ACTION HD
 https://dns.p2.wtf/rogerio55x/24992611250/1258
@@ -463,7 +495,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260
 https://dns.p2.wtf/rogerio55x/24992611250/296188
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT FHD",TELECINE CULT FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296199
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT FHD H265",TELECINE CULT FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT H265",TELECINE CULT H265
 https://dns.p2.wtf/rogerio55x/24992611250/1262
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT HD",TELECINE CULT HD
 https://dns.p2.wtf/rogerio55x/24992611250/1264
@@ -475,7 +507,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1266
 https://dns.p2.wtf/rogerio55x/24992611250/296189
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN FHD",TELECINE FUN FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296201
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN FHD H265",TELECINE FUN FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN H265",TELECINE FUN H265
 https://dns.p2.wtf/rogerio55x/24992611250/1268
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN HD",TELECINE FUN HD
 https://dns.p2.wtf/rogerio55x/24992611250/1270
@@ -485,11 +517,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/296190
 https://dns.p2.wtf/rogerio55x/24992611250/1272
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN SD [2]",TELECINE FUN SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296191
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA 4K",TELECINE PIPOCA 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299683
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA FHD",TELECINE PIPOCA FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296202
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA FHD H265",TELECINE PIPOCA FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA H265",TELECINE PIPOCA H265
+https://dns.p2.wtf/rogerio55x/24992611250/299683
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA H265 [2]",TELECINE PIPOCA H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1274
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA HD",TELECINE PIPOCA HD
 https://dns.p2.wtf/rogerio55x/24992611250/1276
@@ -499,11 +531,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/296192
 https://dns.p2.wtf/rogerio55x/24992611250/1278
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA SD [2]",TELECINE PIPOCA SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296193
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM 4K",TELECINE PREMIUM 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299684
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM FHD",TELECINE PREMIUM FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296203
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM FHD H265",TELECINE PREMIUM FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM H265",TELECINE PREMIUM H265
+https://dns.p2.wtf/rogerio55x/24992611250/299684
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM H265 [2]",TELECINE PREMIUM H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1280
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM HD",TELECINE PREMIUM HD
 https://dns.p2.wtf/rogerio55x/24992611250/1282
@@ -515,7 +547,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1284
 https://dns.p2.wtf/rogerio55x/24992611250/296195
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH FHD",TELECINE TOUCH FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296204
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH FHD H265",TELECINE TOUCH FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH H265",TELECINE TOUCH H265
 https://dns.p2.wtf/rogerio55x/24992611250/1286
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH HD",TELECINE TOUCH HD
 https://dns.p2.wtf/rogerio55x/24992611250/1288
@@ -525,16 +557,16 @@ https://dns.p2.wtf/rogerio55x/24992611250/296196
 https://dns.p2.wtf/rogerio55x/24992611250/1290
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH SD [2]",TELECINE TOUCH SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296197
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT 4K",TNT 4K
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT H265",TNT H265
 https://dns.p2.wtf/rogerio55x/24992611250/299685
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT FHD H265",TNT FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT H265 [2]",TNT H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1302
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD",TNT HD
 https://dns.p2.wtf/rogerio55x/24992611250/296447
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS 4K",TNT NOVELAS 4K
-https://dns.p2.wtf/rogerio55x/24992611250/1308
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS FHD",TNT NOVELAS FHD
 https://dns.p2.wtf/rogerio55x/24992611250/1306
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS H265",TNT NOVELAS H265
+https://dns.p2.wtf/rogerio55x/24992611250/1308
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS HD",TNT NOVELAS HD
 https://dns.p2.wtf/rogerio55x/24992611250/296448
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS SD",TNT NOVELAS SD
@@ -543,9 +575,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296449
 https://dns.p2.wtf/rogerio55x/24992611250/1309
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT SD [2]",TNT SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296450
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES 4K",TNT SERIES 4K
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES H265",TNT SERIES H265
 https://dns.p2.wtf/rogerio55x/24992611250/299686
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES FHD H265",TNT SERIES FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES H265 [2]",TNT SERIES H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1310
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES HD",TNT SERIES HD
 https://dns.p2.wtf/rogerio55x/24992611250/1312
@@ -555,14 +587,18 @@ https://dns.p2.wtf/rogerio55x/24992611250/296451
 https://dns.p2.wtf/rogerio55x/24992611250/1314
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES SD [2]",TNT SERIES SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296452
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV 4K",UNIVERSAL TV 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299687
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV 4K [2]",UNIVERSAL TV 4K [2]
-https://dns.p2.wtf/rogerio55x/24992611250/1565
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL HD",TVE INTERNATIONAL HD
+https://dns.p2.wtf/rogerio55x/24992611250/296348
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL SD",TVE INTERNATIONAL SD
+https://dns.p2.wtf/rogerio55x/24992611250/296349
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV FHD",UNIVERSAL TV FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296459
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV FHD [2]",UNIVERSAL TV FHD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296462
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV H265",UNIVERSAL TV H265
+https://dns.p2.wtf/rogerio55x/24992611250/299687
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV H265 [2]",UNIVERSAL TV H265 [2]
+https://dns.p2.wtf/rogerio55x/24992611250/1565
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV HD",UNIVERSAL TV HD
 https://dns.p2.wtf/rogerio55x/24992611250/1567
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="UNIVERSAL TV HD [2]",UNIVERSAL TV HD [2]
@@ -577,7 +613,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296468
 https://dns.p2.wtf/rogerio55x/24992611250/296467
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="USA.Network.HD.us2" tvg-name="USA NETWORK SD",USA NETWORK SD
 https://dns.p2.wtf/rogerio55x/24992611250/296466
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="WARNER CHANNEL FHD H265",WARNER CHANNEL FHD H265
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="WARNER CHANNEL H265",WARNER CHANNEL H265
 https://dns.p2.wtf/rogerio55x/24992611250/1584
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Warner.Channel.br" tvg-name="WARNER CHANNEL HD",WARNER CHANNEL HD
 https://dns.p2.wtf/rogerio55x/24992611250/1586
@@ -591,19 +627,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296456
 https://dns.p2.wtf/rogerio55x/24992611250/1260594
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="[PT] TLC HD",[PT] TLC HD
 https://dns.p2.wtf/rogerio55x/24992611250/1260739
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="[US] ANIMAL PLANET",[US] ANIMAL PLANET
-https://dns.p2.wtf/rogerio55x/24992611250/1260785
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="[US] DISCOVERY CHANNEL",[US] DISCOVERY CHANNEL
-https://dns.p2.wtf/rogerio55x/24992611250/1260817
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="[US] DISCOVERY SCIENCE",[US] DISCOVERY SCIENCE
-https://dns.p2.wtf/rogerio55x/24992611250/1260820
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS",[US] SMITHSONIAN CHANNEL
-https://dns.p2.wtf/rogerio55x/24992611250/1260908
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="[US] TLC",[US] TLC
-https://dns.p2.wtf/rogerio55x/24992611250/1260925
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET 4K",ANIMAL PLANET 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET H265",ANIMAL PLANET H265
 https://dns.p2.wtf/rogerio55x/24992611250/299662
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET FHD H265",ANIMAL PLANET FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET H265 [2]",ANIMAL PLANET H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/28
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET HD",ANIMAL PLANET HD
 https://dns.p2.wtf/rogerio55x/24992611250/30
@@ -613,9 +639,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296564
 https://dns.p2.wtf/rogerio55x/24992611250/32
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Animal.Planet.br" tvg-name="ANIMAL PLANET SD [2]",ANIMAL PLANET SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296565
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL 4K",DISCOVERY CHANNEL 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL H265",DISCOVERY CHANNEL H265
 https://dns.p2.wtf/rogerio55x/24992611250/299666
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL FHD H265",DISCOVERY CHANNEL FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL H265 [2]",DISCOVERY CHANNEL H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/340
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL HD",DISCOVERY CHANNEL HD
 https://dns.p2.wtf/rogerio55x/24992611250/342
@@ -625,9 +651,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296584
 https://dns.p2.wtf/rogerio55x/24992611250/344
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL SD [2]",DISCOVERY CHANNEL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296585
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H 4K",DISCOVERY H&H 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H H265",DISCOVERY H&H H265
 https://dns.p2.wtf/rogerio55x/24992611250/299667
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H FHD H265",DISCOVERY H&H FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H H265 [2]",DISCOVERY H&H H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/346
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H HD",DISCOVERY H&H HD
 https://dns.p2.wtf/rogerio55x/24992611250/348
@@ -637,7 +663,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296568
 https://dns.p2.wtf/rogerio55x/24992611250/350
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Home.&.Health.br" tvg-name="DISCOVERY H&H SD [2]",DISCOVERY H&H SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296569
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="DISCOVERY ID FHD H265",DISCOVERY ID FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="DISCOVERY ID H265",DISCOVERY ID H265
 https://dns.p2.wtf/rogerio55x/24992611250/351
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="DISCOVERY ID HD",DISCOVERY ID HD
 https://dns.p2.wtf/rogerio55x/24992611250/353
@@ -647,7 +673,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296570
 https://dns.p2.wtf/rogerio55x/24992611250/355
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="ID.br" tvg-name="DISCOVERY ID SD [2]",DISCOVERY ID SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296571
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE FHD H265",DISCOVERY SCIENCE FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE H265",DISCOVERY SCIENCE H265
 https://dns.p2.wtf/rogerio55x/24992611250/362
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE HD",DISCOVERY SCIENCE HD
 https://dns.p2.wtf/rogerio55x/24992611250/364
@@ -657,7 +683,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296572
 https://dns.p2.wtf/rogerio55x/24992611250/366
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE SD [2]",DISCOVERY SCIENCE SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296573
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="DISCOVERY THEATER FHD H265",DISCOVERY THEATER FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="DISCOVERY THEATER H265",DISCOVERY THEATER H265
 https://dns.p2.wtf/rogerio55x/24992611250/368
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="DISCOVERY THEATER HD",DISCOVERY THEATER HD
 https://dns.p2.wtf/rogerio55x/24992611250/370
@@ -667,9 +693,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296574
 https://dns.p2.wtf/rogerio55x/24992611250/372
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Theater.br" tvg-name="DISCOVERY THEATER SD [2]",DISCOVERY THEATER SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296575
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO 4K",DISCOVERY TURBO 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO H265",DISCOVERY TURBO H265
 https://dns.p2.wtf/rogerio55x/24992611250/299668
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO FHD H265",DISCOVERY TURBO FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO H265 [2]",DISCOVERY TURBO H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/374
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO HD",DISCOVERY TURBO HD
 https://dns.p2.wtf/rogerio55x/24992611250/376
@@ -679,7 +705,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296576
 https://dns.p2.wtf/rogerio55x/24992611250/378
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.Turbo.br" tvg-name="DISCOVERY TURBO SD [2]",DISCOVERY TURBO SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296577
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="DISCOVERY WORLD FHD H265",DISCOVERY WORLD FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="DISCOVERY WORLD H265",DISCOVERY WORLD H265
 https://dns.p2.wtf/rogerio55x/24992611250/380
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="DISCOVERY WORLD HD",DISCOVERY WORLD HD
 https://dns.p2.wtf/rogerio55x/24992611250/382
@@ -689,9 +715,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296578
 https://dns.p2.wtf/rogerio55x/24992611250/384
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="Discovery.World.br" tvg-name="DISCOVERY WORLD SD [2]",DISCOVERY WORLD SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296579
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 4K",HISTORY 2 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 H265",HISTORY 2 H265
 https://dns.p2.wtf/rogerio55x/24992611250/296601
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 FHD H265",HISTORY 2 FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 H265 [2]",HISTORY 2 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/558
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 HD",HISTORY 2 HD
 https://dns.p2.wtf/rogerio55x/24992611250/560
@@ -701,9 +727,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296602
 https://dns.p2.wtf/rogerio55x/24992611250/562
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.2.br" tvg-name="HISTORY 2 SD [2]",HISTORY 2 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296603
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY 4K",HISTORY 4K
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY H265",HISTORY H265
 https://dns.p2.wtf/rogerio55x/24992611250/296600
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY FHD H265",HISTORY FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY H265 [2]",HISTORY H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/669
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY HD",HISTORY HD
 https://dns.p2.wtf/rogerio55x/24992611250/671
@@ -713,7 +739,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296604
 https://dns.p2.wtf/rogerio55x/24992611250/673
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="History.Channel.br" tvg-name="HISTORY SD [2]",HISTORY SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296605
-#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC FHD H265",TLC FHD H265
+#EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC H265",TLC H265
 https://dns.p2.wtf/rogerio55x/24992611250/1297
 #EXTINF:-1 group-title="BR | DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC HD",TLC HD
 https://dns.p2.wtf/rogerio55x/24992611250/1299
@@ -727,19 +753,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296151
 https://dns.p2.wtf/rogerio55x/24992611250/1260699
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="[PT] SPORTV +",[PT] SPORTV +
 https://dns.p2.wtf/rogerio55x/24992611250/1260737
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="[US] ESPN",[US] ESPN
-https://dns.p2.wtf/rogerio55x/24992611250/1260824
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="[US] ESPN NEWS",[US] ESPN NEWS
-https://dns.p2.wtf/rogerio55x/24992611250/1260825
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="[US] ESPN U",[US] ESPN U
-https://dns.p2.wtf/rogerio55x/24992611250/1260826
-#EXTINF:-1 group-title="BR | ESPORTES",[US] ESPN2
-https://dns.p2.wtf/rogerio55x/24992611250/1260827
-#EXTINF:-1 group-title="BR | ESPORTES",[US] FIFA+ TV
-https://dns.p2.wtf/rogerio55x/24992611250/1260841
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS 4K",BAND SPORTS 4K
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS H265",BAND SPORTS H265
 https://dns.p2.wtf/rogerio55x/24992611250/296492
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS FHD H265",BAND SPORTS FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS H265 [2]",BAND SPORTS H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/145
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD",BAND SPORTS HD
 https://dns.p2.wtf/rogerio55x/24992611250/147
@@ -749,54 +765,26 @@ https://dns.p2.wtf/rogerio55x/24992611250/296480
 https://dns.p2.wtf/rogerio55x/24992611250/149
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS SD [2]",BAND SPORTS SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296481
-#EXTINF:-1 group-title="BR | ESPORTES",CAZE TV
-https://dns.p2.wtf/rogerio55x/24992611250/212
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 01 HD
-https://dns.p2.wtf/rogerio55x/24992611250/296538
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 01 HD ALT
-https://dns.p2.wtf/rogerio55x/24992611250/296541
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 02 HD
-https://dns.p2.wtf/rogerio55x/24992611250/296539
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 02 HD ALT
-https://dns.p2.wtf/rogerio55x/24992611250/296542
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 03 HD
-https://dns.p2.wtf/rogerio55x/24992611250/296540
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 03 HD ALT
-https://dns.p2.wtf/rogerio55x/24992611250/296543
-#EXTINF:-1 group-title="BR | ESPORTES",CAZETV 04 HD
-https://dns.p2.wtf/rogerio55x/24992611250/296544
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE 4K",COMBATE 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299665
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE FHD H265",COMBATE FHD H265
-https://dns.p2.wtf/rogerio55x/24992611250/278
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE HD",COMBATE HD
-https://dns.p2.wtf/rogerio55x/24992611250/280
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE HD [2]",COMBATE HD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296482
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE SD",COMBATE SD
-https://dns.p2.wtf/rogerio55x/24992611250/282
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Combate.br" tvg-name="COMBATE SD [2]",COMBATE SD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296483
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 4K",ESPN 2 4K
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 H265",ESPN 2 H265
 https://dns.p2.wtf/rogerio55x/24992611250/477
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 FHD H265",ESPN 2 FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 H265 [2]",ESPN 2 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/475
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 HD",ESPN 2 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296550
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 SD",ESPN 2 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296551
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 4K",ESPN 3 4K
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 H265",ESPN 3 H265
 https://dns.p2.wtf/rogerio55x/24992611250/299670
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 FHD H265",ESPN 3 FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 H265 [2]",ESPN 3 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/481
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 HD",ESPN 3 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296552
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 SD",ESPN 3 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296553
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 4K",ESPN 4 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299669
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 FHD",ESPN 4 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/487
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 H265",ESPN 4 H265
+https://dns.p2.wtf/rogerio55x/24992611250/299669
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD",ESPN 4 HD
 https://dns.p2.wtf/rogerio55x/24992611250/489
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD [2]",ESPN 4 HD [2]
@@ -805,11 +793,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296554
 https://dns.p2.wtf/rogerio55x/24992611250/491
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 SD [2]",ESPN 4 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296555
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN 4K",ESPN 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299671
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 4K",ESPN 5 4K
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 H265",ESPN 5 H265
 https://dns.p2.wtf/rogerio55x/24992611250/495
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 FHD H265",ESPN 5 FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 H265 [2]",ESPN 5 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/493
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 HD",ESPN 5 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296556
@@ -817,17 +803,19 @@ https://dns.p2.wtf/rogerio55x/24992611250/296556
 https://dns.p2.wtf/rogerio55x/24992611250/497
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 SD",ESPN 5 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296557
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 4K",ESPN 6 4K
-https://dns.p2.wtf/rogerio55x/24992611250/305236
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 FHD",ESPN 6 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/305234
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 H265",ESPN 6 H265
+https://dns.p2.wtf/rogerio55x/24992611250/305236
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 HD",ESPN 6 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296558
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 SD",ESPN 6 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296559
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN FHD",ESPN FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296354
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN FHD H265",ESPN FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN H265",ESPN H265
+https://dns.p2.wtf/rogerio55x/24992611250/299671
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN H265 [2]",ESPN H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/504
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN HD",ESPN HD
 https://dns.p2.wtf/rogerio55x/24992611250/506
@@ -857,7 +845,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296484
 https://dns.p2.wtf/rogerio55x/24992611250/296485
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF FHD",OFF FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296479
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF FHD H265",OFF FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF H265",OFF H265
 https://dns.p2.wtf/rogerio55x/24992611250/822
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF HD",OFF HD
 https://dns.p2.wtf/rogerio55x/24992611250/824
@@ -867,8 +855,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/296478
 https://dns.p2.wtf/rogerio55x/24992611250/826
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF SD [2]",OFF SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296477
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD RJ GOYTACAZES HD",RECORD RJ GOYTACAZES HD
-https://dns.p2.wtf/rogerio55x/24992611250/296662
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 FHD",SPORTV 2 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296210
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD",SPORTV 2 HD
@@ -881,7 +867,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1223
 https://dns.p2.wtf/rogerio55x/24992611250/296215
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 UHD",SPORTV 2 UHD
 https://dns.p2.wtf/rogerio55x/24992611250/1219
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 FHD H265",SPORTV 3 FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 H265",SPORTV 3 H265
 https://dns.p2.wtf/rogerio55x/24992611250/1224
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD",SPORTV 3 HD
 https://dns.p2.wtf/rogerio55x/24992611250/1226
@@ -893,16 +879,16 @@ https://dns.p2.wtf/rogerio55x/24992611250/1228
 https://dns.p2.wtf/rogerio55x/24992611250/296211
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 UHD",SPORTV 3 UHD
 https://dns.p2.wtf/rogerio55x/24992611250/296213
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV 4K",SPORTV 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299681
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV 4K ALT",SPORTV 4K ALT
-https://dns.p2.wtf/rogerio55x/24992611250/305201
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV FHD",SPORTV FHD
 https://dns.p2.wtf/rogerio55x/24992611250/305202
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV FHD [2]",SPORTV FHD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296207
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV FHD H265",SPORTV FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV H265",SPORTV H265
+https://dns.p2.wtf/rogerio55x/24992611250/299681
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV H265 [2]",SPORTV H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1229
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV H265 ALT",SPORTV H265 ALT
+https://dns.p2.wtf/rogerio55x/24992611250/305201
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD",SPORTV HD
 https://dns.p2.wtf/rogerio55x/24992611250/1231
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [2]",SPORTV HD [2]
@@ -915,7 +901,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1233
 https://dns.p2.wtf/rogerio55x/24992611250/296205
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV SD ALT",SPORTV SD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/305204
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Woohoo.br" tvg-name="WOOHOO FHD H265",WOOHOO FHD H265
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Woohoo.br" tvg-name="WOOHOO H265",WOOHOO H265
 https://dns.p2.wtf/rogerio55x/24992611250/1589
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Woohoo.br" tvg-name="WOOHOO HD",WOOHOO HD
 https://dns.p2.wtf/rogerio55x/24992611250/296488
@@ -929,21 +915,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/303211
 https://dns.p2.wtf/rogerio55x/24992611250/303210
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="[ES] COMEDY CENTRAL",[ES] COMEDY CENTRAL
 https://dns.p2.wtf/rogerio55x/24992611250/1260588
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Adult Swim.br" tvg-name="[US] ADULT SWIM",[US] ADULT SWIM
-https://dns.p2.wtf/rogerio55x/24992611250/1260782
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="[US] COMEDY CENTRAL",[US] COMEDY CENTRAL
-https://dns.p2.wtf/rogerio55x/24992611250/1260809
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="E!..br" tvg-name="[US] E! ENTERTAINMENT",[US] E! ENTERTAINMENT
-https://dns.p2.wtf/rogerio55x/24992611250/1260823
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Food.Network.br" tvg-name="[US] FOOD NETWORK",[US] FOOD NETWORK
-https://dns.p2.wtf/rogerio55x/24992611250/1260842
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TBS.br" tvg-name="[US] TBS",[US] TBS
-https://dns.p2.wtf/rogerio55x/24992611250/1260922
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",ADULT SWIN HD
 https://dns.p2.wtf/rogerio55x/24992611250/296629
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",ADULT SWIN SD
 https://dns.p2.wtf/rogerio55x/24992611250/296630
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD H265",ARTE 1 FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265",ARTE 1 H265
 https://dns.p2.wtf/rogerio55x/24992611250/84
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD",ARTE 1 HD
 https://dns.p2.wtf/rogerio55x/24992611250/86
@@ -955,9 +931,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/88
 https://dns.p2.wtf/rogerio55x/24992611250/296567
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",BRTV MAX
 https://dns.p2.wtf/rogerio55x/24992611250/298431
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL 4K",COMEDY CENTRAL 4K
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL H265",COMEDY CENTRAL H265
 https://dns.p2.wtf/rogerio55x/24992611250/296167
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL FHD H265",COMEDY CENTRAL FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL H265 [2]",COMEDY CENTRAL H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/284
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL HD",COMEDY CENTRAL HD
 https://dns.p2.wtf/rogerio55x/24992611250/286
@@ -967,7 +943,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296153
 https://dns.p2.wtf/rogerio55x/24992611250/288
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SD [2]",COMEDY CENTRAL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296154
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! FHD H265",CURTA! FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! H265",CURTA! H265
 https://dns.p2.wtf/rogerio55x/24992611250/290
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! HD",CURTA! HD
 https://dns.p2.wtf/rogerio55x/24992611250/292
@@ -983,10 +959,16 @@ https://dns.p2.wtf/rogerio55x/24992611250/297461
 https://dns.p2.wtf/rogerio55x/24992611250/296155
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="E!..br" tvg-name="E! SD",E! SD
 https://dns.p2.wtf/rogerio55x/24992611250/296156
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Fashion.TV.br" tvg-name="FASHION TV HD",FASHION TV HD
-https://dns.p2.wtf/rogerio55x/24992611250/296157
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Fashion.TV.br" tvg-name="FASHION TV SD",FASHION TV SD
-https://dns.p2.wtf/rogerio55x/24992611250/296158
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV H265",FISH TV H265
+https://dns.p2.wtf/rogerio55x/24992611250/513
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD",FISH TV HD
+https://dns.p2.wtf/rogerio55x/24992611250/515
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [2]",FISH TV HD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296159
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD",FISH TV SD
+https://dns.p2.wtf/rogerio55x/24992611250/517
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [2]",FISH TV SD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296160
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Food.Network.br" tvg-name="FOOD NETWORK FHD",FOOD NETWORK FHD
 https://dns.p2.wtf/rogerio55x/24992611250/521
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Food.Network.br" tvg-name="FOOD NETWORK HD",FOOD NETWORK HD
@@ -1017,11 +999,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/296795
 https://dns.p2.wtf/rogerio55x/24992611250/296796
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RS RBS TV UHD",GLOBO RS RBS TV UHD
 https://dns.p2.wtf/rogerio55x/24992611250/296797
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT 4K",GNT 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299673
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD",GNT FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296122
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD H265",GNT FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT H265",GNT H265
+https://dns.p2.wtf/rogerio55x/24992611250/299673
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT H265 [2]",GNT H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/552
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD",GNT HD
 https://dns.p2.wtf/rogerio55x/24992611250/554
@@ -1035,10 +1017,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/556
 https://dns.p2.wtf/rogerio55x/24992611250/296120
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD [3]",GNT SD [3]
 https://dns.p2.wtf/rogerio55x/24992611250/296136
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV 4K",HGTV 4K
-https://dns.p2.wtf/rogerio55x/24992611250/667
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV FHD",HGTV FHD
 https://dns.p2.wtf/rogerio55x/24992611250/665
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV H265",HGTV H265
+https://dns.p2.wtf/rogerio55x/24992611250/667
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV HD",HGTV HD
 https://dns.p2.wtf/rogerio55x/24992611250/296137
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="HGTV.br" tvg-name="HGTV SD",HGTV SD
@@ -1055,21 +1037,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296141
 https://dns.p2.wtf/rogerio55x/24992611250/296126
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM SD [2]",MODO VIAGEM SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296142
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW 4K",MULTISHOW 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299678
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW FHD",MULTISHOW FHD
-https://dns.p2.wtf/rogerio55x/24992611250/296119
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW FHD H265",MULTISHOW FHD H265
-https://dns.p2.wtf/rogerio55x/24992611250/745
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW HD",MULTISHOW HD
-https://dns.p2.wtf/rogerio55x/24992611250/747
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW HD [2]",MULTISHOW HD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296118
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW SD",MULTISHOW SD
-https://dns.p2.wtf/rogerio55x/24992611250/749
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW SD [2]",MULTISHOW SD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296117
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV FHD H265",PLAY TV FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV H265",PLAY TV H265
 https://dns.p2.wtf/rogerio55x/24992611250/843
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV HD",PLAY TV HD
 https://dns.p2.wtf/rogerio55x/24992611250/844
@@ -1083,15 +1051,15 @@ https://dns.p2.wtf/rogerio55x/24992611250/964
 https://dns.p2.wtf/rogerio55x/24992611250/296639
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE SD",SABOR & ARTE SD
 https://dns.p2.wtf/rogerio55x/24992611250/296640
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TBS.br" tvg-name="TBS FHD H265",TBS FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TBS.br" tvg-name="TBS H265",TBS H265
 https://dns.p2.wtf/rogerio55x/24992611250/1250
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Prime.Box.Brazil.br" tvg-name="TRAVEL BOX BRAZIL FHD H265",TRAVEL BOX BRAZIL FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Prime.Box.Brazil.br" tvg-name="TRAVEL BOX BRAZIL H265",TRAVEL BOX BRAZIL H265
 https://dns.p2.wtf/rogerio55x/24992611250/1320
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA 4K",VIVA 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299688
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA FHD",VIVA FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296563
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA FHD H265",VIVA FHD H265
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA H265",VIVA H265
+https://dns.p2.wtf/rogerio55x/24992611250/299688
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA H265 [2]",VIVA H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/1579
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA HD",VIVA HD
 https://dns.p2.wtf/rogerio55x/24992611250/1581
@@ -1099,20 +1067,40 @@ https://dns.p2.wtf/rogerio55x/24992611250/1581
 https://dns.p2.wtf/rogerio55x/24992611250/296560
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA SD",VIVA SD
 https://dns.p2.wtf/rogerio55x/24992611250/296561
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.TV.HD.us2" tvg-name="CA: NBA TV HD",CA: NBA TV HD
-https://dns.p2.wtf/rogerio55x/24992611250/299645
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 01 HD
+https://dns.p2.wtf/rogerio55x/24992611250/988090
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 01 HD ALT
+https://dns.p2.wtf/rogerio55x/24992611250/988091
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 01 HD ALT 01
+https://dns.p2.wtf/rogerio55x/24992611250/988092
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 02 HD
+https://dns.p2.wtf/rogerio55x/24992611250/988093
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 03 HD
+https://dns.p2.wtf/rogerio55x/24992611250/988094
+#EXTINF:-1 group-title="BR | PAY PER VIEW",APPLE TV 04 HD
+https://dns.p2.wtf/rogerio55x/24992611250/988095
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZE TV
+https://dns.p2.wtf/rogerio55x/24992611250/212
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 01 HD
+https://dns.p2.wtf/rogerio55x/24992611250/296538
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 01 HD ALT
+https://dns.p2.wtf/rogerio55x/24992611250/296541
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 02 HD
+https://dns.p2.wtf/rogerio55x/24992611250/296539
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 02 HD ALT
+https://dns.p2.wtf/rogerio55x/24992611250/296542
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 03 HD
+https://dns.p2.wtf/rogerio55x/24992611250/296540
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 03 HD ALT
+https://dns.p2.wtf/rogerio55x/24992611250/296543
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZETV 04 HD
+https://dns.p2.wtf/rogerio55x/24992611250/296544
 #EXTINF:-1 group-title="BR | PAY PER VIEW",DIRECTV GO 1 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/336
 #EXTINF:-1 group-title="BR | PAY PER VIEW",DIRECTV GO 2 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/337
 #EXTINF:-1 group-title="BR | PAY PER VIEW",FURACAO TV PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/526
-#EXTINF:-1 group-title="BR | PAY PER VIEW",IT: SKY SPORT NBA FHD
-https://dns.p2.wtf/rogerio55x/24992611250/299648
-#EXTINF:-1 group-title="BR | PAY PER VIEW",IT: SKY SPORT NBA FULL HD
-https://dns.p2.wtf/rogerio55x/24992611250/299643
-#EXTINF:-1 group-title="BR | PAY PER VIEW",IT: SKY SPORT NBA HD
-https://dns.p2.wtf/rogerio55x/24992611250/299642
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 2 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/715
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 2 PPV SD
@@ -1121,29 +1109,19 @@ https://dns.p2.wtf/rogerio55x/24992611250/716
 https://dns.p2.wtf/rogerio55x/24992611250/717
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL PPV SD
 https://dns.p2.wtf/rogerio55x/24992611250/718
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01",NBA LEAGUE PASS 01
-https://dns.p2.wtf/rogerio55x/24992611250/299660
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 01",NBA LEAGUE PASS 01 ALT 01
-https://dns.p2.wtf/rogerio55x/24992611250/299659
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 02",NBA LEAGUE PASS 01 ALT 02
-https://dns.p2.wtf/rogerio55x/24992611250/299658
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 03",NBA LEAGUE PASS 01 ALT 03
-https://dns.p2.wtf/rogerio55x/24992611250/299657
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 02",NBA LEAGUE PASS 02
-https://dns.p2.wtf/rogerio55x/24992611250/299661
 #EXTINF:-1 group-title="BR | PAY PER VIEW",NETFLIX LIVE PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/765
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 4K",PREMIERE 2 4K
-https://dns.p2.wtf/rogerio55x/24992611250/305247
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 FHD",PREMIERE 2 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/859
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 H265",PREMIERE 2 H265
+https://dns.p2.wtf/rogerio55x/24992611250/305247
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 HD",PREMIERE 2 HD
 https://dns.p2.wtf/rogerio55x/24992611250/861
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 SD",PREMIERE 2 SD
 https://dns.p2.wtf/rogerio55x/24992611250/863
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 4K",PREMIERE 3 4K
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265",PREMIERE 3 H265
 https://dns.p2.wtf/rogerio55x/24992611250/305248
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 FHD H265",PREMIERE 3 FHD H265
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [2]",PREMIERE 3 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/865
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD",PREMIERE 3 HD
 https://dns.p2.wtf/rogerio55x/24992611250/867
@@ -1153,17 +1131,17 @@ https://dns.p2.wtf/rogerio55x/24992611250/296309
 https://dns.p2.wtf/rogerio55x/24992611250/869
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [2]",PREMIERE 3 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296310
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 4k",PREMIERE 4 4k
-https://dns.p2.wtf/rogerio55x/24992611250/873
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 FHD",PREMIERE 4 FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296311
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 H265",PREMIERE 4 H265
+https://dns.p2.wtf/rogerio55x/24992611250/873
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 HD",PREMIERE 4 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296312
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 SD",PREMIERE 4 SD
 https://dns.p2.wtf/rogerio55x/24992611250/875
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 4K",PREMIERE 5 4K
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265",PREMIERE 5 H265
 https://dns.p2.wtf/rogerio55x/24992611250/305249
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 FHD H265",PREMIERE 5 FHD H265
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [2]",PREMIERE 5 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/877
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD",PREMIERE 5 HD
 https://dns.p2.wtf/rogerio55x/24992611250/879
@@ -1173,9 +1151,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296313
 https://dns.p2.wtf/rogerio55x/24992611250/881
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [2]",PREMIERE 5 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296314
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 4K",PREMIERE 6 4K
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265",PREMIERE 6 H265
 https://dns.p2.wtf/rogerio55x/24992611250/305250
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 FHD H265",PREMIERE 6 FHD H265
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [2]",PREMIERE 6 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/883
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD",PREMIERE 6 HD
 https://dns.p2.wtf/rogerio55x/24992611250/885
@@ -1185,9 +1163,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296315
 https://dns.p2.wtf/rogerio55x/24992611250/887
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [2]",PREMIERE 6 SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296316
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 4K",PREMIERE 7 4K
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265",PREMIERE 7 H265
 https://dns.p2.wtf/rogerio55x/24992611250/296318
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 FHD H265",PREMIERE 7 FHD H265
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [2]",PREMIERE 7 H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/889
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD",PREMIERE 7 HD
 https://dns.p2.wtf/rogerio55x/24992611250/891
@@ -1197,10 +1175,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296317
 https://dns.p2.wtf/rogerio55x/24992611250/893
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="PREMIERE 8 SD",PREMIERE 8 SD
 https://dns.p2.wtf/rogerio55x/24992611250/895
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES 4K",PREMIERE CLUBES 4K
-https://dns.p2.wtf/rogerio55x/24992611250/299679
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES FHD",PREMIERE CLUBES FHD
 https://dns.p2.wtf/rogerio55x/24992611250/896
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES H265",PREMIERE CLUBES H265
+https://dns.p2.wtf/rogerio55x/24992611250/299679
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES HD",PREMIERE CLUBES HD
 https://dns.p2.wtf/rogerio55x/24992611250/898
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES HD [2]",PREMIERE CLUBES HD [2]
@@ -1225,34 +1203,12 @@ https://dns.p2.wtf/rogerio55x/24992611250/296534
 https://dns.p2.wtf/rogerio55x/24992611250/296535
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="SportyNet +.br" tvg-name="SPORTYNET 4 HD",SPORTYNET 4 HD
 https://dns.p2.wtf/rogerio55x/24992611250/296536
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.TV.HD.us2" tvg-name="TR: NBA TV",TR: NBA TV
-https://dns.p2.wtf/rogerio55x/24992611250/299644
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE",UNIVERSAL PREMIERE
 https://dns.p2.wtf/rogerio55x/24992611250/296650
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE [2]",UNIVERSAL PREMIERE [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296651
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE [3]",UNIVERSAL PREMIERE [3]
 https://dns.p2.wtf/rogerio55x/24992611250/296652
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 06",US1: NBA LEAGUE PASS 06
-https://dns.p2.wtf/rogerio55x/24992611250/299655
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 07",US1: NBA LEAGUE PASS 07
-https://dns.p2.wtf/rogerio55x/24992611250/299656
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 08",US1: NBA LEAGUE PASS 08
-https://dns.p2.wtf/rogerio55x/24992611250/299654
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 09",US1: NBA LEAGUE PASS 09
-https://dns.p2.wtf/rogerio55x/24992611250/299653
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 10",US1: NBA LEAGUE PASS 10
-https://dns.p2.wtf/rogerio55x/24992611250/299652
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 11",US1: NBA LEAGUE PASS 11
-https://dns.p2.wtf/rogerio55x/24992611250/299651
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 12",US1: NBA LEAGUE PASS 12
-https://dns.p2.wtf/rogerio55x/24992611250/299650
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.TV.HD.us2" tvg-name="US1: NBA TV HD",US1: NBA TV HD
-https://dns.p2.wtf/rogerio55x/24992611250/299649
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.TV.HD.us2" tvg-name="US2: NBA TV",US2: NBA TV
-https://dns.p2.wtf/rogerio55x/24992611250/299646
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.TV.HD.us2" tvg-name="US2: NBA TV | HD",US2: NBA TV | HD
-https://dns.p2.wtf/rogerio55x/24992611250/299647
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="[ES] BLOOMBERG",[ES] BLOOMBERG
 https://dns.p2.wtf/rogerio55x/24992611250/1260572
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="[ES] CNN INT",[ES] CNN INT
@@ -1265,23 +1221,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260662
 https://dns.p2.wtf/rogerio55x/24992611250/1260688
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="NHK.World.Premium.br" tvg-name="[PT] NHK WORLD",[PT] NHK WORLD
 https://dns.p2.wtf/rogerio55x/24992611250/1260708
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="[US] BLOOMBERG TV",[US] BLOOMBERG TV
-https://dns.p2.wtf/rogerio55x/24992611250/1260793
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CBS.News.National.Stream.us2" tvg-name="[US] CBS NEWS 24/7",[US] CBS NEWS 24/7
-https://dns.p2.wtf/rogerio55x/24992611250/1260801
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="[US] CNN",[US] CNN
-https://dns.p2.wtf/rogerio55x/24992611250/1260808
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="[US] LIFETIME",[US] LIFETIME
-https://dns.p2.wtf/rogerio55x/24992611250/1260870
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="[US] LIFETIME MOVIE NETWORK",[US] LIFETIME MOVIE NETWORK
-https://dns.p2.wtf/rogerio55x/24992611250/1260871
-#EXTINF:-1 group-title="BR | NOTICIAS",[US] SHOWTIME
-https://dns.p2.wtf/rogerio55x/24992611250/1260904
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Showtime.Extreme.HD.us2" tvg-name="[US] SHOWTIME EXTREME",[US] SHOWTIME EXTREME
-https://dns.p2.wtf/rogerio55x/24992611250/1260905
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS 4K",BAND NEWS 4K
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265",BAND NEWS H265
 https://dns.p2.wtf/rogerio55x/24992611250/296359
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS FHD H265",BAND NEWS FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [2]",BAND NEWS H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/116
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD",BAND NEWS HD
 https://dns.p2.wtf/rogerio55x/24992611250/118
@@ -1291,12 +1233,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/296335
 https://dns.p2.wtf/rogerio55x/24992611250/120
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [2]",BAND NEWS SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296336
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD",BBC WORLD NEWS HD
-https://dns.p2.wtf/rogerio55x/24992611250/296337
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD [2]",BBC WORLD NEWS HD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296338
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TELEVISION",BLOOMBERG TELEVISION
-https://dns.p2.wtf/rogerio55x/24992611250/296649
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TV HD",BLOOMBERG TV HD
 https://dns.p2.wtf/rogerio55x/24992611250/296339
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TV SD",BLOOMBERG TV SD
@@ -1315,9 +1251,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296610
 https://dns.p2.wtf/rogerio55x/24992611250/296609
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL",CNN BRASIL
 https://dns.p2.wtf/rogerio55x/24992611250/296357
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL 4K",CNN BRASIL 4K
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265",CNN BRASIL H265
 https://dns.p2.wtf/rogerio55x/24992611250/299664
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD H265",CNN BRASIL FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [2]",CNN BRASIL H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/264
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD",CNN BRASIL HD
 https://dns.p2.wtf/rogerio55x/24992611250/266
@@ -1327,39 +1263,31 @@ https://dns.p2.wtf/rogerio55x/24992611250/296350
 https://dns.p2.wtf/rogerio55x/24992611250/268
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [2]",CNN BRASIL SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296351
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL FHD H265",CNN ESPANHOL FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL H265",CNN ESPANHOL H265
 https://dns.p2.wtf/rogerio55x/24992611250/269
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL HD",CNN ESPANHOL HD
 https://dns.p2.wtf/rogerio55x/24992611250/270
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL SD",CNN ESPANHOL SD
 https://dns.p2.wtf/rogerio55x/24992611250/272
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL FHD H265",CNN INTERNACIONAL FHD H265
-https://dns.p2.wtf/rogerio55x/24992611250/273
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
-https://dns.p2.wtf/rogerio55x/24992611250/274
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL SD",CNN INTERNACIONAL SD
-https://dns.p2.wtf/rogerio55x/24992611250/275
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN INTERNATIONAL HD",CNN INTERNATIONAL HD
-https://dns.p2.wtf/rogerio55x/24992611250/296352
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS 4K",GLOBO NEWS 4K
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265",GLOBO NEWS H265
 https://dns.p2.wtf/rogerio55x/24992611250/299672
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD H265",GLOBO NEWS FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [2]",GLOBO NEWS H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296341
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD",GLOBO NEWS HD
 https://dns.p2.wtf/rogerio55x/24992611250/296342
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD",GLOBO NEWS SD
 https://dns.p2.wtf/rogerio55x/24992611250/296343
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS 4K",JOVEM PAN NEWS 4K
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265",JOVEM PAN NEWS H265
 https://dns.p2.wtf/rogerio55x/24992611250/299675
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD H265",JOVEM PAN NEWS FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [2]",JOVEM PAN NEWS H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/707
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD",JOVEM PAN NEWS HD
 https://dns.p2.wtf/rogerio55x/24992611250/709
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [2]",JOVEM PAN NEWS HD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296344
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="LIFETIME 4K",LIFETIME 4K
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="LIFETIME H265",LIFETIME H265
 https://dns.p2.wtf/rogerio55x/24992611250/296168
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="LIFETIME FHD H265",LIFETIME FHD H265
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="LIFETIME H265 [2]",LIFETIME H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/712
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Lifetime.br" tvg-name="LIFETIME HD",LIFETIME HD
 https://dns.p2.wtf/rogerio55x/24992611250/296139
@@ -1391,13 +1319,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260705
 https://dns.p2.wtf/rogerio55x/24992611250/1260740
 #EXTINF:-1 group-title="BR | MUSICAS",[PT] TRACE URBAN HD
 https://dns.p2.wtf/rogerio55x/24992611250/1260741
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="[US] MTV",[US] MTV
-https://dns.p2.wtf/rogerio55x/24992611250/1260877
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="VH1.br" tvg-name="[US] VH1",[US] VH1
-https://dns.p2.wtf/rogerio55x/24992611250/1260934
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="BIS.br" tvg-name="BIS FHD",BIS FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296125
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="BIS.br" tvg-name="BIS FHD H265",BIS FHD H265
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="BIS.br" tvg-name="BIS H265",BIS H265
 https://dns.p2.wtf/rogerio55x/24992611250/168
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="BIS.br" tvg-name="BIS HD",BIS HD
 https://dns.p2.wtf/rogerio55x/24992611250/170
@@ -1405,7 +1329,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/170
 https://dns.p2.wtf/rogerio55x/24992611250/296124
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="BIS.br" tvg-name="BIS SD",BIS SD
 https://dns.p2.wtf/rogerio55x/24992611250/296123
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV FHD H265",MTV FHD H265
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV H265",MTV H265
 https://dns.p2.wtf/rogerio55x/24992611250/737
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV HD",MTV HD
 https://dns.p2.wtf/rogerio55x/24992611250/739
@@ -1417,14 +1341,42 @@ https://dns.p2.wtf/rogerio55x/24992611250/296144
 https://dns.p2.wtf/rogerio55x/24992611250/296145
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="MTV.br" tvg-name="MTV SD",MTV SD
 https://dns.p2.wtf/rogerio55x/24992611250/296146
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW FHD",MULTISHOW FHD
+https://dns.p2.wtf/rogerio55x/24992611250/296119
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW H265",MULTISHOW H265
+https://dns.p2.wtf/rogerio55x/24992611250/299678
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW H265 [2]",MULTISHOW H265 [2]
+https://dns.p2.wtf/rogerio55x/24992611250/745
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW HD",MULTISHOW HD
+https://dns.p2.wtf/rogerio55x/24992611250/747
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW HD [2]",MULTISHOW HD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296118
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW SD",MULTISHOW SD
+https://dns.p2.wtf/rogerio55x/24992611250/749
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Multishow.br" tvg-name="MULTISHOW SD [2]",MULTISHOW SD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296117
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Prime.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL HD",MUSIC BOX BRAZIL HD
 https://dns.p2.wtf/rogerio55x/24992611250/751
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Prime.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL SD",MUSIC BOX BRAZIL SD
 https://dns.p2.wtf/rogerio55x/24992611250/753
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="VH1 HD.br" tvg-name="VH1 FHD H265",VH1 FHD H265
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="VH1 HD.br" tvg-name="VH1 H265",VH1 H265
 https://dns.p2.wtf/rogerio55x/24992611250/1573
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="VH1 HD.br" tvg-name="VH1 HD",VH1 HD
 https://dns.p2.wtf/rogerio55x/24992611250/1574
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE H265",COMBATE H265
+https://dns.p2.wtf/rogerio55x/24992611250/299665
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE H265 [2]",COMBATE H265 [2]
+https://dns.p2.wtf/rogerio55x/24992611250/278
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE HD",COMBATE HD
+https://dns.p2.wtf/rogerio55x/24992611250/280
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [2]",COMBATE HD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296482
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE SD",COMBATE SD
+https://dns.p2.wtf/rogerio55x/24992611250/282
+#EXTINF:-1 group-title="BR | UFC" tvg-id="Combate.br" tvg-name="COMBATE SD [2]",COMBATE SD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296483
+#EXTINF:-1 group-title="BR | UFC",LUTAS DO DIA UFC
+https://dns.p2.wtf/rogerio55x/24992611250/297024
 #EXTINF:-1 group-title="BR | UFC",UFC FIGHT 01
 https://dns.p2.wtf/rogerio55x/24992611250/300377
 #EXTINF:-1 group-title="BR | UFC",UFC FIGHT 02
@@ -1433,6 +1385,48 @@ https://dns.p2.wtf/rogerio55x/24992611250/300378
 https://dns.p2.wtf/rogerio55x/24992611250/300379
 #EXTINF:-1 group-title="BR | UFC" tvg-id="NBA.League.Pass.1.us2" tvg-name="UFC FIGHT PASS 1 PPV HD",UFC FIGHT PASS 1 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/1561
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="[PT] SPORT TV NBA",[PT] SPORT TV NBA
+https://dns.p2.wtf/rogerio55x/24992611250/1260729
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="CA: NBA TV HD",CA: NBA TV HD
+https://dns.p2.wtf/rogerio55x/24992611250/299645
+#EXTINF:-1 group-title="BR | NBA",IT: SKY SPORT NBA FHD
+https://dns.p2.wtf/rogerio55x/24992611250/299648
+#EXTINF:-1 group-title="BR | NBA",IT: SKY SPORT NBA FULL HD
+https://dns.p2.wtf/rogerio55x/24992611250/299643
+#EXTINF:-1 group-title="BR | NBA",IT: SKY SPORT NBA HD
+https://dns.p2.wtf/rogerio55x/24992611250/299642
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01",NBA LEAGUE PASS 01
+https://dns.p2.wtf/rogerio55x/24992611250/299660
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 01",NBA LEAGUE PASS 01 ALT 01
+https://dns.p2.wtf/rogerio55x/24992611250/299659
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 02",NBA LEAGUE PASS 01 ALT 02
+https://dns.p2.wtf/rogerio55x/24992611250/299658
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 01 ALT 03",NBA LEAGUE PASS 01 ALT 03
+https://dns.p2.wtf/rogerio55x/24992611250/299657
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 02",NBA LEAGUE PASS 02
+https://dns.p2.wtf/rogerio55x/24992611250/299661
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="TR: NBA TV",TR: NBA TV
+https://dns.p2.wtf/rogerio55x/24992611250/299644
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 06",US1: NBA LEAGUE PASS 06
+https://dns.p2.wtf/rogerio55x/24992611250/299655
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 07",US1: NBA LEAGUE PASS 07
+https://dns.p2.wtf/rogerio55x/24992611250/299656
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 08",US1: NBA LEAGUE PASS 08
+https://dns.p2.wtf/rogerio55x/24992611250/299654
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 09",US1: NBA LEAGUE PASS 09
+https://dns.p2.wtf/rogerio55x/24992611250/299653
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 10",US1: NBA LEAGUE PASS 10
+https://dns.p2.wtf/rogerio55x/24992611250/299652
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 11",US1: NBA LEAGUE PASS 11
+https://dns.p2.wtf/rogerio55x/24992611250/299651
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 12",US1: NBA LEAGUE PASS 12
+https://dns.p2.wtf/rogerio55x/24992611250/299650
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="US1: NBA TV HD",US1: NBA TV HD
+https://dns.p2.wtf/rogerio55x/24992611250/299649
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="US2: NBA TV",US2: NBA TV
+https://dns.p2.wtf/rogerio55x/24992611250/299646
+#EXTINF:-1 group-title="BR | NBA" tvg-id="NBA.TV.HD.us2" tvg-name="US2: NBA TV | HD",US2: NBA TV | HD
+https://dns.p2.wtf/rogerio55x/24992611250/299647
 #EXTINF:-1 group-title="BR | DAZN",DAZN 1 HD
 https://dns.p2.wtf/rogerio55x/24992611250/297018
 #EXTINF:-1 group-title="BR | DAZN",DAZN 2 HD
@@ -1453,21 +1447,13 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260669
 https://dns.p2.wtf/rogerio55x/24992611250/1260670
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="[PT] NICKELODEON",[PT] NICKELODEON
 https://dns.p2.wtf/rogerio55x/24992611250/1260709
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="[US] CARTOON NETWORK",[US] CARTOON NETWORK
-https://dns.p2.wtf/rogerio55x/24992611250/1260799
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nick.Jr..br" tvg-name="[US] NICK JR",[US] NICK JR
-https://dns.p2.wtf/rogerio55x/24992611250/1260891
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Nickelodeon.br" tvg-name="[US] NICKELODEON",[US] NICKELODEON
-https://dns.p2.wtf/rogerio55x/24992611250/1260892
-#EXTINF:-1 group-title="BR | INFANTIS",[US] NICKTOONS
-https://dns.p2.wtf/rogerio55x/24992611250/1260893
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Baby.Tv.br" tvg-name="BABY TV FHD H265",BABY TV FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Baby.Tv.br" tvg-name="BABY TV H265",BABY TV H265
 https://dns.p2.wtf/rogerio55x/24992611250/100
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Canal do Criador.br" tvg-name="CANAL DO CRIADOR SD",CANAL DO CRIADOR SD
 https://dns.p2.wtf/rogerio55x/24992611250/193
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK 4K",CARTOON NETWORK 4K
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK H265",CARTOON NETWORK H265
 https://dns.p2.wtf/rogerio55x/24992611250/299663
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK FHD H265",CARTOON NETWORK FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK H265 [2]",CARTOON NETWORK H265 [2]
 https://dns.p2.wtf/rogerio55x/24992611250/201
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK HD",CARTOON NETWORK HD
 https://dns.p2.wtf/rogerio55x/24992611250/203
@@ -1477,7 +1463,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296388
 https://dns.p2.wtf/rogerio55x/24992611250/205
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Cartoon.Network.br" tvg-name="CARTOON NETWORK SD [2]",CARTOON NETWORK SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296389
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO FHD H265",CARTOONITO FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265",CARTOONITO H265
 https://dns.p2.wtf/rogerio55x/24992611250/207
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD",CARTOONITO HD
 https://dns.p2.wtf/rogerio55x/24992611250/209
@@ -1487,7 +1473,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296390
 https://dns.p2.wtf/rogerio55x/24992611250/211
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [2]",CARTOONITO SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296391
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS FHD H265",DISCOVERY KIDS FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265",DISCOVERY KIDS H265
 https://dns.p2.wtf/rogerio55x/24992611250/357
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD",DISCOVERY KIDS HD
 https://dns.p2.wtf/rogerio55x/24992611250/359
@@ -1503,7 +1489,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/305216
 https://dns.p2.wtf/rogerio55x/24992611250/296392
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD",GLOOB FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296362
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD H265",GLOOB FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB H265",GLOOB H265
 https://dns.p2.wtf/rogerio55x/24992611250/543
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD",GLOOB HD
 https://dns.p2.wtf/rogerio55x/24992611250/545
@@ -1521,7 +1507,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296360
 https://dns.p2.wtf/rogerio55x/24992611250/296393
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD",GLOOBINHO FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296365
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD H265",GLOOBINHO FHD H265
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265",GLOOBINHO H265
 https://dns.p2.wtf/rogerio55x/24992611250/548
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD",GLOOBINHO HD
 https://dns.p2.wtf/rogerio55x/24992611250/550
@@ -1533,17 +1519,17 @@ https://dns.p2.wtf/rogerio55x/24992611250/296374
 https://dns.p2.wtf/rogerio55x/24992611250/296363
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [2]",GLOOBINHO SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296375
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast FHD",Tooncast FHD
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST FHD",TOONCAST FHD
 https://dns.p2.wtf/rogerio55x/24992611250/1255533
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast FHD ALT",Tooncast FHD ALT
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST FHD ALT",TOONCAST FHD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/1255536
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast HD",Tooncast HD
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD",TOONCAST HD
 https://dns.p2.wtf/rogerio55x/24992611250/1255534
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast HD ALT",Tooncast HD ALT
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD ALT",TOONCAST HD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/1255537
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast SD",Tooncast SD
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST SD",TOONCAST SD
 https://dns.p2.wtf/rogerio55x/24992611250/1255535
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="Tooncast SD ALT",Tooncast SD ALT
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST SD ALT",TOONCAST SD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/1255538
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="TV.Rá.Tim.Bum.br" tvg-name="TV RA TIM BUM HD",TV RA TIM BUM HD
 https://dns.p2.wtf/rogerio55x/24992611250/296384
@@ -1567,30 +1553,14 @@ https://dns.p2.wtf/rogerio55x/24992611250/1402
 https://dns.p2.wtf/rogerio55x/24992611250/296631
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="Agro+.br" tvg-name="AGRO+ SD",AGRO+ SD
 https://dns.p2.wtf/rogerio55x/24992611250/296632
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV FHD H265",FISH TV FHD H265
-https://dns.p2.wtf/rogerio55x/24992611250/513
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV HD",FISH TV HD
-https://dns.p2.wtf/rogerio55x/24992611250/515
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [2]",FISH TV HD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296159
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV SD",FISH TV SD
-https://dns.p2.wtf/rogerio55x/24992611250/517
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [2]",FISH TV SD [2]
-https://dns.p2.wtf/rogerio55x/24992611250/296160
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova.br" tvg-name="[PT] CANCAO NOVA",[PT] CANCAO NOVA
 https://dns.p2.wtf/rogerio55x/24992611250/1260668
 #EXTINF:-1 group-title="BR | RELIGIOSOS",[PT] KURIAKOS TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260701
-#EXTINF:-1 group-title="BR | RELIGIOSOS",[US] GRIT TV
-https://dns.p2.wtf/rogerio55x/24992611250/1260857
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova HD.br" tvg-name="CANÇÃO NOVA FHD",CANÇÃO NOVA FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296222
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova HD.br" tvg-name="CANÇÃO NOVA HD",CANÇÃO NOVA HD
 https://dns.p2.wtf/rogerio55x/24992611250/296223
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Ideal TV HD.br" tvg-name="IDEAL TV HD",IDEAL TV HD
-https://dns.p2.wtf/rogerio55x/24992611250/676
-#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Ideal TV HD.br" tvg-name="IDEAL TV SD",IDEAL TV SD
-https://dns.p2.wtf/rogerio55x/24992611250/677
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="RBI HD.br" tvg-name="RBI HD",RBI HD
 https://dns.p2.wtf/rogerio55x/24992611250/965
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="RBI HD.br" tvg-name="RBI SD",RBI SD
@@ -1617,16 +1587,36 @@ https://dns.p2.wtf/rogerio55x/24992611250/1355
 https://dns.p2.wtf/rogerio55x/24992611250/296227
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR HD",TV EVANGELIZAR HD
 https://dns.p2.wtf/rogerio55x/24992611250/300913
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="[ES] BBC WORLD HD",[ES] BBC WORLD HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260570
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[ES] FOX
+https://dns.p2.wtf/rogerio55x/24992611250/1260612
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[PT] FOX COMEDY HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260693
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[PT] FOX CRIME HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260694
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[PT] FOX FHD
+https://dns.p2.wtf/rogerio55x/24992611250/1260767
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[PT] FOX HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260695
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX Life.br" tvg-name="[PT] FOX LIFE HD",[PT] FOX LIFE HD
+https://dns.p2.wtf/rogerio55x/24992611250/1260696
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[PT] FOX MOVIES
+https://dns.p2.wtf/rogerio55x/24992611250/1260697
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="A&E.br" tvg-name="[US] A&E TV",[US] A&E TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260779
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] ABC
 https://dns.p2.wtf/rogerio55x/24992611250/1260780
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="ACC.Network.us2" tvg-name="[US] ACC NETWORK",[US] ACC NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260781
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Adult Swim.br" tvg-name="[US] ADULT SWIM",[US] ADULT SWIM
+https://dns.p2.wtf/rogerio55x/24992611250/1260782
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="[US] ALTITUDE SPORTS",[US] ALTITUDE SPORTS
 https://dns.p2.wtf/rogerio55x/24992611250/1260783
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="AMC.br" tvg-name="[US] AMC",[US] AMC
 https://dns.p2.wtf/rogerio55x/24992611250/1260784
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Animal.Planet.br" tvg-name="[US] ANIMAL PLANET",[US] ANIMAL PLANET
+https://dns.p2.wtf/rogerio55x/24992611250/1260785
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Antenna.TV.us2" tvg-name="[US] ANTENNA TV",[US] ANTENNA TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260786
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] ASPIRE
@@ -1641,6 +1631,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260790
 https://dns.p2.wtf/rogerio55x/24992611250/1260791
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Big.Ten.Network.HD.us2" tvg-name="[US] BIG TEN NETWORK",[US] BIG TEN NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260792
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="[US] BLOOMBERG TV",[US] BLOOMBERG TV
+https://dns.p2.wtf/rogerio55x/24992611250/1260793
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Boomerang HD.br" tvg-name="[US] BOOMERANG",[US] BOOMERANG
 https://dns.p2.wtf/rogerio55x/24992611250/1260794
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Bounce.TV.us2" tvg-name="[US] BOUNCE TV",[US] BOUNCE TV
@@ -1651,18 +1643,28 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260796
 https://dns.p2.wtf/rogerio55x/24992611250/1260797
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] C-SPAN
 https://dns.p2.wtf/rogerio55x/24992611250/1260798
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Cartoon.Network.br" tvg-name="[US] CARTOON NETWORK",[US] CARTOON NETWORK
+https://dns.p2.wtf/rogerio55x/24992611250/1260799
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] CBS
 https://dns.p2.wtf/rogerio55x/24992611250/1260800
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="CBS.News.National.Stream.us2" tvg-name="[US] CBS NEWS 24/7",[US] CBS NEWS 24/7
+https://dns.p2.wtf/rogerio55x/24992611250/1260801
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="CBS.Sports.Network.HD.us2" tvg-name="[US] CBS SPORTS GOLAZO NETWORK",[US] CBS SPORTS GOLAZO NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260802
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="CBS.Sports.Network.HD.us2" tvg-name="[US] CBS SPORTS NETWORK",[US] CBS SPORTS NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260803
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Cinemax.br" tvg-name="[US] CINEMAX",[US] CINEMAX
+https://dns.p2.wtf/rogerio55x/24992611250/1260804
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Cleo.TV.HD.us2" tvg-name="[US] CLEO TV",[US] CLEO TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260805
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] CMT
 https://dns.p2.wtf/rogerio55x/24992611250/1260806
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] CNBC
 https://dns.p2.wtf/rogerio55x/24992611250/1260807
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="CNN.br" tvg-name="[US] CNN",[US] CNN
+https://dns.p2.wtf/rogerio55x/24992611250/1260808
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Comedy.Central.br" tvg-name="[US] COMEDY CENTRAL",[US] COMEDY CENTRAL
+https://dns.p2.wtf/rogerio55x/24992611250/1260809
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Comedy.TV.HD.us2" tvg-name="[US] COMEDY TV",[US] COMEDY TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260810
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] COMET TV
@@ -1677,14 +1679,28 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260814
 https://dns.p2.wtf/rogerio55x/24992611250/1260815
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] CW
 https://dns.p2.wtf/rogerio55x/24992611250/1260816
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Discovery.Channel.br" tvg-name="[US] DISCOVERY CHANNEL",[US] DISCOVERY CHANNEL
+https://dns.p2.wtf/rogerio55x/24992611250/1260817
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Discovery.Channel.br" tvg-name="[US] DISCOVERY FAMILY CHANNEL",[US] DISCOVERY FAMILY CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260818
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="SÃ£o.Paulo/SP..Discovery.HD.Â³.br" tvg-name="[US] DISCOVERY LIFE",[US] DISCOVERY LIFE
 https://dns.p2.wtf/rogerio55x/24992611250/1260819
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Discovery.Science.br" tvg-name="[US] DISCOVERY SCIENCE",[US] DISCOVERY SCIENCE
+https://dns.p2.wtf/rogerio55x/24992611250/1260820
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Disney.Channel.br" tvg-name="[US] DISNEY CHANNEL",[US] DISNEY CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260821
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Disney XD.br" tvg-name="[US] DISNEY XD",[US] DISNEY XD
 https://dns.p2.wtf/rogerio55x/24992611250/1260822
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="E!..br" tvg-name="[US] E! ENTERTAINMENT",[US] E! ENTERTAINMENT
+https://dns.p2.wtf/rogerio55x/24992611250/1260823
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="ESPN.br" tvg-name="[US] ESPN",[US] ESPN
+https://dns.p2.wtf/rogerio55x/24992611250/1260824
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="ESPN.br" tvg-name="[US] ESPN NEWS",[US] ESPN NEWS
+https://dns.p2.wtf/rogerio55x/24992611250/1260825
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="ESPN.br" tvg-name="[US] ESPN U",[US] ESPN U
+https://dns.p2.wtf/rogerio55x/24992611250/1260826
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] ESPN2
+https://dns.p2.wtf/rogerio55x/24992611250/1260827
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] FDSN DETROIT
 https://dns.p2.wtf/rogerio55x/24992611250/1260828
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] FDSN FLORIDA
@@ -1711,13 +1727,17 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260838
 https://dns.p2.wtf/rogerio55x/24992611250/1260839
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] FDSN WISCONSIN
 https://dns.p2.wtf/rogerio55x/24992611250/1260840
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] FIFA+ TV
+https://dns.p2.wtf/rogerio55x/24992611250/1260841
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Food.Network.br" tvg-name="[US] FOOD NETWORK",[US] FOOD NETWORK
+https://dns.p2.wtf/rogerio55x/24992611250/1260842
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] FOX
 https://dns.p2.wtf/rogerio55x/24992611250/1260843
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Fox.Business.HD.us2" tvg-name="[US] FOX BUSINESS",[US] FOX BUSINESS
 https://dns.p2.wtf/rogerio55x/24992611250/1260844
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Fox News.br" tvg-name="[US] FOX NEWS",[US] FOX NEWS
 https://dns.p2.wtf/rogerio55x/24992611250/1260845
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="[US] FOX SPORTS 1",[US] FOX SPORTS 1
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Fox.Sports.4K.us2" tvg-name="[US] FOX SPORTS 1",[US] FOX SPORTS 1
 https://dns.p2.wtf/rogerio55x/24992611250/1260846
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX Sports 2.br" tvg-name="[US] FOX SPORTS 2",[US] FOX SPORTS 2
 https://dns.p2.wtf/rogerio55x/24992611250/1260847
@@ -1739,12 +1759,22 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260854
 https://dns.p2.wtf/rogerio55x/24992611250/1260855
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Golf Channel.br" tvg-name="[US] GOLF CHANNEL",[US] GOLF CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260856
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] GRIT TV
+https://dns.p2.wtf/rogerio55x/24992611250/1260857
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Hallmark.Channel.HD.us2" tvg-name="[US] HALLMARK CHANNEL",[US] HALLMARK CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260858
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Hallmark.Family.us2" tvg-name="[US] HALLMARK FAMILY",[US] HALLMARK FAMILY
 https://dns.p2.wtf/rogerio55x/24992611250/1260859
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Hallmark.Mystery.HD.us2" tvg-name="[US] HALLMARK MYSTERY",[US] HALLMARK MYSTERY
 https://dns.p2.wtf/rogerio55x/24992611250/1260860
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="HBO.br" tvg-name="[US] HBO",[US] HBO
+https://dns.p2.wtf/rogerio55x/24992611250/1260861
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="HBO.2.br" tvg-name="[US] HBO 2",[US] HBO 2
+https://dns.p2.wtf/rogerio55x/24992611250/1260862
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="HBO.br" tvg-name="[US] HBO COMEDY",[US] HBO COMEDY
+https://dns.p2.wtf/rogerio55x/24992611250/1260863
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="HBO.br" tvg-name="[US] HBO ZONE",[US] HBO ZONE
+https://dns.p2.wtf/rogerio55x/24992611250/1260864
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="History.Channel.br" tvg-name="[US] HISTORY CHANNEL",[US] HISTORY CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260865
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] HLN TV
@@ -1755,6 +1785,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260867
 https://dns.p2.wtf/rogerio55x/24992611250/1260868
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] ION TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260869
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Lifetime.br" tvg-name="[US] LIFETIME",[US] LIFETIME
+https://dns.p2.wtf/rogerio55x/24992611250/1260870
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Lifetime.br" tvg-name="[US] LIFETIME MOVIE NETWORK",[US] LIFETIME MOVIE NETWORK
+https://dns.p2.wtf/rogerio55x/24992611250/1260871
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="CBS.Sports.Network.HD.us2" tvg-name="[US] MARQUEE SPORTS NETWORK",[US] MARQUEE SPORTS NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260872
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="MLB.Network.HD.Alternate.us2" tvg-name="[US] MLB NETWORK",[US] MLB NETWORK
@@ -1765,6 +1799,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260874
 https://dns.p2.wtf/rogerio55x/24992611250/1260875
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] MSNBC
 https://dns.p2.wtf/rogerio55x/24992611250/1260876
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="MTV.br" tvg-name="[US] MTV",[US] MTV
+https://dns.p2.wtf/rogerio55x/24992611250/1260877
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="National Geographic.br" tvg-name="[US] NATIONAL GEOGRAPHIC",[US] NATIONAL GEOGRAPHIC
 https://dns.p2.wtf/rogerio55x/24992611250/1260878
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="NBA.TV.HD.us2" tvg-name="[US] NBA TV",[US] NBA TV
@@ -1791,6 +1827,12 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260888
 https://dns.p2.wtf/rogerio55x/24992611250/1260889
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="NHL.Network.HD.us2" tvg-name="[US] NHL NETWORK",[US] NHL NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260890
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Nick.Jr..br" tvg-name="[US] NICK JR",[US] NICK JR
+https://dns.p2.wtf/rogerio55x/24992611250/1260891
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Nickelodeon.br" tvg-name="[US] NICKELODEON",[US] NICKELODEON
+https://dns.p2.wtf/rogerio55x/24992611250/1260892
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] NICKTOONS
+https://dns.p2.wtf/rogerio55x/24992611250/1260893
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Outdoor.Channel.HD.us2" tvg-name="[US] OUTDOOR CHANNEL",[US] OUTDOOR CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260894
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] OVATION
@@ -1811,10 +1853,16 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260901
 https://dns.p2.wtf/rogerio55x/24992611250/1260902
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="SEC.Network.HD.us2" tvg-name="[US] SEC NETWORK",[US] SEC NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260903
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] SHOWTIME
+https://dns.p2.wtf/rogerio55x/24992611250/1260904
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Showtime.Extreme.HD.us2" tvg-name="[US] SHOWTIME EXTREME",[US] SHOWTIME EXTREME
+https://dns.p2.wtf/rogerio55x/24992611250/1260905
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] SKY SPORTS FOOTBALL
 https://dns.p2.wtf/rogerio55x/24992611250/1260906
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] SKY SPORTS NEWS
 https://dns.p2.wtf/rogerio55x/24992611250/1260907
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] SMITHSONIAN CHANNEL
+https://dns.p2.wtf/rogerio55x/24992611250/1260908
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Sony.br" tvg-name="[US] SONY MOVIE CHANNEL",[US] SONY MOVIE CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260909
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="SPACE.br" tvg-name="[US] SPACE CITY HOME NETWORK",[US] SPACE CITY HOME NETWORK
@@ -1841,12 +1889,18 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260919
 https://dns.p2.wtf/rogerio55x/24992611250/1260920
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Syfy.br" tvg-name="[US] SYFY",[US] SYFY
 https://dns.p2.wtf/rogerio55x/24992611250/1260921
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="TBS.br" tvg-name="[US] TBS",[US] TBS
+https://dns.p2.wtf/rogerio55x/24992611250/1260922
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Tennis.Channel.HD.us2" tvg-name="[US] TENNIS CHANNEL",[US] TENNIS CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260923
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="The.Weather.Channel.HD.us2" tvg-name="[US] THE WEATHER CHANNEL",[US] THE WEATHER CHANNEL
 https://dns.p2.wtf/rogerio55x/24992611250/1260924
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="TLC.br" tvg-name="[US] TLC",[US] TLC
+https://dns.p2.wtf/rogerio55x/24992611250/1260925
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="TNT.br" tvg-name="[US] TNT",[US] TNT
 https://dns.p2.wtf/rogerio55x/24992611250/1260926
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="TruTV.br" tvg-name="[US] TRUTV",[US] TRUTV
+https://dns.p2.wtf/rogerio55x/24992611250/1260927
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] TSN1
 https://dns.p2.wtf/rogerio55x/24992611250/1260928
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] TSN2
@@ -1859,6 +1913,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260931
 https://dns.p2.wtf/rogerio55x/24992611250/1260932
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="USA HD.br" tvg-name="[US] USA EAST",[US] USA EAST
 https://dns.p2.wtf/rogerio55x/24992611250/1260933
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="VH1.br" tvg-name="[US] VH1",[US] VH1
+https://dns.p2.wtf/rogerio55x/24992611250/1260934
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",[US] VICE TV
 https://dns.p2.wtf/rogerio55x/24992611250/1260935
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="WE.tv.HD.us2" tvg-name="[US] WE TV",[US] WE TV
@@ -1867,7 +1923,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/1260936
 https://dns.p2.wtf/rogerio55x/24992611250/1260937
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Yes.Network.Overflow.us2" tvg-name="[US] YES NETWORK",[US] YES NETWORK
 https://dns.p2.wtf/rogerio55x/24992611250/1260938
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD",BBC WORLD NEWS HD
+https://dns.p2.wtf/rogerio55x/24992611250/296337
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD [2]",BBC WORLD NEWS HD [2]
+https://dns.p2.wtf/rogerio55x/24992611250/296338
 #EXTINF:-1 group-title="BR | ESPORTES DO DIA",JOGOS DO DIA
 https://dns.p2.wtf/rogerio55x/24992611250/297023
-#EXTINF:-1 group-title="BR | ESPORTES DO DIA",LUTAS DO DIA UFC
-https://dns.p2.wtf/rogerio55x/24992611250/297024
