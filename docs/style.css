@@ -339,6 +339,12 @@ body {
 .log.white {
   color: #e4e4e7;
 }
+.log.cyan {
+  color: #22d3ee;
+}
+.log.star {
+  color: #a78bfa;
+}
 
 /* ── EPG View ────────────────────────────── */
 .epg-view {

@@ -571,11 +571,13 @@ function renderSummary(text) {
     } else {
       var cls = entry.type === "plus" ? "success" :
                 entry.type === "minus" ? "warn" :
-                entry.type === "star" ? "dim" :
+                entry.type === "star" ? "star" :
+                entry.type === "info" ? "cyan" :
                 entry.type === "error" ? "error" : "dim";
       var prefix = entry.type === "plus" ? "[+]" :
                    entry.type === "minus" ? "[-]" :
                    entry.type === "star" ? "[*]" :
+                   entry.type === "info" ? "[i]" :
                    entry.type === "error" ? "[!]" : "[i]";
       log(prefix + " " + entry.text, cls, delay);
       delay += 45;
