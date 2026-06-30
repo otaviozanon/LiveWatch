@@ -1,0 +1,89 @@
+[LiveWatch] [i] EPG: 3+8 fontes
+[EPG] Downloading IDs: epg_ripper_BR1.txt
+[EPG]   266 IDs found (via .txt)
+[EPG] Downloading IDs: epg_ripper_BR2.txt
+[EPG]   97 IDs found (via .txt)
+[EPG] Downloading IDs: epg_ripper_US2.txt
+[EPG]   761 IDs found (via .txt)
+[EPG] Downloading globetv EPG: brazil1.xml.gz
+[EPG]   801 channels found
+[EPG] Downloading globetv EPG: brazil2.xml.gz
+[EPG]   159 channels found
+[EPG] Downloading globetv EPG: brazil3.xml.gz
+[EPG]   397 channels found
+[EPG] Downloading globetv EPG: brazil4.xml.gz
+[EPG]   8 channels found
+[EPG] Downloading globetv EPG: usa1.xml.gz
+[EPG]   187 channels found
+[EPG] Downloading globetv EPG: usa2.xml.gz
+[EPG]   157 channels found
+[EPG] Downloading globetv EPG: usa3.xml.gz
+[EPG]   157 channels found
+[EPG] Downloading globetv EPG: usa4.xml.gz
+[EPG]   157 channels found
+[EPG] Total IDs (epgshare + globetv): 2613
+[LiveWatch] [i] EPG ativado
+
+[LiveWatch] --- brasil ---
+[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
+[LiveWatch]    6 listas encontradas
+[LiveWatch] [+] CanaisBR01.m3u8 (1/6)
+[LiveWatch]    98 entradas (197 linhas)
+[LiveWatch] [+] CanaisBR02.m3u8 (2/6)
+[LiveWatch]    249 entradas (499 linhas)
+[LiveWatch] [+] CanaisBR03.m3u8 (3/6)
+[LiveWatch]    376446 entradas (752894 linhas)
+[LiveWatch] [+] CanaisBR04.m3u8 (4/6)
+[LiveWatch]    377843 entradas (755688 linhas)
+[LiveWatch] [+] CanaisBR05.m3u8 (5/6)
+[LiveWatch]    57 entradas (115 linhas)
+[LiveWatch] [+] CanaisBR06.m3u8 (6/6)
+[LiveWatch]    201436 entradas (402874 linhas)
+[LiveWatch] [-] 1797 canais indesejados
+[LiveWatch] [*] 2463 canais recategorizados
+[LiveWatch] [-] 606 grupos excluidos
+[LiveWatch] [-] 686 canais filtrados (grupo)
+
+[LiveWatch] --- global ---
+[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
+[LiveWatch]    3 listas encontradas
+[LiveWatch] [+] Lista%20Mundial01.m3u (1/3)
+[LiveWatch]    263455 entradas (526912 linhas)
+[LiveWatch] [+] Lista%20Mundial02.m3u (2/3)
+[LiveWatch]    134787 entradas (269575 linhas)
+[LiveWatch] [+] Lista%20Mundial03.m3u (3/3)
+[LiveWatch]    21900 entradas (43801 linhas)
+[LiveWatch] [-] 255 canais indesejados
+[LiveWatch] [*] 805 canais recategorizados
+[LiveWatch] [-] 276 grupos excluidos
+[LiveWatch] [-] 134 canais filtrados (grupo)
+
+[LiveWatch] --- iptv-org ---
+[LiveWatch] [+] channels.json
+[LiveWatch]    40343 registros
+[LiveWatch]    781 canais BR
+[LiveWatch]    776 canais validos
+[LiveWatch] [+] streams.json
+[LiveWatch]    16751 registros
+[LiveWatch]    274 streams
+[LiveWatch] [-] 23 canais indesejados
+[LiveWatch] [*] 11 canais recategorizados
+[LiveWatch] [-] 120 grupos excluidos
+
+[LiveWatch] --- manotv ---
+[LiveWatch] [+] ManoTV.m3u (1/1)
+[LiveWatch]    1984 entradas (6581 linhas)
+[LiveWatch] [-] 1278 URLs bloqueadas
+[LiveWatch] [-] 114 canais indesejados
+[LiveWatch] [*] 552 canais recategorizados
+[LiveWatch] [-] 39 canais filtrados (grupo)
+
+[LiveWatch] [i] Total combinado: 4630
+[LiveWatch] [*] 2514 nomes normalizados
+[LiveWatch] [-] 12 canais indesejados
+[LiveWatch] [-] 43 duplicatas URL
+[LiveWatch] [*] 1595 conflitos renomeados
+[LiveWatch] [+] Final: 4575 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4575 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4575 canais)
+[LiveWatch] [+] Playlist salva!
