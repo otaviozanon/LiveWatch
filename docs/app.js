@@ -427,6 +427,7 @@ function renderSummary(text) {
   var files = [];
   var stats = {};
   var totals = {};
+  var actions = [];
   var seen = {};
   var currentPerfil = null;
 
@@ -441,41 +442,56 @@ function renderSummary(text) {
     seen[clean] = true;
     var m = clean;
 
+    // Profile header
     var pm = m.match(/====== (?:Perfil|Profile): (.+) ======/);
     if (pm) {
       currentPerfil = pm[1];
       if (files.indexOf(currentPerfil) === -1) files.push(currentPerfil);
     }
 
+    // Extracting playlist
     var em = m.match(/(?:Extraindo lista|Extracting playlist) \d+\/\d+: (.+)/);
     if (em) {
       var fname = em[1].replace(/\.m3u8?$/i, "");
       if (files.indexOf(fname) === -1) files.push(fname);
     }
 
+    // Found lines -> entries
     var sm = m.match(/(?:Encontrados|Found):\s*(\d+)\s+(?:linhas|lines)\s*->\s*(\d+)\s+(?:entradas|entries)/);
     if (sm && files.length > 0) {
       stats[files[files.length - 1]] = { lines: sm[1], entries: sm[2] };
     }
 
+    // Downloading JSON
     var jm = m.match(/(?:Baixando JSON|Downloading JSON): (.+)/);
     if (jm) {
       var jname = jm[1] + (currentPerfil ? " (" + currentPerfil + ")" : "");
       if (files.indexOf(jname) === -1) files.push(jname);
     }
 
+    // JSON stream count
     var jsm = m.match(/(?:Streams com match para|Streams matched for) \w+:\s*(\d+)/);
     if (jsm && files.length > 0) {
       stats[files[files.length - 1]] = { lines: "-", entries: jsm[1] };
     }
 
-    var tm = m.match(
-      /(?:Total (?:canais|channels)|Final total)\s*(?:\(pos-filtro\)|\(post-filter\)|combinados|combined)?\s*:\s*(.+)/,
-    );
-    if (tm) totals.filtered = tm[1];
+    // Action lines (filtered/remapped/removed counts)
+    var am = m.match(/(?:Removendo|Removing|Redistribuindo|Redistributing|Filtrando|Filtering|Normalized|Removing duplicates|Renaming conflicts)[^:]*:?\s*(.+)/);
+    if (am) {
+      actions.push(am[0]);
+    }
 
-    var dm = m.match(/(?:Total final|Final total):\s*(.+?)\s+(?:canais|channels)/);
-    if (dm) totals.final = dm[1];
+    // Total filtered (post-filter)
+    var tfm = m.match(/Total (?:canais|channels)\s*\(post-filter\)\s*:\s*(\d+)/);
+    if (tfm) totals.filtered = tfm[1];
+
+    // Total combined
+    var tcm = m.match(/Total combined channels:\s*(\d+)/);
+    if (tcm) totals.filtered = tcm[1];
+
+    // Final total
+    var fdm = m.match(/Final total:\s*(\d+)\s*(?:canais|channels)/);
+    if (fdm) totals.final = fdm[1];
   }
 
   log(t("summary"), "white", 0);
@@ -497,6 +513,12 @@ function renderSummary(text) {
       );
       lineDelay += 80;
     }
+  }
+
+  // Show action lines (removed, remapped, normalized, etc.)
+  for (var a = 0; a < actions.length; a++) {
+    log(actions[a], "dim", lineDelay);
+    lineDelay += 60;
   }
 
   if (totals.filtered) {
