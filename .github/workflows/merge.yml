@@ -34,7 +34,7 @@ jobs:
         run: pip install requests
 
       - name: Run merge script
-        run: python scripts/merge.py --profile ${{ inputs.profile || 'all' }}
+        run: python scripts/merge.py --profile ${{ inputs.profile || 'all' }} 2>&1 | tee playlists/pipeline.log
 
       - name: Export categories
         run: python scripts/export_categories.py

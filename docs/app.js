@@ -468,54 +468,24 @@ function pollLogs() {
 }
 
 function fetchSummary(runId) {
-  // Fetch the generated categories.json instead of raw CI logs (which are ZIP)
-  var url = BASE_RAW + "playlists/categories.json?_=" + Date.now();
+  // Read pipeline log file committed by the workflow
+  var url = BASE_RAW + "playlists/pipeline.log?_=" + Date.now();
   fetch(url)
     .then(function (resp) {
       if (!resp.ok) throw new Error("HTTP " + resp.status);
-      return resp.json();
+      return resp.text();
     })
-    .then(function (data) {
-      var cats = data;
-      var total = 0;
-      var lines = [];
-      for (var cat in cats) {
-        if (cats.hasOwnProperty(cat)) {
-          var count = cats[cat].length;
-          total += count;
-          lines.push({ cat: cat, count: count });
-        }
-      }
-      lines.sort(function (a, b) { return b.count - a.count; });
-      
-      log(t("summary"), "white", 0);
-      log(t("divider"), "dim", 100);
-      
-      var delay = 200;
-      log(t("totalFinal", total), "success", delay);
-      delay += 200;
-      log(total + " canais em " + lines.length + " categorias", "dim", delay);
-      delay += 150;
-      
-      // Show top categories
-      for (var i = 0; i < Math.min(lines.length, 12); i++) {
-        var cls = lines[i].cat === "NOVOS" ? "error" : "dim";
-        log("    " + lines[i].cat + ": " + lines[i].count, cls, delay);
-        delay += 40;
-      }
-      if (lines.length > 12) {
-        log("    ... +" + (lines.length - 12) + " categorias", "dim", delay);
-      }
-      
-      saveCounts(total, "");
-      log(t("playlistGenerated", "M3U & M3U8"), "success", delay + 100);
-      
-      setTimeout(function () {
+    .then(function (text) {
+      if (!text || text.length < 50) {
+        log("[!] Log vazio ou incompleto", "warn");
+        log(t("playlistUpdated"), "success");
         btnEl.disabled = false;
-      }, delay + 300);
+        return;
+      }
+      renderSummary(text);
     })
     .catch(function (e) {
-      log("[!] Erro ao carregar resumo: " + e.message, "error");
+      log("[!] Erro ao carregar log: " + e.message, "error");
       log(t("playlistUpdated"), "success");
       btnEl.disabled = false;
     });
