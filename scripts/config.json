@@ -588,11 +588,22 @@
         "CBS SPORTS HQ",
         "NOSEY",
         "DRAFTKINGS NETWORK",
-        "XTREME OUTDOOR PRESENTED BY HISTORY"
+        "XTREME OUTDOOR PRESENTED BY HISTORY",
+        "[ES]",
+        "ES]",
+        "[ES",
+        " [ES] ",
+        "GLOBO RBS",
+        "RBS TV",
+        "RBS TV HD",
+        "RBS SANTA CRUZ"
       ],
       "name_remap": {
         "PLUTO TV": [
           "Pluto"
+        ],
+        "ESTADOS UNIDOS US": [
+          "[US]"
         ],
         "ESPORTES": [
           "OFF ",
@@ -931,7 +942,8 @@
           "RiffTrax",
           "RetroCrush",
           "National Lampoon",
-          "Portlandia"
+          "Portlandia",
+          "Fox"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -1227,7 +1239,6 @@
           "Comedy Dynamics",
           "Summer Vibes",
           "BBC",
-          "Fox",
           "CNB Orlando",
           "[US]"
         ],
@@ -1942,11 +1953,22 @@
         "CBS SPORTS HQ",
         "NOSEY",
         "DRAFTKINGS NETWORK",
-        "XTREME OUTDOOR PRESENTED BY HISTORY"
+        "XTREME OUTDOOR PRESENTED BY HISTORY",
+        "[ES]",
+        "ES]",
+        "[ES",
+        " [ES] ",
+        "GLOBO RBS",
+        "RBS TV",
+        "RBS TV HD",
+        "RBS SANTA CRUZ"
       ],
       "name_remap": {
         "PLUTO TV": [
           "Pluto"
+        ],
+        "ESTADOS UNIDOS US": [
+          "[US]"
         ],
         "ESPORTES": [
           "Eleven sports",
@@ -2280,7 +2302,8 @@
           "RiffTrax",
           "RetroCrush",
           "National Lampoon",
-          "Portlandia"
+          "Portlandia",
+          "Fox"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -2571,7 +2594,6 @@
           "Comedy Dynamics",
           "Summer Vibes",
           "BBC",
-          "Fox",
           "CNB Orlando",
           "[US]"
         ],
@@ -2766,6 +2788,9 @@
         "PLUTO TV": [
           "Pluto"
         ],
+        "ESTADOS UNIDOS US": [
+          "[US]"
+        ],
         "ENTRETENIMENTO": [
           "Gusto",
           "KFOOD",
@@ -2834,7 +2859,8 @@
           "RiffTrax",
           "RetroCrush",
           "National Lampoon",
-          "Portlandia"
+          "Portlandia",
+          "Fox"
         ],
         "ESPORTES": [
           "GeFast",
@@ -3463,11 +3489,22 @@
         "CBS SPORTS HQ",
         "NOSEY",
         "DRAFTKINGS NETWORK",
-        "XTREME OUTDOOR PRESENTED BY HISTORY"
+        "XTREME OUTDOOR PRESENTED BY HISTORY",
+        "[ES]",
+        "ES]",
+        "[ES",
+        " [ES] ",
+        "GLOBO RBS",
+        "RBS TV",
+        "RBS TV HD",
+        "RBS SANTA CRUZ"
       ],
       "name_remap": {
         "PLUTO TV": [
           "Pluto"
+        ],
+        "ESTADOS UNIDOS US": [
+          "[US]"
         ],
         "ESPORTES": [
           "Eleven sports",
@@ -3769,7 +3806,8 @@
           "RiffTrax",
           "RetroCrush",
           "National Lampoon",
-          "Portlandia"
+          "Portlandia",
+          "Fox"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -3984,7 +4022,6 @@
           "Comedy Dynamics",
           "Summer Vibes",
           "BBC",
-          "Fox",
           "CNB Orlando",
           "[US]"
         ],

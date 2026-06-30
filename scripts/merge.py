@@ -317,6 +317,7 @@ GT_REMAP: dict[str, str] = {
     "UFC FIGHT": "UFC",
     "MUSICA": "MUSICAS",
     "USA": "ESTADOS UNIDOS",
+    "ESTADOS UNIDOS US": "ESTADOS UNIDOS",
     "GERAL": "DIVERSOS",
     "GLOBO SUL": "GLOBO",
     "FILMES": "FILMES E SERIES",
