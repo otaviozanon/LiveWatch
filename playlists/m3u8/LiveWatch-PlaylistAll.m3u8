@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://ozlivewatch.pages.dev/e/BR" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml.gz" x-tvg-url="https://www.free-epg.de/api/epg?country=BR" x-tvg-url="https://www.free-epg.de/api/epg?country=US"
-#EXTINF:-1 group-title="BR | NOVOS",POWERNATION [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002243.ts
 #EXTINF:-1 group-title="BR | 24H",,🔴 OS SIMPSONS 24H
 http://15.235.9.200:14984/
 #EXTINF:-1 group-title="BR | 24H",24 HORAS: A GRANDE FAMILIA
@@ -3855,42 +3853,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/61879.ts
 https://a.cdni.live/radioesporte/radioesporte/chunklist_w1002148111.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ESPORTES",FANATIZ
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/931460.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA PLUS
-https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA PLUS [BR]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002340.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955234.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 01 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/216773.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 01 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121569.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 01 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874705.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 01 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874705.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 02 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/216774.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 02 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121568.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 02 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874706.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 02 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874706.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 03 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215594.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 03 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121567.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 03 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874707.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ 03 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874707.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955234.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1001967.ts
-#EXTINF:-1 group-title="BR | ESPORTES",FIFA+ [4]
-https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",FIGHT BOX HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/89971.ts
 #EXTINF:-1 group-title="BR | ESPORTES",FITE+ LUTAS
@@ -3961,22 +3923,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/115355.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/935081.ts
 #EXTINF:-1 group-title="BR | ESPORTES",LA LIGA
 https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=ESBD3600001Q1
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 02 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/784478.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 02 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784478.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 03 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/784479.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 03 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784479.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 04 HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/784480.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL 04 HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784480.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/347440.ts
-#EXTINF:-1 group-title="BR | ESPORTES",LIGA FUTSAL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/347440.ts
 #EXTINF:-1 group-title="BR | ESPORTES",MAX 5
 https://cr7v.short.gy/live/JOGOO8/Index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",MAX 5 (A)
@@ -4045,54 +3991,10 @@ https://dns.p2.wtf/rogerio55x/24992611250/296478
 https://dns.p2.wtf/rogerio55x/24992611250/826
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF SD [2]",OFF SD [2]
 https://dns.p2.wtf/rogerio55x/24992611250/296477
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 1 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100716.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 1 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133502.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 10 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176682.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 2 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110741.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 2 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133503.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 3 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110742.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 3 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133504.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 4 (A)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110743.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 4 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133505.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 5 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176677.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 6 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176678.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 7 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176679.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 8 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176680.ts
-#EXTINF:-1 group-title="BR | ESPORTES",ONEFOOTBALL 9 (B)
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176681.ts
 #EXTINF:-1 group-title="BR | ESPORTES",PONTV
 https://video01.soultv.com.br/pontepreta/pontepreta/playlist.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",POWER SLAP
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121564.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.br" tvg-name="PREMIERE FC 1",PREMIERE FC 1
-https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.2.br" tvg-name="PREMIERE FC 2",PREMIERE FC 2
-https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.3.br" tvg-name="PREMIERE FC 3",PREMIERE FC 3
-https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.4.br" tvg-name="PREMIERE FC 4",PREMIERE FC 4
-https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.5.br" tvg-name="PREMIERE FC 5",PREMIERE FC 5
-https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.6.br" tvg-name="PREMIERE FC 6",PREMIERE FC 6
-https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.7.br" tvg-name="PREMIERE FC 7",PREMIERE FC 7
-https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Premiere.br" tvg-name="PREMIERE FC 8",PREMIERE FC 8
-https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
 #EXTINF:-1 group-title="BR | ESPORTES",RACER
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002346.ts
 #EXTINF:-1 group-title="BR | ESPORTES",RACER BRASIL
@@ -5177,6 +5079,42 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3484684.ts
 https://dns.p2.wtf/rogerio55x/24992611250/336
 #EXTINF:-1 group-title="BR | PAY PER VIEW",DIRECTV GO 2 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/337
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA PLUS
+https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA PLUS [BR]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002340.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955234.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 01 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/216773.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 01 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121569.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 01 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/874705.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 01 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874705.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 02 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/216774.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 02 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121568.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 02 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/874706.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 02 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874706.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 03 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215594.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 03 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121567.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 03 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/874707.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ 03 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874707.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955234.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1001967.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",FIFA+ [4]
+https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8
 #EXTINF:-1 group-title="BR | PAY PER VIEW",FLA TV+
 http://joyfrvr.cc:80/lourenco123/lourenco123/765922.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",FLA TV+ [2]
@@ -5229,10 +5167,26 @@ http://79.127.238.228:14455/
 http://joyfrvr.cc:80/lourenco123/lourenco123/1905939.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",KINGS LEAGUE BRASIL HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1905939.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 02 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/784478.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 02 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784478.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 03 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/784479.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 03 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784479.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 04 HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/784480.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 04 HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/784480.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 2 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/715
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL 2 PPV SD
 https://dns.p2.wtf/rogerio55x/24992611250/716
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/347440.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/347440.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/717
 #EXTINF:-1 group-title="BR | PAY PER VIEW",LIGA FUTSAL PPV SD
@@ -5257,6 +5211,34 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/111281.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74668.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="MOSAICO PREMIERE HD",MOSAICO PREMIERE HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74669.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 1 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100716.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 1 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133502.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 10 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176682.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 2 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110741.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 2 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133503.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 3 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110742.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 3 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133504.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 4 (A)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/110743.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 4 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133505.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 5 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176677.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 6 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176678.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 7 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176679.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 8 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176680.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",ONEFOOTBALL 9 (B)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/176681.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2",PREMIERE 2
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37060.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 [H265 ]",PREMIERE 2 [H265 ]
@@ -5481,6 +5463,24 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/532317.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/532317.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES UHD [3]",PREMIERE CLUBES UHD [3]
 https://dns.p2.wtf/rogerio55x/24992611250/305246
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="PREMIERE FC 1",PREMIERE FC 1
+https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE FC 2",PREMIERE FC 2
+https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE FC 3",PREMIERE FC 3
+https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE FC 4",PREMIERE FC 4
+https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE FC 5",PREMIERE FC 5
+https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE FC 6",PREMIERE FC 6
+https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE FC 7",PREMIERE FC 7
+https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="PREMIERE FC 8",PREMIERE FC 8
+https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="NBA.League.Pass.1.us2" tvg-name="UFC FIGHT PASS 1 PPV HD",UFC FIGHT PASS 1 PPV HD
+https://dns.p2.wtf/rogerio55x/24992611250/1561
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE",UNIVERSAL PREMIERE
 https://dns.p2.wtf/rogerio55x/24992611250/296650
 #EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE [2]",UNIVERSAL PREMIERE [2]
@@ -6585,8 +6585,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/300379
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100815.ts
 #EXTINF:-1 group-title="BR | UFC" tvg-id="NBA.League.Pass.1.us2" tvg-name="UFC FIGHT PASS 1 HD (B)",UFC FIGHT PASS 1 HD (B)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/94688.ts
-#EXTINF:-1 group-title="BR | UFC" tvg-id="NBA.League.Pass.1.us2" tvg-name="UFC FIGHT PASS 1 PPV HD",UFC FIGHT PASS 1 PPV HD
-https://dns.p2.wtf/rogerio55x/24992611250/1561
 #EXTINF:-1 group-title="BR | UFC" tvg-id="NBA.League.Pass.2.HD.us2" tvg-name="UFC FIGHT PASS 2 HD",UFC FIGHT PASS 2 HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/442663.ts
 #EXTINF:-1 group-title="BR | UFC" tvg-id="NBA.League.Pass.2.HD.us2" tvg-name="UFC FIGHT PASS 2 HD (B)",UFC FIGHT PASS 2 HD (B)
@@ -8119,6 +8117,8 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955220.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955264.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",POWERNATION [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955264.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",POWERNATION [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002243.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",SUMMER VIBES
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955496.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",SUMMER VIBES [2]

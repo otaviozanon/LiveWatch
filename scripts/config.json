@@ -806,7 +806,6 @@
           "Band Sports",
           "Canal do Inter",
           "Desempedido",
-          "FIFA",
           "FUEL TV",
           "NSPORTS",
           "PONTV",
@@ -1131,7 +1130,12 @@
           "Copa do Brasil",
           "Apple TV",
           "GLOBOPLAY",
-          "GLOBO PLAY"
+          "GLOBO PLAY",
+          "FIFA",
+          "LIGA FUTSAL",
+          "PPV",
+          "PREMIERE FC",
+          "ONEFOOTBALL"
         ],
         "UFC": [
           "UFC",
@@ -1233,7 +1237,8 @@
           "Rede Mao Amiga",
           "GOSPEL CARTOON",
           "TV Padre Cicero",
-          "TV PADRE CICERO"
+          "TV PADRE CICERO",
+          "FOX SOUL"
         ],
         "EDUCACAO": [
           "Canal Educação",
@@ -1422,7 +1427,8 @@
           "Summer Vibes",
           "BBC",
           "CNB Orlando",
-          "[US]"
+          "[US]",
+          "POWERNATION"
         ],
         "ABERTOS": [
           "REDE TV",
@@ -2265,7 +2271,6 @@
           "Band Sports",
           "Canal do Inter",
           "Desempedido",
-          "FIFA",
           "FUEL TV",
           "NSPORTS",
           "PONTV",
@@ -2587,7 +2592,12 @@
           "Copa do Brasil",
           "Apple TV",
           "GLOBOPLAY",
-          "GLOBO PLAY"
+          "GLOBO PLAY",
+          "FIFA",
+          "LIGA FUTSAL",
+          "PPV",
+          "PREMIERE FC",
+          "ONEFOOTBALL"
         ],
         "UFC": [
           "UFC",
@@ -2688,7 +2698,8 @@
           "Rede Mao Amiga",
           "GOSPEL CARTOON",
           "TV Padre Cicero",
-          "TV PADRE CICERO"
+          "TV PADRE CICERO",
+          "FOX SOUL"
         ],
         "EDUCACAO": [
           "Canal Educação",
@@ -2873,7 +2884,8 @@
           "Summer Vibes",
           "BBC",
           "CNB Orlando",
-          "[US]"
+          "[US]",
+          "POWERNATION"
         ],
         "ABERTOS": [
           "REDE TV",
@@ -3012,7 +3024,12 @@
         "PAY PER VIEW": [
           "Cazé TV",
           "Copa do Brasil",
-          "Apple TV"
+          "Apple TV",
+          "FIFA",
+          "LIGA FUTSAL",
+          "PPV",
+          "PREMIERE FC",
+          "ONEFOOTBALL"
         ],
         "UFC": [
           "UFC",
@@ -3084,7 +3101,11 @@
           "Gospel Cartoon",
           "GOSPEL CARTOON",
           "TV Padre Cicero",
-          "TV PADRE CICERO"
+          "TV PADRE CICERO",
+          "FOX SOUL"
+        ],
+        "ESTADOS UNIDOS": [
+          "POWERNATION"
         ]
       },
       "group_exclude": [
@@ -3900,7 +3921,6 @@
           "Band Sports",
           "Canal do Inter",
           "Desempedido",
-          "FIFA",
           "FUEL TV",
           "NSPORTS",
           "PONTV",
@@ -4190,7 +4210,12 @@
           "Copa do Brasil",
           "Apple TV",
           "GLOBOPLAY",
-          "GLOBO PLAY"
+          "GLOBO PLAY",
+          "FIFA",
+          "LIGA FUTSAL",
+          "PPV",
+          "PREMIERE FC",
+          "ONEFOOTBALL"
         ],
         "UFC": [
           "UFC",
@@ -4280,7 +4305,8 @@
           "Ministério",
           "GOSPEL CARTOON",
           "TV Padre Cicero",
-          "TV PADRE CICERO"
+          "TV PADRE CICERO",
+          "FOX SOUL"
         ],
         "EDUCACAO": [
           "Canal Educação",
@@ -4400,7 +4426,8 @@
           "Summer Vibes",
           "BBC",
           "CNB Orlando",
-          "[US]"
+          "[US]",
+          "POWERNATION"
         ],
         "ABERTOS": [
           "REDE TV",
