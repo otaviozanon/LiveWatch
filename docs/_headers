@@ -1,0 +1,5 @@
+/app.js
+  Cache-Control: no-cache
+
+/style.css
+  Cache-Control: public, max-age=3600
