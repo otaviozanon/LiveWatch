@@ -495,52 +495,41 @@ function stripAnsi(str) {
 }
 
 function renderSummary(text) {
-  var lines = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
+  var rawLines = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
   var entries = [];
-  var currentProfile = null;
   var totalFinal = null;
 
-  // Helper: translate log text from PT to current language
   function trLog(ptText) {
     if (lang === "pt") return ptText;
     var dict = T.en.log_en || {};
     for (var key in dict) {
       if (ptText.indexOf(key) !== -1) {
-        // Preserve numbers: "1797 canais indesejados" -> "1797 unwanted channels"
         var numMatch = ptText.match(/^(\d+)\s+(.+)/);
-        if (numMatch && key === numMatch[2]) {
-          return numMatch[1] + " " + dict[key];
-        }
-        // For patterns like "Total combinado: 4630" -> "Combined total: 4630"
+        if (numMatch && key === numMatch[2]) return numMatch[1] + " " + dict[key];
         var colonMatch = ptText.match(/^(.+?):\s*(\d+)/);
-        if (colonMatch && key === colonMatch[1]) {
-          return dict[key] + ": " + colonMatch[2];
-        }
+        if (colonMatch && key === colonMatch[1]) return dict[key] + ": " + colonMatch[2];
         return ptText.replace(key, dict[key]);
       }
     }
     return ptText;
   }
 
-  for (var i = 0; i < lines.length; i++) {
-    var line = stripAnsi(lines[i]);
+  for (var i = 0; i < rawLines.length; i++) {
+    var line = stripAnsi(rawLines[i]);
     var idx = line.indexOf("[LiveWatch]");
     if (idx === -1) continue;
     var msg = line.substring(idx + 12).trim();
-    var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "");
+    if (!msg) continue;
+    // Strip GitHub Actions timestamp prefix
+    var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "").trim();
     if (!clean) continue;
 
     // Profile header
-    var pm = clean.match(/^--- (.+) ---$/);
-    if (pm) {
-      currentProfile = pm[1];
-      entries.push({ type: "header", text: pm[1] });
+    if (clean.match(/^--- .+ ---$/)) {
+      entries.push({ type: "header", text: clean.replace(/^---\s*/, "").replace(/\s*---$/, "") });
       continue;
     }
 
-    if (!currentProfile && !clean.match(/^\[/)) continue;
-
-    // Classify by prefix
     var mPlus = clean.match(/^\[\+\]\s*(.+)/);
     var mMinus = clean.match(/^\[-\]\s*(.+)/);
     var mStar = clean.match(/^\[\*\]\s*(.+)/);
@@ -549,8 +538,8 @@ function renderSummary(text) {
 
     if (mPlus) {
       var txt = trLog(mPlus[1]);
-      var fm = txt.match(/Final:?\s*(\d+)\s*canais/);
-      if (fm) totalFinal = fm[1];
+      var fm = txt.match(/(?:Final|Playlist).*?(\d+)\s*canais/i);
+      if (fm && !totalFinal && txt.indexOf("Final") !== -1) totalFinal = fm[1];
       entries.push({ type: "plus", text: txt });
     } else if (mMinus) {
       entries.push({ type: "minus", text: trLog(mMinus[1]) });
@@ -559,7 +548,10 @@ function renderSummary(text) {
     } else if (mInfo) {
       entries.push({ type: "info", text: trLog(mInfo[1]) });
     } else if (mBang) {
-      entries.push({ type: "error", text: trLog(mBang[1]) });
+      entries.push({ type: "error", text: mBang[1] });
+    } else {
+      // Detail lines (indented or plain text) - show as dim
+      entries.push({ type: "detail", text: clean });
     }
   }
 
@@ -567,17 +559,15 @@ function renderSummary(text) {
   log(t("divider"), "dim", 100);
 
   var delay = 200;
-  var lastWasHeader = false;
-
   for (var e = 0; e < entries.length; e++) {
     var entry = entries[e];
     if (entry.type === "header") {
-      if (lastWasHeader) delay += 50;
-      log("\u2500\u2500\u2500 " + entry.text + " \u2500\u2500\u2500", "info", delay);
-      delay += 100;
-      lastWasHeader = true;
+      log("--- " + entry.text + " ---", "info", delay);
+      delay += 80;
+    } else if (entry.type === "detail") {
+      log("    " + entry.text, "dim", delay);
+      delay += 25;
     } else {
-      lastWasHeader = false;
       var cls = entry.type === "plus" ? "success" :
                 entry.type === "minus" ? "warn" :
                 entry.type === "star" ? "dim" :
@@ -587,21 +577,21 @@ function renderSummary(text) {
                    entry.type === "star" ? "[*]" :
                    entry.type === "error" ? "[!]" : "[i]";
       log(prefix + " " + entry.text, cls, delay);
-      delay += 60;
+      delay += 45;
     }
   }
 
   if (totalFinal) {
-    log(t("totalFinal", totalFinal), "success", delay + 100);
+    log(t("totalFinal", totalFinal), "success", delay + 80);
     saveCounts(totalFinal, "");
-    delay += 300;
+    delay += 250;
   }
 
   log(t("playlistGenerated", "M3U & M3U8"), "success", delay + 50);
 
   setTimeout(function () {
     btnEl.disabled = false;
-  }, delay + 400);
+  }, delay + 300);
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
