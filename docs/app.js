@@ -474,17 +474,28 @@ function fetchSummary(runId) {
     body: JSON.stringify({ runId: runId }),
   })
     .then(function (resp) {
-      return resp.ok ? resp.text() : null;
+      if (!resp.ok) {
+        return resp.json().then(function (err) {
+          log("[!] Logs indisponiveis: " + (err.error || resp.status), "error");
+          log(t("playlistUpdated"), "success");
+          btnEl.disabled = false;
+          return null;
+        });
+      }
+      return resp.text();
     })
     .then(function (text) {
-      if (!text) {
+      if (text === null) return;
+      if (!text || text.length < 50) {
+        log("[!] Logs vazios ou incompletos", "warn");
         log(t("playlistUpdated"), "success");
         btnEl.disabled = false;
         return;
       }
       renderSummary(text);
     })
-    .catch(function () {
+    .catch(function (e) {
+      log("[!] Erro ao buscar logs: " + e.message, "error");
       log(t("playlistUpdated"), "success");
       btnEl.disabled = false;
     });
