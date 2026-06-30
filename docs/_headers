@@ -1,5 +1,3 @@
-/app.js
-  Cache-Control: no-cache
+/*
+  Cache-Control: no-cache, no-store, must-revalidate
 
-/style.css
-  Cache-Control: public, max-age=3600
