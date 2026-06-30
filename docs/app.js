@@ -47,7 +47,47 @@ var T = {
     timeout: "Tempo limite atingido.",
     timeoutShort: "Tempo limite",
     failed: "Falhou",
-    btnUpdate: "ATUALIZAR",
+    // Log translations (PT key -> EN value)
+    log_pt: {
+      "Buscando": "Buscando",
+      "listas encontradas": "listas encontradas",
+      "entradas": "entradas",
+      "linhas": "linhas",
+      "registros": "registros",
+      "canais BR": "canais BR",
+      "canais validos": "canais validos",
+      "streams": "streams",
+      "canais indesejados": "canais indesejados",
+      "canais recategorizados": "canais recategorizados",
+      "grupos excluidos": "grupos excluidos",
+      "canais filtrados (grupo)": "canais filtrados (grupo)",
+      "URLs bloqueadas": "URLs bloqueadas",
+      "duplicatas URL": "duplicatas URL",
+      "conflitos renomeados": "conflitos renomeados",
+      "nomes normalizados": "nomes normalizados",
+      "Total combinado": "Total combinado",
+      "Total pos-filtro": "Total pos-filtro",
+    },
+    log_en: {
+      "Buscando": "Fetching",
+      "listas encontradas": "lists found",
+      "entradas": "entries",
+      "linhas": "lines",
+      "registros": "records",
+      "canais BR": "BR channels",
+      "canais validos": "valid channels",
+      "streams": "streams",
+      "canais indesejados": "unwanted channels",
+      "canais recategorizados": "recategorized channels",
+      "grupos excluidos": "excluded groups",
+      "canais filtrados (grupo)": "channels filtered (group)",
+      "URLs bloqueadas": "blocked URLs",
+      "duplicatas URL": "URL duplicates",
+      "conflitos renomeados": "renamed conflicts",
+      "nomes normalizados": "normalized names",
+      "Total combinado": "Combined total",
+      "Total pos-filtro": "Post-filter total",
+    },    btnUpdate: "ATUALIZAR",
     btnDownload: "DOWNLOAD",
     btnCopy: "COPIAR URL",
     copied: "COPIADO",
@@ -95,6 +135,38 @@ var T = {
     timeout: "Timeout reached.",
     timeoutShort: "Timeout",
     failed: "Failed",
+    log_pt: {
+      "Buscando": "Buscando", "listas encontradas": "listas encontradas",
+      "entradas": "entradas", "linhas": "linhas", "registros": "registros",
+      "canais BR": "canais BR", "canais validos": "canais validos",
+      "streams": "streams",
+      "canais indesejados": "canais indesejados",
+      "canais recategorizados": "canais recategorizados",
+      "grupos excluidos": "grupos excluidos",
+      "canais filtrados (grupo)": "canais filtrados (grupo)",
+      "URLs bloqueadas": "URLs bloqueadas",
+      "duplicatas URL": "duplicatas URL",
+      "conflitos renomeados": "conflitos renomeados",
+      "nomes normalizados": "nomes normalizados",
+      "Total combinado": "Total combinado",
+      "Total pos-filtro": "Total pos-filtro",
+    },
+    log_en: {
+      "Buscando": "Fetching", "listas encontradas": "lists found",
+      "entradas": "entries", "linhas": "lines", "registros": "records",
+      "canais BR": "BR channels", "canais validos": "valid channels",
+      "streams": "streams",
+      "canais indesejados": "unwanted channels",
+      "canais recategorizados": "recategorized channels",
+      "grupos excluidos": "excluded groups",
+      "canais filtrados (grupo)": "channels filtered (group)",
+      "URLs bloqueadas": "blocked URLs",
+      "duplicatas URL": "URL duplicates",
+      "conflitos renomeados": "renamed conflicts",
+      "nomes normalizados": "normalized names",
+      "Total combinado": "Combined total",
+      "Total pos-filtro": "Post-filter total",
+    },
     btnUpdate: "UPDATE",
     btnDownload: "DOWNLOAD",
     btnCopy: "COPY URL",
@@ -428,6 +500,28 @@ function renderSummary(text) {
   var currentProfile = null;
   var totalFinal = null;
 
+  // Helper: translate log text from PT to current language
+  function trLog(ptText) {
+    if (lang === "pt") return ptText;
+    var dict = T.en.log_en || {};
+    for (var key in dict) {
+      if (ptText.indexOf(key) !== -1) {
+        // Preserve numbers: "1797 canais indesejados" -> "1797 unwanted channels"
+        var numMatch = ptText.match(/^(\d+)\s+(.+)/);
+        if (numMatch && key === numMatch[2]) {
+          return numMatch[1] + " " + dict[key];
+        }
+        // For patterns like "Total combinado: 4630" -> "Combined total: 4630"
+        var colonMatch = ptText.match(/^(.+?):\s*(\d+)/);
+        if (colonMatch && key === colonMatch[1]) {
+          return dict[key] + ": " + colonMatch[2];
+        }
+        return ptText.replace(key, dict[key]);
+      }
+    }
+    return ptText;
+  }
+
   for (var i = 0; i < lines.length; i++) {
     var line = stripAnsi(lines[i]);
     var idx = line.indexOf("[LiveWatch]");
@@ -436,7 +530,7 @@ function renderSummary(text) {
     var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "");
     if (!clean) continue;
 
-    // Profile header -> group entries
+    // Profile header
     var pm = clean.match(/^--- (.+) ---$/);
     if (pm) {
       currentProfile = pm[1];
@@ -444,7 +538,6 @@ function renderSummary(text) {
       continue;
     }
 
-    // Skip empty/detail lines at the start
     if (!currentProfile && !clean.match(/^\[/)) continue;
 
     // Classify by prefix
@@ -455,23 +548,21 @@ function renderSummary(text) {
     var mBang = clean.match(/^\[!\]\s*(.+)/);
 
     if (mPlus) {
-      var txt = mPlus[1];
-      // Extract final total
-      var fm = txt.match(/^Final:\s*(\d+)\s*canais/);
+      var txt = trLog(mPlus[1]);
+      var fm = txt.match(/Final:?\s*(\d+)\s*canais/);
       if (fm) totalFinal = fm[1];
       entries.push({ type: "plus", text: txt });
     } else if (mMinus) {
-      entries.push({ type: "minus", text: mMinus[1] });
+      entries.push({ type: "minus", text: trLog(mMinus[1]) });
     } else if (mStar) {
-      entries.push({ type: "star", text: mStar[1] });
+      entries.push({ type: "star", text: trLog(mStar[1]) });
     } else if (mInfo) {
-      entries.push({ type: "info", text: mInfo[1] });
+      entries.push({ type: "info", text: trLog(mInfo[1]) });
     } else if (mBang) {
-      entries.push({ type: "error", text: mBang[1] });
+      entries.push({ type: "error", text: trLog(mBang[1]) });
     }
   }
 
-  // Render the summary
   log(t("summary"), "white", 0);
   log(t("divider"), "dim", 100);
 
