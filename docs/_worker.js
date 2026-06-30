@@ -49,8 +49,18 @@ export default {
         if (url.pathname === "/logs") {
           const body = await request.json();
           const apiUrl = `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/actions/runs/${body.runId}/logs`;
-          const resp = await fetch(apiUrl, { method: "GET", headers: gh, redirect: "follow" });
-          if (!resp.ok) return json({ ok: false, error: "Logs not available" }, corsHeaders, resp.status);
+          const resp = await fetch(apiUrl, { method: "GET", headers: gh, redirect: "manual" });
+          if (resp.status === 302 || resp.status === 301) {
+            const location = resp.headers.get("Location");
+            if (location) {
+              const logResp = await fetch(location, { method: "GET" });
+              if (logResp.ok) {
+                const text = await logResp.text();
+                return new Response(text, { headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" } });
+              }
+            }
+          }
+          if (!resp.ok) return json({ ok: false, error: "Logs not available (" + resp.status + ")" }, corsHeaders, resp.status);
           const text = await resp.text();
           return new Response(text, { headers: { ...corsHeaders, "Content-Type": "text/plain; charset=utf-8" } });
         }
