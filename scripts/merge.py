@@ -63,28 +63,28 @@ def fetch_all(urls: list[str]) -> dict[str, list[tuple[str, str, str]]]:
             text = fetch_playlist(url)
             entries = parse_m3u(text)
             results[url] = entries
-            print(f"[LiveWatch] Extracting playlist {i}/{len(urls)}: {url.rsplit('/', 1)[-1]}")
-            print(f"[LiveWatch]   Found: {len(text.splitlines())} lines -> {len(entries)} entries")
+            print(f"[LiveWatch] [+] {url.rsplit('/', 1)[-1]} ({i}/{len(urls)})")
+            print(f"[LiveWatch]    {len(entries)} entradas ({len(text.splitlines())} linhas)")
         except Exception as e:
-            print(f"[LiveWatch]   ERROR: {e}")
+            print(f"[LiveWatch] [!] {e}")
             results[url] = []
     return results
 
 
 def fetch_json(url: str) -> Any:
     """Download and parse a JSON endpoint."""
-    print(f"[LiveWatch] Downloading JSON: {url.rsplit('/', 1)[-1]}")
+    print(f"[LiveWatch] [+] {url.rsplit('/', 1)[-1]}")
     resp = requests.get(url, timeout=120)
     resp.raise_for_status()
     data = resp.json()
-    print(f"[LiveWatch]   Records: {len(data)}")
+    print(f"[LiveWatch]    {len(data)} registros")
     return data
 
 
 def discover_github_sources(repo: str, pattern: str) -> list[str]:
     """List files in a GitHub repo matching *pattern* and return download URLs."""
     api_url = f"https://api.github.com/repos/{repo}/contents/"
-    print(f"[LiveWatch] Discovering sources: {api_url}")
+    print(f"[LiveWatch] [+] Buscando {repo}")
     resp = requests.get(api_url, timeout=30)
     resp.raise_for_status()
     files = resp.json()
@@ -94,9 +94,7 @@ def discover_github_sources(repo: str, pattern: str) -> list[str]:
          if f["type"] == "file" and regex.search(f["name"])],
         key=lambda u: u,
     )
-    print(f"[LiveWatch]   Pattern '{pattern}' -> {len(matched)} files found")
-    for u in matched:
-        print(f"[LiveWatch]     {u.rsplit('/', 1)[-1]}")
+    print(f"[LiveWatch]    {len(matched)} listas encontradas")
     return matched
 
 
@@ -143,7 +141,7 @@ def filter_by_group_exclude(
         else:
             result.append((group_title, name, url))
     if removed:
-        print(f"[LiveWatch] Removing by excluded group: {removed} removed")
+        print(f"[LiveWatch] [-] {removed} grupos excluidos")
     return result
 
 
@@ -162,7 +160,7 @@ def filter_by_url(
         else:
             result.append((group_title, name, url))
     if removed:
-        print(f"[LiveWatch] Removing by URL: {removed} removed")
+        print(f"[LiveWatch] [-] {removed} URLs bloqueadas")
     return result
 
 
@@ -184,7 +182,7 @@ def filter_excluded(
         else:
             result.append((group_title, name, url))
     if removed:
-        print(f"[LiveWatch] Removing unwanted channels: {removed} removed")
+        print(f"[LiveWatch] [-] {removed} canais indesejados")
     return result
 
 
@@ -213,7 +211,7 @@ def remap_by_name(
                     break
         result.append((new_group, name, url))
     if remapped:
-        print(f"[LiveWatch] Redistributing channels by name: {remapped} remapped")
+        print(f"[LiveWatch] [*] {remapped} canais recategorizados")
     return result
 
 
@@ -239,7 +237,7 @@ def filter_by_group_keep(
         else:
             removed += 1
     if removed:
-        print(f"[LiveWatch] Filtering by group+channel: {removed} removed")
+        print(f"[LiveWatch] [-] {removed} canais filtrados (grupo)")
     return result
 
 
@@ -258,7 +256,7 @@ def dedup_by_url(
         else:
             removed += 1
     if removed:
-        print(f"[LiveWatch] Removing duplicates by URL: {removed} removed")
+        print(f"[LiveWatch] [-] {removed} duplicatas URL")
     return result
 
 
@@ -283,7 +281,7 @@ def rename_duplicates(
             result.append((group_title, new_name, url))
             renamed += 1
     if renamed:
-        print(f"[LiveWatch] Renaming conflicts: {renamed} channels adjusted")
+        print(f"[LiveWatch] [*] {renamed} conflitos renomeados")
     return result
 
 
@@ -304,7 +302,7 @@ def cleanup_channel_names(
         result.append((group_title, name, url))
     changed = sum(1 for (_, a, _), (_, b, _) in zip(entries, result) if a != b)
     if changed:
-        print(f"[LiveWatch] Normalized {changed} channel names (case/FHD/4K)")
+        print(f"[LiveWatch] [*] {changed} nomes normalizados")
     return result
 
 
@@ -417,7 +415,7 @@ def process_iptv_api(
     channels_data = fetch_json(channels_url)
 
     br_channels = [c for c in channels_data if c.get("country") == country]
-    print(f"[LiveWatch] Channels with country={country}: {len(br_channels)}")
+    print(f"[LiveWatch]    {len(br_channels)} canais BR")
 
     channel_map: dict[str, dict] = {}
     for c in br_channels:
@@ -426,7 +424,7 @@ def process_iptv_api(
         ]:
             channel_map[c["id"]] = c
 
-    print(f"[LiveWatch] Valid channels (non-NSFW): {len(channel_map)}")
+    print(f"[LiveWatch]    {len(channel_map)} canais validos")
 
     streams_data = fetch_json(streams_url)
 
@@ -449,7 +447,7 @@ def process_iptv_api(
 
         entries.append((group_title, title, url))
 
-    print(f"[LiveWatch] Streams matched for {country}: {len(entries)}")
+    print(f"[LiveWatch]    {len(entries)} streams")
     return entries
 
 
@@ -524,7 +522,7 @@ def generate_playlist(
                     if tvg_id:
                         extras += f' tvg-id="{tvg_id}" tvg-name="{name}"'
                 f.write(f'#EXTINF:-1 {extras},{name}\n{url}\n')
-        print(f"[LiveWatch] {base_name}.{ext} generated: {len(entries)} channels")
+        print(f"[LiveWatch] [+] {base_name}.{ext} ({len(entries)} canais)")
 
 
 def main() -> None:
@@ -545,7 +543,7 @@ def main() -> None:
         config: dict[str, Any] = json.load(f)
 
     if profile not in config.get("profiles", {}):
-        print(f"[LiveWatch] ERROR: Profile '{profile}' not found in config.json")
+        print(f"[LiveWatch] [!] Perfil '{profile}' nao encontrado")
         return
 
     p: dict[str, Any] = config["profiles"][profile]
@@ -562,10 +560,7 @@ def main() -> None:
             epgshare_urls, globetv_urls, extra_urls = (
                 epg.get_epg_sources_for_countries(epg_countries)
             )
-            print(
-                f"[LiveWatch] EPG countries: {epg_countries} "
-                f"({len(epgshare_urls)} epgshare + {len(globetv_urls)} globetv sources)"
-            )
+            print(f"[LiveWatch] [i] EPG: {len(epgshare_urls)}+{len(globetv_urls)} fontes")
             tvg_mapper = epg.build_channel_mapper(
                 sources=epgshare_urls,
                 globetv_sources=globetv_urls,
@@ -576,9 +571,9 @@ def main() -> None:
                 if u
             ]
             if tvg_mapper:
-                print("[LiveWatch] EPG enabled - mapping ready")
+                print("[LiveWatch] [i] EPG ativado")
         except Exception as e:
-            print(f"[LiveWatch] WARNING: EPG failed: {e}")
+            print(f"[LiveWatch] [!] EPG: {e}")
 
     if p.get("type") == "merge_all":
         all_entries: list[tuple[str, str, str]] = []
@@ -587,12 +582,9 @@ def main() -> None:
         )
         for sp_name in sub_profiles:
             if sp_name not in config["profiles"]:
-                print(
-                    f"[LiveWatch] WARNING: Sub-profile '{sp_name}' not found,"
-                    f" skipping"
-                )
+                print(f"\n[LiveWatch] [!] Sub-perfil '{sp_name}' nao encontrado")
                 continue
-            print(f"\n[LiveWatch] ====== Profile: {sp_name} ======")
+            print(f"\n[LiveWatch] --- {sp_name} ---")
             sp: dict[str, Any] = config["profiles"][sp_name]
             entries = fetch_profile_entries(sp)
             prefix: str = sp.get("group_prefix", sp_name.upper())
@@ -601,7 +593,7 @@ def main() -> None:
                     (normalize_group_title(group_title, prefix), name, url)
                 )
 
-        print(f"\n[LiveWatch] Total combined channels: {len(all_entries)}")
+        print(f"\n[LiveWatch] [i] Total combinado: {len(all_entries)}")
         all_entries = cleanup_channel_names(all_entries)
         # Final exclusion pass using combined excludes from all sub-profiles
         combined_exclude: list[str] = []
@@ -615,13 +607,13 @@ def main() -> None:
         all_entries = rename_duplicates(all_entries)
         all_entries.sort(key=category_sort_key)
 
-        print(f"[LiveWatch] Final total: {len(all_entries)} channels")
+        print(f"[LiveWatch] [+] Final: {len(all_entries)} canais")
         generate_playlist(all_entries, base_name, output_dir, tvg_mapper, tvg_url)
-        print("[LiveWatch] Playlist saved successfully!")
+        print("[LiveWatch] [+] Playlist salva!")
         return
 
     filtered = fetch_profile_entries(p)
-    print(f"[LiveWatch] Total channels (post-filter): {len(filtered)}")
+    print(f"[LiveWatch] [i] Total pos-filtro: {len(filtered)}")
 
     filtered = cleanup_channel_names(filtered)
     filtered = dedup_by_url(filtered)
@@ -634,9 +626,9 @@ def main() -> None:
     filtered = normalized
     filtered.sort(key=category_sort_key)
 
-    print(f"[LiveWatch] Final total: {len(filtered)} channels")
+    print(f"[LiveWatch] [+] Final: {len(filtered)} canais")
     generate_playlist(filtered, base_name, output_dir, tvg_mapper, tvg_url)
-    print("[LiveWatch] Playlist saved successfully!")
+    print("[LiveWatch] [+] Playlist salva!")
 
 
 if __name__ == "__main__":

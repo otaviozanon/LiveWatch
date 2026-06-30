@@ -424,12 +424,9 @@ function stripAnsi(str) {
 
 function renderSummary(text) {
   var lines = text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
-  var files = [];
-  var stats = {};
-  var totals = {};
-  var actions = [];
-  var seen = {};
-  var currentPerfil = null;
+  var entries = [];
+  var currentProfile = null;
+  var totalFinal = null;
 
   for (var i = 0; i < lines.length; i++) {
     var line = stripAnsi(lines[i]);
@@ -438,104 +435,82 @@ function renderSummary(text) {
     var msg = line.substring(idx + 12).trim();
     var clean = msg.replace(/^\d{4}-\d{2}-\d{2}T[\d:.]+Z\s*/, "");
     if (!clean) continue;
-    if (seen[clean]) continue;
-    seen[clean] = true;
-    var m = clean;
 
-    // Profile header
-    var pm = m.match(/====== (?:Perfil|Profile): (.+) ======/);
+    // Profile header -> group entries
+    var pm = clean.match(/^--- (.+) ---$/);
     if (pm) {
-      currentPerfil = pm[1];
-      if (files.indexOf(currentPerfil) === -1) files.push(currentPerfil);
+      currentProfile = pm[1];
+      entries.push({ type: "header", text: pm[1] });
+      continue;
     }
 
-    // Extracting playlist
-    var em = m.match(/(?:Extraindo lista|Extracting playlist) \d+\/\d+: (.+)/);
-    if (em) {
-      var fname = em[1].replace(/\.m3u8?$/i, "");
-      if (files.indexOf(fname) === -1) files.push(fname);
+    // Skip empty/detail lines at the start
+    if (!currentProfile && !clean.match(/^\[/)) continue;
+
+    // Classify by prefix
+    var mPlus = clean.match(/^\[\+\]\s*(.+)/);
+    var mMinus = clean.match(/^\[-\]\s*(.+)/);
+    var mStar = clean.match(/^\[\*\]\s*(.+)/);
+    var mInfo = clean.match(/^\[i\]\s*(.+)/);
+    var mBang = clean.match(/^\[!\]\s*(.+)/);
+
+    if (mPlus) {
+      var txt = mPlus[1];
+      // Extract final total
+      var fm = txt.match(/^Final:\s*(\d+)\s*canais/);
+      if (fm) totalFinal = fm[1];
+      entries.push({ type: "plus", text: txt });
+    } else if (mMinus) {
+      entries.push({ type: "minus", text: mMinus[1] });
+    } else if (mStar) {
+      entries.push({ type: "star", text: mStar[1] });
+    } else if (mInfo) {
+      entries.push({ type: "info", text: mInfo[1] });
+    } else if (mBang) {
+      entries.push({ type: "error", text: mBang[1] });
     }
-
-    // Found lines -> entries
-    var sm = m.match(/(?:Encontrados|Found):\s*(\d+)\s+(?:linhas|lines)\s*->\s*(\d+)\s+(?:entradas|entries)/);
-    if (sm && files.length > 0) {
-      stats[files[files.length - 1]] = { lines: sm[1], entries: sm[2] };
-    }
-
-    // Downloading JSON
-    var jm = m.match(/(?:Baixando JSON|Downloading JSON): (.+)/);
-    if (jm) {
-      var jname = jm[1] + (currentPerfil ? " (" + currentPerfil + ")" : "");
-      if (files.indexOf(jname) === -1) files.push(jname);
-    }
-
-    // JSON stream count
-    var jsm = m.match(/(?:Streams com match para|Streams matched for) \w+:\s*(\d+)/);
-    if (jsm && files.length > 0) {
-      stats[files[files.length - 1]] = { lines: "-", entries: jsm[1] };
-    }
-
-    // Action lines (filtered/remapped/removed counts)
-    var am = m.match(/(?:Removendo|Removing|Redistribuindo|Redistributing|Filtrando|Filtering|Normalized|Removing duplicates|Renaming conflicts)[^:]*:?\s*(.+)/);
-    if (am) {
-      actions.push(am[0]);
-    }
-
-    // Total filtered (post-filter)
-    var tfm = m.match(/Total (?:canais|channels)\s*\(post-filter\)\s*:\s*(\d+)/);
-    if (tfm) totals.filtered = tfm[1];
-
-    // Total combined
-    var tcm = m.match(/Total combined channels:\s*(\d+)/);
-    if (tcm) totals.filtered = tcm[1];
-
-    // Final total
-    var fdm = m.match(/Final total:\s*(\d+)\s*(?:canais|channels)/);
-    if (fdm) totals.final = fdm[1];
   }
 
+  // Render the summary
   log(t("summary"), "white", 0);
   log(t("divider"), "dim", 100);
 
-  var lineDelay = 200;
-  if (files.length > 0) {
-    log(t("listsExtracted", files.join(" | ")), "info", lineDelay);
-    lineDelay += 200;
-  }
+  var delay = 200;
+  var lastWasHeader = false;
 
-  for (var k = 0; k < files.length; k++) {
-    var f = files[k];
-    if (stats[f]) {
-      log(
-        t("listStats", f, stats[f].lines, stats[f].entries),
-        "dim",
-        lineDelay,
-      );
-      lineDelay += 80;
+  for (var e = 0; e < entries.length; e++) {
+    var entry = entries[e];
+    if (entry.type === "header") {
+      if (lastWasHeader) delay += 50;
+      log("\u2500\u2500\u2500 " + entry.text + " \u2500\u2500\u2500", "info", delay);
+      delay += 100;
+      lastWasHeader = true;
+    } else {
+      lastWasHeader = false;
+      var cls = entry.type === "plus" ? "success" :
+                entry.type === "minus" ? "warn" :
+                entry.type === "star" ? "dim" :
+                entry.type === "error" ? "error" : "dim";
+      var prefix = entry.type === "plus" ? "[+]" :
+                   entry.type === "minus" ? "[-]" :
+                   entry.type === "star" ? "[*]" :
+                   entry.type === "error" ? "[!]" : "[i]";
+      log(prefix + " " + entry.text, cls, delay);
+      delay += 60;
     }
   }
 
-  // Show action lines (removed, remapped, normalized, etc.)
-  for (var a = 0; a < actions.length; a++) {
-    log(actions[a], "dim", lineDelay);
-    lineDelay += 60;
+  if (totalFinal) {
+    log(t("totalFinal", totalFinal), "success", delay + 100);
+    saveCounts(totalFinal, "");
+    delay += 300;
   }
 
-  if (totals.filtered) {
-    log(t("totalFiltered", totals.filtered), "warn", lineDelay);
-    lineDelay += 250;
-  }
-  if (totals.final) {
-    log(t("totalFinal", totals.final), "success", lineDelay);
-    saveCounts(totals.final, "");
-    lineDelay += 250;
-  }
-
-  log(t("playlistGenerated", "M3U & M3U8"), "success", lineDelay);
+  log(t("playlistGenerated", "M3U & M3U8"), "success", delay + 50);
 
   setTimeout(function () {
     btnEl.disabled = false;
-  }, lineDelay + 300);
+  }, delay + 400);
 }
 
 btnEl.addEventListener("click", triggerWorkflow);
