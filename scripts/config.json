@@ -1108,8 +1108,6 @@
           "Miramax",
           "Paramount Movie",
           "ION Mystery",
-          "ION Plus",
-          "ION",
           "Shout! TV",
           "Gravitas Movies",
           "Grit Xtra",
@@ -1123,7 +1121,9 @@
           "RetroCrush",
           "National Lampoon",
           "Portlandia",
-          "Fox"
+          "Fox",
+          "ION ",
+          "ION Plus"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -1447,7 +1447,9 @@
         "SBT": [
           "SBT",
           "SBT Internacional",
-          "SBT Nacional"
+          "SBT Nacional",
+          "SBT INTERNACIONAL",
+          "SBT NACIONAL"
         ],
         "FORMULA 1": [
           "F1 ao Vivo"
@@ -2562,8 +2564,6 @@
           "Miramax",
           "Paramount Movie",
           "ION Mystery",
-          "ION Plus",
-          "ION",
           "Shout! TV",
           "Gravitas Movies",
           "Grit Xtra",
@@ -2577,7 +2577,9 @@
           "RetroCrush",
           "National Lampoon",
           "Portlandia",
-          "Fox"
+          "Fox",
+          "ION ",
+          "ION Plus"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -2896,7 +2898,9 @@
         "SBT": [
           "SBT",
           "SBT Internacional",
-          "SBT Nacional"
+          "SBT Nacional",
+          "SBT INTERNACIONAL",
+          "SBT NACIONAL"
         ],
         "FORMULA 1": [
           "F1 ao Vivo"
@@ -3031,8 +3035,6 @@
           "Miramax",
           "Paramount Movie",
           "ION Mystery",
-          "ION Plus",
-          "ION",
           "Shout! TV",
           "Gravitas Movies",
           "Grit Xtra",
@@ -3047,7 +3049,9 @@
           "RetroCrush",
           "National Lampoon",
           "Portlandia",
-          "Fox"
+          "Fox",
+          "ION ",
+          "ION Plus"
         ],
         "ESPORTES": [
           "GeFast",
@@ -4162,8 +4166,6 @@
           "Miramax",
           "Paramount Movie",
           "ION Mystery",
-          "ION Plus",
-          "ION",
           "Shout! TV",
           "Gravitas Movies",
           "Grit Xtra",
@@ -4178,7 +4180,9 @@
           "RetroCrush",
           "National Lampoon",
           "Portlandia",
-          "Fox"
+          "Fox",
+          "ION ",
+          "ION Plus"
         ],
         "PAY PER VIEW": [
           "Premiere",
@@ -4419,7 +4423,9 @@
         "SBT": [
           "SBT",
           "SBT Internacional",
-          "SBT Nacional"
+          "SBT Nacional",
+          "SBT INTERNACIONAL",
+          "SBT NACIONAL"
         ],
         "FORMULA 1": [
           "F1 ao Vivo"

@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="https://ozlivewatch.pages.dev/e/BR" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml.gz" x-tvg-url="https://www.free-epg.de/api/epg?country=BR" x-tvg-url="https://www.free-epg.de/api/epg?country=US"
+#EXTINF:-1 group-title="BR | NOVOS",POWERNATION [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002243.ts
 #EXTINF:-1 group-title="BR | 24H",24 HORAS: A GRANDE FAMILIA
 http://joyfrvr.cc:80/lourenco123/lourenco123/1894343.ts
 #EXTINF:-1 group-title="BR | 24H",24 HORAS: A GRANDE FAMILIA [2]
@@ -677,10 +679,12 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/986077.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3967526.ts
 #EXTINF:-1 group-title="BR | 24H",[VODAFONE] 24H [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967526.ts
-#EXTINF:-1 group-title="BR | 24H" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SAO FRANCISCO HD",GLOBO TV SAO FRANCISCO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531759.ts
-#EXTINF:-1 group-title="BR | 24H" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SAO FRANCISCO HD [2]",GLOBO TV SAO FRANCISCO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531759.ts
+#EXTINF:-1 group-title="BR | 24H",FAILARMY
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955282.ts
+#EXTINF:-1 group-title="BR | 24H",FAILARMY [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955282.ts
+#EXTINF:-1 group-title="BR | 24H",FAILARMY [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1001970.ts
 #EXTINF:-1 group-title="BR | 24H",MR BEAN LIVE ACTION [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002358.ts
 #EXTINF:-1 group-title="BR | 24H",SEXMEX: CHAPOLIN CALOROSO
@@ -1317,8 +1321,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100621.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/142708.ts
 #EXTINF:-1 group-title="BR | BAND" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RS H265",BAND RS H265
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/139207.ts
-#EXTINF:-1 group-title="BR | BAND" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RS HD [3]",BAND RS HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63681.ts
 #EXTINF:-1 group-title="BR | BAND" tvg-id="Band Curitiba HD.br" tvg-name="TV TAROBA BAND CURITIBA FHD",TV TAROBA BAND CURITIBA FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100618.ts
 #EXTINF:-1 group-title="BR | BAND" tvg-id="Band Curitiba HD.br" tvg-name="TV TAROBA BAND CURITIBA HD",TV TAROBA BAND CURITIBA HD
@@ -1375,144 +1377,14 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62987.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3967530.ts
 #EXTINF:-1 group-title="BR | ABERTOS",[VODAFONE] TVC NEWS [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967530.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="[VODAFONE] TVE",[VODAFONE] TVE
-http://joyfrvr.cc:80/lourenco123/lourenco123/3967538.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="[VODAFONE] TVE [2]",[VODAFONE] TVE [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967538.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGRO CANAL FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91572.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGRO CANAL HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/71074.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGROBRASIL TV
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90973.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS",AGROMAIS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90975.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGROPLUS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1993225.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGROPLUS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1993225.ts
-#EXTINF:-1 group-title="BR | ABERTOS",AGROPLUS HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952080.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Amazon Sat HD.br" tvg-name="AMAZON SAT FHD",AMAZON SAT FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/162982.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Amazon Sat HD.br" tvg-name="AMAZON SAT HD",AMAZON SAT HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500656.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Amazon Sat HD.br" tvg-name="AMAZON SAT HD [2]",AMAZON SAT HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500656.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND ACRE HD",BAND ACRE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473164.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND ACRE HD [2]",BAND ACRE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473164.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND AMAZONAS HD",BAND AMAZONAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473165.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND AMAZONAS HD [2]",BAND AMAZONAS HD [2]
-http://joyfrvr.cc:80/lourenco123/lourenco123/3505538.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND AMAZONAS HD [3]",BAND AMAZONAS HD [3]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473165.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND AMAZONAS HD [4]",BAND AMAZONAS HD [4]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3505538.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND BAHIA HD",BAND BAHIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531805.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND BAHIA HD [2]",BAND BAHIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531805.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND CAMPINAS HD",BAND CAMPINAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1366.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND CAMPINAS HD [2]",BAND CAMPINAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1366.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND CEARA HD",BAND CEARA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/435635.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND CEARA HD [2]",BAND CEARA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/435635.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND ES HD",BAND ES HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473166.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND ES HD [2]",BAND ES HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473166.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND GOIANIA HD",BAND GOIANIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473174.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND GOIANIA HD [2]",BAND GOIANIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473174.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MARANHAO HD",BAND MARANHAO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473167.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MARANHAO HD [2]",BAND MARANHAO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473167.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MINAS HD",BAND MINAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1903588.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MINAS HD [2]",BAND MINAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1903588.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MT DO SUL HD",BAND MT DO SUL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473168.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND MT DO SUL HD [2]",BAND MT DO SUL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473168.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PA HD",BAND PA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531806.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PA HD [2]",BAND PA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531806.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PARANA HD",BAND PARANA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874708.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PARANA HD [2]",BAND PARANA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874708.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PAULISTA HD",BAND PAULISTA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874709.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PAULISTA HD [2]",BAND PAULISTA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874709.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PIAUI HD",BAND PIAUI HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473170.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND PIAUI HD [2]",BAND PIAUI HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473170.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RJ H265",BAND RJ H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/435636.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RJ H265 [2]",BAND RJ H265 [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/435636.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RJ HD",BAND RJ HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1959.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RJ HD [2]",BAND RJ HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1959.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RN HD",BAND RN HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1911474.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RN HD [2]",BAND RN HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1911474.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RS HD",BAND RS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/339437.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND RS HD [2]",BAND RS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339437.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SC FHD",BAND SC FHD
-http://joyfrvr.cc:80/lourenco123/lourenco123/2004706.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SC FHD [2]",BAND SC FHD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/2004706.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SP H265",BAND SP H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/1625.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SP H265 [2]",BAND SP H265 [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1625.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SP HD",BAND SP HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1513.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SP HD [2]",BAND SP HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1513.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND TOCANTINS HD",BAND TOCANTINS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3473169.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND TOCANTINS HD [2]",BAND TOCANTINS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3473169.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND TV TRIBUNA RECIFE HD",BAND TV TRIBUNA RECIFE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/435632.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND TV TRIBUNA RECIFE HD [2]",BAND TV TRIBUNA RECIFE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/435632.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="BRASIL TV RURAL",BRASIL TV RURAL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121548.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI",CANAL DO BOI
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/50645.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI FHD",CANAL DO BOI FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91567.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD",CANAL DO BOI HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/22871.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD [2]",CANAL DO BOI HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/22871.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD [3]",CANAL DO BOI HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68528.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL",CANAL RURAL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63217.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD",CANAL RURAL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/338098.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD [2]",CANAL RURAL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/338098.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="CNT HD.br" tvg-name="CNT HD",CNT HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/339441.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="CNT HD.br" tvg-name="CNT HD [2]",CNT HD [2]
@@ -1529,122 +1401,20 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/1521.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1521.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Cultura.br" tvg-name="CULTURA HD [3]",CULTURA HD [3]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/61961.ts
-#EXTINF:-1 group-title="BR | ABERTOS",FONTE TV HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500664.ts
-#EXTINF:-1 group-title="BR | ABERTOS",FONTE TV HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500664.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Futura.br" tvg-name="FUTURA",FUTURA
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/40074.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Futura.br" tvg-name="FUTURA FHD",FUTURA FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41481.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Futura.br" tvg-name="FUTURA HD",FUTURA HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68530.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO INTER TV SERRA MAR H265",GLOBO INTER TV SERRA MAR H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/388163.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO INTER TV SERRA MAR H265 [2]",GLOBO INTER TV SERRA MAR H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388163.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO INTER TV SERRA MAR HD",GLOBO INTER TV SERRA MAR HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/329485.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO INTER TV SERRA MAR HD [2]",GLOBO INTER TV SERRA MAR HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/329485.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV BRASÍLIA H265",GLOBO TV BRASÍLIA H265
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68076.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIARIO H265",GLOBO TV DIARIO H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/388172.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIARIO H265 [2]",GLOBO TV DIARIO H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388172.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIARIO HD",GLOBO TV DIARIO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/388173.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIARIO HD [2]",GLOBO TV DIARIO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388173.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIÁRIO MOGI DAS CRUZES",GLOBO TV DIÁRIO MOGI DAS CRUZES
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73450.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIÁRIO MOGI DAS CRUZES FHD",GLOBO TV DIÁRIO MOGI DAS CRUZES FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73448.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV DIÁRIO MOGI DAS CRUZES HD",GLOBO TV DIÁRIO MOGI DAS CRUZES HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73449.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SANTA CRUZ HD",GLOBO TV SANTA CRUZ HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/393691.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SANTA CRUZ HD [2]",GLOBO TV SANTA CRUZ HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/393691.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SANTA CRUZ ITABUNA BAHIA HD",GLOBO TV SANTA CRUZ ITABUNA BAHIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/516231.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV SANTA CRUZ ITABUNA BAHIA HD [2]",GLOBO TV SANTA CRUZ ITABUNA BAHIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/516231.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV VITORIA DA CONQUISTA HD",GLOBO TV VITORIA DA CONQUISTA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531786.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV VITÓRIA DA CONQUISTA HD",GLOBO TV VITÓRIA DA CONQUISTA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215139.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV VITORIA DA CONQUISTA HD [2]",GLOBO TV VITORIA DA CONQUISTA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531786.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Ideal TV.br" tvg-name="IDEAL TV",IDEAL TV
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63404.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="INTER TV SERRA MAR",INTER TV SERRA MAR
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52572.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="INTER TV SERRA MAR FHD",INTER TV SERRA MAR FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52574.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Inter TV Alto Litoral.br" tvg-name="INTER TV SERRA MAR HD",INTER TV SERRA MAR HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52573.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SÃ£o.Paulo/SP..LIKE.HD.br" tvg-name="LIKE FHD",LIKE FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215140.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SÃ£o.Paulo/SP..LIKE.HD.br" tvg-name="LIKE HD",LIKE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91508.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Paulo.br" tvg-name="NGT SAO PAULO HD",NGT SAO PAULO HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/765924.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Paulo.br" tvg-name="NGT SAO PAULO HD [2]",NGT SAO PAULO HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/765924.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY HORSE TV HD",PLAY HORSE TV HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1993223.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY HORSE TV HD [2]",PLAY HORSE TV HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1993223.ts
-#EXTINF:-1 group-title="BR | ABERTOS",PRIMER TV HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/86536.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="RBS SANTA CRUZ HD",RBS SANTA CRUZ HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/107580.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD TV GUARARAPES HD",RECORD TV GUARARAPES HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/524771.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD TV GUARARAPES HD [2]",RECORD TV GUARARAPES HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/524771.ts
-#EXTINF:-1 group-title="BR | ABERTOS",RECORDTV BRASILIA
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91332.ts
-#EXTINF:-1 group-title="BR | ABERTOS",RECORDTV BRASÍLIA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91227.ts
-#EXTINF:-1 group-title="BR | ABERTOS",RECORDTV LITORAL E VALE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215359.ts
-#EXTINF:-1 group-title="BR | ABERTOS",RECORDTV LITORAL SANTOS HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/57806.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE 21",REDE 21
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81020.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL",REDE BRASIL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37013.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL HD",REDE BRASIL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1931849.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL HD [2]",REDE BRASIL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1931849.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Familia HD.br" tvg-name="REDE FAMILIA HD",REDE FAMILIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/420277.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Familia HD.br" tvg-name="REDE FAMILIA HD [2]",REDE FAMILIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/420277.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Familia HD.br" tvg-name="REDE MAIS FAMILIA HD",REDE MAIS FAMILIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/874764.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Familia HD.br" tvg-name="REDE MAIS FAMILIA HD [2]",REDE MAIS FAMILIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874764.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Meio Norte HD.br" tvg-name="REDE MEIO NORTE HD",REDE MEIO NORTE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/931407.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Minas.br" tvg-name="REDE MINAS",REDE MINAS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68407.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Minas HD.br" tvg-name="REDE MINAS FHD",REDE MINAS FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91504.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Minas HD.br" tvg-name="REDE MINAS HD",REDE MINAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500666.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede Minas HD.br" tvg-name="REDE MINAS HD [2]",REDE MINAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500666.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Rede NGT.br" tvg-name="REDE NGT SP",REDE NGT SP
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/976777.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV BRASILIA HD",REDE TV BRASILIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3579008.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV BRASILIA HD [2]",REDE TV BRASILIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3579008.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV H265",REDE TV H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/1478.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV H265 [2]",REDE TV H265 [2]
@@ -1657,222 +1427,24 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1592.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/407875.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV PAMPA H265 [2]",REDE TV PAMPA H265 [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/407875.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV PAMPA HD",REDE TV PAMPA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/407876.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV PAMPA HD [2]",REDE TV PAMPA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/407876.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV TOCANTINS HD",REDE TV TOCANTINS HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1985366.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="REDE TV TOCANTINS HD [2]",REDE TV TOCANTINS HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1985366.ts
-#EXTINF:-1 group-title="BR | ABERTOS",RURAL NOAR
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215346.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV CIDADE VERDE H265",SBT TV CIDADE VERDE H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/339467.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV CIDADE VERDE H265 [2]",SBT TV CIDADE VERDE H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339467.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV CIDADE VERDE HD",SBT TV CIDADE VERDE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/512230.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV CIDADE VERDE HD [2]",SBT TV CIDADE VERDE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/512230.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV SERRA DOURADA HD",SBT TV SERRA DOURADA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/339488.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV SERRA DOURADA HD [2]",SBT TV SERRA DOURADA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339488.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV SIM ES HD",SBT TV SIM ES HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1951811.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV SIM ES HD [2]",SBT TV SIM ES HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1951811.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TCM.br" tvg-name="TCM PLAY MOSSORO HD",TCM PLAY MOSSORO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/407908.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TCM.br" tvg-name="TCM PLAY MOSSORO HD [2]",TCM PLAY MOSSORO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/407908.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA",TERRA VIVA
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37004.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA FHD",TERRA VIVA FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63394.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA HD",TERRA VIVA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81607.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TOP TV
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/100715.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV A Crítica HD.br" tvg-name="TV A CRÍTICA AMAZONAS",TV A CRÍTICA AMAZONAS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/162991.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV A FOLHA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500670.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV A FOLHA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500670.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV A FOLHA HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/162985.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV ARACATI CE
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91327.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV ARACATI CE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531873.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV ARACATI CE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531873.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Arapuan HD.br" tvg-name="TV ARAPUAN HD",TV ARAPUAN HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500671.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Arapuan HD.br" tvg-name="TV ARAPUAN HD [2]",TV ARAPUAN HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500671.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Aratu HD.br" tvg-name="TV ARATU HD",TV ARATU HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500672.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Aratu HD.br" tvg-name="TV ARATU HD [2]",TV ARATU HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500672.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL",TV BRASIL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62133.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL CENTRAL HD",TV BRASIL CENTRAL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/883288.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL CENTRAL HD [2]",TV BRASIL CENTRAL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/883288.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL FHD",TV BRASIL FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/75171.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL HD",TV BRASIL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/339473.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL HD [2]",TV BRASIL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339473.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL HD [3]",TV BRASIL HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63632.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL OESTE HD",TV BRASIL OESTE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500674.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="TV BRASIL OESTE HD [2]",TV BRASIL OESTE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500674.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV BRUSQUE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500675.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV BRUSQUE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500675.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV CANDIDES HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500676.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV CANDIDES HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500676.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Ceará.br" tvg-name="TV CEARÁ",TV CEARÁ
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952166.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Ceará HD.br" tvg-name="TV CEARA HD",TV CEARA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1951805.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Ceará HD.br" tvg-name="TV CEARA HD [2]",TV CEARA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1951805.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="SBT TV Ponta Verde HD.br" tvg-name="TV CIDADE VERDE (SBT) FHD",TV CIDADE VERDE (SBT) FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/106020.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Clube HD.br" tvg-name="TV CLUBE HD",TV CLUBE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500678.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Clube HD.br" tvg-name="TV CLUBE HD [2]",TV CLUBE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500678.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV CURUCA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500679.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV CURUCA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500679.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIÁRIO DO SERTÃO HD",TV DIÁRIO DO SERTÃO HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/963776.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Fortaleza.br" tvg-name="TV DIÁRIO FORTALEZA FHD",TV DIÁRIO FORTALEZA FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63723.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Fortaleza.br" tvg-name="TV DIÁRIO FORTALEZA HD",TV DIÁRIO FORTALEZA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/58091.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIARIO HD",TV DIARIO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/10032.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIÁRIO HD",TV DIÁRIO HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/64613.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Diário HD.br" tvg-name="TV DIARIO HD [2]",TV DIARIO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/10032.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Difusora Sao Luís.br" tvg-name="TV DIFUSORA LESTE HD",TV DIFUSORA LESTE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500680.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Difusora Sao Luís.br" tvg-name="TV DIFUSORA LESTE HD [2]",TV DIFUSORA LESTE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500680.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV DIFUSORA SAO LUIS HD",TV DIFUSORA SAO LUIS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500681.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Band Sao Luís - TV Maranhao HD.br" tvg-name="TV DIFUSORA SAO LUIS HD [2]",TV DIFUSORA SAO LUIS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500681.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV DIVERSA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500682.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV DIVERSA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500682.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Globo RBS TV Poa.br" tvg-name="TV EDUCATIVA POA FHD",TV EDUCATIVA POA FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/162987.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Goiás HD.br" tvg-name="TV GOIAS HD",TV GOIAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/519151.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Goiás HD.br" tvg-name="TV GOIAS HD [2]",TV GOIAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/519151.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="TV GUARA REDE TV HD",TV GUARA REDE TV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1985364.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="TV GUARA REDE TV HD [2]",TV GUARA REDE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1985364.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV GUARULHOS HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91493.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="TV IMPERIAL REDE TV HD",TV IMPERIAL REDE TV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1985365.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="São.Paulo/SP..Rede.TV.br" tvg-name="TV IMPERIAL REDE TV HD [2]",TV IMPERIAL REDE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1985365.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV J.SID BA
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215151.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Jangadeiro HD.br" tvg-name="TV JANGADEIRO FHD",TV JANGADEIRO FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121572.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Jornal.br" tvg-name="TV JORNAL [SBT PE]",TV JORNAL [SBT PE]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41371.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Maceio.br" tvg-name="TV MACEIO HD",TV MACEIO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500688.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Record TV Maceio.br" tvg-name="TV MACEIO HD [2]",TV MACEIO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500688.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Meio Norte HD.br" tvg-name="TV MEIO NORTE HD",TV MEIO NORTE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/765955.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="Meio Norte HD.br" tvg-name="TV MEIO NORTE HD [2]",TV MEIO NORTE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/765955.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV NOVA NORDESTE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/339484.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV NOVA NORDESTE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339484.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV NOVA NORDESTE HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/946470.ts
 #EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Pampa HD.br" tvg-name="TV PAMPA (REDE TV RS)",TV PAMPA (REDE TV RS)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/76262.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Pampa HD.br" tvg-name="TV PAMPA HD",TV PAMPA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91574.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Pantanal.br" tvg-name="TV PANTANAL MS",TV PANTANAL MS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91277.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV POÇOS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91273.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Santa Cruz.br" tvg-name="TV SANTA CRUZ",TV SANTA CRUZ
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52565.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="TV SANTA CRUZ FHD",TV SANTA CRUZ FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52563.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Santa Cruz HD.br" tvg-name="TV SANTA CRUZ HD",TV SANTA CRUZ HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52564.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TV SOL HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91490.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="EPTV Sul de Minas HD.br" tvg-name="TV SUL DE MINAS HD",TV SUL DE MINAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500698.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="EPTV Sul de Minas HD.br" tvg-name="TV SUL DE MINAS HD [2]",TV SUL DE MINAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500698.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Tarobá HD.br" tvg-name="TV TAROBA HD",TV TAROBA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63696.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Uniao HD.br" tvg-name="TV UNIÃO HD",TV UNIÃO HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91342.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TV Vitoria HD.br" tvg-name="TV VITÓRIA ES FHD",TV VITÓRIA ES FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91584.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TVBE JOINVILLE HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/500673.ts
-#EXTINF:-1 group-title="BR | ABERTOS",TVBE JOINVILLE HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500673.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA",TVE BAHIA
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/203819.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA HD",TVE BAHIA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/432537.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA HD [2]",TVE BAHIA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/432537.ts
-#EXTINF:-1 group-title="BR | ABERTOS" tvg-id="TVE.br" tvg-name="TVE HD",TVE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/984404.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",[VODAFONE] CUBAVISION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3967547.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",[VODAFONE] CUBAVISION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967547.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="[VODAFONE] FASHION TV",[VODAFONE] FASHION TV
 http://joyfrvr.cc:80/lourenco123/lourenco123/3967506.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="[VODAFONE] FASHION TV [2]",[VODAFONE] FASHION TV [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967506.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National Geographic.br" tvg-name="[VODAFONE] NATIONAL GEOGRAPHIC",[VODAFONE] NATIONAL GEOGRAPHIC
-http://joyfrvr.cc:80/lourenco123/lourenco123/3967492.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="National Geographic.br" tvg-name="[VODAFONE] NATIONAL GEOGRAPHIC [2]",[VODAFONE] NATIONAL GEOGRAPHIC [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967492.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Record TV International.br" tvg-name="[VODAFONE] PRO TV INTERNATIONAL",[VODAFONE] PRO TV INTERNATIONAL
-http://joyfrvr.cc:80/lourenco123/lourenco123/3967543.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Record TV International.br" tvg-name="[VODAFONE] PRO TV INTERNATIONAL [2]",[VODAFONE] PRO TV INTERNATIONAL [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967543.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E",A&E
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37130.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E FHD",A&E FHD
@@ -1917,10 +1489,6 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3505537.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/984406.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",AMERICAN CLASSICS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002222.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",ANIMATION+
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955268.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",ANIMATION+ [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955268.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",ANIME ONEGAI ACTION
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002268.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",ANIME ONEGAI COMEDY
@@ -1975,8 +1543,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/986826.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63636.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CINDIE LITE PORTUGUESE [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002371.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",CINE NACIONAL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215276.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX",CINEMAX
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37120.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Cinemax.br" tvg-name="CINEMAX FHD",CINEMAX FHD
@@ -2001,40 +1567,12 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002221.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/500662.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",CLASSIQUE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500662.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL",CNN INTERNACIONAL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81017.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265",CNN INTERNACIONAL H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/352919.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265 [2]",CNN INTERNACIONAL H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/352919.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/352920.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD [2]",CNN INTERNACIONAL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/352920.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD [3]",CNN INTERNACIONAL HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91565.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",CUMFLATION
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3593621.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",DEEPER: SEDUCTIONS
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1932446.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Dreamworks.br" tvg-name="DREAMWORKS",DREAMWORKS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952168.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",EBONY TV BY LIONSGATE
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955124.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",EBONY TV BY LIONSGATE [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955124.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",F1 PRESENTATION
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1015054.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="FASHION TV HD",FASHION TV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/317668.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Fashion.TV.br" tvg-name="FASHION TV HD [2]",FASHION TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/317668.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV BRASIL",FASHIONTV BRASIL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68527.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV BRASIL FHD",FASHIONTV BRASIL FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63770.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV BRASIL HD",FASHIONTV BRASIL HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63769.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Film.&amp;.Arts.br" tvg-name="FILM & ARTS HD",FILM & ARTS HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/22869.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Film.&amp;.Arts.br" tvg-name="FILM & ARTS HD [2]",FILM & ARTS HD [2]
@@ -2067,30 +1605,22 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955111.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955194.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",FLIPPING NATION BY A&E [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955194.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO NACIONAL FHD",GLOBO NACIONAL FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91289.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS",GLOBOPLAY NOVELAS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36997.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS [H265 ]",GLOBOPLAY NOVELAS [H265 ]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74792.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS FHD",GLOBOPLAY NOVELAS FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38393.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265",GLOBOPLAY NOVELAS H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/339333.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265 [2]",GLOBOPLAY NOVELAS H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339333.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265 [3]",GLOBOPLAY NOVELAS H265 [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62893.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD",GLOBOPLAY NOVELAS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/1615.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD [2]",GLOBOPLAY NOVELAS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1615.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD [3]",GLOBOPLAY NOVELAS HD [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36931.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",GOSPEL MOVIES TELEVISION
-http://joyfrvr.cc:80/lourenco123/lourenco123/444806.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",GOSPEL MOVIES TELEVISION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/444806.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Spectrum.News.1.-.Dallas.-.Ft.Worth.STVA.us2" tvg-name="FOX 4 DALLAS - FORT WORTH",FOX 4 DALLAS - FORT WORTH
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955081.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Spectrum.News.1.-.Dallas.-.Ft.Worth.STVA.us2" tvg-name="FOX 4 DALLAS - FORT WORTH [2]",FOX 4 DALLAS - FORT WORTH [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955081.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FOX.SOUL.us2" tvg-name="FOX SOUL",FOX SOUL
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955322.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FOX.SOUL.us2" tvg-name="FOX SOUL [2]",FOX SOUL [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955322.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FOX Sports.br" tvg-name="FOX SPORTS",FOX SPORTS
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955223.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="FOX Sports.br" tvg-name="FOX SPORTS [2]",FOX SPORTS [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955223.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES",FOX WEATHER
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955083.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES",FOX WEATHER [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955083.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",GRAVITAS MOVIES
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955104.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",GRAVITAS MOVIES [2]
@@ -2331,22 +1861,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1570.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36912.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO2.br" tvg-name="HBO2 H265 | DUAL AUDIO",HBO2 H265 | DUAL AUDIO
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956613.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",HOME.MADE.NATION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955190.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",HOME.MADE.NATION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955190.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",HOT WHEELS ACTION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955375.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",HOT WHEELS ACTION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955375.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",INTERVENTION BY A&E
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955179.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",INTERVENTION BY A&E [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955179.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",ION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955118.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",ION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955118.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="ION.Mystery.us2" tvg-name="ION MYSTERY",ION MYSTERY
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955140.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="ION.Mystery.us2" tvg-name="ION MYSTERY [2]",ION MYSTERY [2]
@@ -2355,6 +1873,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955140.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955119.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",ION PLUS [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955119.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES",LIVENOW FROM FOX
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955077.ts
+#EXTINF:-1 group-title="BR | FILMES E SERIES",LIVENOW FROM FOX [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955077.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",MAX 01 (B)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90555.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",MAX 01 FHD (B)
@@ -2439,18 +1961,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955286.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955274.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",NATIONAL LAMPOON [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955274.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",NATUREVISION
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002240.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",NESN NATION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955220.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",NESN NATION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955220.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",OPERATION REPO
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955177.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",OPERATION REPO [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955177.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",PACK: FIONA FUCHS
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1957397.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT MOVIE CHANNEL",PARAMOUNT MOVIE CHANNEL
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955103.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Paramount.Network.br" tvg-name="PARAMOUNT MOVIE CHANNEL [2]",PARAMOUNT MOVIE CHANNEL [2]
@@ -2459,12 +1973,6 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955103.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955277.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",PORTLANDIA [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955277.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",POWERNATION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955264.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",POWERNATION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955264.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",POWERNATION [3]
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002243.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRASIL H265",PRIME BOX BRASIL H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/339396.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRASIL H265 [2]",PRIME BOX BRASIL H265 [2]
@@ -2479,10 +1987,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37053.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41501.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Prime.Box.Brazil.br" tvg-name="PRIME BOX BRAZIL HD",PRIME BOX BRAZIL HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68532.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="RAI.br" tvg-name="RAI INTERNACIONAL HD",RAI INTERNACIONAL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/367428.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="RAI.br" tvg-name="RAI INTERNACIONAL HD [2]",RAI INTERNACIONAL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/367428.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",RIFFTRAX
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955287.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",RIFFTRAX [2]
@@ -2755,10 +2259,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36935.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955339.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",THE ASYLUM [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955339.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",TINY HOUSE NATION
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955191.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES",TINY HOUSE NATION [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955191.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT",TNT
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37035.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT [H265 ]",TNT [H265 ]
@@ -3693,6 +3193,8 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/528687.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/528687.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM HD [3]",ADULT SWIM HD [3]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63649.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Amazon Sat HD.br" tvg-name="AMAZON SAT FHD",AMAZON SAT FHD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/162982.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1",ARTE 1
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37133.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD",ARTE 1 FHD
@@ -3767,46 +3269,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/42911.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955254.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="GAME & FISH TV [2]",GAME & FISH TV [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955254.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV CAXIAS DO SUL H265",GLOBO RBS TV CAXIAS DO SUL H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/388183.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV CAXIAS DO SUL H265 [2]",GLOBO RBS TV CAXIAS DO SUL H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388183.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV CAXIAS DO SUL HD",GLOBO RBS TV CAXIAS DO SUL HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/388184.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV CAXIAS DO SUL HD [2]",GLOBO RBS TV CAXIAS DO SUL HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388184.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV DOS VALES H265",GLOBO RBS TV DOS VALES H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/3462126.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV DOS VALES H265 [2]",GLOBO RBS TV DOS VALES H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3462126.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV DOS VALES HD",GLOBO RBS TV DOS VALES HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/3462125.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV DOS VALES HD [2]",GLOBO RBS TV DOS VALES HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3462125.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PASSO FUNDO H265",GLOBO RBS TV PASSO FUNDO H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/388185.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PASSO FUNDO H265 [2]",GLOBO RBS TV PASSO FUNDO H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388185.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PASSO FUNDO HD",GLOBO RBS TV PASSO FUNDO HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/388186.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PASSO FUNDO HD [2]",GLOBO RBS TV PASSO FUNDO HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388186.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PELOTAS H265",GLOBO RBS TV PELOTAS H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/388182.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV PELOTAS H265 [2]",GLOBO RBS TV PELOTAS H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/388182.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV POÁ H265",GLOBO RBS TV POÁ H265
-http://joyfrvr.cc:80/lourenco123/lourenco123/531785.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO RBS TV POÁ H265 [2]",GLOBO RBS TV POÁ H265 [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531785.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO REDE AMAZONICA RORAINOPOLIS HD",GLOBO REDE AMAZONICA RORAINOPOLIS HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531765.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO REDE AMAZONICA RORAINOPOLIS HD [2]",GLOBO REDE AMAZONICA RORAINOPOLIS HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531765.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV PARAIBA HD",GLOBO TV PARAIBA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/531757.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO TV PARAIBA HD [2]",GLOBO TV PARAIBA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531757.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT",GNT
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37088.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD",GNT FHD
@@ -3867,6 +3329,8 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955281.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002198.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",JUST FOR LAUGHS GAGS [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002362.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..LIKE.HD.br" tvg-name="LIKE HD",LIKE HD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91508.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",MALHAÇÃO FAST
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215360.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",MALHACAO FAST HD
@@ -3913,6 +3377,10 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952078.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/61690.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Polishop.br" tvg-name="POLISHOP TV FHD",POLISHOP TV FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/67295.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RAI.br" tvg-name="RAI INTERNACIONAL HD",RAI INTERNACIONAL HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/367428.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RAI.br" tvg-name="RAI INTERNACIONAL HD [2]",RAI INTERNACIONAL HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/367428.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RAINBOW RUBY
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955387.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RAINBOW RUBY [2]
@@ -3921,64 +3389,16 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955387.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955495.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RAINY DAY VIBES [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955495.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV BAGÉ HD",RBS TV BAGÉ HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108372.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV CAXIAS DO SUL",RBS TV CAXIAS DO SUL
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52568.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV CAXIAS DO SUL FHD",RBS TV CAXIAS DO SUL FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52566.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Caxias do Sul HD.br" tvg-name="RBS TV CAXIAS DO SUL HD",RBS TV CAXIAS DO SUL HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52567.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Cruz Alta HD.br" tvg-name="RBS TV CRUZ ALTA HD",RBS TV CRUZ ALTA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108373.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV DOS VALES HD",RBS TV DOS VALES HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108376.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV ERECHIM HD",RBS TV ERECHIM HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108374.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV H265",RBS TV H265
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91301.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PASSO FUNDO",RBS TV PASSO FUNDO
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74965.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PASSO FUNDO FHD",RBS TV PASSO FUNDO FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74966.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PASSO FUNDO HD",RBS TV PASSO FUNDO HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/75231.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PELOTAS",RBS TV PELOTAS
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52543.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PELOTAS FHD",RBS TV PELOTAS FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52541.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV PELOTAS HD",RBS TV PELOTAS HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/52542.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Band Porto Alegre.br" tvg-name="RBS TV PORTO ALEGRE",RBS TV PORTO ALEGRE
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/42959.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Band Porto Alegre.br" tvg-name="RBS TV PORTO ALEGRE FHD",RBS TV PORTO ALEGRE FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/51215.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Band Porto Alegre.br" tvg-name="RBS TV PORTO ALEGRE H265",RBS TV PORTO ALEGRE H265
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62816.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Porto Alegre HD.br" tvg-name="RBS TV PORTO ALEGRE HD",RBS TV PORTO ALEGRE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/40252.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Rio Grande HD.br" tvg-name="RBS TV RIO GRANDE HD",RBS TV RIO GRANDE HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108375.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV SANTA MARIA",RBS TV SANTA MARIA
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73102.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV SANTA MARIA FHD",RBS TV SANTA MARIA FHD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73099.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Santa Maria HD.br" tvg-name="RBS TV SANTA MARIA HD",RBS TV SANTA MARIA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/73101.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Globo RBS TV Poa.br" tvg-name="RBS TV SANTA ROSA HD",RBS TV SANTA ROSA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108377.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="RBS TV Uruguaiana HD.br" tvg-name="RBS TV URUGUAIANA HD",RBS TV URUGUAIANA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/108380.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RECEITAS FAST
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002383.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RECEITAS FAST HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/851275.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",RECEITAS FAST HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/851275.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO",RECORDTV PARAÍBA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/190871.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede Amazônica Manaus HD.br" tvg-name="REDE AMAZÔNICA RORAINÓPOLIS HD",REDE AMAZÔNICA RORAINÓPOLIS HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133129.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede Minas.br" tvg-name="REDE MINAS",REDE MINAS
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68407.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Rede Minas HD.br" tvg-name="REDE MINAS FHD",REDE MINAS FHD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91504.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",ROYALWORLD NOBREZA E DINASTIAS [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002305.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE FHD",SABOR & ARTE FHD
@@ -3995,10 +3415,8 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/417549.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/86534.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",SATO + [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002351.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV TAMBAU PARAIBA HD",SBT TV TAMBAU PARAIBA HD
-http://joyfrvr.cc:80/lourenco123/lourenco123/432264.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT TV TAMBAU PARAIBA HD [2]",SBT TV TAMBAU PARAIBA HD [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/432264.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA",TERRA VIVA
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37004.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",THIS IS HAPPENING
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002199.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Travel.Box.Brasil.br" tvg-name="TRAVEL BOX BRASIL HD",TRAVEL BOX BRASIL HD
@@ -4017,8 +3435,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002235.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002318.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",TRAVEL PLUS [BR] [2]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002321.ts
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TV Paraíba HD.br" tvg-name="TV PARAÍBA HD",TV PARAÍBA HD
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/64602.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",URBAN TRAVEL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/531870.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",URBAN TRAVEL HD [2]
@@ -4181,6 +3597,10 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/883285.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/883285.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",CAZE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/437715.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CINE AÇÃO 04 (GLOBOPLAY)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68471.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW",CINE COMÉDIA 04 (GLOBOPLAY)
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/69167.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",COPA DO BRASIL 01 HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1225832.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",COPA DO BRASIL 01 HD [2]
@@ -4285,6 +3705,24 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1897015.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/383675.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",FURACAO PLAY H265 [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/383675.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS",GLOBOPLAY NOVELAS
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36997.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS [H265 ]",GLOBOPLAY NOVELAS [H265 ]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/74792.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS FHD",GLOBOPLAY NOVELAS FHD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38393.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265",GLOBOPLAY NOVELAS H265
+http://joyfrvr.cc:80/lourenco123/lourenco123/339333.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265 [2]",GLOBOPLAY NOVELAS H265 [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/339333.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS H265 [3]",GLOBOPLAY NOVELAS H265 [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/62893.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD",GLOBOPLAY NOVELAS HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/1615.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD [2]",GLOBOPLAY NOVELAS HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1615.ts
+#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS HD [3]",GLOBOPLAY NOVELAS HD [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36931.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",KINGS LEAGUE BRASIL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/1905939.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",KINGS LEAGUE BRASIL HD [2]
@@ -4599,6 +4037,18 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/532308.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81018.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL HD",CNN ESPANHOL HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91564.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL",CNN INTERNACIONAL
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81017.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265",CNN INTERNACIONAL H265
+http://joyfrvr.cc:80/lourenco123/lourenco123/352919.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265 [2]",CNN INTERNACIONAL H265 [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/352919.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/352920.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD [2]",CNN INTERNACIONAL HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/352920.ts
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD [3]",CNN INTERNACIONAL HD [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91565.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN MONEY HD",CNN MONEY HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/879648.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="CNN.br" tvg-name="CNN MONEY HD [2]",CNN MONEY HD [2]
@@ -5151,6 +4601,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133482.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133483.ts
 #EXTINF:-1 group-title="BR | DORMIR E RELAXAR",MUSICA PARA BEBÊ 10
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133484.ts
+#EXTINF:-1 group-title="BR | DORMIR E RELAXAR",NATUREVISION
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002240.ts
 #EXTINF:-1 group-title="BR | DORMIR E RELAXAR",SOM DE CHUVA 01
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133342.ts
 #EXTINF:-1 group-title="BR | DORMIR E RELAXAR",SOM DE CHUVA 02
@@ -5437,6 +4889,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1015055.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1015056.ts
 #EXTINF:-1 group-title="BR | FORMULA 1",F1 MAIN
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1015053.ts
+#EXTINF:-1 group-title="BR | FORMULA 1",F1 PRESENTATION
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1015054.ts
 #EXTINF:-1 group-title="BR | FORMULA 1" tvg-id="Conmebol TV 1.br" tvg-name="FÓRMULA 1 TV",FÓRMULA 1 TV
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/78760.ts
 #EXTINF:-1 group-title="BR | DAZN",DAZN 1 (A)
@@ -5493,8 +4947,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956607.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63220.ts
 #EXTINF:-1 group-title="BR | DUAL AUDIO",TNTSERIES H265 | DUAL AUDIO
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956615.ts
-#EXTINF:-1 group-title="BR | DUAL AUDIO",TOP TV H265 | DUAL AUDIO
-http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956616.ts
 #EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="MTV.br" tvg-name="MTV PLUTO TV",MTV PLUTO TV
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955170.ts
 #EXTINF:-1 group-title="BR | PLUTO TV" tvg-id="MTV.br" tvg-name="MTV PLUTO TV [2]",MTV PLUTO TV [2]
@@ -5735,6 +5187,40 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91315.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/64660.ts
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..TV.Escola.br" tvg-name="TV ESCOLA HD",TV ESCOLA HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/960720.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGRO CANAL FHD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91572.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGRO CANAL HD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/71074.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROBRASIL TV
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90973.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS",AGROMAIS
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90975.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROPLUS HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/1993225.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROPLUS HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1993225.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROPLUS HD [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952080.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..TV.Brasil.br" tvg-name="BRASIL TV RURAL",BRASIL TV RURAL
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/121548.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI",CANAL DO BOI
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/50645.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI FHD",CANAL DO BOI FHD
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91567.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD",CANAL DO BOI HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/22871.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD [2]",CANAL DO BOI HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/22871.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD [3]",CANAL DO BOI HD [3]
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68528.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL",CANAL RURAL
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63217.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD",CANAL RURAL HD
+http://joyfrvr.cc:80/lourenco123/lourenco123/338098.ts
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD [2]",CANAL RURAL HD [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/338098.ts
+#EXTINF:-1 group-title="BR | AR LIVRE",RURAL NOAR
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215346.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova.br" tvg-name="[VODAFONE] CANCAO NOVA",[VODAFONE] CANCAO NOVA
 http://joyfrvr.cc:80/lourenco123/lourenco123/3967549.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Cançao Nova.br" tvg-name="[VODAFONE] CANCAO NOVA [2]",[VODAFONE] CANCAO NOVA [2]
@@ -5775,6 +5261,10 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/104069.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/500665.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="CARTOON HD.br" tvg-name="GOSPEL CARTOON HD [2]",GOSPEL CARTOON HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/500665.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS",GOSPEL MOVIES TELEVISION
+http://joyfrvr.cc:80/lourenco123/lourenco123/444806.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS",GOSPEL MOVIES TELEVISION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/444806.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS",H_1330,AL_C/D978D9_81182DC4B4F44BE49F3F05C8BA6431A5~MV2.PNG" GROUP-TITLE="CANAIS | RELIGIOSOS",REDE GOSPEL FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63781.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Universal.TV.br" tvg-name="IGREJA UNIVERSAL TV HD",IGREJA UNIVERSAL TV HD
@@ -5785,6 +5275,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/332310.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/513206.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS",LIDER GOSPEL SUL WEB [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/513206.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE 21",REDE 21
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/81020.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="Rede.Brasil.HD.br" tvg-name="REDE BRASIL",REDE BRASIL
+http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37013.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL HD",REDE GOSPEL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/339456.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL HD [2]",REDE GOSPEL HD [2]
@@ -5921,6 +5415,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955147.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3967522.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="[VODAFONE] BBC WORLD NEWS [2]",[VODAFONE] BBC WORLD NEWS [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3967522.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",ANIMATION+
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955268.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",ANIMATION+ [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955268.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",BBC COMEDY
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955276.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",BBC COMEDY [2]
@@ -5957,30 +5455,34 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955285.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955284.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",DRY BAR COMEDY [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955284.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Spectrum.News.1.-.Dallas.-.Ft.Worth.STVA.us2" tvg-name="FOX 4 DALLAS - FORT WORTH",FOX 4 DALLAS - FORT WORTH
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955081.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="Spectrum.News.1.-.Dallas.-.Ft.Worth.STVA.us2" tvg-name="FOX 4 DALLAS - FORT WORTH [2]",FOX 4 DALLAS - FORT WORTH [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955081.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX.SOUL.us2" tvg-name="FOX SOUL",FOX SOUL
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955322.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX.SOUL.us2" tvg-name="FOX SOUL [2]",FOX SOUL [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955322.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX Sports.br" tvg-name="FOX SPORTS",FOX SPORTS
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955223.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS" tvg-id="FOX Sports.br" tvg-name="FOX SPORTS [2]",FOX SPORTS [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955223.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",FOX WEATHER
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955083.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",FOX WEATHER [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955083.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",EBONY TV BY LIONSGATE
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955124.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",EBONY TV BY LIONSGATE [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955124.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOARDERS BY A&E
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955180.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOARDERS BY A&E [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955180.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",LIVENOW FROM FOX
-http://joyfrvr.cc:80/lourenco123/lourenco123/3955077.ts
-#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",LIVENOW FROM FOX [2]
-http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955077.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOME.MADE.NATION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955190.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOME.MADE.NATION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955190.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOT WHEELS ACTION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955375.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",HOT WHEELS ACTION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955375.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",ION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955118.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",ION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955118.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",NESN NATION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955220.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",NESN NATION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955220.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",POWERNATION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955264.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",POWERNATION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955264.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",SUMMER VIBES
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955496.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",SUMMER VIBES [2]
@@ -5989,6 +5491,10 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955496.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/3457852.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",SUMMER VIBES HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3457852.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TINY HOUSE NATION
+http://joyfrvr.cc:80/lourenco123/lourenco123/3955191.ts
+#EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TINY HOUSE NATION [2]
+http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3955191.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TOP GEAR
 http://joyfrvr.cc:80/lourenco123/lourenco123/3955260.ts
 #EXTINF:-1 group-title="BR | ESTADOS UNIDOS",TOP GEAR [2]
