@@ -4,7 +4,7 @@
 [EPG] Downloading IDs: epg_ripper_BR2.txt
 [EPG]   97 IDs found (via .txt)
 [EPG] Downloading IDs: epg_ripper_US2.txt
-[EPG]   761 IDs found (via .txt)
+[EPG]   762 IDs found (via .txt)
 [EPG] Downloading globetv EPG: brazil1.xml.gz
 [EPG]   801 channels found
 [EPG] Downloading globetv EPG: brazil2.xml.gz
@@ -21,7 +21,7 @@
 [EPG]   157 channels found
 [EPG] Downloading globetv EPG: usa4.xml.gz
 [EPG]   157 channels found
-[EPG] Total IDs (epgshare + globetv): 2613
+[EPG] Total IDs (epgshare + globetv): 2614
 [LiveWatch] [i] EPG ativado
 
 [LiveWatch] --- brasil ---
@@ -60,7 +60,7 @@
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
-[LiveWatch]    40343 registros
+[LiveWatch]    40347 registros
 [LiveWatch]    781 canais BR
 [LiveWatch]    776 canais validos
 [LiveWatch] [+] streams.json
