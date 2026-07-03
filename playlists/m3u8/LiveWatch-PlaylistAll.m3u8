@@ -7579,6 +7579,8 @@ https://isaocorp.cloudecast.com/nbt/index.m3u8?ManoTV
 https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",NUEVO TIEMPO
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS",PLENITUDE TV
+https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="RBI HD.br" tvg-name="RBI HD",RBI HD
 https://dns.p2.wtf/rogerio55x/24992611250/965
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="RBI HD.br" tvg-name="RBI SD",RBI SD
