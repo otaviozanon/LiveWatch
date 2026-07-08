@@ -49,8 +49,7 @@
 [LiveWatch]    3 listas encontradas
 [LiveWatch] [+] Lista%20Mundial01.m3u (1/3)
 [LiveWatch]    263455 entradas (526912 linhas)
-[LiveWatch] [+] Lista%20Mundial02.m3u (2/3)
-[LiveWatch]    134787 entradas (269575 linhas)
+[LiveWatch] [!] 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/Ramys/Iptv-Brasil-2026/master/Lista%20Mundial02.m3u
 [LiveWatch] [+] Lista%20Mundial03.m3u (3/3)
 [LiveWatch]    21900 entradas (43801 linhas)
 [LiveWatch] [-] 500 canais indesejados
@@ -60,7 +59,7 @@
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
-[LiveWatch]    40582 registros
+[LiveWatch]    40591 registros
 [LiveWatch]    786 canais BR
 [LiveWatch]    781 canais validos
 [LiveWatch] [+] streams.json
