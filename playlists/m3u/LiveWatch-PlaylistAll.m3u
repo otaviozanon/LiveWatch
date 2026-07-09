@@ -3560,7 +3560,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/147
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD [4]",BAND SPORTS HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/296480
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD [5]",BAND SPORTS HD [5]
-http://79.127.243.211:14445/
+http://185.152.67.187:14474/
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD [6]",BAND SPORTS HD [6]
+http://streamer.sattvacabo.com.br/BAND_SPORTS_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS SD",BAND SPORTS SD
 https://dns.p2.wtf/rogerio55x/24992611250/149
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS SD [2]",BAND SPORTS SD [2]
@@ -7206,7 +7208,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/359
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [5]",DISCOVERY KIDS HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296368
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [6]",DISCOVERY KIDS HD [6]
-https://cdn-5.nxplay.com.br/DISCOVERY_KIDS_NX/index.m3u8
+http://streamer.sattvacabo.com.br/DISCOVERY_KIDS_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD",DISCOVERY KIDS SD
 https://dns.p2.wtf/rogerio55x/24992611250/361
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [2]",DISCOVERY KIDS SD [2]
@@ -7281,8 +7283,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/545
 https://dns.p2.wtf/rogerio55x/24992611250/296372
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [6]",GLOOB HD [6]
 https://dns.p2.wtf/rogerio55x/24992611250/296361
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [7]",GLOOB HD [7]
-http://79.127.243.211:14436/
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD",GLOOB SD
 https://dns.p2.wtf/rogerio55x/24992611250/547
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD [2]",GLOOB SD [2]
@@ -7405,8 +7405,6 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1612.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63647.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [4]",TOONCAST HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/1255534
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [5]",TOONCAST HD [5]
-https://cdn-5.nxplay.com.br/TOONCAST_TK/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD ALT",TOONCAST HD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/1255537
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST SD",TOONCAST SD
