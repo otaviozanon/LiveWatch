@@ -60,15 +60,15 @@
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
-[LiveWatch]    40603 registros
+[LiveWatch]    40604 registros
 [LiveWatch]    787 canais BR
 [LiveWatch]    782 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    17187 registros
-[LiveWatch]    379 streams
-[LiveWatch] [-] 25 canais indesejados
-[LiveWatch] [*] 28 canais recategorizados
-[LiveWatch] [-] 161 grupos excluidos
+[LiveWatch]    17263 registros
+[LiveWatch]    416 streams
+[LiveWatch] [-] 26 canais indesejados
+[LiveWatch] [*] 30 canais recategorizados
+[LiveWatch] [-] 183 grupos excluidos
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
@@ -78,12 +78,12 @@
 [LiveWatch] [*] 447 canais recategorizados
 [LiveWatch] [-] 36 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4257
-[LiveWatch] [*] 2390 nomes normalizados
+[LiveWatch] [i] Total combinado: 4271
+[LiveWatch] [*] 2404 nomes normalizados
 [LiveWatch] [-] 18 canais indesejados
 [LiveWatch] [-] 39 duplicatas URL
-[LiveWatch] [*] 1547 conflitos renomeados
-[LiveWatch] [+] Final: 4200 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4200 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4200 canais)
+[LiveWatch] [*] 1560 conflitos renomeados
+[LiveWatch] [+] Final: 4214 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4214 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4214 canais)
 [LiveWatch] [+] Playlist salva!
