@@ -4,7 +4,7 @@
 [EPG] Downloading IDs: epg_ripper_BR2.txt
 [EPG]   97 IDs found (via .txt)
 [EPG] Downloading IDs: epg_ripper_US2.txt
-[EPG]   762 IDs found (via .txt)
+[EPG]   763 IDs found (via .txt)
 [EPG] Downloading globetv EPG: brazil1.xml.gz
 [EPG]   801 channels found
 [EPG] Downloading globetv EPG: brazil2.xml.gz
@@ -21,69 +21,22 @@
 [EPG]   157 channels found
 [EPG] Downloading globetv EPG: usa4.xml.gz
 [EPG]   157 channels found
-[EPG] Total IDs (epgshare + globetv): 2614
+[EPG] Total IDs (epgshare + globetv): 2615
 [LiveWatch] [i] EPG ativado
 
 [LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    6 listas encontradas
-[LiveWatch] [+] CanaisBR01.m3u8 (1/6)
-[LiveWatch]    98 entradas (197 linhas)
-[LiveWatch] [+] CanaisBR02.m3u8 (2/6)
-[LiveWatch]    249 entradas (499 linhas)
-[LiveWatch] [+] CanaisBR03.m3u8 (3/6)
-[LiveWatch]    376446 entradas (752894 linhas)
-[LiveWatch] [+] CanaisBR04.m3u8 (4/6)
-[LiveWatch]    377843 entradas (755688 linhas)
-[LiveWatch] [+] CanaisBR05.m3u8 (5/6)
-[LiveWatch]    57 entradas (115 linhas)
-[LiveWatch] [+] CanaisBR06.m3u8 (6/6)
-[LiveWatch]    201436 entradas (402874 linhas)
-[LiveWatch] [-] 2272 canais indesejados
-[LiveWatch] [*] 2353 canais recategorizados
-[LiveWatch] [-] 615 grupos excluidos
-[LiveWatch] [-] 449 canais filtrados (grupo)
-
-[LiveWatch] --- global ---
-[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    3 listas encontradas
-[LiveWatch] [+] Lista%20Mundial01.m3u (1/3)
-[LiveWatch]    263455 entradas (526912 linhas)
-[LiveWatch] [+] Lista%20Mundial02.m3u (2/3)
-[LiveWatch]    134787 entradas (269575 linhas)
-[LiveWatch] [+] Lista%20Mundial03.m3u (3/3)
-[LiveWatch]    21900 entradas (43801 linhas)
-[LiveWatch] [-] 500 canais indesejados
-[LiveWatch] [*] 739 canais recategorizados
-[LiveWatch] [-] 112 grupos excluidos
-[LiveWatch] [-] 141 canais filtrados (grupo)
-
-[LiveWatch] --- iptv-org ---
-[LiveWatch] [+] channels.json
-[LiveWatch]    40604 registros
-[LiveWatch]    787 canais BR
-[LiveWatch]    782 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    17263 registros
-[LiveWatch]    416 streams
-[LiveWatch] [-] 26 canais indesejados
-[LiveWatch] [*] 30 canais recategorizados
-[LiveWatch] [-] 183 grupos excluidos
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2006 entradas (6658 linhas)
-[LiveWatch] [-] 1301 URLs bloqueadas
-[LiveWatch] [-] 216 canais indesejados
-[LiveWatch] [*] 447 canais recategorizados
-[LiveWatch] [-] 36 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 4271
-[LiveWatch] [*] 2404 nomes normalizados
-[LiveWatch] [-] 18 canais indesejados
-[LiveWatch] [-] 39 duplicatas URL
-[LiveWatch] [*] 1560 conflitos renomeados
-[LiveWatch] [+] Final: 4214 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4214 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4214 canais)
-[LiveWatch] [+] Playlist salva!
+Traceback (most recent call last):
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 636, in <module>
+    main()
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 590, in main
+    entries = fetch_profile_entries(sp)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 475, in fetch_profile_entries
+    sources = discover_github_sources(github_repo, p.get("source_pattern", ""))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 89, in discover_github_sources
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.github.com/repos/Ramys/Iptv-Brasil-2026/contents/
