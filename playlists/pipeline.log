@@ -37,12 +37,11 @@
 [LiveWatch]    377843 entradas (755688 linhas)
 [LiveWatch] [+] CanaisBR05.m3u8 (5/6)
 [LiveWatch]    57 entradas (115 linhas)
-[LiveWatch] [+] CanaisBR06.m3u8 (6/6)
-[LiveWatch]    201436 entradas (402874 linhas)
-[LiveWatch] [-] 2272 canais indesejados
-[LiveWatch] [*] 2353 canais recategorizados
-[LiveWatch] [-] 615 grupos excluidos
-[LiveWatch] [-] 449 canais filtrados (grupo)
+[LiveWatch] [!] HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=30)
+[LiveWatch] [-] 1810 canais indesejados
+[LiveWatch] [*] 1239 canais recategorizados
+[LiveWatch] [-] 522 grupos excluidos
+[LiveWatch] [-] 178 canais filtrados (grupo)
 
 [LiveWatch] --- global ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
@@ -64,11 +63,11 @@
 [LiveWatch]    793 canais BR
 [LiveWatch]    788 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    17472 registros
-[LiveWatch]    416 streams
-[LiveWatch] [-] 26 canais indesejados
+[LiveWatch]    17576 registros
+[LiveWatch]    422 streams
+[LiveWatch] [-] 25 canais indesejados
 [LiveWatch] [*] 30 canais recategorizados
-[LiveWatch] [-] 183 grupos excluidos
+[LiveWatch] [-] 185 grupos excluidos
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
@@ -78,12 +77,12 @@
 [LiveWatch] [*] 446 canais recategorizados
 [LiveWatch] [-] 35 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4271
-[LiveWatch] [*] 2404 nomes normalizados
-[LiveWatch] [-] 18 canais indesejados
+[LiveWatch] [i] Total combinado: 2893
+[LiveWatch] [*] 1190 nomes normalizados
+[LiveWatch] [-] 19 canais indesejados
 [LiveWatch] [-] 39 duplicatas URL
-[LiveWatch] [*] 1560 conflitos renomeados
-[LiveWatch] [+] Final: 4214 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4214 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4214 canais)
+[LiveWatch] [*] 1229 conflitos renomeados
+[LiveWatch] [+] Final: 2835 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (2835 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (2835 canais)
 [LiveWatch] [+] Playlist salva!
