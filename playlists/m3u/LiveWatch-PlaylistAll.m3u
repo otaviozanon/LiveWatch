@@ -2125,6 +2125,8 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/874702.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002377.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES",RUNTIME TV E FILMES GRÁTIS
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
+#EXTINF:-1 group-title="BR | FILMES E SERIES",SERIES CLASSIC
+https://cdn-tiva-video10-logicahost-com-br.smartbit.co/serieclassic/serieclassic/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",SEVEN TV
 https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES",SHOUT! TV
@@ -3319,6 +3321,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=2182
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002348.ts
 #EXTINF:-1 group-title="BR | ESPORTES",MR. OLYMPIA 2025
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/959425.ts
+#EXTINF:-1 group-title="BR | ESPORTES",N SPORTS
+https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",NFL TV
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/93096.ts
 #EXTINF:-1 group-title="BR | ESPORTES",NITRO CIRCUS
@@ -6249,8 +6253,6 @@ https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | EDUCACAO",ISTV
 https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
-#EXTINF:-1 group-title="BR | EDUCACAO",ITV BRAZIL
-https://video24.mais.uol.com.br/live/6146.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO",MANUAL DO MUNDO
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002234.ts
 #EXTINF:-1 group-title="BR | EDUCACAO",MANUAL DO MUNDO [BR]
