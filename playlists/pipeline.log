@@ -31,17 +31,18 @@
 [LiveWatch]    98 entradas (197 linhas)
 [LiveWatch] [+] CanaisBR02.m3u8 (2/6)
 [LiveWatch]    249 entradas (499 linhas)
-[LiveWatch] [!] HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=30)
+[LiveWatch] [+] CanaisBR03.m3u8 (3/6)
+[LiveWatch]    376446 entradas (752894 linhas)
 [LiveWatch] [+] CanaisBR04.m3u8 (4/6)
 [LiveWatch]    377843 entradas (755688 linhas)
 [LiveWatch] [+] CanaisBR05.m3u8 (5/6)
 [LiveWatch]    57 entradas (115 linhas)
 [LiveWatch] [+] CanaisBR06.m3u8 (6/6)
 [LiveWatch]    201436 entradas (402874 linhas)
-[LiveWatch] [-] 1553 canais indesejados
-[LiveWatch] [*] 1735 canais recategorizados
-[LiveWatch] [-] 426 grupos excluidos
-[LiveWatch] [-] 360 canais filtrados (grupo)
+[LiveWatch] [-] 2272 canais indesejados
+[LiveWatch] [*] 2353 canais recategorizados
+[LiveWatch] [-] 615 grupos excluidos
+[LiveWatch] [-] 449 canais filtrados (grupo)
 
 [LiveWatch] --- global ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
@@ -59,7 +60,7 @@
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
-[LiveWatch]    40753 registros
+[LiveWatch]    40763 registros
 [LiveWatch]    813 canais BR
 [LiveWatch]    808 canais validos
 [LiveWatch] [+] streams.json
@@ -77,12 +78,12 @@
 [LiveWatch] [*] 446 canais recategorizados
 [LiveWatch] [-] 35 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 3565
-[LiveWatch] [*] 2166 nomes normalizados
-[LiveWatch] [-] 19 canais indesejados
+[LiveWatch] [i] Total combinado: 4282
+[LiveWatch] [*] 2417 nomes normalizados
+[LiveWatch] [-] 21 canais indesejados
 [LiveWatch] [-] 39 duplicatas URL
-[LiveWatch] [*] 849 conflitos renomeados
-[LiveWatch] [+] Final: 3507 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3507 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3507 canais)
+[LiveWatch] [*] 1564 conflitos renomeados
+[LiveWatch] [+] Final: 4222 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4222 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4222 canais)
 [LiveWatch] [+] Playlist salva!
