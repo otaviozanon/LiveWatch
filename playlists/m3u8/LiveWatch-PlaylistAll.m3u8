@@ -2067,6 +2067,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/566
 https://dns.p2.wtf/rogerio55x/24992611250/296418
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD [6]",HBO 2 HD [6]
 https://megaflix.mgfiles.lat/271358327102dbcb00df1e1b08f2298e/file.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD [7]",HBO 2 HD [7]
+http://streamer.sattvacabo.com.br/HBO2/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 SD",HBO 2 SD
 https://dns.p2.wtf/rogerio55x/24992611250/568
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 SD [2]",HBO 2 SD [2]
@@ -2099,6 +2101,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/573
 https://dns.p2.wtf/rogerio55x/24992611250/296398
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD [6]",HBO FAMILY HD [6]
 https://megaflix.mgfiles.lat/8ea50dc6ffce55fe09cf2468ab78d9c7/file.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD [7]",HBO FAMILY HD [7]
+http://streamer.sattvacabo.com.br/HBO_FAMILY/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY SD",HBO FAMILY SD
 https://dns.p2.wtf/rogerio55x/24992611250/575
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY SD [2]",HBO FAMILY SD [2]
@@ -2128,6 +2132,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/578
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD [5]",HBO HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296400
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD [6]",HBO HD [6]
+http://streamer.sattvacabo.com.br/HBO/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO HD [7]",HBO HD [7]
 https://cr7v.short.gy/ManoTV/temporário/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.br" tvg-name="HBO MAX 01 HD",HBO MAX 01 HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/345808.ts
@@ -2193,6 +2199,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36913.ts
 https://dns.p2.wtf/rogerio55x/24992611250/637
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [5]",HBO MUNDI HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296402
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [6]",HBO MUNDI HD [6]
+https://megaflix.mgfiles.lat/50f842ffcf8176758b9ae65b7d3590f6/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI SD",HBO MUNDI SD
 https://dns.p2.wtf/rogerio55x/24992611250/639
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI SD [2]",HBO MUNDI SD [2]
@@ -2243,6 +2251,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36911.ts
 https://dns.p2.wtf/rogerio55x/24992611250/643
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [5]",HBO POP HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296404
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [6]",HBO POP HD [6]
+https://megaflix.mgfiles.lat/d20678fa48a14a3c8980027d3a1a27d9/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP SD",HBO POP SD
 https://dns.p2.wtf/rogerio55x/24992611250/645
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP SD [2]",HBO POP SD [2]
@@ -2277,6 +2287,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36962.ts
 https://dns.p2.wtf/rogerio55x/24992611250/650
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE HD [5]",HBO SIGNATURE HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296406
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE HD [6]",HBO SIGNATURE HD [6]
+http://streamer.sattvacabo.com.br/HBO_SIGNATURE/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE SD",HBO SIGNATURE SD
 https://dns.p2.wtf/rogerio55x/24992611250/652
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO.Signature.br" tvg-name="HBO SIGNATURE SD [2]",HBO SIGNATURE SD [2]
@@ -2323,6 +2335,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/662
 https://dns.p2.wtf/rogerio55x/24992611250/296410
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD [3]",HBO+ HD [3]
 https://megaflix.mgfiles.lat/d821613ce0d5a46d2cc4d0c322096fba/file.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD [4]",HBO+ HD [4]
+http://streamer.sattvacabo.com.br/HBO_PLUS/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ SD",HBO+ SD
 https://dns.p2.wtf/rogerio55x/24992611250/664
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ SD [2]",HBO+ SD [2]
@@ -2702,7 +2716,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1216
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD [5]",SPACE HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296441
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD [6]",SPACE HD [6]
-https://cdn-5.nxplay.com.br/SPACE_TK/index.m3u8
+http://45.162.64.114/SPACE/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE HD [7]",SPACE HD [7]
 http://15.235.42.84:8088/rj-live/rj-live/600230.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="SPACE.br" tvg-name="SPACE SD",SPACE SD
@@ -3020,8 +3034,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/296447
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [5]",TNT HD [5]
 http://s2.micineovs.com/TNT/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [6]",TNT HD [6]
-https://cdn-5.nxplay.com.br/TNT_TK/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [7]",TNT HD [7]
 http://15.235.42.84:8088/rj-live/rj-live/600255.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS",TNT NOVELAS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37041.ts
@@ -3085,6 +3097,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/1314
 https://dns.p2.wtf/rogerio55x/24992611250/296452
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Conmebol TV 1.br" tvg-name="TV SERIES 1 AS PANTERAS",TV SERIES 1 AS PANTERAS
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL FHD",UNIVERSAL CHANNEL FHD
+https://megaflix.mgfiles.lat/3585e24d4ab7065fee86f7bb846a54c2/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
 http://79.127.243.211:14623/
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Universal HD.br" tvg-name="UNIVERSAL PREMIUM",UNIVERSAL PREMIUM
@@ -3706,7 +3720,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296550
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 HD [5]",ESPN 2 HD [5]
 http://46.151.196.223:14438/
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 HD [6]",ESPN 2 HD [6]
-http://cdn-5.nxplay.com.br/ESPN_2/index.m3u8
+http://45.162.231.38:7779/ESPN_2/mpegts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 SD",ESPN 2 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296551
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 UHD",ESPN 2 UHD
@@ -3742,7 +3756,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/296552
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 HD [5]",ESPN 3 HD [5]
 http://46.151.196.223:14444/
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 HD [6]",ESPN 3 HD [6]
-http://cdn-5.nxplay.com.br/ESPN_3/index.m3u8
+http://45.162.231.38:7779/ESPN_3/mpegts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 SD",ESPN 3 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296553
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 UHD",ESPN 3 UHD
@@ -3782,9 +3796,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/489
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD [6]",ESPN 4 HD [6]
 https://dns.p2.wtf/rogerio55x/24992611250/296554
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD [7]",ESPN 4 HD [7]
-http://79.127.243.211:14514/
+http://45.162.64.114:80/ESPN_4/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 HD [8]",ESPN 4 HD [8]
-http://cdn-5.nxplay.com.br/ESPN_4/index.m3u8
+http://45.162.231.38:7779/ESPN_4/mpegts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 SD",ESPN 4 SD
 https://dns.p2.wtf/rogerio55x/24992611250/491
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 4.br" tvg-name="ESPN 4 SD [2]",ESPN 4 SD [2]
@@ -3816,7 +3830,7 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36971.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 HD [4]",ESPN 5 HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/296556
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 HD [5]",ESPN 5 HD [5]
-https://cdn-5.nxplay.com.br/ESPN_5/index.m3u8
+https://megaflix.mgfiles.lat/4e42f95b4cc1a8b1316f7e4c52989657/file.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 HD ALT",ESPN 5 HD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/497
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.5.br" tvg-name="ESPN 5 SD",ESPN 5 SD
@@ -3844,7 +3858,7 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/129623.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 HD [4]",ESPN 6 HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/296558
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 HD [5]",ESPN 6 HD [5]
-http://hls1.sua.tv:80/live/espnextrafhd/s.m3u8
+https://megaflix.mgfiles.lat/730819b0cede3fe174177d6c7bab1285/file.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.6.br" tvg-name="ESPN 6 SD",ESPN 6 SD
 https://dns.p2.wtf/rogerio55x/24992611250/296559
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN [2]",ESPN [2]
@@ -7206,7 +7220,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/209
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [5]",CARTOONITO HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296390
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [6]",CARTOONITO HD [6]
-https://cdn-5.nxplay.com.br/CARTOONITO_TK/index.m3u8
+http://45.162.231.38:7779/Cartoonito/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD",CARTOONITO SD
 https://dns.p2.wtf/rogerio55x/24992611250/211
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [2]",CARTOONITO SD [2]
@@ -7439,6 +7453,8 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1612.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63647.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [4]",TOONCAST HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/1255534
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [5]",TOONCAST HD [5]
+http://streamer.sattvacabo.com.br/TOONCAST/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD ALT",TOONCAST HD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/1255537
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST SD",TOONCAST SD
