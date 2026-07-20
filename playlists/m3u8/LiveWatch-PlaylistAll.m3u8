@@ -3951,20 +3951,20 @@ http://joyfrvr.cc:80/A978574088832/w6uSSe6c/531874.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956911.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD",GE TV FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956910.ts
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD (SAMSUNGTV)",GE TV FHD (SAMSUNGTV)
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/1080p-vtt/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD (TCL TV)",GE TV FHD (TCL TV)
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD [2]",GE TV FHD [2]
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/1080p-vtt/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD",GE TV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/3109925.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (SAMSUNGTV)",GE TV HD (SAMSUNGTV)
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (TCL TV)",GE TV HD (TCL TV)
+https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/720p-cc/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD [2]",GE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3109925.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD [3]",GE TV HD [3]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956406.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD [4]",GE TV HD [4]
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/720p-cc/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="GE.br" tvg-name="GE TV SD",GE TV SD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/956912.ts
 #EXTINF:-1 group-title="BR | ESPORTES",GEFAST [BR]
@@ -3983,6 +3983,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/115355.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/935081.ts
 #EXTINF:-1 group-title="BR | ESPORTES",LA LIGA
 https://d3bb58xoj568xi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=ESBD3600001Q1
+#EXTINF:-1 group-title="BR | ESPORTES",MAX 5
+https://cr7v.short.gy/live/JOGOO8/Index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",MAX 5 (A)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91220.ts
 #EXTINF:-1 group-title="BR | ESPORTES",MMA TV
@@ -4219,8 +4221,6 @@ https://dns.p2.wtf/rogerio55x/24992611250/1229
 https://dns.p2.wtf/rogerio55x/24992611250/305201
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD",SPORTV HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/765080.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [10]",SPORTV HD [10]
-https://cr7v.short.gy/ManoTVfree/SPOREXTRA/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [2]",SPORTV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/765080.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [3]",SPORTV HD [3]
@@ -4230,13 +4230,11 @@ https://dns.p2.wtf/rogerio55x/24992611250/1231
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [5]",SPORTV HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296206
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [6]",SPORTV HD [6]
-http://s2.micineovs.com/SPTV1/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [7]",SPORTV HD [7]
-http://46.151.196.223:14286/
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [8]",SPORTV HD [8]
 https://cr7v.short.gy/manoiTVOP1/sptv1/75991634025/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [9]",SPORTV HD [9]
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [7]",SPORTV HD [7]
 https://cr7v.short.gy/manoiTVOP3/sptvxtra2/75991634025/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD [8]",SPORTV HD [8]
+https://cr7v.short.gy/ManoTVfree/SPOREXTRA/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV HD ALT",SPORTV HD ALT
 https://dns.p2.wtf/rogerio55x/24992611250/305203
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.br" tvg-name="SPORTV SD",SPORTV SD
@@ -5059,10 +5057,6 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/883285.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/883285.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",CAZE TV HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/437715.ts
-#EXTINF:-1 group-title="BR | PAY PER VIEW",CAZÉ TV YT
-https://cr7v.short.gy/live/JOGOO8/Index.m3u8
-#EXTINF:-1 group-title="BR | PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="CAZÉ TV YT 2",CAZÉ TV YT 2
-https://cr7v.short.gy/ManoTV/index.m3u8
 #EXTINF:-1 group-title="BR | PAY PER VIEW",CINE AÇÃO 04 (GLOBOPLAY)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/68471.ts
 #EXTINF:-1 group-title="BR | PAY PER VIEW",CINE COMÉDIA 04 (GLOBOPLAY)
