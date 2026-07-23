@@ -21,6 +21,14 @@ http://170.83.16.50:80/HISTORY/index.m3u8
 https://tv.laboralsst.com.br/hls/stream.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="National Geographic.br" tvg-name="NATIONAL GEOGRAPHIC",NATIONAL GEOGRAPHIC
 http://167.250.126.140:7777/NATGEO-HD/index.m3u8
+#EXTINF:-1 group-title="BR | NOVOS",PODPAH TV
+https://ogc-ppah-samsungtvplus-br.otteravision.com/ogc/ppah/ppah.m3u8
+#EXTINF:-1 group-title="BR | NOVOS",RADAR TV
+https://video01.logicahost.com.br/fcvtv/fcvtv/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOVOS" tvg-id="TeleSur.br" tvg-name="TELESUR",TELESUR
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+#EXTINF:-1 group-title="BR | NOVOS",TV ZIMBO
+https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 #EXTINF:-1 group-title="BR | 24H",,🔴 OS SIMPSONS 24H
 http://15.235.9.200:14984/
 #EXTINF:-1 group-title="BR | 24H",24 HORAS: A GRANDE FAMILIA
@@ -3671,6 +3679,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/168143.ts
 http://joyfrvr.cc:80/lourenco123/lourenco123/532258.ts
 #EXTINF:-1 group-title="BR | ESPORTES",CANAL DO VOLEI 01 HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/532258.ts
+#EXTINF:-1 group-title="BR | ESPORTES",CANAL GOAT
+https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES",CANAL GOAT 01 (A)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/133438.ts
 #EXTINF:-1 group-title="BR | ESPORTES",CANAL GOAT 01 (B)
@@ -4035,8 +4045,6 @@ https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/93096.ts
 #EXTINF:-1 group-title="BR | ESPORTES",NITRO CIRCUS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002260.ts
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="NSports.br" tvg-name="NSPORTS",NSPORTS
-https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS 1 PPV HD",NSPORTS 1 PPV HD
 https://dns.p2.wtf/rogerio55x/24992611250/812
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS 2 PPV HD",NSPORTS 2 PPV HD
@@ -4053,12 +4061,16 @@ https://dns.p2.wtf/rogerio55x/24992611250/818
 https://dns.p2.wtf/rogerio55x/24992611250/819
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS FHD",NSPORTS FHD
 https://dns.p2.wtf/rogerio55x/24992611250/296484
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS FHD [2]",NSPORTS FHD [2]
+https://cc-zv5hyc9jj47n5.akamaized.net/ogc/nsprt/nsprt_h265.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS HD",NSPORTS HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/753617.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS HD [2]",NSPORTS HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/753617.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS HD [3]",NSPORTS HD [3]
 https://dns.p2.wtf/rogerio55x/24992611250/296485
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Nsports HD.br" tvg-name="NSPORTS HD [4]",NSPORTS HD [4]
+https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_720p.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF",OFF
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37063.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Off.br" tvg-name="OFF FHD",OFF FHD
