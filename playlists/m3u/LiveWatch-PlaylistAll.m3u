@@ -5918,6 +5918,8 @@ https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/ind
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [2]",JOVEM PAN NEWS [2]
 http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [3]",JOVEM PAN NEWS [3]
+http://186.219.52.187:80/jp_news/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [4]",JOVEM PAN NEWS [4]
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD (A)",JOVEM PAN NEWS FHD (A)
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/83444.ts
@@ -5990,8 +5992,10 @@ http://170.83.49.66:8083/RECORDNEWSHD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [13]",RECORD NEWS [13]
 http://170.84.165.204:80/Record_news/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [14]",RECORD NEWS [14]
-https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
+http://186.219.52.187:80/record_news/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [15]",RECORD NEWS [15]
+https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [16]",RECORD NEWS [16]
 https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [2]",RECORD NEWS [2]
 https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
@@ -7343,6 +7347,8 @@ http://167.250.126.140:7777/ZOOMOO-HD/index.m3u8
 http://168.197.104.22:80/ZOOMOO/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [6]",DUMDUM [6]
 http://138.255.2.6:8084/ZOOMOO/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [7]",DUMDUM [7]
+http://186.219.52.187:80/zoomoo/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM FHD",DUMDUM FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/63778.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM HD",DUMDUM HD
@@ -7578,6 +7584,8 @@ http://138.255.2.6:8084/FUTURA/index.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="CANAL FUTURA [3]",CANAL FUTURA [3]
 http://170.83.16.50:80/FUTURA/index.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="CANAL FUTURA [4]",CANAL FUTURA [4]
+http://186.219.52.187:80/futura/index.m3u8
+#EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="CANAL FUTURA [5]",CANAL FUTURA [5]
 https://tv.unisc.br/hls/test.m3u8
 #EXTINF:-1 group-title="BR | EDUCACAO" tvg-id="São.Paulo/SP..Futura.br" tvg-name="CANAL FUTURA HD",CANAL FUTURA HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/339440.ts
@@ -7669,6 +7677,8 @@ http://168.197.104.22:80/AGRO_CANAL/index.m3u8
 http://45.177.114.115:80/AGRO_CANAL/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE",AGROCANAL [6]
 http://170.83.49.66:8083/AGROCANALHD/index.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE",AGROCANAL [7]
+http://186.219.52.187:80/agro_canal/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS",AGROMAIS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/90975.ts
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [2]",AGROMAIS [2]
@@ -7711,6 +7721,8 @@ http://45.177.114.115:80/CANAL_DO_BOI/index.m3u8
 http://170.83.16.50:80/CANAL_DO_BOI/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI [8]",CANAL DO BOI [8]
 http://170.83.49.66:8083/CANALDOBOIHD/index.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI [9]",CANAL DO BOI [9]
+http://186.219.52.187:80/canal_do_boi/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI FHD",CANAL DO BOI FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91567.ts
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI HD",CANAL DO BOI HD
@@ -7733,6 +7745,8 @@ https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
 https://cdn2.easy.tv.br/canalrural/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL [4]",CANAL RURAL [4]
 http://170.83.49.66:8083/CANALRURALHD/index.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL [5]",CANAL RURAL [5]
+http://186.219.52.187:80/canal_rural/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD",CANAL RURAL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/338098.ts
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.Rural.br" tvg-name="CANAL RURAL HD [2]",CANAL RURAL HD [2]
@@ -7757,6 +7771,8 @@ http://138.255.2.6:8084/FISHTV/index.m3u8
 http://170.83.16.50:80/FISH_TV/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [8]",FISH TV [8]
 http://170.83.49.66:8083/FISHTVHD/index.m3u8
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [9]",FISH TV [9]
+http://186.219.52.187:80/fishtv/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE",RURAL NOAR
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/215346.ts
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA [2]",TERRA VIVA [2]
@@ -7873,6 +7889,8 @@ http://168.197.104.22:80/NOVO_TEMPO/index.m3u8
 http://138.255.2.6:8084/TVNOVOTEMPO/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo HD.br" tvg-name="NOVO TEMPO [6]",NOVO TEMPO [6]
 http://170.83.49.66:8083/TVNOVOTEMPOHD/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Novo Tempo HD.br" tvg-name="NOVO TEMPO [7]",NOVO TEMPO [7]
+http://186.219.52.187:80/novo_tempo/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",NUEVO TIEMPO
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS",PLENITUDE TV
@@ -7912,6 +7930,8 @@ http://45.162.64.114/REDE_SECULO_21/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE SECULO 21 [2]",REDE SECULO 21 [2]
 http://138.255.2.6:8084/REDESECULO21/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE SECULO 21 [3]",REDE SECULO 21 [3]
+http://186.219.52.187:80/seculo21/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE SECULO 21 [4]",REDE SECULO 21 [4]
 https://cdn.live.br1.jmvstream.com/w/LVW-19954/LVW19954_V2nXt9iI2m/chunklist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.21.br" tvg-name="REDE SÉCULO 21 FHD",REDE SÉCULO 21 FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/91505.ts
@@ -7946,6 +7966,8 @@ http://170.83.49.66:8083/REDEVIDAHD/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA [7]",REDE VIDA [7]
 http://170.84.165.204:80/REDEVIDA_HD/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA [8]",REDE VIDA [8]
+http://186.219.52.187:80/rede_vida/index.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA [9]",REDE VIDA [9]
 https://aovivo.doozytv.com.br/31025556/10150829/chunks.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Vida.br" tvg-name="REDE VIDA EDUCACAO HD",REDE VIDA EDUCACAO HD
 https://dns.p2.wtf/rogerio55x/24992611250/1121
@@ -8047,6 +8069,8 @@ http://joyfrvr.cc:80/lourenco123/lourenco123/3579011.ts
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/3579011.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR",TV EVANGELIZAR
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/40072.ts
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR [10]",TV EVANGELIZAR [10]
+https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR [2]",TV EVANGELIZAR [2]
 http://45.162.64.114/EVANGELIZAR/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR [3]",TV EVANGELIZAR [3]
@@ -8062,7 +8086,7 @@ http://170.83.16.50:80/TV_EVANGELIZAR/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR [8]",TV EVANGELIZAR [8]
 http://170.83.49.66:8083/EVANGELIZARHD/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR [9]",TV EVANGELIZAR [9]
-https://tvevangelizar.brasilstream.com.br/hls/tvevangelizar/index.m3u8
+http://186.219.52.187:80/tv_evangelizar/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR HD",TV EVANGELIZAR HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/27468.ts
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="TV Evangelizar.br" tvg-name="TV EVANGELIZAR HD [2]",TV EVANGELIZAR HD [2]
