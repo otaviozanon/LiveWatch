@@ -4835,6 +4835,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/296640
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",SATO + [BR]
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002351.ts
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",SHOW DO MILHAO
+https://d38s7rrdbnh4oy.cloudfront.net/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-Saudades/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",SOU TV.
 https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="TBS.br" tvg-name="TBS H265",TBS H265
@@ -7505,6 +7507,8 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/1002332.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/41359.ts
 #EXTINF:-1 group-title="BR | INFANTIS",RAKUTEN FAMÍLIA
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8?ManoTV
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT KIDS",SBT KIDS
+https://8994803e454548319ffc0775bc04e0c1.mediatailor.us-east-1.amazonaws.com/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-TVZyn/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS",SONIC
 https://d1si3n1st4nkgb.cloudfront.net/10000/88876021/hls/master.m3u8?ads.xumo_channelId=88876021
 #EXTINF:-1 group-title="BR | INFANTIS",SONIC THE HEDGEHOG
