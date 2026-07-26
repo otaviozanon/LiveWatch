@@ -7928,6 +7928,8 @@ http://45.177.114.115:80/REDE_GOSPEL/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL [4]",REDE GOSPEL [4]
 http://170.83.49.66:8083/REDEGOSPELHD/index.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL [5]",REDE GOSPEL [5]
+https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+#EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL [6]",REDE GOSPEL [6]
 https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 #EXTINF:-1 group-title="BR | RELIGIOSOS" tvg-id="São.Paulo/SP..Rede.Gospel.br" tvg-name="REDE GOSPEL HD",REDE GOSPEL HD
 http://joyfrvr.cc:80/lourenco123/lourenco123/339456.ts
