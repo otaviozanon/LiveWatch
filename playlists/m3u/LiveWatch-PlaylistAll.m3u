@@ -21,8 +21,6 @@ http://170.83.16.50:80/HISTORY/index.m3u8
 https://tv.laboralsst.com.br/hls/stream.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="National Geographic.br" tvg-name="NATIONAL GEOGRAPHIC",NATIONAL GEOGRAPHIC
 http://167.250.126.140:7777/NATGEO-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOVOS",PODPAH TV
-https://ogc-ppah-samsungtvplus-br.otteravision.com/ogc/ppah/ppah.m3u8
 #EXTINF:-1 group-title="BR | NOVOS",RADAR TV
 https://video01.logicahost.com.br/fcvtv/fcvtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="TeleSur.br" tvg-name="TELESUR",TELESUR
@@ -1467,8 +1465,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38381.ts
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/986833.ts
 #EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Curitiba HD.br" tvg-name="RPC CURITIBA HD",RPC CURITIBA HD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/42961.ts
-#EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Curitiba HD.br" tvg-name="RPC CURITIBA HD [2]",RPC CURITIBA HD [2]
-http://15.235.42.84:8088/rj-live/rj-live/600220.ts
 #EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Foz do Iguaçu HD.br" tvg-name="RPC FOZ DO IGUAÇU",RPC FOZ DO IGUAÇU
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/42972.ts
 #EXTINF:-1 group-title="BR | GLOBO" tvg-id="RPC Foz do Iguaçu HD.br" tvg-name="RPC FOZ DO IGUAÇU FHD",RPC FOZ DO IGUAÇU FHD
@@ -1692,7 +1688,7 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37130.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E FHD",A&E FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/40263.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E FHD [2]",A&E FHD [2]
-http://148.113.209.34:80/rj-live/rj-live/600001.ts
+http://streamer.sattvacabo.com.br/AE_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E H265",A&E H265
 http://joyfrvr.cc:80/lourenco123/lourenco123/765087.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="A&E.br" tvg-name="A&E H265 [2]",A&E H265 [2]
@@ -2780,7 +2776,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1244
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD [5]",STUDIO UNIVERSAL HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296443
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD [6]",STUDIO UNIVERSAL HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600239.ts
+https://megaflix.mgfiles.lat/645cecb3b7efd64117cbdefaa07a8eaa/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL SD",STUDIO UNIVERSAL SD
 https://dns.p2.wtf/rogerio55x/24992611250/1246
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL SD [2]",STUDIO UNIVERSAL SD [2]
@@ -2840,9 +2836,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/1258
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [5]",TELECINE ACTION HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296187
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [6]",TELECINE ACTION HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600241.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [7]",TELECINE ACTION HD [7]
 http://46.151.196.223:14326/
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [7]",TELECINE ACTION HD [7]
+https://megaflix.mgfiles.lat/a29201ef747ac899f4e887770f76dc15/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION SD",TELECINE ACTION SD
 https://dns.p2.wtf/rogerio55x/24992611250/1260
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION SD [2]",TELECINE ACTION SD [2]
@@ -2880,7 +2876,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1264
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT HD [5]",TELECINE CULT HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296200
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT HD [6]",TELECINE CULT HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600243.ts
+https://megaflix.mgfiles.lat/ccd1fb9d27cc8388fd1b4499ba20b971/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT SD",TELECINE CULT SD
 https://dns.p2.wtf/rogerio55x/24992611250/1266
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT SD [2]",TELECINE CULT SD [2]
@@ -2912,7 +2908,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1270
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN HD [5]",TELECINE FUN HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296190
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN HD [6]",TELECINE FUN HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600245.ts
+https://megaflix.mgfiles.lat/bad399e5a33268e551aa6d1c5bfbfda0/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN SD",TELECINE FUN SD
 https://dns.p2.wtf/rogerio55x/24992611250/1272
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN SD [2]",TELECINE FUN SD [2]
@@ -3028,7 +3024,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1288
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH HD [5]",TELECINE TOUCH HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296196
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH HD [6]",TELECINE TOUCH HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600250.ts
+https://megaflix.mgfiles.lat/34f4b5965b98afabeaa49f3d96533a56/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH SD",TELECINE TOUCH SD
 https://dns.p2.wtf/rogerio55x/24992611250/1290
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH SD [2]",TELECINE TOUCH SD [2]
@@ -3064,7 +3060,9 @@ https://dns.p2.wtf/rogerio55x/24992611250/296447
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [5]",TNT HD [5]
 http://s2.micineovs.com/TNT/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [6]",TNT HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600255.ts
+http://streamer.sattvacabo.com.br/TNT_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD [7]",TNT HD [7]
+https://megaflix.mgfiles.lat/c794c0d7dcd2186c964b895fcde20767/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS",TNT NOVELAS
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37041.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS FHD",TNT NOVELAS FHD
@@ -3088,7 +3086,7 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36940.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS HD [4]",TNT NOVELAS HD [4]
 https://dns.p2.wtf/rogerio55x/24992611250/296448
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS HD [5]",TNT NOVELAS HD [5]
-http://15.235.42.84:8088/rj-live/rj-live/600256.ts
+https://megaflix.mgfiles.lat/483d948d625b1ac4182c3d6f2266d9ce/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Novelas.br" tvg-name="TNT NOVELAS SD",TNT NOVELAS SD
 https://dns.p2.wtf/rogerio55x/24992611250/296449
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT SD",TNT SD
@@ -3116,7 +3114,7 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/36933.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES HD [2]",TNT SERIES HD [2]
 http://joyfrvr.cc:80/A978574088832/w6uSSe6c/1611.ts
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SÉRIES HD [2]",TNT SÉRIES HD [2]
-http://15.235.42.84:8088/rj-live/rj-live/600258.ts
+https://megaflix.mgfiles.lat/99fc317843d1489f98b20aed3bf259e1/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES HD [3]",TNT SERIES HD [3]
 https://dns.p2.wtf/rogerio55x/24992611250/1312
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.Séries.br" tvg-name="TNT SERIES HD [4]",TNT SERIES HD [4]
@@ -4180,7 +4178,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1221
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD [5]",SPORTV 2 HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296209
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD [6]",SPORTV 2 HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600234.ts
+http://s2.micineovs.com/SPTV2/index.m3u8?token=16FOTt9Ae2m8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 SD",SPORTV 2 SD
 https://dns.p2.wtf/rogerio55x/24992611250/1223
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 SD [2]",SPORTV 2 SD [2]
@@ -4197,8 +4195,6 @@ http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/37006.ts
 https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 [3]",SPORTV 3 [3]
 http://170.83.49.66:8083/SPORTV3HD/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 F1 AO VIVO",SPORTV 3 F1 AO VIVO
-https://cr7v.short.gy/FuncionaSoquandoTemF1/ManoTVfree.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 FHD",SPORTV 3 FHD
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/38394.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 H265",SPORTV 3 H265
@@ -4220,7 +4216,7 @@ https://dns.p2.wtf/rogerio55x/24992611250/1226
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD [5]",SPORTV 3 HD [5]
 https://dns.p2.wtf/rogerio55x/24992611250/296212
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD [6]",SPORTV 3 HD [6]
-http://15.235.42.84:8088/rj-live/rj-live/600236.ts
+https://cr7v.short.gy/FuncionaSoquandoTemF1/ManoTVfree.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 SD",SPORTV 3 SD
 https://dns.p2.wtf/rogerio55x/24992611250/1228
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 SD [2]",SPORTV 3 SD [2]
@@ -4771,6 +4767,8 @@ https://dns.p2.wtf/rogerio55x/24992611250/844
 http://play.pollarplay.com/live/Nilson333/xa2jecuvoi/952078.ts
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV SD",PLAY TV SD
 https://dns.p2.wtf/rogerio55x/24992611250/845
+#EXTINF:-1 group-title="BR | ENTRETENIMENTO",PODPAH TV
+https://ogc-ppah-samsungtvplus-br.otteravision.com/ogc/ppah/ppah.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Polishop.br" tvg-name="POLISHOP SD",POLISHOP SD
 https://dns.p2.wtf/rogerio55x/24992611250/857
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..Polishop.TV.br" tvg-name="POLISHOP TV",POLISHOP TV
