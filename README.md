@@ -2,7 +2,9 @@
 
 Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U/JSON playlists, filters unwanted content, deduplicates, and publishes merged playlists. Triggered from a terminal-style web dashboard or cron.
 
-https://ozlivewatch.pages.dev
+<p align="center">
+  <a href="https://ozlivewatch.pages.dev/"><strong>Live Watch</strong></a>
+</p>
 
 ## Quick Start (Windows)
 
