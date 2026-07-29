@@ -5,8 +5,6 @@ http://45.190.28.50/CHEF_TV/index.m3u8
 http://168.197.104.22:80/CHEF_TV/index.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV",FASHIONTV
 http://45.190.28.50/FASHION_TV_HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOVOS" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV [2]",FASHIONTV [2]
-http://167.250.126.140:7777/FASHIONTV-HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="History.Channel.br" tvg-name="HISTORY",HISTORY
 http://45.190.28.50/HISTORY_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="History.Channel.br" tvg-name="HISTORY [2]",HISTORY [2]
@@ -19,8 +17,6 @@ http://45.177.114.114:80/HISTORY/index.m3u8
 http://170.83.16.50:80/HISTORY/index.m3u8
 #EXTINF:-1 group-title="BR | NOVOS",LABORAL TV
 https://tv.laboralsst.com.br/hls/stream.m3u8
-#EXTINF:-1 group-title="BR | NOVOS" tvg-id="National Geographic.br" tvg-name="NATIONAL GEOGRAPHIC",NATIONAL GEOGRAPHIC
-http://167.250.126.140:7777/NATGEO-HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOVOS",RADAR TV
 https://video01.logicahost.com.br/fcvtv/fcvtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOVOS" tvg-id="TeleSur.br" tvg-name="TELESUR",TELESUR
@@ -294,7 +290,7 @@ https://cdn-tiva-video10-logicahost-com-br.smartbit.co/serieclassic/serieclassic
 #EXTINF:-1 group-title="BR | FILMES E SERIES",SEVEN TV
 https://stmv1.srvif.com/seventv/seventv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY CHANNEL HD",SONY CHANNEL HD
-http://streamer.sattvacabo.com.br/SONY_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
+https://megaflix.mgfiles.lat/93cb77850b77a9a454a853cb38158f55/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES",SONY MOVIES
 http://45.162.64.114/SONY_MOVIES/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES [2]",SONY MOVIES [2]
@@ -323,30 +319,18 @@ http://15.235.42.84:8088/rj-live/rj-live/600230.ts
 https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD",STUDIO UNIVERSAL HD
 https://megaflix.mgfiles.lat/645cecb3b7efd64117cbdefaa07a8eaa/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION",TELECINE ACTION
-http://167.250.126.140:7777/TCACTION-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD",TELECINE ACTION HD
 http://46.151.196.223:14326/
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Action.br" tvg-name="TELECINE ACTION HD [2]",TELECINE ACTION HD [2]
 https://megaflix.mgfiles.lat/a29201ef747ac899f4e887770f76dc15/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT",TELECINE CULT
-http://167.250.126.140:7777/TCCULT-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Cult.br" tvg-name="TELECINE CULT HD",TELECINE CULT HD
 https://megaflix.mgfiles.lat/ccd1fb9d27cc8388fd1b4499ba20b971/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN",TELECINE FUN
-http://167.250.126.140:7777/TCFUN-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Fun.br" tvg-name="TELECINE FUN HD",TELECINE FUN HD
 https://megaflix.mgfiles.lat/bad399e5a33268e551aa6d1c5bfbfda0/file.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA",TELECINE PIPOCA
-http://167.250.126.140:7777/TCPIPOCA-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Pipoca.br" tvg-name="TELECINE PIPOCA HD",TELECINE PIPOCA HD
 http://s2.micineovs.com/TELECINEPIPOCA/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM",TELECINE PREMIUM
-http://167.250.126.140:7777/TCPREMIUM-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Premium.br" tvg-name="TELECINE PREMIUM HD",TELECINE PREMIUM HD
 http://s2.micineovs.com/TELECINEPREMIUM/index.m3u8?token=16FOTt9Ae2m8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH",TELECINE TOUCH
-http://167.250.126.140:7777/TELECINETOUCH-HD/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Telecine.Touch.br" tvg-name="TELECINE TOUCH HD",TELECINE TOUCH HD
 https://megaflix.mgfiles.lat/34f4b5965b98afabeaa49f3d96533a56/file.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="TNT.br" tvg-name="TNT HD",TNT HD
@@ -404,14 +388,12 @@ http://45.162.64.114/BAND_SPORTS/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [3]",BAND SPORTS [3]
 http://45.190.28.50/BAND_SPORTS_HD/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [4]",BAND SPORTS [4]
-http://167.250.126.140:7777/BANDSPORTS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [5]",BAND SPORTS [5]
 http://168.197.104.22:80/BANS_SPORTS/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [6]",BAND SPORTS [6]
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [5]",BAND SPORTS [5]
 http://138.255.2.6:8084/BANDSPORTS/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [7]",BAND SPORTS [7]
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [6]",BAND SPORTS [6]
 http://170.83.16.50:80/BAND_SPORTS/index.m3u8
-#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [8]",BAND SPORTS [8]
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS [7]",BAND SPORTS [7]
 http://170.83.49.66:8083/BANDSPORTSHD/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="Band.Sports.br" tvg-name="BAND SPORTS HD",BAND SPORTS HD
 http://185.152.67.187:14474/
@@ -601,8 +583,6 @@ https://tv02.zas.media:1936/lasstv/lasstv/playlist.m3u8
 https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",MAISUM
 https://stream.ichibantv.com:3230/hybrid/play.m3u8
-#EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW",MULTISHOW
-http://167.250.126.140:7777/MULTISHOW-HD/index.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO" tvg-id="Multishow.br" tvg-name="MULTISHOW HD",MULTISHOW HD
 https://megaflix.mgfiles.lat/967dc441704ce68263139f1f50b6b530/file.m3u8
 #EXTINF:-1 group-title="BR | ENTRETENIMENTO",OLHA TV
@@ -736,16 +716,14 @@ http://45.162.64.114/BAND_NEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [3]",BANDNEWS [3]
 http://45.190.28.50/BAND_NEWS_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [4]",BANDNEWS [4]
-http://167.250.126.140:7777/BANDNEWS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [5]",BANDNEWS [5]
 http://177.52.24.163/BAND-NEWS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [6]",BANDNEWS [6]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [5]",BANDNEWS [5]
 http://168.197.104.22:80/BAND_NEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [7]",BANDNEWS [7]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [6]",BANDNEWS [6]
 http://45.177.114.115:80/BAND_NEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [8]",BANDNEWS [8]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [7]",BANDNEWS [7]
 http://170.83.16.50:80/BAND_NEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [9]",BANDNEWS [9]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Bandnews.br" tvg-name="BANDNEWS [8]",BANDNEWS [8]
 http://170.83.49.66:8083/BANDNEWSHD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",BM&C NEWS
 https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
@@ -778,13 +756,9 @@ http://79.127.238.228:14093/
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GLOBONEWS",GLOBONEWS
 http://41.205.70.146/GLOBONEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GLOBONEWS [2]",GLOBONEWS [2]
-http://167.250.126.140:7777/GLOBONEWS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GloboNews.br" tvg-name="GLOBONEWS [3]",GLOBONEWS [3]
 http://177.52.24.163/GLOBO-NEWS-HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT",GNT
 http://170.82.202.31/GNT/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="GNT.br" tvg-name="GNT [2]",GNT [2]
-http://167.250.126.140:7777/GNT-HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS",J3NEWS TV
 https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS",JOVEM PAN NEWS
@@ -808,33 +782,31 @@ https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS",RECORD NEWS
 https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [10]",RECORD NEWS [10]
-http://170.83.16.50:80/RECORD_NEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [11]",RECORD NEWS [11]
 http://170.83.49.66:8083/RECORDNEWSHD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [12]",RECORD NEWS [12]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [11]",RECORD NEWS [11]
 http://170.84.165.204:80/Record_news/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [13]",RECORD NEWS [13]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [12]",RECORD NEWS [12]
 http://186.219.52.187:80/record_news/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [14]",RECORD NEWS [14]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [13]",RECORD NEWS [13]
 https://rnw-rn-samsungtvplus.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [15]",RECORD NEWS [15]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [14]",RECORD NEWS [14]
 https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [2]",RECORD NEWS [2]
 http://45.162.64.114/RECORD_NEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [3]",RECORD NEWS [3]
 http://45.190.28.50/RECORD_NEWS_HD/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [4]",RECORD NEWS [4]
-http://167.250.126.140:7777/RECORDNEWS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [5]",RECORD NEWS [5]
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [6]",RECORD NEWS [6]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [5]",RECORD NEWS [5]
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [7]",RECORD NEWS [7]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [6]",RECORD NEWS [6]
 http://168.197.104.22:80/RECORD_NEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [8]",RECORD NEWS [8]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [7]",RECORD NEWS [7]
 http://138.255.2.6:8084/RECORDNEWS/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [9]",RECORD NEWS [9]
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [8]",RECORD NEWS [8]
 http://45.177.114.115:80/RECORD_NEWS/index.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [9]",RECORD NEWS [9]
+http://170.83.16.50:80/RECORD_NEWS/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS HD",RECORD NEWS HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=5431&avod=1&coppa=0&is_lat=0&dnt=0&us_privacy=1YN-&did=9794a1b041ad875093e398bc1632460a&app_bundle=com.ammo.runtime&app_store_url=https%3A%2F%2Fwww.runtime.tv%2Fdevices&app_domain=runtime.tv&app_name=runtime&custom_targeting=web&custom_4=internal&h=720&w=1280&content_channel=runtime&content_dist_name=internal&device_make=&device_model=&preferred_language=EN&consent=1&gdpr=0&custom_12=0&custom_15=pt-br&custom_16=EN&custom_17=en&site_page=https%253A%252F%252Fwww.runtime.tv%252F&gender=not_specified&yob=0&livestream=1&custom_param_0=&custom_param_1=handset&custom_param_2=&custom_param_3=&custom_param_4=internal&custom_param_5=web&custom_param_6=South%2520America&timestamp=1688604990&id=11709&ip=138.185.238.172&override_expiration=1500&sign=z%2BA66gwNz60ZptKvp8RUzKwjztJdlXb4BFuJDdDAARg%3D
 #EXTINF:-1 group-title="BR | NOTICIAS",RESUMO DA ÓPERA
@@ -842,8 +814,6 @@ https://011news.akamaized.net/011news/011news/chunklist_480p.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Spectrum.News.1.-.Austin.us2" tvg-name="RS NEWS WEBTV 1",RS NEWS WEBTV 1
 https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NEWS",SBT NEWS
-http://167.250.126.140:7777/COMEDYCENTRAL-HD/index.m3u8
-#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NEWS [2]",SBT NEWS [2]
 https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="TCM.br" tvg-name="TCM 10 HD",TCM 10 HD
 https://live.tcm10.com.br/tcm10hd/stream.m3u8
@@ -898,12 +868,10 @@ https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL",MUSIC BOX BRAZIL
 http://45.190.28.50/MUSIC_BOX_HD/index.m3u8
 #EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [2]",MUSIC BOX BRAZIL [2]
-http://167.250.126.140:7777/MUSICBOXBRASIL-HD/index.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [3]",MUSIC BOX BRAZIL [3]
 http://168.197.104.22:80/MUSIC/index.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [4]",MUSIC BOX BRAZIL [4]
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [3]",MUSIC BOX BRAZIL [3]
 http://138.255.2.6:8084/MUSICBOXBRASIL/index.m3u8
-#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [5]",MUSIC BOX BRAZIL [5]
+#EXTINF:-1 group-title="BR | MUSICAS" tvg-id="Music.Box.Brazil.br" tvg-name="MUSIC BOX BRAZIL [4]",MUSIC BOX BRAZIL [4]
 http://170.83.49.66:8083/MUSICBOXBRASILHD/index.m3u8
 #EXTINF:-1 group-title="BR | MUSICAS",SHOWS POR STINGRAY
 https://jmp2.uk/plu-604b91e0692f770007d9f33f.m3u8
@@ -1038,10 +1006,8 @@ https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV",BOX KIDS TV
 http://45.190.28.50/BOX_KIDS_HD/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [2]",BOX KIDS TV [2]
-http://167.250.126.140:7777/NICKJR-HD/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [3]",BOX KIDS TV [3]
 http://138.255.2.6:8084/BOXKIDS/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [4]",BOX KIDS TV [4]
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [3]",BOX KIDS TV [3]
 http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD",CARTOONITO HD
 http://45.162.231.38:7779/Cartoonito/index.m3u8
@@ -1049,23 +1015,17 @@ http://45.162.231.38:7779/Cartoonito/index.m3u8
 https://video04.logicahost.com.br/cloudingtv/cloudingtv/chunklist_w459304988.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD",DISCOVERY KIDS HD
 http://streamer.sattvacabo.com.br/DISCOVERY_KIDS_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Disney.Channel.br" tvg-name="DISNEY CHANNEL",DISNEY CHANNEL
-http://167.250.126.140:7777/DISNEY-HD/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM",DUMDUM
 http://45.162.64.114/ZOOMOO_KIDS/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [2]",DUMDUM [2]
-http://167.250.126.140:7777/ZOOMOO-HD/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [3]",DUMDUM [3]
 http://168.197.104.22:80/ZOOMOO/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [4]",DUMDUM [4]
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [3]",DUMDUM [3]
 http://138.255.2.6:8084/ZOOMOO/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [5]",DUMDUM [5]
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [4]",DUMDUM [4]
 http://186.219.52.187:80/zoomoo/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB",GLOOB
-http://167.250.126.140:7777/GLOOB-HD/index.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [2]",GLOOB [2]
 http://45.235.0.78/Gloob/playlist.m3u8
-#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [3]",GLOOB [3]
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [2]",GLOOB [2]
 http://79.127.243.211:14436/_.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB WEB",GLOOB WEB
 https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
@@ -1194,16 +1154,14 @@ http://45.162.64.114/AGROMAIS/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [2]",AGROMAIS [2]
 http://45.190.28.50/AGROMAIS_HD/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [3]",AGROMAIS [3]
-http://167.250.126.140:7777/AGROMAIS-HD/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [4]",AGROMAIS [4]
 http://168.197.104.22:80/AGROMAIS/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [5]",AGROMAIS [5]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [4]",AGROMAIS [4]
 http://138.255.2.6:8084/AGROMAIS/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [6]",AGROMAIS [6]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [5]",AGROMAIS [5]
 http://45.177.114.115:80/agromais/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [7]",AGROMAIS [7]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [6]",AGROMAIS [6]
 http://45.177.114.115:80/AGROMAIS_HD/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [8]",AGROMAIS [8]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="AGROMAIS.br" tvg-name="AGROMAIS [7]",AGROMAIS [7]
 http://170.83.16.50:80/AGRO_MAIS/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Canal.do.Boi.br" tvg-name="CANAL DO BOI",CANAL DO BOI
 http://45.162.64.114/CANAL_DO_BOI/index.m3u8
@@ -1240,16 +1198,14 @@ http://45.162.64.114/FISH_TV/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [2]",FISH TV [2]
 http://45.190.28.50/FISH_TV_HD/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [3]",FISH TV [3]
-http://167.250.126.140:7777/FISHTV-HD/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [4]",FISH TV [4]
 http://168.197.104.22:80/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [5]",FISH TV [5]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [4]",FISH TV [4]
 http://138.255.2.6:8084/FISHTV/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [6]",FISH TV [6]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [5]",FISH TV [5]
 http://170.83.16.50:80/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [7]",FISH TV [7]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [6]",FISH TV [6]
 http://170.83.49.66:8083/FISHTVHD/index.m3u8
-#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [8]",FISH TV [8]
+#EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="FISH.TV.br" tvg-name="FISH TV [7]",FISH TV [7]
 http://186.219.52.187:80/fishtv/index.m3u8
 #EXTINF:-1 group-title="BR | AR LIVRE" tvg-id="São.Paulo/SP..Terra.Viva.br" tvg-name="TERRA VIVA",TERRA VIVA
 http://45.162.64.114/TERRAVIVA/index.m3u8
