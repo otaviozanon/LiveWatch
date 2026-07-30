@@ -57,9 +57,17 @@ Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U
 LiveWatch/
 ├── .github/workflows/merge.yml         # CI pipeline (manual + cron every 6h)
 ├── scripts/
-│   ├── merge.py                         # Core logic: discover, fetch, filter, dedup, merge
+│   ├── merge.py                         # Orchestrator
+│   ├── config.json                      # Multi-profile config (M3U, iptv_api, merge_all)
 │   ├── epg.py                           # EPG channel ID matching
-│   └── config.json                      # Multi-profile config (M3U, iptv_api, merge_all)
+│   ├── test_filter.py                   # Single-file debug runner
+│   ├── core/
+│   │   ├── parser.py                    # M3U parsing
+│   │   ├── fetcher.py                   # Download + GitHub discovery
+│   │   ├── filters.py                   # Filter, remap, dedup, cleanup
+│   │   └── output.py                    # Category constants + playlist generator
+│   └── tests/
+│       └── test_filters.py              # Unit tests
 ├── docs/                                # Frontend + Pages Worker
 │   ├── _worker.js                       # Cloudflare Pages Functions (API + static serving)
 │   ├── index.html
@@ -68,6 +76,7 @@ LiveWatch/
 ├── playlists/                           # Generated playlists (auto-committed by Actions)
 │   ├── m3u/
 │   └── m3u8/
+├── requirements.txt
 └── .gitignore
 ```
 
