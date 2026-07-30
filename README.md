@@ -32,7 +32,7 @@ Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U
 2. **Fetch** — Downloads M3U playlists and JSON APIs (iptv-org channels + streams)
 3. **Filter** — Keeps only channel entries, excludes adult content, radios, and unwanted keywords
 4. **Deduplicate** — Same URL = kept once; same name/different URL = renamed with `[2]`, `[3]` suffixes
-5. **Sort** — Alphabetical order by channel name, single unified group-title per profile
+5. **Sort** — Ordered by category priority, then alphabetically within each category
 6. **Publish** — Outputs both `.m3u` and `.m3u8` in organized folders, committed back to the repo
 7. **Dashboard** — Terminal-style frontend with one-click trigger, live progress, PT/EN toggle, LOGS and EPG tabs
 
@@ -87,6 +87,7 @@ LiveWatch/
 | Brasil   | M3U       | `CanaisBR*.m3u8` (auto-discovered from GitHub)     | `LiveWatch-PlaylistBR.m3u8`      |
 | Global   | M3U       | `Lista Mundial*.m3u` (auto-discovered from GitHub) | `LiveWatch-PlaylistWorld.m3u8`   |
 | IPTV-ORG | iptv_api  | iptv-org channels.json + streams.json (BR only)    | `LiveWatch-PlaylistIPTVORG.m3u8` |
+| ManoTV   | M3U       | `ManoTV.m3u`                                       | `LiveWatch-PlaylistManoTV.m3u8`  |
 | Todos    | merge_all | Merges all profiles above into a single playlist   | `LiveWatch-PlaylistAll.m3u8`     |
 
 Sources are auto-discovered via GitHub API, so new files added to the source repo are picked up automatically — no manual config updates needed.
@@ -102,7 +103,10 @@ Sources are auto-discovered via GitHub API, so new files added to the source rep
 
 - Adult/NSFW channels
 - Radio stations
-- Explicit keywords in channel names
+- Series episodes (S01E01 pattern)
+- Movies/series URLs (`/movie/`, `/series/`)
+- Non-Sul regional affiliates (keeps only PR/RS/SC + RPC/RBS/NSC)
+- Channels remapped to 26 categories (24H, ESPORTES, FILMES E SERIES, GLOBO...)
 
 ## License
 
