@@ -1,18 +1,16 @@
 # LiveWatch
 
-Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U/JSON playlists, filters unwanted content, deduplicates, and publishes merged playlists. Triggered from a terminal-style web dashboard or cron.
+Automated IPTV playlist merger — fetches, filters, categorizes and publishes playlists from multiple sources. Triggered via web dashboard or cron.
 
 <p align="center">
   <a href="https://ozlivewatch.pages.dev/"><strong>Live Watch</strong></a>
 </p>
 
-## Quick Start (Windows)
+## Quick Start
 
-1. Install **Simple M3U Player** from the Microsoft Store.
-2. Open Simple M3U Player.
-3. From the LiveWatch dashboard, copy the URL of the desired playlist (`.m3u` or `.m3u8`) — **Brasil**, **Global**, **IPTV-ORG**, or **Todos**.
-4. In Simple M3U Player, add a new playlist and paste the LiveWatch URL.
-5. Save and watch channels kept up to date by LiveWatch.
+1. Install **Simple M3U Player** (Microsoft Store)
+2. Copy a playlist URL from the [dashboard](https://ozlivewatch.pages.dev)
+3. Add to Simple M3U Player and save
 
 ## Quick Links
 
@@ -22,91 +20,26 @@ Automated IPTV playlist merger — discovers sources via GitHub API, fetches M3U
 | Playlist BR | https://ozlivewatch.pages.dev/p/brasil.m3u8 |
 | Playlist Global | https://ozlivewatch.pages.dev/p/global.m3u8 |
 | Playlist IPTV-ORG | https://ozlivewatch.pages.dev/p/iptv-org.m3u8 |
-| Playlist All | https://ozlivewatch.pages.dev/p/all.m3u8 |
+| Playlist Todos | https://ozlivewatch.pages.dev/p/all.m3u8 |
 | EPG BR | https://ozlivewatch.pages.dev/e/BR |
 | EPG US | https://ozlivewatch.pages.dev/e/US |
 
-## How It Works
-
-1. **Discover** — Auto-discovers source files from GitHub repos via API (no manual URL maintenance)
-2. **Fetch** — Downloads M3U playlists and JSON APIs (iptv-org channels + streams)
-3. **Filter** — Keeps only channel entries, excludes adult content, radios, and unwanted keywords
-4. **Deduplicate** — Same URL = kept once; same name/different URL = renamed with `[2]`, `[3]` suffixes
-5. **Sort** — Ordered by category priority, then alphabetically within each category
-6. **Publish** — Outputs both `.m3u` and `.m3u8` in organized folders, committed back to the repo
-7. **Dashboard** — Terminal-style frontend with one-click trigger, live progress, PT/EN toggle, LOGS and EPG tabs
-
-## Architecture
-
-```
-[Cloudflare Pages] ---POST---> [GitHub API] ---> [GitHub Actions]
-       |                                                  |
-  frontend + API                                    [merge.py]
-  (_worker.js)                                          |
-                                                   [Playlists]
-```
-
-| Component | Technology | Purpose |
-| --------- | ---------- | ------- |
-| Frontend + API | Cloudflare Pages + Functions | Serves dashboard and proxies all API calls (trigger, logs, playlists, EPG) |
-| Pipeline | Python + GitHub Actions | Fetches, filters, merges, commits |
-
-## Project Structure
-
-```
-LiveWatch/
-├── .github/workflows/merge.yml         # CI pipeline (manual + cron every 6h)
-├── scripts/
-│   ├── merge.py                         # Orchestrator
-│   ├── config.json                      # Multi-profile config (M3U, iptv_api, merge_all)
-│   ├── epg.py                           # EPG channel ID matching
-│   ├── test_filter.py                   # Single-file debug runner
-│   ├── core/
-│   │   ├── parser.py                    # M3U parsing
-│   │   ├── fetcher.py                   # Download + GitHub discovery
-│   │   ├── filters.py                   # Filter, remap, dedup, cleanup
-│   │   └── output.py                    # Category constants + playlist generator
-│   └── tests/
-│       └── test_filters.py              # Unit tests
-├── docs/                                # Frontend + Pages Worker
-│   ├── _worker.js                       # Cloudflare Pages Functions (API + static serving)
-│   ├── index.html
-│   ├── app.js
-│   └── style.css
-├── playlists/                           # Generated playlists (auto-committed by Actions)
-│   ├── m3u/
-│   └── m3u8/
-├── requirements.txt
-└── .gitignore
-```
-
 ## Profiles
 
-| Profile  | Type      | Sources                                            | Output                           |
-| -------- | --------- | -------------------------------------------------- | -------------------------------- |
-| Brasil   | M3U       | `CanaisBR*.m3u8` (auto-discovered from GitHub)     | `LiveWatch-PlaylistBR.m3u8`      |
-| Global   | M3U       | `Lista Mundial*.m3u` (auto-discovered from GitHub) | `LiveWatch-PlaylistWorld.m3u8`   |
-| IPTV-ORG | iptv_api  | iptv-org channels.json + streams.json (BR only)    | `LiveWatch-PlaylistIPTVORG.m3u8` |
-| ManoTV   | M3U       | `ManoTV.m3u`                                       | `LiveWatch-PlaylistManoTV.m3u8`  |
-| Todos    | merge_all | Merges all profiles above into a single playlist   | `LiveWatch-PlaylistAll.m3u8`     |
-
-Sources are auto-discovered via GitHub API, so new files added to the source repo are picked up automatically — no manual config updates needed.
+| Profile | Type | Sources | Output |
+|---|---|---|---|
+| Brasil | M3U | `CanaisBR*.m3u8` (GitHub) | `LiveWatch-PlaylistBR.m3u8` |
+| Global | M3U | `ListaMundial*.m3u` (GitHub) | `LiveWatch-PlaylistWorld.m3u8` |
+| IPTV-ORG | iptv_api | iptv-org API (BR only) | `LiveWatch-PlaylistIPTVORG.m3u8` |
+| ManoTV | M3U | `ManoTV.m3u` | `LiveWatch-PlaylistManoTV.m3u8` |
+| Todos | merge_all | Merges all profiles above | `LiveWatch-PlaylistAll.m3u8` |
 
 ## Filtering
 
-**Duplicate handling:**
-
-- Same URL → first occurrence kept, rest removed
-- Same name, different URL → renamed with `[2]`, `[3]`, etc.
-
-**Content filtering:**
-
-- Adult/NSFW channels
-- Radio stations
-- Series episodes (S01E01 pattern)
-- Movies/series URLs (`/movie/`, `/series/`)
-- Non-Sul regional affiliates (keeps only PR/RS/SC + RPC/RBS/NSC)
-- Channels remapped to 26 categories (24H, ESPORTES, FILMES E SERIES, GLOBO...)
+- 26 categories with automatic channel remapping
+- Adult/NSFW, radios, series episodes (`S01E01`), movie/series streams removed
+- Duplicates: same URL → first kept; same name + different URL → `[2]`, `[3]` suffix
+- Sul-only broadcast affiliates (RPC, RBS, NSC, PR/RS/SC)
 
 ## License
 
