@@ -1,3 +1,4 @@
+// Cloudflare Pages Function — redeploy to pick up updated secrets
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
