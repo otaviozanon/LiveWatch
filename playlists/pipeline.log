@@ -23,6 +23,8 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2624
 [LiveWatch] [i] EPG ativado
+
+[LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    7 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/7)
@@ -39,8 +41,61 @@
 [LiveWatch]    146 entradas (293 linhas)
 [LiveWatch] [+] CanaisBR07.m3u8 (7/7)
 [LiveWatch]    1480 entradas (2962 linhas)
-[LiveWatch] [i] Total pos-filtro: 0
-[LiveWatch] [+] Final: 0 canais
-[LiveWatch] [+] LiveWatch-PlaylistBR.m3u (0 canais)
-[LiveWatch] [+] LiveWatch-PlaylistBR.m3u8 (0 canais)
+[LiveWatch] [-] 48 grupos ignorados
+[LiveWatch] [-] 48 grupos ignorados
+[LiveWatch] [-] 48 grupos ignorados
+[LiveWatch] [-] 48 grupos ignorados
+[LiveWatch] [-] 5 grupos ignorados
+[LiveWatch] [*] 1434 grupos remapeados
+[LiveWatch] [-] 313461 URLs bloqueadas
+[LiveWatch] [-] 728 canais indesejados
+[LiveWatch] [*] 3356 canais recategorizados
+[LiveWatch] [-] 6 grupos excluidos
+[LiveWatch] [-] 289 canais filtrados (grupo)
+
+[LiveWatch] --- global ---
+[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
+[LiveWatch]    3 listas encontradas
+[LiveWatch] [+] Lista%20Mundial01.m3u (1/3)
+[LiveWatch]    16896 entradas (33810 linhas)
+[LiveWatch] [+] Lista%20Mundial02.m3u (2/3)
+[LiveWatch]    16896 entradas (33810 linhas)
+[LiveWatch] [+] Lista%20Mundial03.m3u (3/3)
+[LiveWatch]    2367 entradas (4736 linhas)
+[LiveWatch] [-] 16873 grupos ignorados
+[LiveWatch] [-] 16873 grupos ignorados
+[LiveWatch] [-] 2367 grupos ignorados
+[LiveWatch] [-] 2 canais indesejados
+[LiveWatch] [*] 44 canais recategorizados
+
+[LiveWatch] --- iptv-org ---
+[LiveWatch] [+] channels.json
+[LiveWatch]    40863 registros
+[LiveWatch]    819 canais BR
+[LiveWatch]    814 canais validos
+[LiveWatch] [+] streams.json
+[LiveWatch]    17918 registros
+[LiveWatch]    585 streams
+[LiveWatch] [*] 112 grupos remapeados
+[LiveWatch] [-] 102 canais indesejados
+[LiveWatch] [*] 419 canais recategorizados
+[LiveWatch] [-] 28 canais filtrados (grupo)
+
+[LiveWatch] --- manotv ---
+[LiveWatch] [+] ManoTV.m3u (1/1)
+[LiveWatch]    2005 entradas (6652 linhas)
+[LiveWatch] [*] 213 grupos remapeados
+[LiveWatch] [-] 1301 URLs bloqueadas
+[LiveWatch] [-] 216 canais indesejados
+[LiveWatch] [*] 474 canais recategorizados
+[LiveWatch] [-] 1 grupos excluidos
+[LiveWatch] [-] 24 canais filtrados (grupo)
+
+[LiveWatch] [i] Total combinado: 4267
+[LiveWatch] [*] 3770 nomes normalizados
+[LiveWatch] [-] 46 duplicatas URL
+[LiveWatch] [*] 1031 conflitos renomeados
+[LiveWatch] [+] Final: 4221 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4221 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4221 canais)
 [LiveWatch] [+] Playlist salva!
