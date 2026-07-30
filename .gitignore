@@ -15,4 +15,5 @@ dist/
 # temp/debug files
 _*.txt
 _*.py
+!__init__.py
 
