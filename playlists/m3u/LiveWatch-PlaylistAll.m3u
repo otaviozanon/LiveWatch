@@ -5235,6 +5235,8 @@ http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/108840.ts
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2528478.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3",ESPN 3
 http://181.78.197.59:8000/play/a081/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 [2]",ESPN 3 [2]
+http://190.83.2.182:8090/ESPN3/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 [H265 ]",ESPN 3 [H265 ]
 http://asxc.pro:80/887429/DNFgcu/71908.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN 3.br" tvg-name="ESPN 3 FHD",ESPN 3 FHD
@@ -5341,6 +5343,8 @@ http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/108857.ts
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2528490.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN [2]",ESPN [2]
 http://181.78.197.59:8000/play/a07z/index.m3u8
+#EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN [3]",ESPN [3]
+http://190.83.2.182:8090/ESPN/index.m3u8
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN [H265 ]",ESPN [H265 ]
 http://asxc.pro:80/887429/DNFgcu/71912.ts
 #EXTINF:-1 group-title="BR | ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN FHD",ESPN FHD
