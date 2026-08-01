@@ -43,4 +43,4 @@ Automated IPTV playlist merger — fetches, filters, categorizes and publishes p
 
 ## License
 
-MIT
+GPL-3.0
