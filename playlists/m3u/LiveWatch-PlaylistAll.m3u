@@ -4091,15 +4091,15 @@ http://138.255.2.6:8084/SONYMOVIES/index.m3u8
 http://45.177.114.115:80/SONY_MOVIES/index.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES [7]",SONY MOVIES [7]
 http://170.83.16.50:80/SONY_MOVIES/index.m3u8
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY NOVELAS | LG",SONY NOVELAS | LG
-https://spt-novelas-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.Movies.Brazil.br" tvg-name="SONY MOVIES [8]",SONY MOVIES [8]
+http://45.162.64.114:80/SONY_MOVIES/index.m3u8
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE CINEMA",SONY ONE CINEMA
+https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE CLASSICS",SONY ONE CLASSICS
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/223569.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE CLASSICS [2]",SONY ONE CLASSICS [2]
-https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE EMOÇÕES",SONY ONE EMOÇÕES
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/250249.ts
-#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE EMOCOES",SONY ONE EMOCOES
+#EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY ONE EMOÇÕES [2]",SONY ONE EMOÇÕES [2]
 https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SonyOneEmocoes/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR | FILMES E SERIES" tvg-id="Sony.br" tvg-name="SONY SD",SONY SD
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/223570.ts
@@ -7903,6 +7903,8 @@ http://hardcoremedia.xyz:80/tzwecpfd/1822349101/260190
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/152340.ts
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [6]",TOONCAST HD [6]
 http://138.255.2.6:8084/TOONCAST/index.m3u8
+#EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST HD [7]",TOONCAST HD [7]
+http://45.190.28.50:80/TOONCAST/index.m3u8
 #EXTINF:-1 group-title="BR | INFANTIS" tvg-id="Tooncast.br" tvg-name="TOONCAST SD",TOONCAST SD
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/152341.ts
 #EXTINF:-1 group-title="BR | INFANTIS",TV GALLO
