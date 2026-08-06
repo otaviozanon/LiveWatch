@@ -7067,6 +7067,8 @@ http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
 http://186.219.52.187:80/jp_news/index.m3u8
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [4]",JOVEM PAN NEWS [4]
 https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
+#EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [5]",JOVEM PAN NEWS [5]
+https://stream.zeno.fm/vlcraijc6yiuv
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD",JOVEM PAN NEWS FHD
 http://asxc.pro:80/887429/DNFgcu/134023.ts
 #EXTINF:-1 group-title="BR | NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD [2]",JOVEM PAN NEWS FHD [2]

@@ -83,19 +83,19 @@
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2009 entradas (6664 linhas)
+[LiveWatch]    2011 entradas (6670 linhas)
 [LiveWatch] [*] 216 grupos remapeados
 [LiveWatch] [-] 1301 URLs bloqueadas
-[LiveWatch] [-] 216 canais indesejados
-[LiveWatch] [*] 478 canais recategorizados
+[LiveWatch] [-] 217 canais indesejados
+[LiveWatch] [*] 479 canais recategorizados
 [LiveWatch] [-] 1 grupos excluidos
 [LiveWatch] [-] 25 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4272
-[LiveWatch] [*] 3773 nomes normalizados
+[LiveWatch] [i] Total combinado: 4273
+[LiveWatch] [*] 3774 nomes normalizados
 [LiveWatch] [-] 46 duplicatas URL
-[LiveWatch] [*] 1037 conflitos renomeados
-[LiveWatch] [+] Final: 4226 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4226 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4226 canais)
+[LiveWatch] [*] 1038 conflitos renomeados
+[LiveWatch] [+] Final: 4227 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4227 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4227 canais)
 [LiveWatch] [+] Playlist salva!
