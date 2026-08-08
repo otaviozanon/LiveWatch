@@ -23,21 +23,19 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2624
 [LiveWatch] [i] EPG ativado
-[LiveWatch] [+] channels.json
-[LiveWatch]    41026 registros
-[LiveWatch]    819 canais BR
-[LiveWatch]    814 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    17796 registros
-[LiveWatch]    587 streams
-[LiveWatch] [*] 114 grupos remapeados
-[LiveWatch] [-] 102 canais indesejados
-[LiveWatch] [*] 421 canais recategorizados
-[LiveWatch] [-] 28 canais filtrados (grupo)
-[LiveWatch] [i] Total pos-filtro: 457
-[LiveWatch] [*] 412 nomes normalizados
-[LiveWatch] [*] 222 conflitos renomeados
-[LiveWatch] [+] Final: 457 canais
-[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u (457 canais)
-[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u8 (457 canais)
+[LiveWatch] [+] ManoTV.m3u (1/1)
+[LiveWatch]    2011 entradas (6670 linhas)
+[LiveWatch] [*] 216 grupos remapeados
+[LiveWatch] [-] 1301 URLs bloqueadas
+[LiveWatch] [-] 217 canais indesejados
+[LiveWatch] [*] 479 canais recategorizados
+[LiveWatch] [-] 1 grupos excluidos
+[LiveWatch] [-] 25 canais filtrados (grupo)
+[LiveWatch] [i] Total pos-filtro: 467
+[LiveWatch] [*] 370 nomes normalizados
+[LiveWatch] [-] 14 duplicatas URL
+[LiveWatch] [*] 25 conflitos renomeados
+[LiveWatch] [+] Final: 453 canais
+[LiveWatch] [+] LiveWatch-PlaylistManoTV.m3u (453 canais)
+[LiveWatch] [+] LiveWatch-PlaylistManoTV.m3u8 (453 canais)
 [LiveWatch] [+] Playlist salva!
