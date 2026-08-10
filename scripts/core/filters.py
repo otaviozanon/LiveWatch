@@ -195,6 +195,44 @@ def remap_by_name(
     return result
 
 
+def remap_by_category(
+    entries: list[tuple[str, str, str]],
+    name_remap: dict[str, list[str]],
+) -> list[tuple[str, str, str]]:
+    """Reassign entries to target categories based on exact base-name match
+    against curated category files."""
+    if not name_remap:
+        return entries
+
+    base_to_category: dict[str, str] = {}
+    for category, patterns in name_remap.items():
+        for pat in patterns:
+            key = normalize(pat)
+            if key not in base_to_category:
+                base_to_category[key] = category
+
+    result: list[tuple[str, str, str]] = []
+    remapped = 0
+    for group_title, name, url in entries:
+        clean = normalize(
+            re.sub(r"\s*\[H265\s*\]", "", name, flags=re.IGNORECASE)
+            .replace("[H265 ]", "")
+        )
+        clean = re.sub(r"\s*\[4K\s*\]", "", clean, flags=re.IGNORECASE)
+        clean = re.sub(r"\s*\[\d+\]", "", clean)
+        clean = re.sub(r"\s+(HD|FHD|SD|H265|4K|HEVC)(\s|$)", " ", clean, flags=re.IGNORECASE)
+        clean = clean.strip()
+
+        new_group = base_to_category.get(clean, group_title)
+        if new_group != group_title:
+            remapped += 1
+        result.append((new_group, name, url))
+
+    if remapped:
+        print(f"[LiveWatch] [*] {remapped} canais recategorizados (categorias)")
+    return result
+
+
 # ── Dedup / cleanup ────────────────────────────────────────────────────────
 
 def dedup_by_url(

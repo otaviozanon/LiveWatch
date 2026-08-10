@@ -22,6 +22,7 @@ from core.filters import (
     filter_by_group_keep,
     filter_by_url,
     filter_excluded,
+    remap_by_category,
     remap_by_group,
     remap_by_name,
     rename_duplicates,
@@ -35,10 +36,10 @@ from core.output import (
 
 try:
     from . import epg
-    from .load_config import load_config
+    from .load_config import load_category_name_remap, load_config
 except ImportError:
     import epg
-    from load_config import load_config
+    from load_config import load_category_name_remap, load_config
 
 
 # ── IPTV API processing ────────────────────────────────────────────────────
@@ -119,6 +120,7 @@ def fetch_profile_entries(p: dict[str, Any]) -> list[tuple[str, str, str]]:
     entries = filter_by_url(entries, p.get("url_exclude", []))
     entries = filter_excluded(entries, p.get("name_exclude", []))
     entries = remap_by_name(entries, p.get("name_remap", {}), p.get("remap_from"))
+    entries = remap_by_category(entries, load_category_name_remap())
     entries = filter_by_group_exclude(entries, p.get("group_exclude", []))
     entries = filter_by_group_keep(entries, p.get("group_keep", {}))
     return entries
