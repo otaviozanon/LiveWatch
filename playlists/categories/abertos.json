@@ -6,6 +6,22 @@
     "COM BRASIL",
     "COM BRASIL TV",
     "COM BRASIL [2]",
+    "CULTURA FAST",
+    "CULTURA FHD",
+    "CULTURA H265",
+    "CULTURA HD",
+    "CULTURA PARA",
+    "CULTURA PARÁ",
+    "CULTURA SD",
+    "FUTURA",
+    "FUTURA FHD",
+    "FUTURA FHD [2]",
+    "FUTURA H265",
+    "FUTURA HD",
+    "FUTURA HD [2]",
+    "FUTURA SD",
+    "FUTURA SD [2]",
+    "FUTURA [2]",
     "NGT",
     "NTV",
     "NTV [2]",
@@ -59,6 +75,7 @@
     "TV CIDADE OESTE",
     "TV CLUBE",
     "TV CURUÇA",
+    "TV UNIAO H265",
     "TVC",
     "TVC BRASIL",
     "TVC-RIO",
@@ -66,5 +83,5 @@
     "TVCOM MACEIÓ",
     "TVE CULTURA"
   ],
-  "count": 64
+  "count": 81
 }

@@ -1,5 +1,8 @@
 {
   "name": "BAND",
-  "channels": ["BAND PR FHD", "BAND RS FHD", "BAND SP [H265 ]"],
-  "count": 3
+  "channels": [
+    "BAND PR FHD",
+    "BAND RS FHD"
+  ],
+  "count": 2
 }

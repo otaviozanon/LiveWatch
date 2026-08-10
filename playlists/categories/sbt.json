@@ -1,5 +1,7 @@
 {
   "name": "SBT",
-  "channels": ["SBT PR HD", "SBT+ TVZYN"],
-  "count": 2
+  "channels": [
+    "SBT PR HD"
+  ],
+  "count": 1
 }

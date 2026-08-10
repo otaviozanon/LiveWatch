@@ -49,7 +49,6 @@
     "REDE GOSPEL [3]",
     "REDE GOSPEL [4]",
     "REDE GOSPEL [5]",
-    "REDE GOSPEL [H265 ]",
     "REDE SECULO 21",
     "REDE SECULO 21 [2]",
     "REDE SECULO 21 [3]",
@@ -71,7 +70,6 @@
     "REDE VIDA [7]",
     "REDE VIDA [8]",
     "REDE VIDA [9]",
-    "REDE VIDA [H265 ]",
     "RIT TV",
     "RIT TV [2]",
     "RIT TV [3]",
@@ -98,7 +96,6 @@
     "TV APARECIDA [5]",
     "TV APARECIDA [6]",
     "TV APARECIDA [7]",
-    "TV APARECIDA [H265 ]",
     "TV CANCAO NOVA",
     "TV CANCAO NOVA SD",
     "TV CANCAO NOVA [2]",
@@ -137,7 +134,6 @@
     "TV NOVO TEMPO SD",
     "TV NOVO TEMPO SD [2]",
     "TV NOVO TEMPO SD [3]",
-    "TV NOVO TEMPO [H265 ]",
     "TV PADRE CICERO",
     "TV PADRE CÍCERO FHD",
     "TV PADRE CÍCERO HD",
@@ -147,14 +143,8 @@
     "TV SONATA",
     "TV SÉCULO 21",
     "TV TERCEIRO ANJO",
-    "TV UNIAO H265",
-    "TV UNIAO [H265 ]",
     "TV VIANNEY",
-    "ULB TV",
-    "24/7 KURIAKOS TV",
-    "24/7 KURIAKOS TV [2]",
-    "24/7 KURIAKOS TV [3]",
-    "24/7 KURIAKOS TV [4]"
+    "ULB TV"
   ],
-  "count": 154
+  "count": 144
 }
