@@ -1,0 +1,18 @@
+{
+  "name": "DAZN",
+  "channels": [
+    "DAZN 01",
+    "DAZN 02",
+    "DAZN 03",
+    "DAZN 04",
+    "DAZN 05",
+    "DAZN 1 FHD",
+    "DAZN 1 HD",
+    "DAZN 1 SD",
+    "DAZN 2 FHD",
+    "DAZN 2 HD",
+    "DAZN 2 SD",
+    "DAZN COMBAT"
+  ],
+  "count": 12
+}

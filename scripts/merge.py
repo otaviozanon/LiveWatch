@@ -35,8 +35,10 @@ from core.output import (
 
 try:
     from . import epg
+    from .load_config import load_config
 except ImportError:
     import epg
+    from load_config import load_config
 
 
 # ── IPTV API processing ────────────────────────────────────────────────────
@@ -133,11 +135,9 @@ def main() -> None:
     args = parser.parse_args()
     profile: str = args.profile
 
+    # Carregar config de arquivos separados
+    config: dict[str, Any] = load_config()
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(script_dir, "config.json")
-
-    with open(config_path, "r", encoding="utf-8") as f:
-        config: dict[str, Any] = json.load(f)
 
     if profile not in config.get("profiles", {}):
         print(f"[LiveWatch] [!] Perfil '{profile}' nao encontrado")

@@ -1,12 +1,13 @@
-"""Exporta categories.json a partir da playlist ALL gerada.
+"""Exporta categorias a partir da playlist ALL gerada.
 
 Uso: python scripts/export_categories.py
 
-Gera playlists/categories.json com todas as categorias e canais do ALL.
+Gera APENAS arquivos JSON separados por categoria em playlists/categories/
+NÃO gera mais o categories.json gigante.
 Usado como referencia para saber o que ja esta mapeado.
-Novos canais/categorias vao automaticamente para "NOVOS" no merge.py.
 """
 import re, os, json
+from pathlib import Path
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_dir = os.path.dirname(script_dir)
@@ -31,8 +32,23 @@ for i in range(len(lines)):
 for cat in cats:
     cats[cat].sort()
 
-json_path = os.path.join(project_dir, 'playlists', 'categories.json')
-with open(json_path, 'w', encoding='utf-8') as f:
-    json.dump(cats, f, ensure_ascii=False, indent=2)
+# Criar diretório para categorias separadas
+cat_dir = Path(project_dir) / 'playlists' / 'categories'
+cat_dir.mkdir(exist_ok=True)
 
-print(f"[LiveWatch] categories.json gerado: {len(cats)} categorias, {sum(len(v) for v in cats.values())} canais")
+# Salvar arquivo individual para cada categoria
+for category, channels in cats.items():
+    filename = category.lower().replace(' ', '_').replace('|', '').strip()
+    filepath = cat_dir / f"{filename}.json"
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump({
+            "name": category,
+            "channels": channels,
+            "count": len(channels)
+        }, f, ensure_ascii=False, indent=2)
+
+total_channels = sum(len(v) for v in cats.values())
+print(f"[LiveWatch] ✅ {len(cats)} categorias exportadas")
+print(f"[LiveWatch] 📊 {total_channels} canais organizados")
+print(f"[LiveWatch] 📁 Arquivos separados: playlists/categories/*.json")

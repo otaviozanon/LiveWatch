@@ -1,0 +1,25 @@
+{
+  "GLOBO": [
+    "RPC",
+    "RBS",
+    "NSC"
+  ],
+  "RECORD": [
+    "RECORD PR",
+    "RECORD RS",
+    "RECORD SC",
+    "PARANA"
+  ],
+  "SBT": [
+    "SBT PR",
+    "SBT RS",
+    "SBT SC",
+    "SBT PARANA"
+  ],
+  "BAND": [
+    "BAND PR",
+    "BAND RS",
+    "BAND SC",
+    "TAROBA"
+  ]
+}
