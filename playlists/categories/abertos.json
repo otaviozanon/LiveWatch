@@ -13,6 +13,7 @@
     "CULTURA PARA",
     "CULTURA PARÁ",
     "CULTURA SD",
+    "CULTURA [H265 ]",
     "FUTURA",
     "FUTURA FHD",
     "FUTURA FHD [2]",
@@ -22,6 +23,7 @@
     "FUTURA SD",
     "FUTURA SD [2]",
     "FUTURA [2]",
+    "FUTURA [H265 ]",
     "NGT",
     "NTV",
     "NTV [2]",
@@ -76,6 +78,7 @@
     "TV CLUBE",
     "TV CURUÇA",
     "TV UNIAO H265",
+    "TV UNIAO [H265 ]",
     "TVC",
     "TVC BRASIL",
     "TVC-RIO",
@@ -83,5 +86,5 @@
     "TVCOM MACEIÓ",
     "TVE CULTURA"
   ],
-  "count": 81
+  "count": 84
 }
