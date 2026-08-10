@@ -100,13 +100,13 @@ def normalize_group_title(group_title: str, prefix: str) -> str:
     gt = GT_REMAP.get(gt, gt)
     if gt not in CATEGORY_ORDER:
         gt = "NOVOS"
-    return f"{prefix} | {gt}"
+    return f"{prefix} \u2013 {gt}"
 
 
 def category_sort_key(entry: tuple[str, str, str]) -> tuple[int, str]:
     """Sort key: category order first, then accent-insensitive alphabetical."""
     group_title, name, _ = entry
-    cat = re.sub(r"^[A-Z]{2}\s*\|\s*", "", group_title)
+    cat = re.sub(r"^[A-Z]{2}\s*[\|\u2013]\s*", "", group_title)
     try:
         cat_order = CATEGORY_ORDER.index(cat)
     except ValueError:

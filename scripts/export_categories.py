@@ -20,7 +20,7 @@ cats: dict[str, set] = {}
 
 # Extrair categorias de TODOS os perfis (nao so BR)
 for i in range(len(lines)):
-    m = re.match(r'#EXTINF:.*group-title="[^|]+\| ([^"]+)"', lines[i])
+    m = re.match(r'#EXTINF:.*group-title="[^|\u2013]+[\|\u2013] ([^"]+)"', lines[i])
     if not m:
         m = re.match(r'#EXTINF:.*group-title="([^"]+)"', lines[i])
     if m:
