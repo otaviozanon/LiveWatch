@@ -2,7 +2,12 @@
   "name": "BAND",
   "channels": [
     "BAND PR FHD",
-    "BAND RS FHD"
+    "BAND RS FHD",
+    "BAND SP FHD",
+    "BAND SP FHD [2]",
+    "BAND SP SD",
+    "BAND SP SD [2]",
+    "BAND SP [H265 ]"
   ],
-  "count": 2
+  "count": 7
 }

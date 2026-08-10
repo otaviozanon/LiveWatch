@@ -224,6 +224,10 @@ def remap_by_category(
         clean = clean.strip()
 
         new_group = base_to_category.get(clean, group_title)
+        if new_group == group_title:
+            clean_no_prefix = re.sub(r"^\d+[\s|\-\.]+", "", clean)
+            if clean_no_prefix != clean:
+                new_group = base_to_category.get(clean_no_prefix, group_title)
         if new_group != group_title:
             remapped += 1
         result.append((new_group, name, url))

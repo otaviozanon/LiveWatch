@@ -2,9 +2,8 @@
 
 Uso: python scripts/export_categories.py
 
-Gera APENAS arquivos JSON separados por categoria em playlists/categories/
-NÃO gera mais o categories.json gigante.
-Usado como referencia para saber o que ja esta mapeado.
+Le os arquivos de categoria existentes, adiciona canais novos encontrados
+na playlist, e preserva os canais ja curados manualmente.
 """
 import re, os, json
 from pathlib import Path
@@ -17,38 +16,54 @@ with open(playlist_path, encoding='utf-8') as f:
     content = f.read()
 
 lines = content.splitlines()
-cats = {}
+cats: dict[str, set] = {}
 
+# Extrair categorias de TODOS os perfis (nao so BR)
 for i in range(len(lines)):
-    m = re.match(r'#EXTINF:.*group-title="BR \| ([^"]+)"', lines[i])
+    m = re.match(r'#EXTINF:.*group-title="[^|]+\| ([^"]+)"', lines[i])
+    if not m:
+        m = re.match(r'#EXTINF:.*group-title="([^"]+)"', lines[i])
     if m:
-        cat = m.group(1)
+        cat = m.group(1).strip()
         name = re.sub(r'.*,', '', lines[i]).strip()
         if cat not in cats:
-            cats[cat] = []
-        if name not in cats[cat]:
-            cats[cat].append(name)
+            cats[cat] = set()
+        cats[cat].add(name)
 
-for cat in cats:
-    cats[cat].sort()
-
-# Criar diretório para categorias separadas
 cat_dir = Path(project_dir) / 'playlists' / 'categories'
 cat_dir.mkdir(exist_ok=True)
 
-# Salvar arquivo individual para cada categoria
-for category, channels in cats.items():
+added_total = 0
+kept_total = 0
+
+for category, new_channels in cats.items():
     filename = category.lower().replace(' ', '_').replace('|', '').strip()
     filepath = cat_dir / f"{filename}.json"
+
+    existing_channels: list[str] = []
+    if filepath.exists():
+        with open(filepath, encoding='utf-8') as f:
+            data = json.load(f)
+            existing_channels = data.get('channels', [])
+
+    merged = list(existing_channels)
+    existing_set = set(existing_channels)
+    for ch in sorted(new_channels):
+        if ch not in existing_set:
+            merged.append(ch)
+            added_total += 1
+
+    kept_total += len(existing_channels)
 
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump({
             "name": category,
-            "channels": channels,
-            "count": len(channels)
+            "channels": merged,
+            "count": len(merged)
         }, f, ensure_ascii=False, indent=2)
 
-total_channels = sum(len(v) for v in cats.values())
-print(f"[LiveWatch] ✅ {len(cats)} categorias exportadas")
-print(f"[LiveWatch] 📊 {total_channels} canais organizados")
-print(f"[LiveWatch] 📁 Arquivos separados: playlists/categories/*.json")
+print(f"[LiveWatch] categorias: {len(cats)} arquivos")
+if kept_total:
+    print(f"[LiveWatch] canais mantidos (curados): {kept_total}")
+if added_total:
+    print(f"[LiveWatch] canais novos adicionados: {added_total}")

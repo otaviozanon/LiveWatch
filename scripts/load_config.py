@@ -35,6 +35,7 @@ def load_config() -> dict[str, Any]:
 
 
 def _strip_variants(name: str) -> str:
+    name = re.sub(r"^\d+[\s|\-\.]+", "", name)
     name = re.sub(r"\s*\[H265\s*\]", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\[4K\s*\]", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\[\d+\]", "", name)

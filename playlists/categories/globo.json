@@ -34,7 +34,17 @@
     "GLOBO RPC TV PONTA GROSSA FHD",
     "GLOBO RPC TV PONTA GROSSA HD",
     "GLOBO RPC TV PONTA GROSSA SD",
+    "GLOBO SP FHD",
+    "GLOBO SP FHD [2]",
+    "GLOBO SP FHD [3]",
+    "GLOBO SP H265",
+    "GLOBO SP HD",
+    "GLOBO SP HD [2]",
+    "GLOBO SP HD [3]",
+    "GLOBO SP SD",
+    "GLOBO SP SD [2]",
+    "GLOBO SP [H265 ]",
     "RPC TV CURITIBA"
   ],
-  "count": 34
+  "count": 44
 }

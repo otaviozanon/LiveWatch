@@ -1,11 +1,27 @@
 {
   "name": "UFC",
   "channels": [
+    "COMBATE",
+    "COMBATE FHD",
+    "COMBATE FHD [2]",
+    "COMBATE FHD [3]",
     "COMBATE GLOBAL",
+    "COMBATE H265",
+    "COMBATE H265 [2]",
+    "COMBATE HD",
     "COMBATE HD [2]",
     "COMBATE HD [3]",
     "COMBATE HD [4]",
     "COMBATE HD [5]",
+    "COMBATE HD [6]",
+    "COMBATE HD [7]",
+    "COMBATE HD [8]",
+    "COMBATE HD [9]",
+    "COMBATE SD",
+    "COMBATE SD [2]",
+    "COMBATE SD [3]",
+    "COMBATE [2]",
+    "COMBATE [H265 ]",
     "COMBATV",
     "SFT COMBAT",
     "UFC FIGHT PASS 01",
@@ -20,5 +36,5 @@
     "UFC FIGHTPASS HD",
     "UFC FIGHTPASS HD [2]"
   ],
-  "count": 18
+  "count": 34
 }

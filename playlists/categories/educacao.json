@@ -1,6 +1,18 @@
 {
   "name": "EDUCACAO",
   "channels": [
+    "AGROMAIS",
+    "AGROMAIS FHD",
+    "AGROMAIS H265",
+    "AGROMAIS HD",
+    "AGROMAIS SD",
+    "AGROMAIS [2]",
+    "AGROMAIS [3]",
+    "AGROMAIS [4]",
+    "AGROMAIS [5]",
+    "AGROMAIS [6]",
+    "AGROMAIS [7]",
+    "AGROMAIS [H265 ]",
     "CANAL EDUCACAO",
     "CANAL EDUCACAO [2]",
     "CANAL EDUCACAO [3]",
@@ -60,5 +72,5 @@
     "UNISUL TV",
     "UNITV PORTO ALEGRE"
   ],
-  "count": 58
+  "count": 70
 }
