@@ -1,0 +1,10 @@
+{
+  "name": "NOVOS",
+  "channels": [
+    "RTP 1",
+    "RTP NOTÍCIAS",
+    "STAR COMEDY",
+    "STAR MOVIES"
+  ],
+  "count": 4
+}

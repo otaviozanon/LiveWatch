@@ -1,4 +1,12 @@
 #EXTM3U x-tvg-url="https://ozlivewatch.pages.dev/e/BR" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Brazil/brazil4.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa1.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa2.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa3.xml.gz" x-tvg-url="https://raw.githubusercontent.com/globetvapp/epg/main/Usa/usa4.xml.gz" x-tvg-url="https://www.free-epg.de/api/epg?country=BR" x-tvg-url="https://www.free-epg.de/api/epg?country=US"
+#EXTINF:-1 group-title="BR – NOVOS",RTP 1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR – NOVOS",RTP NOTÍCIAS
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
+#EXTINF:-1 group-title="BR – NOVOS",STAR COMEDY
+http://znty.dyndns.org:5010/hls/foxcomedy.m3u8
+#EXTINF:-1 group-title="BR – NOVOS",STAR MOVIES
+http://znty.dyndns.org:5010/hls/foxm.m3u8
 #EXTINF:-1 group-title="BR – 24H",,🔴 OS SIMPSONS 24H
 http://15.235.9.200:14984/
 #EXTINF:-1 group-title="BR – 24H",1001 NOITES
@@ -3235,6 +3243,8 @@ http://138.255.2.6:8084/AXN/index.m3u8
 http://170.83.16.50/AXN/index.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN [5]",AXN [5]
 http://170.83.49.66:8083/AXNHD/index.m3u8
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN [6]",AXN [6]
+http://znty.dyndns.org:5010/hls/axn.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN [H265 ]",AXN [H265 ]
 http://asxc.pro:80/887429/DNFgcu/71782.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN FHD",AXN FHD
@@ -3255,6 +3265,8 @@ http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/223538.ts
 http://streamer.sattvacabo.com.br/AXN_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN HD [LEG]",AXN HD [LEG]
 http://asxc.pro:80/887429/DNFgcu/90715.ts
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN MOVIES",AXN MOVIES
+http://50.7.120.34:8080/AXN_BLACK/index.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN SD",AXN SD
 http://asxc.pro:80/887429/DNFgcu/71784.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="AXN.br" tvg-name="AXN SD [2]",AXN SD [2]
@@ -7637,6 +7649,8 @@ http://hardcoremedia.xyz:80/s6YG6aZbq/k3BSENMMDY/260128
 http://hardcoremedia.xyz:80/xqsgzfox/0542802136/260128
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Disney.Channel.br" tvg-name="DISNEY CHANNEL HD [4]",DISNEY CHANNEL HD [4]
 http://hardcoremedia.xyz:80/tzwecpfd/1822349101/260128
+#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Disney.Channel.br" tvg-name="DISNEY CHANNEL PT",DISNEY CHANNEL PT
+http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Disney HD.br" tvg-name="DISNEY JR",DISNEY JR
 http://31.43.191.125:8080/vip6671769357668/9c933f68998a/4852
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Disney.Junior.HD.us2" tvg-name="DISNEY JUNIOR HD",DISNEY JUNIOR HD
