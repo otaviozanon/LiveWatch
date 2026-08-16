@@ -5349,14 +5349,8 @@ https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u
 https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV",GE TV
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/3653622.ts
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD (SAMSUNGTV)",GE TV FHD (SAMSUNGTV)
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV FHD (TCL TV)",GE TV FHD (TCL TV)
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/1080p-cc/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (SAMSUNGTV)",GE TV HD (SAMSUNGTV)
-https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/720p-vtt/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (TCL TV)",GE TV HD (TCL TV)
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/720p-cc/index.m3u8
+#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="GE.br" tvg-name="GE TV HD (LG TV)",GE TV HD (LG TV)
+https://amg00716-globo-amg00716c1-lg-br-9609.playouts.now.amagi.tv/playlist/amg00716-globo-gefast-lgbr/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="RBS TV Rio Grande HD.br" tvg-name="GRANDE PREMIO F1 TV",GRANDE PREMIO F1 TV
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/4045600.ts
 #EXTINF:-1 group-title="BR – ESPORTES",KINGS LEAGUE BRAZIL
