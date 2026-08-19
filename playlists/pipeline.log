@@ -75,7 +75,7 @@
 [LiveWatch]    820 canais BR
 [LiveWatch]    815 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    16591 registros
+[LiveWatch]    16511 registros
 [LiveWatch]    537 streams
 [LiveWatch] [*] 96 grupos remapeados
 [LiveWatch] [-] 92 canais indesejados
@@ -85,7 +85,7 @@
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2009 entradas (6682 linhas)
+[LiveWatch]    2009 entradas (6685 linhas)
 [LiveWatch] [*] 217 grupos remapeados
 [LiveWatch] [-] 1303 URLs bloqueadas
 [LiveWatch] [-] 212 canais indesejados
