@@ -3592,7 +3592,7 @@ http://hardcoremedia.xyz:80/tzwecpfd/1822349101/260143
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD [6]",HBO 2 HD [6]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126891.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 HD [7]",HBO 2 HD [7]
-https://megaflix.mgfiles.lat/271358327102dbcb00df1e1b08f2298e/file.m3u8
+http://45.190.28.50/HBO2/index.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 SD",HBO 2 SD
 http://asxc.pro:80/887429/DNFgcu/72113.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.2.br" tvg-name="HBO 2 SD [2]",HBO 2 SD [2]
@@ -3613,8 +3613,6 @@ http://asxc.pro:80/887429/DNFgcu/90637.ts
 http://asxc.pro:80/887429/DNFgcu/72116.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD [2]",HBO FAMILY HD [2]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126895.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY HD [3]",HBO FAMILY HD [3]
-https://megaflix.mgfiles.lat/8ea50dc6ffce55fe09cf2468ab78d9c7/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY SD",HBO FAMILY SD
 http://asxc.pro:80/887429/DNFgcu/72117.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Family.br" tvg-name="HBO FAMILY SD [2]",HBO FAMILY SD [2]
@@ -3685,8 +3683,6 @@ http://asxc.pro:80/887429/DNFgcu/103496.ts
 http://asxc.pro:80/887429/DNFgcu/72123.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [2]",HBO MUNDI HD [2]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126901.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [3]",HBO MUNDI HD [3]
-https://megaflix.mgfiles.lat/50f842ffcf8176758b9ae65b7d3590f6/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI HD [LEG]",HBO MUNDI HD [LEG]
 http://asxc.pro:80/887429/DNFgcu/90694.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.MUNDI.br" tvg-name="HBO MUNDI SD",HBO MUNDI SD
@@ -3733,8 +3729,6 @@ http://asxc.pro:80/887429/DNFgcu/103495.ts
 http://asxc.pro:80/887429/DNFgcu/72131.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [2]",HBO POP HD [2]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126910.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [3]",HBO POP HD [3]
-https://megaflix.mgfiles.lat/d20678fa48a14a3c8980027d3a1a27d9/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP HD [LEG]",HBO POP HD [LEG]
 http://asxc.pro:80/887429/DNFgcu/90688.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Pop.br" tvg-name="HBO POP SD",HBO POP SD
@@ -3793,8 +3787,6 @@ http://asxc.pro:80/887429/DNFgcu/90636.ts
 http://asxc.pro:80/887429/DNFgcu/72140.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD [2]",HBO XTREME HD [2]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126919.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD [3]",HBO XTREME HD [3]
-https://megaflix.mgfiles.lat/9b84e468352d6a70935cac946f3ee4c5/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME HD [LEG]",HBO XTREME HD [LEG]
 http://asxc.pro:80/887429/DNFgcu/90682.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME SD",HBO XTREME SD
@@ -3803,8 +3795,6 @@ http://asxc.pro:80/887429/DNFgcu/72141.ts
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/126920.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.Xtreme.br" tvg-name="HBO XTREME SD [LEG]",HBO XTREME SD [LEG]
 http://asxc.pro:80/887429/DNFgcu/90681.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO+.br" tvg-name="HBO+ HD",HBO+ HD
-https://megaflix.mgfiles.lat/63920faf8ee4fd6f0fb603688a1ca16f/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES",HTO FILMES
 https://cdn-3.nxplay.com.br/HTO_Filmes/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal HD.br" tvg-name="IGREJA UNIVERSAL",IGREJA UNIVERSAL
@@ -4177,8 +4167,6 @@ http://hardcoremedia.xyz:80/xqsgzfox/0542802136/260178
 http://hardcoremedia.xyz:80/tzwecpfd/1822349101/260178
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD [6]",STUDIO UNIVERSAL HD [6]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/223579.ts
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL HD [7]",STUDIO UNIVERSAL HD [7]
-https://megaflix.mgfiles.lat/645cecb3b7efd64117cbdefaa07a8eaa/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL SD",STUDIO UNIVERSAL SD
 http://asxc.pro:80/887429/DNFgcu/72337.ts
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Studio.Universal.br" tvg-name="STUDIO UNIVERSAL SD [2]",STUDIO UNIVERSAL SD [2]
@@ -4517,8 +4505,6 @@ https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL",UNIVERSAL CHANNEL
 http://31.43.191.125:8080/vip6671769357668/9c933f68998a/4921
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL FHD",UNIVERSAL CHANNEL FHD
-https://megaflix.mgfiles.lat/3585e24d4ab7065fee86f7bb846a54c2/file.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
 http://hardcoremedia.xyz:80/nrzepqom/vGruK584wr/260197
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD [2]",UNIVERSAL CHANNEL HD [2]
@@ -5307,8 +5293,6 @@ http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/150832.ts
 http://asxc.pro:80/887429/DNFgcu/71913.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN HD [2]",ESPN HD [2]
 https://cr7v.short.gy/live25/spn/Index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN HD [3]",ESPN HD [3]
-http://live.myzapptv.com:80/live/f1s5fiwlwxkw.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN SD",ESPN SD
 http://asxc.pro:80/887429/DNFgcu/71914.ts
 #EXTINF:-1 group-title="BR – ESPORTES",ESPN4
@@ -5488,7 +5472,7 @@ http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2587982.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD [7]",SPORTV 2 HD [7]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2587997.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 HD [8]",SPORTV 2 HD [8]
-http://s2.micineovs.com/SPTV2/index.m3u8?token=16FOTt9Ae2m8
+http://177.52.24.163/SPORTV-2-HD/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 SD",SPORTV 2 SD
 http://asxc.pro:80/887429/DNFgcu/72324.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.2.br" tvg-name="SPORTV 2 SD [2]",SPORTV 2 SD [2]
@@ -5507,6 +5491,8 @@ http://asxc.pro:80/887429/DNFgcu/72325.ts
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2587984.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 FHD [3]",SPORTV 3 FHD [3]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2587999.ts
+#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 FHD [4]",SPORTV 3 FHD [4]
+https://cr7v.short.gy/FuncionaSoquandoTemF1/ManoTVfree.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 H265",SPORTV 3 H265
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/150862.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD",SPORTV 3 HD
@@ -5515,8 +5501,6 @@ http://asxc.pro:80/887429/DNFgcu/131113.ts
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2587985.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD [3]",SPORTV 3 HD [3]
 http://kraewert.top:80/kHCf7gDxJx3Eb4/3dEyWAtr4Fu7Rf/2588000.ts
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 HD [4]",SPORTV 3 HD [4]
-https://cr7v.short.gy/FuncionaSoquandoTemF1/ManoTVfree.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 SD",SPORTV 3 SD
 http://asxc.pro:80/887429/DNFgcu/131108.ts
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="SporTV.3.br" tvg-name="SPORTV 3 SD [2]",SPORTV 3 SD [2]
