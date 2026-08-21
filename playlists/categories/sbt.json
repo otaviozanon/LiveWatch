@@ -1,7 +1,10 @@
 {
   "name": "SBT",
   "channels": [
-    "SBT PR HD"
+    "SBT PR HD",
+    "SBT PR FOZ DO IGUAÇU HD",
+    "SBT PR LONDRINA HD",
+    "SBT PR MARINGÁ HD"
   ],
-  "count": 1
+  "count": 4
 }

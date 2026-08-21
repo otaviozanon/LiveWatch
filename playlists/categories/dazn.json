@@ -12,7 +12,18 @@
     "DAZN 2 FHD",
     "DAZN 2 HD",
     "DAZN 2 SD",
-    "DAZN COMBAT"
+    "DAZN COMBAT",
+    "DAZN 1 FHD [2]",
+    "DAZN 1 HD [2]",
+    "DAZN 1 HD [3]",
+    "DAZN 1 SD [2]",
+    "DAZN 2 FHD [2]",
+    "DAZN 2 HD [2]",
+    "DAZN 2 HD [3]",
+    "DAZN 2 SD [2]",
+    "DAZN 3 HD",
+    "DAZN 4 HD",
+    "DAZN 5 HD"
   ],
-  "count": 12
+  "count": 23
 }
