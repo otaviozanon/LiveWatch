@@ -4703,7 +4703,7 @@ http://tjtor8411.com:80/010794/FXz1sY/90669.ts
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="TV UNIVERSAL",TV UNIVERSAL
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal HD.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
 http://79.127.243.211:14623/
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE",UNIVERSAL PREMIERE
 http://up.kiwi/351921603109/34939156/296650
@@ -5849,7 +5849,7 @@ http://up.kiwi/351921603109/34939156/1175
 http://up.kiwi/351921603109/34939156/1174
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL SD [2]",SBT NACIONAL SD [2]
 http://up.kiwi/351921603109/34939156/1177
-#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TBS.br" tvg-name="TBS H265",TBS H265
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TBS HD.br" tvg-name="TBS H265",TBS H265
 http://up.kiwi/351921603109/34939156/1250
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC [H265 ]",TLC [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/72372.ts
@@ -8291,7 +8291,7 @@ https://tv.unisc.br/hls/test.m3u8
 https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
 #EXTINF:-1 group-title="BR – EDUCACAO",CANAL SAÚDE
 https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
-#EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="TV.Cultura.br" tvg-name="CATVE TV CULTURA HD",CATVE TV CULTURA HD
+#EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="TV Cultura Paulista.br" tvg-name="CATVE TV CULTURA HD",CATVE TV CULTURA HD
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="Santa Cecília TV.br" tvg-name="SANTA CECILIA TV",SANTA CECILIA TV
 http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
@@ -8875,7 +8875,7 @@ http://up.kiwi/351921603109/34939156/1260924
 http://up.kiwi/351921603109/34939156/1260928
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TSN2
 http://up.kiwi/351921603109/34939156/1260929
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="TCM.-.Turner.Classic.br" tvg-name="[US] TURNER CLASSIC MOVIES",[US] TURNER CLASSIC MOVIES
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Turner.Classic.Movies.HD.us2" tvg-name="[US] TURNER CLASSIC MOVIES",[US] TURNER CLASSIC MOVIES
 http://up.kiwi/351921603109/34939156/1260930
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="TV.Land.HD.us2" tvg-name="[US] TV LAND",[US] TV LAND
 http://up.kiwi/351921603109/34939156/1260931
