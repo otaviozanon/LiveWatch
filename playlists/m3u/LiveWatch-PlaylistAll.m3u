@@ -21,12 +21,6 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/383033.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/317690.ts
 #EXTINF:-1 group-title="BR – NOVOS",[22:00] HAITI X ESCÓCIA FHD [2]
 http://tjtor8411.com:80/Osiel123/Felicidade321/383034.ts
-#EXTINF:-1 group-title="BR – NOVOS",CINE CANAL H265
-http://up.kiwi/351921603109/34939156/217
-#EXTINF:-1 group-title="BR – NOVOS",CINE CANAL HD
-http://up.kiwi/351921603109/34939156/220
-#EXTINF:-1 group-title="BR – NOVOS",CINE CANAL SD
-http://up.kiwi/351921603109/34939156/222
 #EXTINF:-1 group-title="BR – NOVOS",JOGOS DO DIA
 http://up.kiwi/351921603109/34939156/297023
 #EXTINF:-1 group-title="BR – NOVOS" tvg-id="RBI HD.br" tvg-name="RBI HD",RBI HD
@@ -2723,10 +2717,6 @@ http://15.235.9.200:14888/
 http://15.235.9.200:14885/
 #EXTINF:-1 group-title="BR – REALITIES" tvg-id="TruTV.br" tvg-name="[US] TRUTV",[US] TRUTV
 http://up.kiwi/351921603109/34939156/1260927
-#EXTINF:-1 group-title="BR – REALITIES",TRU TV HD
-http://up.kiwi/351921603109/34939156/1324
-#EXTINF:-1 group-title="BR – REALITIES",TRU TV SD
-http://up.kiwi/351921603109/34939156/1325
 #EXTINF:-1 group-title="BR – GLOBO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO PR RPC",GLOBO PR RPC
 http://up.kiwi/351921603109/34939156/295918
 #EXTINF:-1 group-title="BR – GLOBO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO PR RPC CASCAVEL HD",GLOBO PR RPC CASCAVEL HD
@@ -4821,30 +4811,260 @@ http://up.kiwi/351921603109/34939156/1260878
 http://up.kiwi/351921603109/34939156/1260908
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="[US] TLC",[US] TLC
 http://up.kiwi/351921603109/34939156/1260925
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1",ARTE 1
+http://45.162.64.114/ARTE1/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [2]",ARTE 1 [2]
+http://45.177.114.115/ARTE1/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [3]",ARTE 1 [3]
+http://45.190.28.50/ARTE_1/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [4]",ARTE 1 [4]
+http://168.197.104.22/ARTE1/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [5]",ARTE 1 [5]
+http://170.83.16.50/ARTE_1/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [H265 ]",ARTE 1 [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71778.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 [H265 ] [2]",ARTE 1 [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71778.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD",ARTE 1 FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71777.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD [2]",ARTE 1 FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71777.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265",ARTE 1 H265
 http://up.kiwi/351921603109/34939156/84
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265 [2]",ARTE 1 H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103531.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265 [3]",ARTE 1 H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/103531.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD",ARTE 1 HD
+http://up.kiwi/351921603109/34939156/86
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [2]",ARTE 1 HD [2]
+http://up.kiwi/351921603109/34939156/296566
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [3]",ARTE 1 HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71779.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [4]",ARTE 1 HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71779.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD",ARTE 1 SD
+http://up.kiwi/351921603109/34939156/88
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [2]",ARTE 1 SD [2]
+http://up.kiwi/351921603109/34939156/296567
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [3]",ARTE 1 SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71780.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [4]",ARTE 1 SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71780.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Baby.Tv.br" tvg-name="BABY TV H265",BABY TV H265
 http://up.kiwi/351921603109/34939156/100
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND",BAND
+http://45.190.28.50/BAND_HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND [2]",BAND [2]
+http://138.255.2.6:8084/BAND/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND [3]",BAND [3]
+http://170.84.165.204/BAND_HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND [4]",BAND [4]
+https://media.cdntvms.com.br/band_sat/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND FHD",BAND FHD
+http://up.kiwi/351921603109/34939156/296913
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND H265",BAND H265
+http://up.kiwi/351921603109/34939156/296275
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND H265 [2]",BAND H265 [2]
 http://up.kiwi/351921603109/34939156/111
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND HD",BAND HD
+http://up.kiwi/351921603109/34939156/112
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND HD [2]",BAND HD [2]
+http://up.kiwi/351921603109/34939156/296914
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND HD [3]",BAND HD [3]
+http://184.154.244.75:14006/
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS [H265 ]",BAND NEWS [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71790.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS [H265 ] [2]",BAND NEWS [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71790.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS FHD",BAND NEWS FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71789.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS FHD [2]",BAND NEWS FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71789.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265",BAND NEWS H265
+http://up.kiwi/351921603109/34939156/296359
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [2]",BAND NEWS H265 [2]
 http://up.kiwi/351921603109/34939156/116
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [3]",BAND NEWS H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103526.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [4]",BAND NEWS H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/103526.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD",BAND NEWS HD
+http://up.kiwi/351921603109/34939156/118
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [2]",BAND NEWS HD [2]
+http://up.kiwi/351921603109/34939156/296335
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [3]",BAND NEWS HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71791.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [4]",BAND NEWS HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71791.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [5]",BAND NEWS HD [5]
+http://gerenciar.vivatele.com:80/viva_padrao/viva2384/21.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD",BAND NEWS SD
+http://up.kiwi/351921603109/34939156/120
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [2]",BAND NEWS SD [2]
+http://up.kiwi/351921603109/34939156/296336
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [3]",BAND NEWS SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71792.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [4]",BAND NEWS SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71792.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SD",BAND SD
+http://up.kiwi/351921603109/34939156/133
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SD [2]",BAND SD [2]
+http://up.kiwi/351921603109/34939156/296922
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Band.br" tvg-name="BAND SD [3]",BAND SD [3]
+http://up.kiwi/351921603109/34939156/296923
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO [H265 ]",CARTOONITO [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71813.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO [H265 ] [2]",CARTOONITO [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71813.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO FHD",CARTOONITO FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71812.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO FHD [2]",CARTOONITO FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71812.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265",CARTOONITO H265
 http://up.kiwi/351921603109/34939156/207
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265 [2]",CARTOONITO H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90644.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265 [3]",CARTOONITO H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/90644.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD",CARTOONITO HD
+http://up.kiwi/351921603109/34939156/209
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [2]",CARTOONITO HD [2]
+http://up.kiwi/351921603109/34939156/296390
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [3]",CARTOONITO HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71814.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [4]",CARTOONITO HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71814.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [5]",CARTOONITO HD [5]
+http://45.162.231.38:7779/Cartoonito/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD",CARTOONITO SD
+http://up.kiwi/351921603109/34939156/211
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [2]",CARTOONITO SD [2]
+http://up.kiwi/351921603109/34939156/296391
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [3]",CARTOONITO SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71815.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [4]",CARTOONITO SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71815.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS",CINE CANAL H265
+http://up.kiwi/351921603109/34939156/217
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS",CINE CANAL H265 [2]
 http://up.kiwi/351921603109/34939156/218
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS",CINE CANAL HD
+http://up.kiwi/351921603109/34939156/220
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS",CINE CANAL SD
+http://up.kiwi/351921603109/34939156/222
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL",CNN BRASIL
+http://up.kiwi/351921603109/34939156/296357
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL [H265 ]",CNN BRASIL [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71838.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL [H265 ] [2]",CNN BRASIL [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71838.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD",CNN BRASIL FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71837.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD [2]",CNN BRASIL FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71837.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD [3]",CNN BRASIL FHD [3]
+https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1280x720/playlist.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265",CNN BRASIL H265
+http://up.kiwi/351921603109/34939156/299664
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [2]",CNN BRASIL H265 [2]
 http://up.kiwi/351921603109/34939156/264
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [3]",CNN BRASIL H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71798.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [4]",CNN BRASIL H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/71798.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD",CNN BRASIL HD
+http://up.kiwi/351921603109/34939156/266
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [2]",CNN BRASIL HD [2]
+http://up.kiwi/351921603109/34939156/296350
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [3]",CNN BRASIL HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71839.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [4]",CNN BRASIL HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71839.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [5]",CNN BRASIL HD [5]
+https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-960x540/playlist.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD",CNN BRASIL SD
+http://up.kiwi/351921603109/34939156/268
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [2]",CNN BRASIL SD [2]
+http://up.kiwi/351921603109/34939156/296351
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [3]",CNN BRASIL SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71840.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [4]",CNN BRASIL SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71840.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [5]",CNN BRASIL SD [5]
+https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-640x360/playlist.m3u8
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL H265",CNN ESPANHOL H265
 http://up.kiwi/351921603109/34939156/269
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL HD",CNN ESPANHOL HD
+http://up.kiwi/351921603109/34939156/270
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL SD",CNN ESPANHOL SD
+http://up.kiwi/351921603109/34939156/272
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL H265",CNN INTERNACIONAL H265
 http://up.kiwi/351921603109/34939156/273
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
+http://up.kiwi/351921603109/34939156/274
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL SD",CNN INTERNACIONAL SD
+http://up.kiwi/351921603109/34939156/275
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE",COMBATE
+http://143.14.134.107/167/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE [H265 ]",COMBATE [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71843.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE [H265 ] [2]",COMBATE [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71843.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE FHD",COMBATE FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71842.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE FHD [2]",COMBATE FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71842.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE H265",COMBATE H265
+http://up.kiwi/351921603109/34939156/299665
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE H265 [2]",COMBATE H265 [2]
 http://up.kiwi/351921603109/34939156/278
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE H265 [3]",COMBATE H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71844.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE H265 [4]",COMBATE H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/71844.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD",COMBATE HD
+http://up.kiwi/351921603109/34939156/280
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD [2]",COMBATE HD [2]
+http://up.kiwi/351921603109/34939156/296482
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD [3]",COMBATE HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71845.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD [4]",COMBATE HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71845.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD [5]",COMBATE HD [5]
+http://46.151.196.223:14468/
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE HD [6]",COMBATE HD [6]
+http://45.162.231.38:7779/Combate/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE SD",COMBATE SD
+http://up.kiwi/351921603109/34939156/282
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE SD [2]",COMBATE SD [2]
+http://up.kiwi/351921603109/34939156/296483
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE SD [3]",COMBATE SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71846.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Combate.br" tvg-name="COMBATE SD [4]",COMBATE SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71846.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL H265",COMEDY CENTRAL H265
+http://up.kiwi/351921603109/34939156/296167
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL H265 [2]",COMEDY CENTRAL H265 [2]
 http://up.kiwi/351921603109/34939156/284
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL HD",COMEDY CENTRAL HD
+http://up.kiwi/351921603109/34939156/286
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL HD [2]",COMEDY CENTRAL HD [2]
+http://up.kiwi/351921603109/34939156/296153
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SD",COMEDY CENTRAL SD
+http://up.kiwi/351921603109/34939156/288
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SD [2]",COMEDY CENTRAL SD [2]
+http://up.kiwi/351921603109/34939156/296154
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Curta!.br" tvg-name="CURTA! H265",CURTA! H265
 http://up.kiwi/351921603109/34939156/290
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Curta! HD.br" tvg-name="CURTA! HD",CURTA! HD
+http://up.kiwi/351921603109/34939156/292
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Curta! HD.br" tvg-name="CURTA! HD [2]",CURTA! HD [2]
+http://up.kiwi/351921603109/34939156/296582
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Curta!.br" tvg-name="CURTA! SD",CURTA! SD
+http://up.kiwi/351921603109/34939156/294
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Curta!.br" tvg-name="CURTA! SD [2]",CURTA! SD [2]
+http://up.kiwi/351921603109/34939156/296583
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL [H265 ]",DISCOVERY CHANNEL [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/71863.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Channel.br" tvg-name="DISCOVERY CHANNEL [H265 ] [2]",DISCOVERY CHANNEL [H265 ] [2]
@@ -4923,8 +5143,38 @@ http://up.kiwi/351921603109/34939156/296570
 http://up.kiwi/351921603109/34939156/355
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="ID.br" tvg-name="DISCOVERY ID SD [2]",DISCOVERY ID SD [2]
 http://up.kiwi/351921603109/34939156/296571
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS [H265 ]",DISCOVERY KIDS [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71872.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS [H265 ] [2]",DISCOVERY KIDS [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71872.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS FHD",DISCOVERY KIDS FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71871.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS FHD [2]",DISCOVERY KIDS FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71871.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265",DISCOVERY KIDS H265
 http://up.kiwi/351921603109/34939156/357
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265 [2]",DISCOVERY KIDS H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90250.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265 [3]",DISCOVERY KIDS H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/90250.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD",DISCOVERY KIDS HD
+http://up.kiwi/351921603109/34939156/359
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [2]",DISCOVERY KIDS HD [2]
+http://up.kiwi/351921603109/34939156/296368
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [3]",DISCOVERY KIDS HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71873.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [4]",DISCOVERY KIDS HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71873.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [5]",DISCOVERY KIDS HD [5]
+http://streamer.sattvacabo.com.br/DISCOVERY_KIDS_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD",DISCOVERY KIDS SD
+http://up.kiwi/351921603109/34939156/361
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [2]",DISCOVERY KIDS SD [2]
+http://up.kiwi/351921603109/34939156/296369
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [3]",DISCOVERY KIDS SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71874.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [4]",DISCOVERY KIDS SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71874.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE [H265 ]",DISCOVERY SCIENCE [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/71876.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Discovery.Science.br" tvg-name="DISCOVERY SCIENCE [H265 ] [2]",DISCOVERY SCIENCE [H265 ] [2]
@@ -5075,16 +5325,194 @@ http://tjtor8411.com:80/010794/FXz1sY/76923.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/104908.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="DogTV.br" tvg-name="DOG TV SD [2]",DOG TV SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/104908.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV",FISH TV
+http://45.162.64.114/FISH_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV [2]",FISH TV [2]
+http://45.190.28.50/FISH_TV_HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV [3]",FISH TV [3]
+http://168.197.104.22/FISH_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV [4]",FISH TV [4]
+http://170.83.16.50/FISH_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV [H265 ]",FISH TV [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71929.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV [H265 ] [2]",FISH TV [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71929.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV FHD",FISH TV FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71928.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV FHD [2]",FISH TV FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71928.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV H265",FISH TV H265
 http://up.kiwi/351921603109/34939156/513
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV H265 [2]",FISH TV H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103502.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV H265 [3]",FISH TV H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/103502.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV HD",FISH TV HD
+http://up.kiwi/351921603109/34939156/515
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [2]",FISH TV HD [2]
+http://up.kiwi/351921603109/34939156/296159
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [3]",FISH TV HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71930.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [4]",FISH TV HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71930.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV SD",FISH TV SD
+http://up.kiwi/351921603109/34939156/517
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [2]",FISH TV SD [2]
+http://up.kiwi/351921603109/34939156/296160
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [3]",FISH TV SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71931.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [4]",FISH TV SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/71931.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS [H265 ]",GLOBO NEWS [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71998.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS [H265 ] [2]",GLOBO NEWS [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/71998.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD",GLOBO NEWS FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/71997.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD [2]",GLOBO NEWS FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/71997.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD [3]",GLOBO NEWS FHD [3]
+http://xxip9.top:8080/Gizvid192@giz.com/1234@4321/164945
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265",GLOBO NEWS H265
+http://up.kiwi/351921603109/34939156/299672
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [2]",GLOBO NEWS H265 [2]
 http://up.kiwi/351921603109/34939156/296341
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [3]",GLOBO NEWS H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90248.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [4]",GLOBO NEWS H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/90248.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD",GLOBO NEWS HD
+http://up.kiwi/351921603109/34939156/296342
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [2]",GLOBO NEWS HD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/71999.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [3]",GLOBO NEWS HD [3]
+http://tjtor8411.com:80/010794/FXz1sY/71999.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [4]",GLOBO NEWS HD [4]
+http://79.127.238.228:14093/
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD",GLOBO NEWS SD
+http://up.kiwi/351921603109/34939156/296343
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD [2]",GLOBO NEWS SD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/131112.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD [3]",GLOBO NEWS SD [3]
+http://tjtor8411.com:80/010794/FXz1sY/131112.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB",GLOOB
+http://up.kiwi/351921603109/34939156/296392
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB [2]",GLOOB [2]
+http://45.235.0.78/Gloob/playlist.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB [H265 ]",GLOOB [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72099.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB [H265 ] [2]",GLOOB [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72099.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB FHD",GLOOB FHD
+http://up.kiwi/351921603109/34939156/296362
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB FHD [2]",GLOOB FHD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/131153.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB FHD [3]",GLOOB FHD [3]
+http://tjtor8411.com:80/010794/FXz1sY/131153.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB H265",GLOOB H265
 http://up.kiwi/351921603109/34939156/543
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB H265 [2]",GLOOB H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103498.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB H265 [3]",GLOOB H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/103498.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB HD",GLOOB HD
+http://up.kiwi/351921603109/34939156/545
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB HD [2]",GLOOB HD [2]
+http://up.kiwi/351921603109/34939156/296372
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB HD [3]",GLOOB HD [3]
+http://up.kiwi/351921603109/34939156/296361
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB HD [4]",GLOOB HD [4]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72100.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB HD [5]",GLOOB HD [5]
+http://tjtor8411.com:80/010794/FXz1sY/72100.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB SD",GLOOB SD
+http://up.kiwi/351921603109/34939156/547
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB SD [2]",GLOOB SD [2]
+http://up.kiwi/351921603109/34939156/296373
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB SD [3]",GLOOB SD [3]
+http://up.kiwi/351921603109/34939156/296360
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB SD [4]",GLOOB SD [4]
+http://tjtor8411.com:80/Osiel123/Felicidade321/131117.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloob.br" tvg-name="GLOOB SD [5]",GLOOB SD [5]
+http://tjtor8411.com:80/010794/FXz1sY/131117.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO",GLOOBINHO
+http://up.kiwi/351921603109/34939156/296393
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [2]",GLOOBINHO [2]
+http://177.52.24.163/GLOOBINHO-HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [H265 ]",GLOOBINHO [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90630.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [H265 ] [2]",GLOOBINHO [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/90630.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD",GLOOBINHO FHD
+http://up.kiwi/351921603109/34939156/296365
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD [2]",GLOOBINHO FHD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90631.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD [3]",GLOOBINHO FHD [3]
+http://tjtor8411.com:80/010794/FXz1sY/90631.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265",GLOOBINHO H265
 http://up.kiwi/351921603109/34939156/548
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265 [2]",GLOOBINHO H265 [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103497.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265 [3]",GLOOBINHO H265 [3]
+http://tjtor8411.com:80/010794/FXz1sY/103497.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD",GLOOBINHO HD
+http://up.kiwi/351921603109/34939156/550
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [2]",GLOOBINHO HD [2]
+http://up.kiwi/351921603109/34939156/296364
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [3]",GLOOBINHO HD [3]
+http://up.kiwi/351921603109/34939156/296374
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [4]",GLOOBINHO HD [4]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90629.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [5]",GLOOBINHO HD [5]
+http://tjtor8411.com:80/010794/FXz1sY/90629.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD",GLOOBINHO SD
+http://up.kiwi/351921603109/34939156/296363
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [2]",GLOOBINHO SD [2]
+http://up.kiwi/351921603109/34939156/296375
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [3]",GLOOBINHO SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/131173.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [4]",GLOOBINHO SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/131173.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT",GNT
+http://170.82.202.31/GNT/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT [H265 ]",GNT [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72103.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT [H265 ] [2]",GNT [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72103.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT FHD",GNT FHD
+http://up.kiwi/351921603109/34939156/296122
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT FHD [2]",GNT FHD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72102.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT FHD [3]",GNT FHD [3]
+http://tjtor8411.com:80/010794/FXz1sY/72102.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT H265",GNT H265
+http://up.kiwi/351921603109/34939156/299673
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT H265 [2]",GNT H265 [2]
 http://up.kiwi/351921603109/34939156/552
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT H265 [3]",GNT H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/90638.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT H265 [4]",GNT H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/90638.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT HD",GNT HD
+http://up.kiwi/351921603109/34939156/554
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT HD [2]",GNT HD [2]
+http://up.kiwi/351921603109/34939156/296121
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT HD [3]",GNT HD [3]
+http://up.kiwi/351921603109/34939156/296135
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT HD [4]",GNT HD [4]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72104.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT HD [5]",GNT HD [5]
+http://tjtor8411.com:80/010794/FXz1sY/72104.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT SD",GNT SD
+http://up.kiwi/351921603109/34939156/556
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT SD [2]",GNT SD [2]
+http://up.kiwi/351921603109/34939156/296120
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT SD [3]",GNT SD [3]
+http://up.kiwi/351921603109/34939156/296136
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT SD [4]",GNT SD [4]
+http://tjtor8411.com:80/Osiel123/Felicidade321/131136.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="GNT.br" tvg-name="GNT SD [5]",GNT SD [5]
+http://tjtor8411.com:80/010794/FXz1sY/131136.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="H2 HD.br" tvg-name="H2 [H265 ]",H2 [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/72107.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="H2 HD.br" tvg-name="H2 [H265 ] [2]",H2 [H265 ] [2]
@@ -5215,24 +5643,212 @@ https://megaflix.mgfiles.lat/a0c986815ff38ac3d75b30dfd42afa9d/file.m3u8
 http://tjtor8411.com:80/Osiel123/Felicidade321/72153.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="ID.br" tvg-name="ID SD [2]",ID SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/72153.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS",JOVEM PAN NEWS
+http://45.190.28.50/JP_NEWS/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [2]",JOVEM PAN NEWS [2]
+http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [3]",JOVEM PAN NEWS [3]
+http://186.219.52.187/jp_news/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [4]",JOVEM PAN NEWS [4]
+https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [5]",JOVEM PAN NEWS [5]
+https://stream.zeno.fm/vlcraijc6yiuv
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [H265 ]",JOVEM PAN NEWS [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/134022.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [H265 ] [2]",JOVEM PAN NEWS [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/134022.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD",JOVEM PAN NEWS FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/134023.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD [2]",JOVEM PAN NEWS FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/134023.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265",JOVEM PAN NEWS H265
+http://up.kiwi/351921603109/34939156/299675
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [2]",JOVEM PAN NEWS H265 [2]
 http://up.kiwi/351921603109/34939156/707
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [3]",JOVEM PAN NEWS H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/134021.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [4]",JOVEM PAN NEWS H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/134021.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD",JOVEM PAN NEWS HD
+http://up.kiwi/351921603109/34939156/709
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [2]",JOVEM PAN NEWS HD [2]
+http://up.kiwi/351921603109/34939156/296344
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [3]",JOVEM PAN NEWS HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/134024.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [4]",JOVEM PAN NEWS HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/134024.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS SD",JOVEM PAN NEWS SD
+http://tjtor8411.com:80/Osiel123/Felicidade321/134025.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS SD [2]",JOVEM PAN NEWS SD [2]
+http://tjtor8411.com:80/010794/FXz1sY/134025.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS",LOVE NATURE H265
 http://up.kiwi/351921603109/34939156/299676
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV",PLAY TV
+http://45.162.64.114/PLAY_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [2]",PLAY TV [2]
+http://45.177.114.115/PLAY_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [3]",PLAY TV [3]
+http://168.197.104.22/PLAY_TV/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [4]",PLAY TV [4]
+https://isaocorp.cloudecast.com/playtv/index.m3u8
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV H265",PLAY TV H265
 http://up.kiwi/351921603109/34939156/843
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV HD",PLAY TV HD
+http://up.kiwi/351921603109/34939156/844
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV SD",PLAY TV SD
+http://up.kiwi/351921603109/34939156/845
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 [H265 ]",PREMIERE 3 [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72242.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 [H265 ] [2]",PREMIERE 3 [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72242.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 FHD",PREMIERE 3 FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/72241.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 FHD [2]",PREMIERE 3 FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/72241.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265",PREMIERE 3 H265
+http://up.kiwi/351921603109/34939156/305248
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [2]",PREMIERE 3 H265 [2]
 http://up.kiwi/351921603109/34939156/865
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [3]",PREMIERE 3 H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103481.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [4]",PREMIERE 3 H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/103481.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD",PREMIERE 3 HD
+http://up.kiwi/351921603109/34939156/867
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [2]",PREMIERE 3 HD [2]
+http://up.kiwi/351921603109/34939156/296309
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [3]",PREMIERE 3 HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72243.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [4]",PREMIERE 3 HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72243.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [5]",PREMIERE 3 HD [5]
+https://cr7v.short.gy/Canal3/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD",PREMIERE 3 SD
+http://up.kiwi/351921603109/34939156/869
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [2]",PREMIERE 3 SD [2]
+http://up.kiwi/351921603109/34939156/296310
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [3]",PREMIERE 3 SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72244.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [4]",PREMIERE 3 SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72244.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 [H265 ]",PREMIERE 5 [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72250.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 [H265 ] [2]",PREMIERE 5 [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72250.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 FHD",PREMIERE 5 FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/72249.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 FHD [2]",PREMIERE 5 FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/72249.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265",PREMIERE 5 H265
+http://up.kiwi/351921603109/34939156/305249
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [2]",PREMIERE 5 H265 [2]
 http://up.kiwi/351921603109/34939156/877
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [3]",PREMIERE 5 H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103479.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [4]",PREMIERE 5 H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/103479.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD",PREMIERE 5 HD
+http://up.kiwi/351921603109/34939156/879
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [2]",PREMIERE 5 HD [2]
+http://up.kiwi/351921603109/34939156/296313
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [3]",PREMIERE 5 HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72251.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [4]",PREMIERE 5 HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72251.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD",PREMIERE 5 SD
+http://up.kiwi/351921603109/34939156/881
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [2]",PREMIERE 5 SD [2]
+http://up.kiwi/351921603109/34939156/296314
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [3]",PREMIERE 5 SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72252.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [4]",PREMIERE 5 SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72252.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 [H265 ]",PREMIERE 6 [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72254.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 [H265 ] [2]",PREMIERE 6 [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72254.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 FHD",PREMIERE 6 FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/72253.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 FHD [2]",PREMIERE 6 FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/72253.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265",PREMIERE 6 H265
+http://up.kiwi/351921603109/34939156/305250
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [2]",PREMIERE 6 H265 [2]
 http://up.kiwi/351921603109/34939156/883
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [3]",PREMIERE 6 H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103478.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [4]",PREMIERE 6 H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/103478.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD",PREMIERE 6 HD
+http://up.kiwi/351921603109/34939156/885
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [2]",PREMIERE 6 HD [2]
+http://up.kiwi/351921603109/34939156/296315
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [3]",PREMIERE 6 HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72255.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [4]",PREMIERE 6 HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72255.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD",PREMIERE 6 SD
+http://up.kiwi/351921603109/34939156/887
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [2]",PREMIERE 6 SD [2]
+http://up.kiwi/351921603109/34939156/296316
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [3]",PREMIERE 6 SD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72256.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [4]",PREMIERE 6 SD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72256.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 [H265 ]",PREMIERE 7 [H265 ]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72258.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 [H265 ] [2]",PREMIERE 7 [H265 ] [2]
+http://tjtor8411.com:80/010794/FXz1sY/72258.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 FHD",PREMIERE 7 FHD
+http://tjtor8411.com:80/Osiel123/Felicidade321/72257.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 FHD [2]",PREMIERE 7 FHD [2]
+http://tjtor8411.com:80/010794/FXz1sY/72257.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265",PREMIERE 7 H265
+http://up.kiwi/351921603109/34939156/296318
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [2]",PREMIERE 7 H265 [2]
 http://up.kiwi/351921603109/34939156/889
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [3]",PREMIERE 7 H265 [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/103477.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [4]",PREMIERE 7 H265 [4]
+http://tjtor8411.com:80/010794/FXz1sY/103477.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD",PREMIERE 7 HD
+http://up.kiwi/351921603109/34939156/891
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [2]",PREMIERE 7 HD [2]
+http://up.kiwi/351921603109/34939156/296317
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [3]",PREMIERE 7 HD [3]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72259.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [4]",PREMIERE 7 HD [4]
+http://tjtor8411.com:80/010794/FXz1sY/72259.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD",PREMIERE 7 SD
+http://up.kiwi/351921603109/34939156/893
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD [2]",PREMIERE 7 SD [2]
+http://tjtor8411.com:80/Osiel123/Felicidade321/72260.ts
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD [3]",PREMIERE 7 SD [3]
+http://tjtor8411.com:80/010794/FXz1sY/72260.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS",RAKUTEN DOCUMENTÁRIOS | PORTUGUÊS E INGLÊS
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL",SBT NACIONAL
+https://dai.google.com/linear/hls/event/Gmgmn9icSMOL6TAePageWQ/master.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL [2]",SBT NACIONAL [2]
+http://45.190.28.50/SBT_HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL [3]",SBT NACIONAL [3]
+http://138.255.2.6:8084/SBT/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL [4]",SBT NACIONAL [4]
+http://170.84.165.204/SBT_HD/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL [5]",SBT NACIONAL [5]
+https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL [6]",SBT NACIONAL [6]
+https://media.cdntvms.com.br/sbt_sat/index.m3u8
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL FHD",SBT NACIONAL FHD
+http://up.kiwi/351921603109/34939156/296862
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL H265",SBT NACIONAL H265
 http://up.kiwi/351921603109/34939156/1176
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL HD",SBT NACIONAL HD
+http://up.kiwi/351921603109/34939156/1175
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL SD",SBT NACIONAL SD
+http://up.kiwi/351921603109/34939156/1174
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="São.Paulo/SP..SBT.br" tvg-name="SBT NACIONAL SD [2]",SBT NACIONAL SD [2]
+http://up.kiwi/351921603109/34939156/1177
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TBS.br" tvg-name="TBS H265",TBS H265
 http://up.kiwi/351921603109/34939156/1250
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="TLC.br" tvg-name="TLC [H265 ]",TLC [H265 ]
@@ -5299,8 +5915,22 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/72393.ts
 http://tjtor8411.com:80/010794/FXz1sY/72393.ts
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS",TRU TV H265
 http://up.kiwi/351921603109/34939156/1323
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS",TRU TV HD
+http://up.kiwi/351921603109/34939156/1324
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS",TRU TV SD
+http://up.kiwi/351921603109/34939156/1325
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA FHD",VIVA FHD
+http://up.kiwi/351921603109/34939156/296563
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA H265",VIVA H265
+http://up.kiwi/351921603109/34939156/299688
 #EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA H265 [2]",VIVA H265 [2]
 http://up.kiwi/351921603109/34939156/1579
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA HD",VIVA HD
+http://up.kiwi/351921603109/34939156/1581
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA HD [2]",VIVA HD [2]
+http://up.kiwi/351921603109/34939156/296560
+#EXTINF:-1 group-title="BR – DOCUMENTARIOS" tvg-id="Viva.br" tvg-name="VIVA SD",VIVA SD
+http://up.kiwi/351921603109/34939156/296561
 #EXTINF:-1 group-title="BR – ESPORTES",24H BAKE OFF BRASIL
 http://up.kiwi/351921603109/34939156/1293579
 #EXTINF:-1 group-title="BR – ESPORTES",24H THE GLORY
@@ -5955,44 +6585,6 @@ https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",ARARUNA TV
 https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1",ARTE 1
-http://45.162.64.114/ARTE1/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [2]",ARTE 1 [2]
-http://45.177.114.115/ARTE1/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [3]",ARTE 1 [3]
-http://45.190.28.50/ARTE_1/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [4]",ARTE 1 [4]
-http://168.197.104.22/ARTE1/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [5]",ARTE 1 [5]
-http://170.83.16.50/ARTE_1/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [H265 ]",ARTE 1 [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71778.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 [H265 ] [2]",ARTE 1 [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71778.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD",ARTE 1 FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71777.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 FHD [2]",ARTE 1 FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71777.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265 [2]",ARTE 1 H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103531.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 H265 [3]",ARTE 1 H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/103531.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD",ARTE 1 HD
-http://up.kiwi/351921603109/34939156/86
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [2]",ARTE 1 HD [2]
-http://up.kiwi/351921603109/34939156/296566
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [3]",ARTE 1 HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71779.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 HD [4]",ARTE 1 HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71779.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD",ARTE 1 SD
-http://up.kiwi/351921603109/34939156/88
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [2]",ARTE 1 SD [2]
-http://up.kiwi/351921603109/34939156/296567
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [3]",ARTE 1 SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71780.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Arte.1.br" tvg-name="ARTE 1 SD [4]",ARTE 1 SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71780.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",AUGE TV
 https://cdn-tiva-video01-logicahost-com-br.smartbit.co/canalaugetv/canalaugetv/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",AWTV
@@ -6037,16 +6629,6 @@ http://168.197.104.22/CHEF_TV/index.m3u8
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",CINTURAO VERDE
 https://play.redecinturaoverde.com.br/playlist.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL H265",COMEDY CENTRAL H265
-http://up.kiwi/351921603109/34939156/296167
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL HD",COMEDY CENTRAL HD
-http://up.kiwi/351921603109/34939156/286
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL HD [2]",COMEDY CENTRAL HD [2]
-http://up.kiwi/351921603109/34939156/296153
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SD",COMEDY CENTRAL SD
-http://up.kiwi/351921603109/34939156/288
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Comedy.Central.br" tvg-name="COMEDY CENTRAL SD [2]",COMEDY CENTRAL SD [2]
-http://up.kiwi/351921603109/34939156/296154
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="TV Rede Mais Varginha.br" tvg-name="CONECTA MAIS TV",CONECTA MAIS TV
 https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",CONECTA+ TV
@@ -6077,14 +6659,6 @@ http://tjtor8411.com:80/010794/FXz1sY/71857.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/71858.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA SD [2]",CURTA SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/71858.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! HD",CURTA! HD
-http://up.kiwi/351921603109/34939156/292
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! HD [2]",CURTA! HD [2]
-http://up.kiwi/351921603109/34939156/296582
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! SD",CURTA! SD
-http://up.kiwi/351921603109/34939156/294
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! SD [2]",CURTA! SD [2]
-http://up.kiwi/351921603109/34939156/296583
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",DEMAIS TV
 https://cdn-tiva-stmv1-samcast-com-br.smartbit.co/demaistv6503/demaistv6503/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",DEMAIS TV [2]
@@ -6149,42 +6723,6 @@ http://tjtor8411.com:80/010794/FXz1sY/71926.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/71927.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FashionTV HD.br" tvg-name="FASHIONTV SD [2]",FASHIONTV SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/71927.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV",FISH TV
-http://45.162.64.114/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV [2]",FISH TV [2]
-http://45.190.28.50/FISH_TV_HD/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV [3]",FISH TV [3]
-http://168.197.104.22/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV [4]",FISH TV [4]
-http://170.83.16.50/FISH_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV [H265 ]",FISH TV [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71929.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV [H265 ] [2]",FISH TV [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71929.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV FHD",FISH TV FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71928.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV FHD [2]",FISH TV FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71928.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV H265 [2]",FISH TV H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103502.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV H265 [3]",FISH TV H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/103502.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD",FISH TV HD
-http://up.kiwi/351921603109/34939156/515
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [2]",FISH TV HD [2]
-http://up.kiwi/351921603109/34939156/296159
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [3]",FISH TV HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71930.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV HD [4]",FISH TV HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71930.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD",FISH TV SD
-http://up.kiwi/351921603109/34939156/517
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [2]",FISH TV SD [2]
-http://up.kiwi/351921603109/34939156/296160
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [3]",FISH TV SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71931.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="FISH.TV.br" tvg-name="FISH TV SD [4]",FISH TV SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71931.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",FLOW TV
 https://cc-l2unazbogzufr.akamaized.net/gpf/tvfl/tvfl_h265.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO BA TV BAHIA FHD",GLOBO BA TV BAHIA FHD
@@ -6237,44 +6775,6 @@ http://79.127.238.228:14455/
 http://tjtor8411.com:80/Osiel123/Felicidade321/72430.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Globoplay Novelas.br" tvg-name="GLOBOPLAY NOVELAS SD [2]",GLOBOPLAY NOVELAS SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/72430.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT",GNT
-http://170.82.202.31/GNT/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT [H265 ]",GNT [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72103.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT [H265 ] [2]",GNT [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72103.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD",GNT FHD
-http://up.kiwi/351921603109/34939156/296122
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD [2]",GNT FHD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72102.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT FHD [3]",GNT FHD [3]
-http://tjtor8411.com:80/010794/FXz1sY/72102.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT H265",GNT H265
-http://up.kiwi/351921603109/34939156/299673
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT H265 [3]",GNT H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90638.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT H265 [4]",GNT H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/90638.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD",GNT HD
-http://up.kiwi/351921603109/34939156/554
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD [2]",GNT HD [2]
-http://up.kiwi/351921603109/34939156/296121
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD [3]",GNT HD [3]
-http://up.kiwi/351921603109/34939156/296135
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD [4]",GNT HD [4]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72104.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT HD [5]",GNT HD [5]
-http://tjtor8411.com:80/010794/FXz1sY/72104.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD",GNT SD
-http://up.kiwi/351921603109/34939156/556
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD [2]",GNT SD [2]
-http://up.kiwi/351921603109/34939156/296120
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD [3]",GNT SD [3]
-http://up.kiwi/351921603109/34939156/296136
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD [4]",GNT SD [4]
-http://tjtor8411.com:80/Osiel123/Felicidade321/131136.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GNT.br" tvg-name="GNT SD [5]",GNT SD [5]
-http://tjtor8411.com:80/010794/FXz1sY/131136.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",GOGO PLAY
 https://tgn.bozztv.com/ssh101/ssh101/gogoplay/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",HIP HOP VAI ALEM DA TV
@@ -6363,18 +6863,6 @@ http://24.152.8.38:5001/live/olhatv/index.m3u8
 https://jukin-peopleareawesome-2-br.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",PIXTV
 https://mpix05.tmwpix.com:6516/pix/pixtv_hi.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV",PLAY TV
-http://45.162.64.114/PLAY_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [2]",PLAY TV [2]
-http://45.177.114.115/PLAY_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [3]",PLAY TV [3]
-http://168.197.104.22/PLAY_TV/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV [4]",PLAY TV [4]
-https://isaocorp.cloudecast.com/playtv/index.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV HD",PLAY TV HD
-http://up.kiwi/351921603109/34939156/844
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="São.Paulo/SP..Play.TV.br" tvg-name="PLAY TV SD",PLAY TV SD
-http://up.kiwi/351921603109/34939156/845
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",PODPAH TV
 https://ogc-ppah-samsungtvplus-br.otteravision.com/ogc/ppah/ppah.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Polishop.br" tvg-name="POLISHOP SD",POLISHOP SD
@@ -6577,16 +7065,6 @@ https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
 https://umatv.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",VIAJANDO PELO BRASIL
 http://video01.soultv.com.br/viajandopelobrasil/viajandopelobrasil/playlist.m3u8?ManoTV
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA FHD",VIVA FHD
-http://up.kiwi/351921603109/34939156/296563
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA H265",VIVA H265
-http://up.kiwi/351921603109/34939156/299688
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA HD",VIVA HD
-http://up.kiwi/351921603109/34939156/1581
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA HD [2]",VIVA HD [2]
-http://up.kiwi/351921603109/34939156/296560
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Viva.br" tvg-name="VIVA SD",VIVA SD
-http://up.kiwi/351921603109/34939156/296561
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",VRT CHANNEL
 https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",VRT CHANNEL [2]
@@ -6839,38 +7317,6 @@ http://up.kiwi/351921603109/34939156/863
 http://tjtor8411.com:80/Osiel123/Felicidade321/72240.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.2.br" tvg-name="PREMIERE 2 SD [3]",PREMIERE 2 SD [3]
 http://tjtor8411.com:80/010794/FXz1sY/72240.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 [H265 ]",PREMIERE 3 [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72242.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 [H265 ] [2]",PREMIERE 3 [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72242.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 FHD",PREMIERE 3 FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/72241.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 FHD [2]",PREMIERE 3 FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/72241.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265",PREMIERE 3 H265
-http://up.kiwi/351921603109/34939156/305248
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [3]",PREMIERE 3 H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103481.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 H265 [4]",PREMIERE 3 H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/103481.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD",PREMIERE 3 HD
-http://up.kiwi/351921603109/34939156/867
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [2]",PREMIERE 3 HD [2]
-http://up.kiwi/351921603109/34939156/296309
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [3]",PREMIERE 3 HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72243.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [4]",PREMIERE 3 HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72243.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 HD [5]",PREMIERE 3 HD [5]
-https://cr7v.short.gy/Canal3/index.m3u8
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD",PREMIERE 3 SD
-http://up.kiwi/351921603109/34939156/869
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [2]",PREMIERE 3 SD [2]
-http://up.kiwi/351921603109/34939156/296310
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [3]",PREMIERE 3 SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72244.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.3.br" tvg-name="PREMIERE 3 SD [4]",PREMIERE 3 SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72244.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 [H265 ]",PREMIERE 4 [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/72246.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 [H265 ] [2]",PREMIERE 4 [H265 ] [2]
@@ -6901,94 +7347,6 @@ http://up.kiwi/351921603109/34939156/875
 http://tjtor8411.com:80/Osiel123/Felicidade321/72248.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.4.br" tvg-name="PREMIERE 4 SD [3]",PREMIERE 4 SD [3]
 http://tjtor8411.com:80/010794/FXz1sY/72248.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 [H265 ]",PREMIERE 5 [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72250.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 [H265 ] [2]",PREMIERE 5 [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72250.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 FHD",PREMIERE 5 FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/72249.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 FHD [2]",PREMIERE 5 FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/72249.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265",PREMIERE 5 H265
-http://up.kiwi/351921603109/34939156/305249
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [3]",PREMIERE 5 H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103479.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 H265 [4]",PREMIERE 5 H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/103479.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD",PREMIERE 5 HD
-http://up.kiwi/351921603109/34939156/879
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [2]",PREMIERE 5 HD [2]
-http://up.kiwi/351921603109/34939156/296313
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [3]",PREMIERE 5 HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72251.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 HD [4]",PREMIERE 5 HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72251.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD",PREMIERE 5 SD
-http://up.kiwi/351921603109/34939156/881
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [2]",PREMIERE 5 SD [2]
-http://up.kiwi/351921603109/34939156/296314
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [3]",PREMIERE 5 SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72252.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.5.br" tvg-name="PREMIERE 5 SD [4]",PREMIERE 5 SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72252.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 [H265 ]",PREMIERE 6 [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72254.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 [H265 ] [2]",PREMIERE 6 [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72254.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 FHD",PREMIERE 6 FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/72253.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 FHD [2]",PREMIERE 6 FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/72253.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265",PREMIERE 6 H265
-http://up.kiwi/351921603109/34939156/305250
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [3]",PREMIERE 6 H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103478.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 H265 [4]",PREMIERE 6 H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/103478.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD",PREMIERE 6 HD
-http://up.kiwi/351921603109/34939156/885
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [2]",PREMIERE 6 HD [2]
-http://up.kiwi/351921603109/34939156/296315
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [3]",PREMIERE 6 HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72255.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 HD [4]",PREMIERE 6 HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72255.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD",PREMIERE 6 SD
-http://up.kiwi/351921603109/34939156/887
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [2]",PREMIERE 6 SD [2]
-http://up.kiwi/351921603109/34939156/296316
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [3]",PREMIERE 6 SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72256.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.6.br" tvg-name="PREMIERE 6 SD [4]",PREMIERE 6 SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72256.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 [H265 ]",PREMIERE 7 [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72258.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 [H265 ] [2]",PREMIERE 7 [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72258.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 FHD",PREMIERE 7 FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/72257.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 FHD [2]",PREMIERE 7 FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/72257.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265",PREMIERE 7 H265
-http://up.kiwi/351921603109/34939156/296318
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [3]",PREMIERE 7 H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103477.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 H265 [4]",PREMIERE 7 H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/103477.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD",PREMIERE 7 HD
-http://up.kiwi/351921603109/34939156/891
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [2]",PREMIERE 7 HD [2]
-http://up.kiwi/351921603109/34939156/296317
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [3]",PREMIERE 7 HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72259.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 HD [4]",PREMIERE 7 HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/72259.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD",PREMIERE 7 SD
-http://up.kiwi/351921603109/34939156/893
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD [2]",PREMIERE 7 SD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72260.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.7.br" tvg-name="PREMIERE 7 SD [3]",PREMIERE 7 SD [3]
-http://tjtor8411.com:80/010794/FXz1sY/72260.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.br" tvg-name="PREMIERE 8 [H265 ]",PREMIERE 8 [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/180161.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.br" tvg-name="PREMIERE 8 [H265 ] [2]",PREMIERE 8 [H265 ] [2]
@@ -7067,38 +7425,6 @@ http://up.kiwi/351921603109/34939156/1260905
 https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS",AVANÇA BRASIL
 https://video01.soultv.com.br/avancabrasil/avancabrasil/playlist.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS [H265 ]",BAND NEWS [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71790.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS [H265 ] [2]",BAND NEWS [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71790.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS FHD",BAND NEWS FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71789.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS FHD [2]",BAND NEWS FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71789.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265",BAND NEWS H265
-http://up.kiwi/351921603109/34939156/296359
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [3]",BAND NEWS H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103526.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS H265 [4]",BAND NEWS H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/103526.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD",BAND NEWS HD
-http://up.kiwi/351921603109/34939156/118
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [2]",BAND NEWS HD [2]
-http://up.kiwi/351921603109/34939156/296335
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [3]",BAND NEWS HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71791.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [4]",BAND NEWS HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71791.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS HD [5]",BAND NEWS HD [5]
-http://gerenciar.vivatele.com:80/viva_padrao/viva2384/21.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD",BAND NEWS SD
-http://up.kiwi/351921603109/34939156/120
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [2]",BAND NEWS SD [2]
-http://up.kiwi/351921603109/34939156/296336
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [3]",BAND NEWS SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71792.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Band.News.br" tvg-name="BAND NEWS SD [4]",BAND NEWS SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71792.ts
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TELEVISION",BLOOMBERG TELEVISION
 http://up.kiwi/351921603109/34939156/296649
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Bloomberg.TV.br" tvg-name="BLOOMBERG TV HD",BLOOMBERG TV HD
@@ -7129,34 +7455,6 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/295480.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/295478.ts
 #EXTINF:-1 group-title="BR – NOTICIAS",CNBC BRASIL SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/295479.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL",CNN BRASIL
-http://up.kiwi/351921603109/34939156/296357
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL [H265 ]",CNN BRASIL [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71838.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL [H265 ] [2]",CNN BRASIL [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71838.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD",CNN BRASIL FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71837.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD [2]",CNN BRASIL FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71837.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL FHD [3]",CNN BRASIL FHD [3]
-https://d25usgadhphvwi.cloudfront.net/hls/stv-plus1280x720/playlist.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265",CNN BRASIL H265
-http://up.kiwi/351921603109/34939156/299664
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [3]",CNN BRASIL H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71798.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL H265 [4]",CNN BRASIL H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/71798.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD",CNN BRASIL HD
-http://up.kiwi/351921603109/34939156/266
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [2]",CNN BRASIL HD [2]
-http://up.kiwi/351921603109/34939156/296350
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [3]",CNN BRASIL HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71839.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [4]",CNN BRASIL HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71839.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL HD [5]",CNN BRASIL HD [5]
-https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-960x540/playlist.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL MONEY [H265 ]",CNN BRASIL MONEY [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/295485.ts
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL MONEY FHD",CNN BRASIL MONEY FHD
@@ -7169,24 +7467,6 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/295483.ts
 https://amg01391-sbtinfast-amg01391c11-lg-br-9982.playouts.now.amagi.tv/playlist/amg01391-addigital-cnnmoneyhevc-lgbr/playlist.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL MONEY SD",CNN BRASIL MONEY SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/295484.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD",CNN BRASIL SD
-http://up.kiwi/351921603109/34939156/268
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [2]",CNN BRASIL SD [2]
-http://up.kiwi/351921603109/34939156/296351
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [3]",CNN BRASIL SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71840.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [4]",CNN BRASIL SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71840.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.Brasil.br" tvg-name="CNN BRASIL SD [5]",CNN BRASIL SD [5]
-https://d25usgadhphvwi.cloudfront.net/hls/stv-plus-640x360/playlist.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL HD",CNN ESPANHOL HD
-http://up.kiwi/351921603109/34939156/270
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="CNN.br" tvg-name="CNN ESPANHOL SD",CNN ESPANHOL SD
-http://up.kiwi/351921603109/34939156/272
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL HD",CNN INTERNACIONAL HD
-http://up.kiwi/351921603109/34939156/274
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="CNN.br" tvg-name="CNN INTERNACIONAL SD",CNN INTERNACIONAL SD
-http://up.kiwi/351921603109/34939156/275
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN INTERNATIONAL",CNN INTERNATIONAL
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..CNN.International.br" tvg-name="CNN INTERNATIONAL HD",CNN INTERNATIONAL HD
@@ -7215,78 +7495,12 @@ http://tjtor8411.com:80/010794/FXz1sY/104907.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/104941.ts
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="FRANCE.24.HD.br" tvg-name="FRANCE 24 SD [2]",FRANCE 24 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/104941.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS [H265 ]",GLOBO NEWS [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71998.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS [H265 ] [2]",GLOBO NEWS [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71998.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD",GLOBO NEWS FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71997.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD [2]",GLOBO NEWS FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71997.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS FHD [3]",GLOBO NEWS FHD [3]
-http://xxip9.top:8080/Gizvid192@giz.com/1234@4321/164945
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265",GLOBO NEWS H265
-http://up.kiwi/351921603109/34939156/299672
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [3]",GLOBO NEWS H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90248.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS H265 [4]",GLOBO NEWS H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/90248.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD",GLOBO NEWS HD
-http://up.kiwi/351921603109/34939156/296342
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [2]",GLOBO NEWS HD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71999.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [3]",GLOBO NEWS HD [3]
-http://tjtor8411.com:80/010794/FXz1sY/71999.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS HD [4]",GLOBO NEWS HD [4]
-http://79.127.238.228:14093/
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD",GLOBO NEWS SD
-http://up.kiwi/351921603109/34939156/296343
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD [2]",GLOBO NEWS SD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/131112.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..GloboNews.br" tvg-name="GLOBO NEWS SD [3]",GLOBO NEWS SD [3]
-http://tjtor8411.com:80/010794/FXz1sY/131112.ts
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Globo.br" tvg-name="GLOBO SP TV DIÁRIO MOGI DAS CRUZES HD",GLOBO SP TV DIÁRIO MOGI DAS CRUZES HD
 http://up.kiwi/351921603109/34939156/296839
 #EXTINF:-1 group-title="BR – NOTICIAS",J3NEWS TV
 https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS",JOVEM PAN NEWS
-http://45.190.28.50/JP_NEWS/index.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS (JP NEWS)",JOVEM PAN NEWS (JP NEWS)
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [2]",JOVEM PAN NEWS [2]
-http://170.83.49.66:8083/JOVEMPANNEWSHD/index.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [3]",JOVEM PAN NEWS [3]
-http://186.219.52.187/jp_news/index.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [4]",JOVEM PAN NEWS [4]
-https://jmp2.uk/plu-6317ba014d4d040007227f72.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [5]",JOVEM PAN NEWS [5]
-https://stream.zeno.fm/vlcraijc6yiuv
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [H265 ]",JOVEM PAN NEWS [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/134022.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS [H265 ] [2]",JOVEM PAN NEWS [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/134022.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD",JOVEM PAN NEWS FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/134023.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS FHD [2]",JOVEM PAN NEWS FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/134023.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265",JOVEM PAN NEWS H265
-http://up.kiwi/351921603109/34939156/299675
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [3]",JOVEM PAN NEWS H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/134021.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS H265 [4]",JOVEM PAN NEWS H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/134021.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD",JOVEM PAN NEWS HD
-http://up.kiwi/351921603109/34939156/709
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [2]",JOVEM PAN NEWS HD [2]
-http://up.kiwi/351921603109/34939156/296344
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [3]",JOVEM PAN NEWS HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/134024.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS HD [4]",JOVEM PAN NEWS HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/134024.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS SD",JOVEM PAN NEWS SD
-http://tjtor8411.com:80/Osiel123/Felicidade321/134025.ts
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Jovem.Pan.News.br" tvg-name="JOVEM PAN NEWS SD [2]",JOVEM PAN NEWS SD [2]
-http://tjtor8411.com:80/010794/FXz1sY/134025.ts
 #EXTINF:-1 group-title="BR – NOTICIAS",JP NEWS HD
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index_10.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS",JP NEWS SD
@@ -7621,44 +7835,8 @@ http://up.kiwi/351921603109/34939156/1573
 http://up.kiwi/351921603109/34939156/1574
 #EXTINF:-1 group-title="BR – DORMIR E RELAXAR",NATUREZA
 https://jmp2.uk/plu-5f1213ba0ecebc00070e170f.m3u8
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE",COMBATE
-http://143.14.134.107/167/index.m3u8
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE [H265 ]",COMBATE [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71843.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE [H265 ] [2]",COMBATE [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71843.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE FHD",COMBATE FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71842.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE FHD [2]",COMBATE FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71842.ts
 #EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE GLOBAL",COMBATE GLOBAL
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=960
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE H265",COMBATE H265
-http://up.kiwi/351921603109/34939156/299665
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE H265 [3]",COMBATE H265 [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71844.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE H265 [4]",COMBATE H265 [4]
-http://tjtor8411.com:80/010794/FXz1sY/71844.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD",COMBATE HD
-http://up.kiwi/351921603109/34939156/280
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [2]",COMBATE HD [2]
-http://up.kiwi/351921603109/34939156/296482
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [3]",COMBATE HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71845.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [4]",COMBATE HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71845.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [5]",COMBATE HD [5]
-http://46.151.196.223:14468/
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE HD [6]",COMBATE HD [6]
-http://45.162.231.38:7779/Combate/index.m3u8
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE SD",COMBATE SD
-http://up.kiwi/351921603109/34939156/282
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE SD [2]",COMBATE SD [2]
-http://up.kiwi/351921603109/34939156/296483
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE SD [3]",COMBATE SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71846.ts
-#EXTINF:-1 group-title="BR – UFC" tvg-id="Combate.br" tvg-name="COMBATE SD [4]",COMBATE SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71846.ts
 #EXTINF:-1 group-title="BR – UFC",COMBATV
 https://aym-cbtv.otteravision.com/aym/cbtv/cbtv_480p.m3u8
 #EXTINF:-1 group-title="BR – UFC",LUTAS DO DIA UFC
@@ -7951,68 +8129,8 @@ http://45.190.28.50/BOX_KIDS_HD/index.m3u8
 http://138.255.2.6:8084/BOXKIDS/index.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [3]",BOX KIDS TV [3]
 http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO [H265 ]",CARTOONITO [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71813.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO [H265 ] [2]",CARTOONITO [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71813.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO FHD",CARTOONITO FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71812.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO FHD [2]",CARTOONITO FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71812.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265 [2]",CARTOONITO H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90644.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO H265 [3]",CARTOONITO H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/90644.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD",CARTOONITO HD
-http://up.kiwi/351921603109/34939156/209
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [2]",CARTOONITO HD [2]
-http://up.kiwi/351921603109/34939156/296390
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [3]",CARTOONITO HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71814.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [4]",CARTOONITO HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71814.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO HD [5]",CARTOONITO HD [5]
-http://45.162.231.38:7779/Cartoonito/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD",CARTOONITO SD
-http://up.kiwi/351921603109/34939156/211
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [2]",CARTOONITO SD [2]
-http://up.kiwi/351921603109/34939156/296391
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [3]",CARTOONITO SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71815.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO SD [4]",CARTOONITO SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71815.ts
 #EXTINF:-1 group-title="BR – INFANTIS",CLOUDING
 https://video04.logicahost.com.br/cloudingtv/cloudingtv/chunklist_w459304988.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS [H265 ]",DISCOVERY KIDS [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71872.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS [H265 ] [2]",DISCOVERY KIDS [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/71872.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS FHD",DISCOVERY KIDS FHD
-http://tjtor8411.com:80/Osiel123/Felicidade321/71871.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS FHD [2]",DISCOVERY KIDS FHD [2]
-http://tjtor8411.com:80/010794/FXz1sY/71871.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265 [2]",DISCOVERY KIDS H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90250.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS H265 [3]",DISCOVERY KIDS H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/90250.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD",DISCOVERY KIDS HD
-http://up.kiwi/351921603109/34939156/359
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [2]",DISCOVERY KIDS HD [2]
-http://up.kiwi/351921603109/34939156/296368
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [3]",DISCOVERY KIDS HD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71873.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [4]",DISCOVERY KIDS HD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71873.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS HD [5]",DISCOVERY KIDS HD [5]
-http://streamer.sattvacabo.com.br/DISCOVERY_KIDS_HD/index.m3u8?token=TLGacFXd0gIXIuo2u8Zj7f4FE5J2vtgf
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD",DISCOVERY KIDS SD
-http://up.kiwi/351921603109/34939156/361
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [2]",DISCOVERY KIDS SD [2]
-http://up.kiwi/351921603109/34939156/296369
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [3]",DISCOVERY KIDS SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/71874.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Discovery.Kids.br" tvg-name="DISCOVERY KIDS SD [4]",DISCOVERY KIDS SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/71874.ts
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Disney.Channel.br" tvg-name="DISNEY CHANNEL PT",DISNEY CHANNEL PT
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS",DPA FAST
@@ -8025,82 +8143,8 @@ http://138.255.2.6:8084/ZOOMOO/index.m3u8
 http://168.197.104.22/ZOOMOO/index.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="dumdum.br" tvg-name="DUMDUM [4]",DUMDUM [4]
 http://186.219.52.187/zoomoo/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB",GLOOB
-http://up.kiwi/351921603109/34939156/296392
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [2]",GLOOB [2]
-http://45.235.0.78/Gloob/playlist.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [H265 ]",GLOOB [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72099.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB [H265 ] [2]",GLOOB [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/72099.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD",GLOOB FHD
-http://up.kiwi/351921603109/34939156/296362
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD [2]",GLOOB FHD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/131153.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB FHD [3]",GLOOB FHD [3]
-http://tjtor8411.com:80/010794/FXz1sY/131153.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB H265 [2]",GLOOB H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103498.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB H265 [3]",GLOOB H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/103498.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD",GLOOB HD
-http://up.kiwi/351921603109/34939156/545
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [2]",GLOOB HD [2]
-http://up.kiwi/351921603109/34939156/296372
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [3]",GLOOB HD [3]
-http://up.kiwi/351921603109/34939156/296361
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [4]",GLOOB HD [4]
-http://tjtor8411.com:80/Osiel123/Felicidade321/72100.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB HD [5]",GLOOB HD [5]
-http://tjtor8411.com:80/010794/FXz1sY/72100.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD",GLOOB SD
-http://up.kiwi/351921603109/34939156/547
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD [2]",GLOOB SD [2]
-http://up.kiwi/351921603109/34939156/296373
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD [3]",GLOOB SD [3]
-http://up.kiwi/351921603109/34939156/296360
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD [4]",GLOOB SD [4]
-http://tjtor8411.com:80/Osiel123/Felicidade321/131117.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB SD [5]",GLOOB SD [5]
-http://tjtor8411.com:80/010794/FXz1sY/131117.ts
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloob.br" tvg-name="GLOOB WEB",GLOOB WEB
 https://vs20.live.opencaster.com/globiosat_73a904af/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO",GLOOBINHO
-http://up.kiwi/351921603109/34939156/296393
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [2]",GLOOBINHO [2]
-http://177.52.24.163/GLOOBINHO-HD/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [H265 ]",GLOOBINHO [H265 ]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90630.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO [H265 ] [2]",GLOOBINHO [H265 ] [2]
-http://tjtor8411.com:80/010794/FXz1sY/90630.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD",GLOOBINHO FHD
-http://up.kiwi/351921603109/34939156/296365
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD [2]",GLOOBINHO FHD [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90631.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO FHD [3]",GLOOBINHO FHD [3]
-http://tjtor8411.com:80/010794/FXz1sY/90631.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265 [2]",GLOOBINHO H265 [2]
-http://tjtor8411.com:80/Osiel123/Felicidade321/103497.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO H265 [3]",GLOOBINHO H265 [3]
-http://tjtor8411.com:80/010794/FXz1sY/103497.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD",GLOOBINHO HD
-http://up.kiwi/351921603109/34939156/550
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [2]",GLOOBINHO HD [2]
-http://up.kiwi/351921603109/34939156/296364
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [3]",GLOOBINHO HD [3]
-http://up.kiwi/351921603109/34939156/296374
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [4]",GLOOBINHO HD [4]
-http://tjtor8411.com:80/Osiel123/Felicidade321/90629.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO HD [5]",GLOOBINHO HD [5]
-http://tjtor8411.com:80/010794/FXz1sY/90629.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD",GLOOBINHO SD
-http://up.kiwi/351921603109/34939156/296363
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [2]",GLOOBINHO SD [2]
-http://up.kiwi/351921603109/34939156/296375
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [3]",GLOOBINHO SD [3]
-http://tjtor8411.com:80/Osiel123/Felicidade321/131173.ts
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Gloobinho.br" tvg-name="GLOOBINHO SD [4]",GLOOBINHO SD [4]
-http://tjtor8411.com:80/010794/FXz1sY/131173.ts
 #EXTINF:-1 group-title="BR – INFANTIS",KID MAIS
 https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Nick HD.br" tvg-name="NICK JR. CLUB",NICK JR. CLUB

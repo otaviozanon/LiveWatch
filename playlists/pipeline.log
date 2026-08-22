@@ -37,8 +37,8 @@
 [LiveWatch] [-] 587383 URLs bloqueadas
 [LiveWatch] [-] 1034 canais indesejados
 [LiveWatch] [*] 3907 canais recategorizados
-[LiveWatch] [*] 133 canais recategorizados (categorias)
-[LiveWatch] [-] 343 canais filtrados (grupo)
+[LiveWatch] [*] 366 canais recategorizados (categorias)
+[LiveWatch] [-] 332 canais filtrados (grupo)
 
 [LiveWatch] --- global ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
@@ -50,13 +50,13 @@
 [LiveWatch]    820 canais BR
 [LiveWatch]    815 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    16778 registros
+[LiveWatch]    16822 registros
 [LiveWatch]    537 streams
 [LiveWatch] [*] 96 grupos remapeados
 [LiveWatch] [-] 92 canais indesejados
 [LiveWatch] [*] 383 canais recategorizados
-[LiveWatch] [*] 18 canais recategorizados (categorias)
-[LiveWatch] [-] 27 canais filtrados (grupo)
+[LiveWatch] [*] 49 canais recategorizados (categorias)
+[LiveWatch] [-] 17 canais filtrados (grupo)
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
@@ -65,16 +65,16 @@
 [LiveWatch] [-] 1303 URLs bloqueadas
 [LiveWatch] [-] 209 canais indesejados
 [LiveWatch] [*] 464 canais recategorizados
-[LiveWatch] [*] 13 canais recategorizados (categorias)
+[LiveWatch] [*] 28 canais recategorizados (categorias)
 [LiveWatch] [-] 1 grupos excluidos
-[LiveWatch] [-] 23 canais filtrados (grupo)
+[LiveWatch] [-] 22 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4469
-[LiveWatch] [*] 3200 nomes normalizados
+[LiveWatch] [i] Total combinado: 4491
+[LiveWatch] [*] 3212 nomes normalizados
 [LiveWatch] [-] 1 canais indesejados
 [LiveWatch] [-] 44 duplicatas URL
-[LiveWatch] [*] 1460 conflitos renomeados
-[LiveWatch] [+] Final: 4424 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4424 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4424 canais)
+[LiveWatch] [*] 1474 conflitos renomeados
+[LiveWatch] [+] Final: 4446 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4446 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4446 canais)
 [LiveWatch] [+] Playlist salva!
