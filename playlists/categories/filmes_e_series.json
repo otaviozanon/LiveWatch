@@ -1119,7 +1119,12 @@
     "[US] ION TV",
     "[US] SONY MOVIE CHANNEL",
     "[US] SYFY",
-    "[US] TNT"
+    "[US] TNT",
+    "HBO FAMILY HD [5]",
+    "HBO MUNDI HD [5]",
+    "HBO POP HD [5]",
+    "HBO XTREME HD [5]",
+    "HBO+ HD [3]"
   ],
-  "count": 1119
+  "count": 1124
 }
