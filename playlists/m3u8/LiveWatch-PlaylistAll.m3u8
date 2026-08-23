@@ -6044,15 +6044,13 @@ https://cr7v.short.gy/ManoTVD/75991634025/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="Disney HD.br" tvg-name="DISNEY PLUS 2",DISNEY PLUS 2
 https://cr7v.short.gy/ManoTVD2/75991634025/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="ELEVEN SPORTS 1 HD",ELEVEN SPORTS 1 HD
-http://znty.dyndns.org:5010/hls/eleven1.m3u8
+http://94.130.32.19:8080/dazn1/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="ELEVEN SPORTS 2 HD",ELEVEN SPORTS 2 HD
-http://znty.dyndns.org:5010/hls/eleven2.m3u8
+http://94.130.32.19:8080/dazn2/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="NBC.Sports.California.Plus.3.us2" tvg-name="ELEVEN SPORTS 3 HD",ELEVEN SPORTS 3 HD
-http://znty.dyndns.org:5010/hls/eleven3.m3u8
+http://94.130.32.19:8080/dazn3/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES",ELEVEN SPORTS 4 HD
-http://znty.dyndns.org:5010/hls/eleven4.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES",ELEVEN SPORTS 5 HD
-http://znty.dyndns.org:5010/hls/eleven5.m3u8
+http://94.130.32.19:8080/dazn4/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="ESPN.br" tvg-name="ESPN",ESPN
 http://181.78.197.59:8000/play/a07z/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="ESPN.2.br" tvg-name="ESPN 2 [H265 ]",ESPN 2 [H265 ]
@@ -6369,12 +6367,8 @@ https://jmp2.uk/plu-65a6818c7bdc8d0008457b21.m3u8
 https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 1 FHD
 http://dns.explouddev.com:80/632270679/F823j7133R/111995
-#EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 1 HD
-http://peaky.techcoder40.workers.dev:80/1393.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 2 FHD
 http://dns.explouddev.com:80/632270679/F823j7133R/111998
-#EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 2 HD
-http://peaky.techcoder40.workers.dev:80/1395.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 3 HD
 http://dns.explouddev.com:80/632270679/F823j7133R/112000
 #EXTINF:-1 group-title="BR – ESPORTES",SPORTTV 4 HD
