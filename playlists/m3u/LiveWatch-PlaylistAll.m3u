@@ -7523,8 +7523,6 @@ http://up.kiwi/351921603109/34939156/769
 https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS",RADAR TV
 https://radartv.s.gy/radartvaovivo
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP..Record.br" tvg-name="RECORD INTERNACIONAL",RECORD INTERNACIONAL
-https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS",RECORD NEWS
 https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="São.Paulo/SP.Record.News.br" tvg-name="RECORD NEWS [10]",RECORD NEWS [10]
