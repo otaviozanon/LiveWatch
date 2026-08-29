@@ -23,10 +23,22 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2616
 [LiveWatch] [i] EPG ativado
-[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    0 listas encontradas
-[LiveWatch] [i] Total pos-filtro: 0
-[LiveWatch] [+] Final: 0 canais
-[LiveWatch] [+] LiveWatch-PlaylistWorld.m3u (0 canais)
-[LiveWatch] [+] LiveWatch-PlaylistWorld.m3u8 (0 canais)
+[LiveWatch] [+] channels.json
+[LiveWatch]    40834 registros
+[LiveWatch]    820 canais BR
+[LiveWatch]    815 canais validos
+[LiveWatch] [+] streams.json
+[LiveWatch]    16955 registros
+[LiveWatch]    537 streams
+[LiveWatch] [*] 96 grupos remapeados
+[LiveWatch] [-] 92 canais indesejados
+[LiveWatch] [*] 383 canais recategorizados
+[LiveWatch] [*] 49 canais recategorizados (categorias)
+[LiveWatch] [-] 17 canais filtrados (grupo)
+[LiveWatch] [i] Total pos-filtro: 428
+[LiveWatch] [*] 386 nomes normalizados
+[LiveWatch] [*] 212 conflitos renomeados
+[LiveWatch] [+] Final: 428 canais
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u (428 canais)
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u8 (428 canais)
 [LiveWatch] [+] Playlist salva!
