@@ -23,58 +23,10 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2616
 [LiveWatch] [i] EPG ativado
-
-[LiveWatch] --- brasil ---
-[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    3 listas encontradas
-[LiveWatch] [+] CanaisBR01.m3u8 (1/3)
-[LiveWatch]    292953 entradas (585908 linhas)
-[LiveWatch] [+] CanaisBR02.m3u8 (2/3)
-[LiveWatch]    298409 entradas (596820 linhas)
-[LiveWatch] [+] CanaisBR03.m3u8 (3/3)
-[LiveWatch]    988 entradas (1978 linhas)
-[LiveWatch] [*] 830 grupos remapeados
-[LiveWatch] [-] 587383 URLs bloqueadas
-[LiveWatch] [-] 1034 canais indesejados
-[LiveWatch] [*] 3907 canais recategorizados
-[LiveWatch] [*] 366 canais recategorizados (categorias)
-[LiveWatch] [-] 332 canais filtrados (grupo)
-
-[LiveWatch] --- global ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    0 listas encontradas
-
-[LiveWatch] --- iptv-org ---
-[LiveWatch] [+] channels.json
-[LiveWatch]    40834 registros
-[LiveWatch]    820 canais BR
-[LiveWatch]    815 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    16955 registros
-[LiveWatch]    537 streams
-[LiveWatch] [*] 96 grupos remapeados
-[LiveWatch] [-] 92 canais indesejados
-[LiveWatch] [*] 383 canais recategorizados
-[LiveWatch] [*] 49 canais recategorizados (categorias)
-[LiveWatch] [-] 17 canais filtrados (grupo)
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2006 entradas (6690 linhas)
-[LiveWatch] [*] 217 grupos remapeados
-[LiveWatch] [-] 1303 URLs bloqueadas
-[LiveWatch] [-] 212 canais indesejados
-[LiveWatch] [*] 470 canais recategorizados
-[LiveWatch] [*] 29 canais recategorizados (categorias)
-[LiveWatch] [-] 1 grupos excluidos
-[LiveWatch] [-] 23 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 4496
-[LiveWatch] [*] 3213 nomes normalizados
-[LiveWatch] [-] 1 canais indesejados
-[LiveWatch] [-] 44 duplicatas URL
-[LiveWatch] [*] 1481 conflitos renomeados
-[LiveWatch] [+] Final: 4451 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4451 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4451 canais)
+[LiveWatch] [i] Total pos-filtro: 0
+[LiveWatch] [+] Final: 0 canais
+[LiveWatch] [+] LiveWatch-PlaylistWorld.m3u (0 canais)
+[LiveWatch] [+] LiveWatch-PlaylistWorld.m3u8 (0 canais)
 [LiveWatch] [+] Playlist salva!
