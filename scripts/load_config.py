@@ -39,7 +39,12 @@ def _strip_variants(name: str) -> str:
     name = re.sub(r"\s*\[H265\s*\]", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\[4K\s*\]", "", name, flags=re.IGNORECASE)
     name = re.sub(r"\s*\[\d+\]", "", name)
-    name = re.sub(r"\s+(HD|FHD|SD|H265|4K|HEVC)(\s|$)", " ", name, flags=re.IGNORECASE)
+    name = re.sub(
+        r"\s+(HD|FHD|SD|H265|4K|HEVC)(?:\s+(HD|FHD|SD|H265|4K|HEVC))*(?=\s|$)",
+        " ",
+        name,
+        flags=re.IGNORECASE,
+    )
     name = re.sub(r"\s+$", "", name)
     return name.strip()
 

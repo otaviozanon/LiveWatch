@@ -220,7 +220,12 @@ def remap_by_category(
         )
         clean = re.sub(r"\s*\[4K\s*\]", "", clean, flags=re.IGNORECASE)
         clean = re.sub(r"\s*\[\d+\]", "", clean)
-        clean = re.sub(r"\s+(HD|FHD|SD|H265|4K|HEVC)(\s|$)", " ", clean, flags=re.IGNORECASE)
+        clean = re.sub(
+            r"\s+(HD|FHD|SD|H265|4K|HEVC)(?:\s+(HD|FHD|SD|H265|4K|HEVC))*(?=\s|$)",
+            " ",
+            clean,
+            flags=re.IGNORECASE,
+        )
         clean = clean.strip()
 
         new_group = base_to_category.get(clean, group_title)

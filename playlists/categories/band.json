@@ -10,7 +10,20 @@
     "BAND SP [H265 ]",
     "BAND PR SD",
     "BAND RS PORTO ALEGRE SD",
-    "BAND SC BARRIGA VERDE FHD"
+    "BAND SC BARRIGA VERDE FHD",
+    "BAND H265",
+    "BAND",
+    "BAND FHD",
+    "BAND H265 [2]",
+    "BAND HD",
+    "BAND HD [2]",
+    "BAND HD [3]",
+    "BAND SD",
+    "BAND SD [2]",
+    "BAND SD [3]",
+    "BAND [2]",
+    "BAND [3]",
+    "BAND [4]"
   ],
-  "count": 10
+  "count": 23
 }
