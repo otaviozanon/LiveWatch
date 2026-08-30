@@ -3,7 +3,6 @@
   "output": "LiveWatch-PlaylistAll.m3u8",
   "include": [
     "brasil",
-    "global",
     "iptv-org",
     "manotv"
   ]

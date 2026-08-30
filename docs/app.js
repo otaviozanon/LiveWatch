@@ -6,10 +6,6 @@ var PLAYLISTS = {
     m3u: "playlists/m3u/LiveWatch-PlaylistBR.m3u",
     m3u8: "playlists/m3u8/LiveWatch-PlaylistBR.m3u8",
   },
-  global: {
-    m3u: "playlists/m3u/LiveWatch-PlaylistWorld.m3u",
-    m3u8: "playlists/m3u8/LiveWatch-PlaylistWorld.m3u8",
-  },
   "iptv-org": {
     m3u: "playlists/m3u/LiveWatch-PlaylistIPTVORG.m3u",
     m3u8: "playlists/m3u8/LiveWatch-PlaylistIPTVORG.m3u8",
@@ -95,7 +91,6 @@ var T = {
     sourceWorker: "Link curto",
     sourceRaw: "Raw GitHub",
     profileBrasil: "Brasil",
-    profileGlobal: "Global",
     profileIptvorg: "IPTV-ORG",
     profileManotv: "ManoTV",
     profileAll: "Todos",
@@ -175,7 +170,6 @@ var T = {
     sourceWorker: "Short link",
     sourceRaw: "Raw GitHub",
     profileBrasil: "Brazil",
-    profileGlobal: "Global",
     profileIptvorg: "IPTV-ORG",
     profileManotv: "ManoTV",
     profileAll: "All",
@@ -242,10 +236,9 @@ function applyLang() {
   sourceSelect.options[0].text = t("sourceWorker");
   sourceSelect.options[1].text = t("sourceRaw");
   profileSelect.options[0].text = t("profileBrasil");
-  profileSelect.options[1].text = t("profileGlobal");
-  profileSelect.options[2].text = t("profileIptvorg");
-  profileSelect.options[3].text = t("profileManotv");
-  profileSelect.options[4].text = t("profileAll");
+  profileSelect.options[1].text = t("profileIptvorg");
+  profileSelect.options[2].text = t("profileManotv");
+  profileSelect.options[3].text = t("profileAll");
   document.getElementById("header-title").innerHTML = t("headerTitle");
   var epgRefBtn = document.getElementById("btn-epg-refresh");
   var epgDlBtn2 = document.getElementById("btn-epg-download");

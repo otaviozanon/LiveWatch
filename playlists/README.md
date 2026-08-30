@@ -42,15 +42,13 @@ playlists/
 │   ├── LiveWatch-PlaylistAll.m3u
 │   ├── LiveWatch-PlaylistBR.m3u
 │   ├── LiveWatch-PlaylistIPTVORG.m3u
-│   ├── LiveWatch-PlaylistManoTV.m3u
-│   └── LiveWatch-PlaylistWorld.m3u
+│   └── LiveWatch-PlaylistManoTV.m3u
 │
 ├── m3u8/                          # Playlists M3U8
 │   ├── LiveWatch-PlaylistAll.m3u8
 │   ├── LiveWatch-PlaylistBR.m3u8
 │   ├── LiveWatch-PlaylistIPTVORG.m3u8
-│   ├── LiveWatch-PlaylistManoTV.m3u8
-│   └── LiveWatch-PlaylistWorld.m3u8
+│   └── LiveWatch-PlaylistManoTV.m3u8
 │
 ├── AUDITORIA_CATEGORIAS.md        # Auditoria: visão geral
 ├── AUDITORIA_DETALHADA.md         # Auditoria: análise profunda
@@ -69,7 +67,7 @@ playlists/
 - **4.223 canais** catalogados
 - **0 duplicatas** entre categorias
 - **26 arquivos JSON** separados
-- **5 perfis** de playlist (ALL, BR, World, IPTV-ORG, ManoTV)
+- **4 perfis** de playlist (ALL, BR, IPTV-ORG, ManoTV)
 
 ---
 
