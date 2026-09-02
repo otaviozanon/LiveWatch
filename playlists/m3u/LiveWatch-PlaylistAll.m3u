@@ -41,9 +41,9 @@ http://up.kiwi/351921603109/34939156/296756
 http://up.kiwi/351921603109/34939156/296757
 #EXTINF:-1 group-title="BR – NOVOS" tvg-id="Globo TV Tem Bauru.br" tvg-name="TV TEM BAURU SD",TV TEM BAURU SD
 http://up.kiwi/351921603109/34939156/296758
-#EXTINF:-1 group-title="BR – NOVOS" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL HD",TVE INTERNATIONAL HD
+#EXTINF:-1 group-title="BR – NOVOS" tvg-id="TVE.br" tvg-name="TVE INTERNATIONAL HD",TVE INTERNATIONAL HD
 http://up.kiwi/351921603109/34939156/296348
-#EXTINF:-1 group-title="BR – NOVOS" tvg-id="TVE INTERNATIONAL.br" tvg-name="TVE INTERNATIONAL SD",TVE INTERNATIONAL SD
+#EXTINF:-1 group-title="BR – NOVOS" tvg-id="TVE.br" tvg-name="TVE INTERNATIONAL SD",TVE INTERNATIONAL SD
 http://up.kiwi/351921603109/34939156/296349
 #EXTINF:-1 group-title="BR – NOVOS",X-SPORTS FHD
 http://up.kiwi/351921603109/34939156/303211
@@ -3039,7 +3039,7 @@ http://up.kiwi/351921603109/34939156/1260784
 http://up.kiwi/351921603109/34939156/1260804
 #EXTINF:-1 group-title="BR – FILMES E SERIES",[US] FOX
 http://up.kiwi/351921603109/34939156/1260843
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Fox.Business.HD.us2" tvg-name="[US] FOX BUSINESS",[US] FOX BUSINESS
+#EXTINF:-1 group-title="BR – FILMES E SERIES",[US] FOX BUSINESS
 http://up.kiwi/351921603109/34939156/1260844
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Fox News.br" tvg-name="[US] FOX NEWS",[US] FOX NEWS
 http://up.kiwi/351921603109/34939156/1260845
@@ -3057,7 +3057,7 @@ http://up.kiwi/351921603109/34939156/1260862
 http://up.kiwi/351921603109/34939156/1260863
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="HBO.br" tvg-name="[US] HBO ZONE",[US] HBO ZONE
 http://up.kiwi/351921603109/34939156/1260864
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="SÃ£o.Paulo/SP..Discovery.HD.Â³.br" tvg-name="[US] INVESTIGATION DISCOVERY",[US] INVESTIGATION DISCOVERY
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Discovery HD.br" tvg-name="[US] INVESTIGATION DISCOVERY",[US] INVESTIGATION DISCOVERY
 http://up.kiwi/351921603109/34939156/1260868
 #EXTINF:-1 group-title="BR – FILMES E SERIES",[US] ION TV
 http://up.kiwi/351921603109/34939156/1260869
@@ -3469,9 +3469,9 @@ https://jmp2.uk/plu-633dcebd80386500074a2461.m3u8
 https://jmp2.uk/plu-5f171d3442a0500007362f22.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES",FOX KIDS
 https://stmv2.srvif.com/emlsilva/emlsilva/playlist.m3u8?hls_ctx=h517o66o
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Fox.News.Channel.HD.us2" tvg-name="FOX NEWS NOW | EUA",FOX NEWS NOW | EUA
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Fox News Channel.br" tvg-name="FOX NEWS NOW | EUA",FOX NEWS NOW | EUA
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-fox-newsnow-samsung/playlist.m3u8
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Free.Speech.TV.us2" tvg-name="FREE TV DRAMA",FREE TV DRAMA
+#EXTINF:-1 group-title="BR – FILMES E SERIES",FREE TV DRAMA
 https://oly-ftvcbr.otteravision.com/oly/ftvdrbr/ftvdrbr.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES",GHOST TV
 https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
@@ -4731,7 +4731,7 @@ http://tjtor8411.com:80/010794/FXz1sY/90669.ts
 https://stmv1.srvif.com/tvserie/tvserie/playlist.m3u8
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.TV.br" tvg-name="TV UNIVERSAL",TV UNIVERSAL
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
-#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal.Channel.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
+#EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Universal HD.br" tvg-name="UNIVERSAL CHANNEL HD",UNIVERSAL CHANNEL HD
 http://79.127.243.211:14623/
 #EXTINF:-1 group-title="BR – FILMES E SERIES" tvg-id="Premiere.br" tvg-name="UNIVERSAL PREMIERE",UNIVERSAL PREMIERE
 http://up.kiwi/351921603109/34939156/296650
@@ -5229,7 +5229,7 @@ http://up.kiwi/351921603109/34939156/1260825
 http://up.kiwi/351921603109/34939156/1260826
 #EXTINF:-1 group-title="BR – ESPORTES",[US] ESPN2
 http://up.kiwi/351921603109/34939156/1260827
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="Fox.Sports.4K.us2" tvg-name="[US] FOX SPORTS 1",[US] FOX SPORTS 1
+#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="FOX Premium 1 HD.br" tvg-name="[US] FOX SPORTS 1",[US] FOX SPORTS 1
 http://up.kiwi/351921603109/34939156/1260846
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="FOX Sports 2.br" tvg-name="[US] FOX SPORTS 2",[US] FOX SPORTS 2
 http://up.kiwi/351921603109/34939156/1260847
@@ -5309,11 +5309,11 @@ https://cc-vvkv6xjfc6w5v.akamaized.net/ogc/desi/desi.m3u8
 https://cr7v.short.gy/ManoTVD/75991634025/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES" tvg-id="Disney HD.br" tvg-name="DISNEY PLUS 2",DISNEY PLUS 2
 https://cr7v.short.gy/ManoTVD2/75991634025/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="ELEVEN SPORTS 1 HD",ELEVEN SPORTS 1 HD
+#EXTINF:-1 group-title="BR – ESPORTES",ELEVEN SPORTS 1 HD
 http://94.130.32.19:8080/dazn1/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="ELEVEN SPORTS 2 HD",ELEVEN SPORTS 2 HD
+#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="FOX Sports 2 HD.br" tvg-name="ELEVEN SPORTS 2 HD",ELEVEN SPORTS 2 HD
 http://94.130.32.19:8080/dazn2/index.m3u8
-#EXTINF:-1 group-title="BR – ESPORTES" tvg-id="NBC.Sports.California.Plus.3.us2" tvg-name="ELEVEN SPORTS 3 HD",ELEVEN SPORTS 3 HD
+#EXTINF:-1 group-title="BR – ESPORTES",ELEVEN SPORTS 3 HD
 http://94.130.32.19:8080/dazn3/index.m3u8
 #EXTINF:-1 group-title="BR – ESPORTES",ELEVEN SPORTS 4 HD
 http://94.130.32.19:8080/dazn4/index.m3u8
@@ -5839,15 +5839,15 @@ http://up.kiwi/351921603109/34939156/1260922
 https://cc-zvni27dp2ukyu.akamaized.net/ogc/acel/acel.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",ADESSO TV
 https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM FHD",ADULT SWIM FHD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult Swim HD.br" tvg-name="ADULT SWIM FHD",ADULT SWIM FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/251957.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM H265",ADULT SWIM H265
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult Swim HD.br" tvg-name="ADULT SWIM H265",ADULT SWIM H265
 http://tjtor8411.com:80/Osiel123/Felicidade321/251960.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM H265 [2]",ADULT SWIM H265 [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult Swim HD.br" tvg-name="ADULT SWIM H265 [2]",ADULT SWIM H265 [2]
 http://tjtor8411.com:80/Osiel123/Felicidade321/251961.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM HD",ADULT SWIM HD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult Swim HD.br" tvg-name="ADULT SWIM HD",ADULT SWIM HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/251958.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult.Swim.HD.br" tvg-name="ADULT SWIM SD",ADULT SWIM SD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Adult Swim HD.br" tvg-name="ADULT SWIM SD",ADULT SWIM SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/251959.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",ADULT SWIN HD
 http://up.kiwi/351921603109/34939156/296629
@@ -5985,15 +5985,15 @@ http://tjtor8411.com:80/010794/FXz1sY/71857.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/71858.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA SD [2]",CURTA SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/71858.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! H265",CURTA! H265
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! H265",CURTA! H265
 http://up.kiwi/351921603109/34939156/290
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! HD",CURTA! HD
 http://up.kiwi/351921603109/34939156/292
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! HD [2]",CURTA! HD [2]
 http://up.kiwi/351921603109/34939156/296582
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! SD",CURTA! SD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! SD",CURTA! SD
 http://up.kiwi/351921603109/34939156/294
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta!.br" tvg-name="CURTA! SD [2]",CURTA! SD [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Curta! HD.br" tvg-name="CURTA! SD [2]",CURTA! SD [2]
 http://up.kiwi/351921603109/34939156/296583
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",DEMAIS TV
 https://cdn-tiva-stmv1-samcast-com-br.smartbit.co/demaistv6503/demaistv6503/playlist.m3u8
@@ -6305,13 +6305,13 @@ http://tjtor8411.com:80/010794/FXz1sY/72162.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/103488.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM H265 [2]",MODO VIAGEM H265 [2]
 http://tjtor8411.com:80/010794/FXz1sY/103488.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..Modo.viagem.HD.br" tvg-name="MODO VIAGEM HD",MODO VIAGEM HD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM HD",MODO VIAGEM HD
 http://up.kiwi/351921603109/34939156/296127
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..Modo.viagem.HD.br" tvg-name="MODO VIAGEM HD [2]",MODO VIAGEM HD [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM HD [2]",MODO VIAGEM HD [2]
 http://up.kiwi/351921603109/34939156/296141
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..Modo.viagem.HD.br" tvg-name="MODO VIAGEM HD [3]",MODO VIAGEM HD [3]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM HD [3]",MODO VIAGEM HD [3]
 http://tjtor8411.com:80/Osiel123/Felicidade321/72164.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="SÃ£o.Paulo/SP..Modo.viagem.HD.br" tvg-name="MODO VIAGEM HD [4]",MODO VIAGEM HD [4]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM HD [4]",MODO VIAGEM HD [4]
 http://tjtor8411.com:80/010794/FXz1sY/72164.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Modo Viagem.br" tvg-name="MODO VIAGEM SD",MODO VIAGEM SD
 http://up.kiwi/351921603109/34939156/296126
@@ -6389,29 +6389,29 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/218786.ts
 http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",ROYALWORLD NOBREZA E DINASTIAS
 https://cc-4e6doav3fdfaw.akamaized.net/playlist.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE [H265 ]",SABOR & ARTE [H265 ]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE [H265 ]",SABOR & ARTE [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/112014.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE [H265 ] [2]",SABOR & ARTE [H265 ] [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE [H265 ] [2]",SABOR & ARTE [H265 ] [2]
 http://tjtor8411.com:80/010794/FXz1sY/112014.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE FHD",SABOR & ARTE FHD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE FHD",SABOR & ARTE FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/112017.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE FHD [2]",SABOR & ARTE FHD [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE FHD [2]",SABOR & ARTE FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/112017.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE H265",SABOR & ARTE H265
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE H265",SABOR & ARTE H265
 http://tjtor8411.com:80/Osiel123/Felicidade321/112013.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE H265 [2]",SABOR & ARTE H265 [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE H265 [2]",SABOR & ARTE H265 [2]
 http://tjtor8411.com:80/010794/FXz1sY/112013.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE HD",SABOR & ARTE HD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE HD",SABOR & ARTE HD
 http://up.kiwi/351921603109/34939156/296639
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE HD [2]",SABOR & ARTE HD [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE HD [2]",SABOR & ARTE HD [2]
 http://tjtor8411.com:80/Osiel123/Felicidade321/112016.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE HD [3]",SABOR & ARTE HD [3]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE HD [3]",SABOR & ARTE HD [3]
 http://tjtor8411.com:80/010794/FXz1sY/112016.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE SD",SABOR & ARTE SD
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE SD",SABOR & ARTE SD
 http://up.kiwi/351921603109/34939156/296640
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE SD [2]",SABOR & ARTE SD [2]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE SD [2]",SABOR & ARTE SD [2]
 http://tjtor8411.com:80/Osiel123/Felicidade321/112015.ts
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor.&amp;.Arte.br" tvg-name="SABOR & ARTE SD [3]",SABOR & ARTE SD [3]
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="Sabor and Arte.br" tvg-name="SABOR & ARTE SD [3]",SABOR & ARTE SD [3]
 http://tjtor8411.com:80/010794/FXz1sY/112015.ts
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",SALON LINE
 https://jmp2.uk/plu-66a7d0e0cd0d310008448610.m3u8
@@ -6423,7 +6423,7 @@ https://d38s7rrdbnh4oy.cloudfront.net/v1/master/215c0da80606fed29372070168106400
 https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",SOU TV.
 https://vdo1.audiostream.com.br:3010/live/soutvlive.m3u8?ManoTV
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="TBS.br" tvg-name="TBS H265",TBS H265
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="TBS HD.br" tvg-name="TBS H265",TBS H265
 http://up.kiwi/351921603109/34939156/1250
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",TENDA TV
 https://tv02.zas.media:1936/tendatv/tendatv/playlist.m3u8
@@ -6499,7 +6499,7 @@ https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8
 https://v8.ciclano.io:1443/tvinterlagos/_definst_/tvinterlagos/playlist.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",TV LIBERDADE
 https://srv1.paineldevideo.com/liberdaderadioetv/liberdaderadioetv/playlist.m3u8
-#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="GMA.Life.TV.us2" tvg-name="TV LIFE AMERICA",TV LIFE AMERICA
+#EXTINF:-1 group-title="BR – ENTRETENIMENTO" tvg-id="TV Centro America Cuiabá HD.br" tvg-name="TV LIFE AMERICA",TV LIFE AMERICA
 https://streaming.cloudecast.com/hls/tvlifeamerica/index.m3u8
 #EXTINF:-1 group-title="BR – ENTRETENIMENTO",TV MEIO
 https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/redemeio/index.m3u8
@@ -6629,11 +6629,11 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/157415.ts
 http://tjtor8411.com:80/010794/FXz1sY/157415.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW",CANAL GOAT
 https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP..Canal.2.br" tvg-name="CANAL GOAT 2 FHD",CANAL GOAT 2 FHD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Canal Teste 2.br" tvg-name="CANAL GOAT 2 FHD",CANAL GOAT 2 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/242172.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP..Canal.2.br" tvg-name="CANAL GOAT 2 HD",CANAL GOAT 2 HD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Canal Teste 2.br" tvg-name="CANAL GOAT 2 HD",CANAL GOAT 2 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/242173.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP..Canal.2.br" tvg-name="CANAL GOAT 2 SD",CANAL GOAT 2 SD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Canal Teste 2.br" tvg-name="CANAL GOAT 2 SD",CANAL GOAT 2 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/242174.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW",CANAL GOAT FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/218845.ts
@@ -6653,7 +6653,7 @@ http://tjtor8411.com:80/010794/FXz1sY/76671.ts
 https://amg01391-amg01391c10-tcl-br-9630.playouts.now.amagi.tv/720p-cc/index.m3u8
 #EXTINF:-1 group-title="BR – PAY PER VIEW",CAZÉ TV YT
 https://cr7v.short.gy/CZYT/ManoTV/75991634025/index.m3u8
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="CAZÉ TV YT 2",CAZÉ TV YT 2
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Conmebol TV 2.br" tvg-name="CAZÉ TV YT 2",CAZÉ TV YT 2
 https://t5r4e3w2q1y0.s21-cloudfront-net.lat/test/790040534a2a067a72b4406b593efe1f/file.txt
 #EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 1 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/150498.ts
@@ -6667,17 +6667,17 @@ http://tjtor8411.com:80/010794/FXz1sY/150499.ts
 http://tjtor8411.com:80/Osiel123/Felicidade321/150500.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 1 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/150500.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 FHD",COPA DO BRASIL 2 FHD
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/150501.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 FHD [2]",COPA DO BRASIL 2 FHD [2]
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/150501.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 HD",COPA DO BRASIL 2 HD
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/150502.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 HD [2]",COPA DO BRASIL 2 HD [2]
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/150502.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 SD",COPA DO BRASIL 2 SD
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/150503.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="COPA DO BRASIL 2 SD [2]",COPA DO BRASIL 2 SD [2]
+#EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 2 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/150503.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW",COPA DO BRASIL 3 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/142040.ts
@@ -6705,11 +6705,11 @@ http://up.kiwi/351921603109/34939156/337
 http://tjtor8411.com:80/Osiel123/Felicidade321/247977.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Conmebol TV 1.br" tvg-name="FCF TV 1 SD",FCF TV 1 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/247978.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="FCF TV 2 FHD",FCF TV 2 FHD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Conmebol TV 2.br" tvg-name="FCF TV 2 FHD",FCF TV 2 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/247979.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="FCF TV 2 HD",FCF TV 2 HD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Conmebol TV 2.br" tvg-name="FCF TV 2 HD",FCF TV 2 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/247980.ts
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="SÃ£o.Paulo/SP...TV.Brasil.2.br" tvg-name="FCF TV 2 SD",FCF TV 2 SD
+#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Conmebol TV 2.br" tvg-name="FCF TV 2 SD",FCF TV 2 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/247981.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW",FIFA PLUS
 https://e834459f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1icl9GSUZBUGx1c1BvcnR1Z3Vlc2VfSExT/playlist.m3u8
@@ -7033,7 +7033,7 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/72266.ts
 http://tjtor8411.com:80/010794/FXz1sY/72266.ts
 #EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="Premiere.Clubes.br" tvg-name="PREMIERE CLUBES UHD",PREMIERE CLUBES UHD
 http://up.kiwi/351921603109/34939156/305246
-#EXTINF:-1 group-title="BR – PAY PER VIEW" tvg-id="NBA.League.Pass.1.us2" tvg-name="UFC FIGHT PASS 1 PPV HD",UFC FIGHT PASS 1 PPV HD
+#EXTINF:-1 group-title="BR – PAY PER VIEW",UFC FIGHT PASS 1 PPV HD
 http://up.kiwi/351921603109/34939156/1561
 #EXTINF:-1 group-title="BR – NOTICIAS",011 NEWS HD
 https://011news.akamaized.net/011news/011news/playlist.m3u8
@@ -7045,7 +7045,7 @@ http://up.kiwi/351921603109/34939156/1260793
 http://up.kiwi/351921603109/34939156/1260808
 #EXTINF:-1 group-title="BR – NOTICIAS",[US] SHOWTIME
 http://up.kiwi/351921603109/34939156/1260904
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Showtime.Extreme.HD.us2" tvg-name="[US] SHOWTIME EXTREME",[US] SHOWTIME EXTREME
+#EXTINF:-1 group-title="BR – NOTICIAS",[US] SHOWTIME EXTREME
 http://up.kiwi/351921603109/34939156/1260905
 #EXTINF:-1 group-title="BR – NOTICIAS",ARATU ON
 https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
@@ -7103,7 +7103,7 @@ http://138.255.2.6:8084/TVBRASIL2/index.m3u8
 http://168.197.104.22/TV_BRASIL_2/index.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Canal Gov.br" tvg-name="CANAL GOV [4]",CANAL GOV [4]
 https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS NEWS",CBS NEWS
+#EXTINF:-1 group-title="BR – NOTICIAS",CBS NEWS
 https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS",CNBC BRASIL [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/295481.ts
@@ -7349,7 +7349,7 @@ http://tjtor8411.com:80/Osiel123/Felicidade321/72273.ts
 http://tjtor8411.com:80/010794/FXz1sY/72273.ts
 #EXTINF:-1 group-title="BR – NOTICIAS",RESUMO DA ÓPERA
 https://011news.akamaized.net/011news/011news/chunklist_480p.m3u8
-#EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="Spectrum.News.1.-.Austin.us2" tvg-name="RS NEWS WEBTV 1",RS NEWS WEBTV 1
+#EXTINF:-1 group-title="BR – NOTICIAS",RS NEWS WEBTV 1
 https://video01.logicahost.com.br/rsnewswebtv/rsnewswebtv/playlist.m3u8
 #EXTINF:-1 group-title="BR – NOTICIAS" tvg-id="TeleSur.br" tvg-name="TELESUR",TELESUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
@@ -7683,81 +7683,81 @@ http://tjtor8411.com:80/010794/FXz1sY/184048.ts
 https://cr7v.short.gy/manofree/UFC/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="BR – UFC",UFC FIGHTPASS HD [2]
 https://cr7v.short.gy/manofree/UFC2/ZAP075991634025/index.m3u8
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.TV.HD.us2" tvg-name="[US] NBA TV",[US] NBA TV
+#EXTINF:-1 group-title="BR – NBA",[US] NBA TV
 http://up.kiwi/351921603109/34939156/1260879
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 FHD",NBA LEAGUE PASS 1 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140516.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 FHD [2]",NBA LEAGUE PASS 1 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140516.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 HD",NBA LEAGUE PASS 1 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140517.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 HD [2]",NBA LEAGUE PASS 1 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140517.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 SD",NBA LEAGUE PASS 1 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140518.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 1 SD [2]",NBA LEAGUE PASS 1 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 1 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140518.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 FHD",NBA LEAGUE PASS 2 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140519.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 FHD [2]",NBA LEAGUE PASS 2 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140519.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 HD",NBA LEAGUE PASS 2 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140520.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 HD [2]",NBA LEAGUE PASS 2 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140520.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 SD",NBA LEAGUE PASS 2 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140521.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 2 SD [2]",NBA LEAGUE PASS 2 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 2 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140521.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 FHD",NBA LEAGUE PASS 3 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140522.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 FHD [2]",NBA LEAGUE PASS 3 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140522.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 HD",NBA LEAGUE PASS 3 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140523.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 HD [2]",NBA LEAGUE PASS 3 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140523.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 SD",NBA LEAGUE PASS 3 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140524.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 3 SD [2]",NBA LEAGUE PASS 3 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 3 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140524.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 FHD",NBA LEAGUE PASS 4 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140525.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 FHD [2]",NBA LEAGUE PASS 4 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140525.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 HD",NBA LEAGUE PASS 4 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140526.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 HD [2]",NBA LEAGUE PASS 4 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140526.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 SD",NBA LEAGUE PASS 4 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/140527.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 4 SD [2]",NBA LEAGUE PASS 4 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 4 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/140527.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 FHD",NBA LEAGUE PASS 5 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141487.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 FHD [2]",NBA LEAGUE PASS 5 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141487.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 HD",NBA LEAGUE PASS 5 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141488.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 HD [2]",NBA LEAGUE PASS 5 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141488.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 SD",NBA LEAGUE PASS 5 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141489.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 5 SD [2]",NBA LEAGUE PASS 5 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 5 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141489.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 FHD",NBA LEAGUE PASS 6 FHD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141490.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 FHD [2]",NBA LEAGUE PASS 6 FHD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 FHD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141490.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 HD",NBA LEAGUE PASS 6 HD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 HD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141491.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 HD [2]",NBA LEAGUE PASS 6 HD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 HD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141491.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 SD",NBA LEAGUE PASS 6 SD
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 SD
 http://tjtor8411.com:80/Osiel123/Felicidade321/141492.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="NBA LEAGUE PASS 6 SD [2]",NBA LEAGUE PASS 6 SD [2]
+#EXTINF:-1 group-title="BR – NBA",NBA LEAGUE PASS 6 SD [2]
 http://tjtor8411.com:80/010794/FXz1sY/141492.ts
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV HD",NBA TV HD
+#EXTINF:-1 group-title="BR – NBA",NBA TV HD
 http://up.kiwi/351921603109/34939156/299645
 #EXTINF:-1 group-title="BR – NBA",SKY SPORT NBA FHD
 http://up.kiwi/351921603109/34939156/299648
@@ -7765,11 +7765,11 @@ http://up.kiwi/351921603109/34939156/299648
 http://up.kiwi/351921603109/34939156/299643
 #EXTINF:-1 group-title="BR – NBA",SKY SPORT NBA HD
 http://up.kiwi/351921603109/34939156/299642
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.League.Pass.10.us2" tvg-name="US1: NBA LEAGUE PASS 06",US1: NBA LEAGUE PASS 06
+#EXTINF:-1 group-title="BR – NBA",US1: NBA LEAGUE PASS 06
 http://up.kiwi/351921603109/34939156/299655
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.TV.HD.us2" tvg-name="US1: NBA TV HD",US1: NBA TV HD
+#EXTINF:-1 group-title="BR – NBA",US1: NBA TV HD
 http://up.kiwi/351921603109/34939156/299649
-#EXTINF:-1 group-title="BR – NBA" tvg-id="NBA.TV.HD.us2" tvg-name="US2: NBA TV | HD",US2: NBA TV | HD
+#EXTINF:-1 group-title="BR – NBA",US2: NBA TV | HD
 http://up.kiwi/351921603109/34939156/299647
 #EXTINF:-1 group-title="BR – FORMULA 1" tvg-id="Conmebol TV 1.br" tvg-name="FORMULA 1 TV FHD",FORMULA 1 TV FHD
 http://tjtor8411.com:80/Osiel123/Felicidade321/71947.ts
@@ -7885,9 +7885,9 @@ https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
 https://jmp2.uk/plu-604b99d633a72b00078e05ad.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV KFOOD
 https://jmp2.uk/plu-633ee9ba83c08f00076b60a6.m3u8
-#EXTINF:-1 group-title="BR – PLUTO TV" tvg-id="LooLoo.Kids.TV.us2" tvg-name="PLUTO TV KIDS",PLUTO TV KIDS
+#EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV KIDS
 https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
-#EXTINF:-1 group-title="BR – PLUTO TV" tvg-id="LooLoo.Kids.TV.us2" tvg-name="PLUTO TV KIDS CLUB",PLUTO TV KIDS CLUB
+#EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV KIDS CLUB
 https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV MINHA OBSESSÃO FAVORITA
 https://jmp2.uk/plu-61843f5e491af10007f7eefa.m3u8
@@ -7915,13 +7915,13 @@ https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
 https://jmp2.uk/plu-5f99ac4fded33000078f29ab.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV TERROR TRASH
 https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8
-#EXTINF:-1 group-title="BR – PLUTO TV" tvg-id="Discovery.Turbo.TV.us2" tvg-name="PLUTO TV TURBO",PLUTO TV TURBO
+#EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV TURBO
 https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV",PLUTO TV VIAGENS
 https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV" tvg-id="TV Vila Real.br" tvg-name="PLUTO TV VIDA REAL",PLUTO TV VIDA REAL
 https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
-#EXTINF:-1 group-title="BR – PLUTO TV" tvg-id="Nippon.TV.Channel.us2" tvg-name="SMITHSONIAN CHANNEL PLUTO TV",SMITHSONIAN CHANNEL PLUTO TV
+#EXTINF:-1 group-title="BR – PLUTO TV",SMITHSONIAN CHANNEL PLUTO TV
 https://jmp2.uk/plu-6298bd10d88ef000073f16b7.m3u8
 #EXTINF:-1 group-title="BR – PLUTO TV",TAKUSATO PLUTO TV
 https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8
@@ -7943,11 +7943,11 @@ https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8
 http://up.kiwi/351921603109/34939156/100
 #EXTINF:-1 group-title="BR – INFANTIS",BABYFIRST
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV",BOX KIDS TV
+#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Box Kids.br" tvg-name="BOX KIDS TV",BOX KIDS TV
 http://45.190.28.50/BOX_KIDS_HD/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [2]",BOX KIDS TV [2]
+#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Box Kids.br" tvg-name="BOX KIDS TV [2]",BOX KIDS TV [2]
 http://138.255.2.6:8084/BOXKIDS/index.m3u8
-#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="LooLoo.Kids.TV.us2" tvg-name="BOX KIDS TV [3]",BOX KIDS TV [3]
+#EXTINF:-1 group-title="BR – INFANTIS" tvg-id="Box Kids.br" tvg-name="BOX KIDS TV [3]",BOX KIDS TV [3]
 http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
 #EXTINF:-1 group-title="BR – INFANTIS" tvg-id="cartoonito.br" tvg-name="CARTOONITO [H265 ]",CARTOONITO [H265 ]
 http://tjtor8411.com:80/Osiel123/Felicidade321/71813.ts
@@ -8253,7 +8253,7 @@ https://tv.unisc.br/hls/test.m3u8
 https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
 #EXTINF:-1 group-title="BR – EDUCACAO",CANAL SAÚDE
 https://arkyvbre1g.zoeweb.tv/fiocruz/fiocruz.stream/playlist.m3u8
-#EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="TV.Cultura.br" tvg-name="CATVE TV CULTURA HD",CATVE TV CULTURA HD
+#EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="TV Cultura Paulista.br" tvg-name="CATVE TV CULTURA HD",CATVE TV CULTURA HD
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="BR – EDUCACAO" tvg-id="Santa Cecília TV.br" tvg-name="SANTA CECILIA TV",SANTA CECILIA TV
 http://flash1.crossdigital.com.br/2063/2063/playlist.m3u8
@@ -8701,19 +8701,19 @@ https://58c8a6b3c74e2.streamlock.net:1936/paroquiavianney/smil:paroquiavianney.s
 https://stmv1.paineltv.net/ulbtv/ulbtv/chunklist_w1050568292.m3u8?ManoTV
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] ABC
 http://up.kiwi/351921603109/34939156/1260780
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="[US] ALTITUDE SPORTS",[US] ALTITUDE SPORTS
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] ALTITUDE SPORTS
 http://up.kiwi/351921603109/34939156/1260783
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Antenna.TV.us2" tvg-name="[US] ANTENNA TV",[US] ANTENNA TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] ANTENNA TV
 http://up.kiwi/351921603109/34939156/1260786
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] ASPIRE
 http://up.kiwi/351921603109/34939156/1260787
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="AXS.TV.us2" tvg-name="[US] AXS TV",[US] AXS TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] AXS TV
 http://up.kiwi/351921603109/34939156/1260788
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="BBC.America.HD.us2" tvg-name="[US] BBC AMERICA",[US] BBC AMERICA
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] BBC AMERICA
 http://up.kiwi/351921603109/34939156/1260789
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="[US] BBC WORLD NEWS",[US] BBC WORLD NEWS
 http://up.kiwi/351921603109/34939156/1260790
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Bounce.TV.us2" tvg-name="[US] BOUNCE TV",[US] BOUNCE TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] BOUNCE TV
 http://up.kiwi/351921603109/34939156/1260795
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] BRAVO TV
 http://up.kiwi/351921603109/34939156/1260796
@@ -8721,23 +8721,23 @@ http://up.kiwi/351921603109/34939156/1260796
 http://up.kiwi/351921603109/34939156/1260798
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] CBS
 http://up.kiwi/351921603109/34939156/1260800
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Cleo.TV.HD.us2" tvg-name="[US] CLEO TV",[US] CLEO TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] CLEO TV
 http://up.kiwi/351921603109/34939156/1260805
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] CMT
 http://up.kiwi/351921603109/34939156/1260806
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] CNBC
 http://up.kiwi/351921603109/34939156/1260807
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Comedy.TV.HD.us2" tvg-name="[US] COMEDY TV",[US] COMEDY TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] COMEDY TV
 http://up.kiwi/351921603109/34939156/1260810
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Cooking.Channel.HD.us2" tvg-name="[US] COOKING CHANNEL",[US] COOKING CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] COOKING CHANNEL
 http://up.kiwi/351921603109/34939156/1260812
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="COZI.TV.us2" tvg-name="[US] COZI TV",[US] COZI TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] COZI TV
 http://up.kiwi/351921603109/34939156/1260814
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] CW
 http://up.kiwi/351921603109/34939156/1260816
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Discovery.Channel.br" tvg-name="[US] DISCOVERY FAMILY CHANNEL",[US] DISCOVERY FAMILY CHANNEL
 http://up.kiwi/351921603109/34939156/1260818
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="SÃ£o.Paulo/SP..Discovery.HD.Â³.br" tvg-name="[US] DISCOVERY LIFE",[US] DISCOVERY LIFE
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Discovery HD.br" tvg-name="[US] DISCOVERY LIFE",[US] DISCOVERY LIFE
 http://up.kiwi/351921603109/34939156/1260819
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] FDSN FLORIDA
 http://up.kiwi/351921603109/34939156/1260829
@@ -8771,11 +8771,11 @@ http://up.kiwi/351921603109/34939156/1260849
 http://up.kiwi/351921603109/34939156/1260853
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Golf Channel.br" tvg-name="[US] GOLF CHANNEL",[US] GOLF CHANNEL
 http://up.kiwi/351921603109/34939156/1260856
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Hallmark.Channel.HD.us2" tvg-name="[US] HALLMARK CHANNEL",[US] HALLMARK CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] HALLMARK CHANNEL
 http://up.kiwi/351921603109/34939156/1260858
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Hallmark.Family.us2" tvg-name="[US] HALLMARK FAMILY",[US] HALLMARK FAMILY
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] HALLMARK FAMILY
 http://up.kiwi/351921603109/34939156/1260859
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Hallmark.Mystery.HD.us2" tvg-name="[US] HALLMARK MYSTERY",[US] HALLMARK MYSTERY
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] HALLMARK MYSTERY
 http://up.kiwi/351921603109/34939156/1260860
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] HLN TV
 http://up.kiwi/351921603109/34939156/1260866
@@ -8789,33 +8789,33 @@ http://up.kiwi/351921603109/34939156/1260875
 http://up.kiwi/351921603109/34939156/1260876
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NBC
 http://up.kiwi/351921603109/34939156/1260880
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="NBC.Sports.4K.us2" tvg-name="[US] NBC SPORTS BAY AREA",[US] NBC SPORTS BAY AREA
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NBC SPORTS BAY AREA
 http://up.kiwi/351921603109/34939156/1260881
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="NBC.Sports.4K.us2" tvg-name="[US] NBC SPORTS BOSTON",[US] NBC SPORTS BOSTON
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NBC SPORTS BOSTON
 http://up.kiwi/351921603109/34939156/1260882
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="NBC.Sports.4K.us2" tvg-name="[US] NBC SPORTS CALIFORNIA",[US] NBC SPORTS CALIFORNIA
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NBC SPORTS CALIFORNIA
 http://up.kiwi/351921603109/34939156/1260883
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="NBC.Sports.4K.us2" tvg-name="[US] NBC SPORTS PHILADELPHIA",[US] NBC SPORTS PHILADELPHIA
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NBC SPORTS PHILADELPHIA
 http://up.kiwi/351921603109/34939156/1260885
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NESN
 http://up.kiwi/351921603109/34939156/1260886
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NEWSNATION
 http://up.kiwi/351921603109/34939156/1260887
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="NFL.RedZone.HD.us2" tvg-name="[US] NFL REDZONE",[US] NFL REDZONE
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] NFL REDZONE
 http://up.kiwi/351921603109/34939156/1260889
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Outdoor.Channel.HD.us2" tvg-name="[US] OUTDOOR CHANNEL",[US] OUTDOOR CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] OUTDOOR CHANNEL
 http://up.kiwi/351921603109/34939156/1260894
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] OVATION
 http://up.kiwi/351921603109/34939156/1260895
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] OXYGEN
 http://up.kiwi/351921603109/34939156/1260896
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="PBS.KIDS.HD.us2" tvg-name="[US] PBS KIDS",[US] PBS KIDS
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] PBS KIDS
 http://up.kiwi/351921603109/34939156/1260898
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] POP TV
 http://up.kiwi/351921603109/34939156/1260899
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="[US] PREMIER SPORTS 1",[US] PREMIER SPORTS 1
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] PREMIER SPORTS 1
 http://up.kiwi/351921603109/34939156/1260900
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Altitude.Sports.2.HD.us2" tvg-name="[US] PREMIER SPORTS 2",[US] PREMIER SPORTS 2
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="FOX Sports 2 HD.br" tvg-name="[US] PREMIER SPORTS 2",[US] PREMIER SPORTS 2
 http://up.kiwi/351921603109/34939156/1260901
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] REELZ CHANNEL
 http://up.kiwi/351921603109/34939156/1260902
@@ -8823,29 +8823,29 @@ http://up.kiwi/351921603109/34939156/1260902
 http://up.kiwi/351921603109/34939156/1260906
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] SKY SPORTS NEWS
 http://up.kiwi/351921603109/34939156/1260907
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Sportsman.Channel.us2" tvg-name="[US] SPORTSMAN CHANNEL",[US] SPORTSMAN CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] SPORTSMAN CHANNEL
 http://up.kiwi/351921603109/34939156/1260913
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] STARZ
 http://up.kiwi/351921603109/34939156/1260919
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Starz.Encore.Action.HD.us2" tvg-name="[US] STARZ ENCORE CLASSIC",[US] STARZ ENCORE CLASSIC
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] STARZ ENCORE CLASSIC
 http://up.kiwi/351921603109/34939156/1260920
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="Tennis.Channel.HD.us2" tvg-name="[US] TENNIS CHANNEL",[US] TENNIS CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TENNIS CHANNEL
 http://up.kiwi/351921603109/34939156/1260923
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="The.Weather.Channel.HD.us2" tvg-name="[US] THE WEATHER CHANNEL",[US] THE WEATHER CHANNEL
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] THE WEATHER CHANNEL
 http://up.kiwi/351921603109/34939156/1260924
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TSN1
 http://up.kiwi/351921603109/34939156/1260928
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TSN2
 http://up.kiwi/351921603109/34939156/1260929
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="TCM.-.Turner.Classic.br" tvg-name="[US] TURNER CLASSIC MOVIES",[US] TURNER CLASSIC MOVIES
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TURNER CLASSIC MOVIES
 http://up.kiwi/351921603109/34939156/1260930
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="TV.Land.HD.us2" tvg-name="[US] TV LAND",[US] TV LAND
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TV LAND
 http://up.kiwi/351921603109/34939156/1260931
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="TV.ONE.HD.us2" tvg-name="[US] TV ONE",[US] TV ONE
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] TV ONE
 http://up.kiwi/351921603109/34939156/1260932
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="USA HD.br" tvg-name="[US] USA EAST",[US] USA EAST
 http://up.kiwi/351921603109/34939156/1260933
-#EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="WE.tv.HD.us2" tvg-name="[US] WE TV",[US] WE TV
+#EXTINF:-1 group-title="BR – ESTADOS UNIDOS",[US] WE TV
 http://up.kiwi/351921603109/34939156/1260936
 #EXTINF:-1 group-title="BR – ESTADOS UNIDOS" tvg-id="São.Paulo/SP..BBC.World.News.br" tvg-name="BBC WORLD NEWS HD",BBC WORLD NEWS HD
 http://up.kiwi/351921603109/34939156/296337
