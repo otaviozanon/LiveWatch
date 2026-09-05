@@ -17,3 +17,10 @@ _*.txt
 _*.py
 !__init__.py
 
+# filter pipeline state (persisted via GitHub Actions cache)
+.github/filter-state/
+*.filter.log
+*.filter_report.csv
+*.filter_state.json
+
+

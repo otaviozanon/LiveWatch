@@ -8,9 +8,11 @@ Automated IPTV playlist merger — fetches, filters, categorizes and publishes p
 
 ## Quick Start
 
-1. Install **Simple M3U Player** (Microsoft Store)
+1. Install a player:
+   - **Simple M3U Player** (Microsoft Store)
+   - **MovieBox-TUI** — terminal player (see [repo](https://github.com/mesamirh/MovieBox-TUI))
 2. Copy a playlist URL from the [dashboard](https://ozlivewatch.pages.dev)
-3. Add to Simple M3U Player and save
+3. Add to your player and save
 
 ## Quick Links
 

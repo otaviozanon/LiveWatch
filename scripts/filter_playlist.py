@@ -370,9 +370,13 @@ def main() -> None:
     base_name = args.base_name
     m3u_path = os.path.join(playlists_dir, "m3u", f"{base_name}.m3u")
     m3u8_path = os.path.join(playlists_dir, "m3u8", f"{base_name}.m3u8")
-    state_path = os.path.join(playlists_dir, f"{base_name}.filter_state.json")
-    report_path = os.path.join(playlists_dir, f"{base_name}.filter_report.csv")
-    log_path = os.path.join(playlists_dir, f"{base_name}.filter.log")
+    # State lives OUTSIDE the repo (GitHub Actions cache) so it survives between
+    # CI runs without polluting git history.
+    state_dir = os.environ.get("FILTER_STATE_DIR", os.path.join(root, ".github", "filter-state"))
+    os.makedirs(state_dir, exist_ok=True)
+    state_path = os.path.join(state_dir, f"{base_name}.filter_state.json")
+    report_path = os.path.join(state_dir, f"{base_name}.filter_report.csv")
+    log_path = os.path.join(state_dir, f"{base_name}.filter.log")
 
     if not os.path.exists(m3u_path) or not os.path.exists(m3u8_path):
         print(f"[Filter] [!] Playlists not found, skipping", flush=True)
