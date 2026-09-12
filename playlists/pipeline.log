@@ -23,18 +23,22 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2618
 [LiveWatch] [i] EPG ativado
-[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-Traceback (most recent call last):
-  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 233, in <module>
-    main()
-  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 213, in main
-    filtered = fetch_profile_entries(p)
-               ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 111, in fetch_profile_entries
-    sources = discover_github_sources(github_repo, p.get("source_pattern", ""))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/LiveWatch/LiveWatch/scripts/core/fetcher.py", line 51, in discover_github_sources
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Ramys/Iptv-Brasil-2026/contents/
+[LiveWatch] [+] channels.json
+[LiveWatch]    31219 registros
+[LiveWatch]    821 canais BR
+[LiveWatch]    816 canais validos
+[LiveWatch] [+] streams.json
+[LiveWatch]    17242 registros
+[LiveWatch]    458 streams
+[LiveWatch] [*] 79 grupos remapeados
+[LiveWatch] [-] 83 canais indesejados
+[LiveWatch] [*] 318 canais recategorizados
+[LiveWatch] [*] 14 canais recategorizados (categorias)
+[LiveWatch] [-] 20 canais filtrados (grupo)
+[LiveWatch] [i] Total pos-filtro: 355
+[LiveWatch] [*] 319 nomes normalizados
+[LiveWatch] [*] 143 conflitos renomeados
+[LiveWatch] [+] Final: 355 canais
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u (355 canais)
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u8 (355 canais)
+[LiveWatch] [+] Playlist salva!
