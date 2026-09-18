@@ -235,7 +235,21 @@
     "BAND NEWS H265 [2]",
     "CNN ESPANHOL H265",
     "CNN INTERNACIONAL H265",
-    "BAND NEWS HD [6]"
+    "BAND NEWS HD [6]",
+    "BAND NEWS FHD [3]",
+    "BAND NEWS SD [5]",
+    "CNN BRASIL FHD [4]",
+    "CNN BRASIL H265 [5]",
+    "CNN BRASIL HD [6]",
+    "CNN BRASIL SD [6]",
+    "GLOBO NEWS H265 [5]",
+    "GLOBO NEWS SD [4]",
+    "JOVEM PAN NEWS FHD [3]",
+    "JOVEM PAN NEWS H265 [5]",
+    "JOVEM PAN NEWS HD [5]",
+    "JOVEM PAN NEWS SD [3]",
+    "RECORD NEWS FHD [3]",
+    "RECORD NEWS SD [4]"
   ],
-  "count": 235
+  "count": 249
 }

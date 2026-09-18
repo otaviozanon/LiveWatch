@@ -96,7 +96,15 @@
     "VH1 H265",
     "VH1 HD",
     "[US] MTV",
-    "[US] VH1"
+    "[US] VH1",
+    "BIS FHD [3]",
+    "BIS HD [5]",
+    "BIS SD [4]",
+    "MULTISHOW FHD [4]",
+    "MULTISHOW SD [4]",
+    "TRACE BRASIL FHD",
+    "TRACE BRASIL HD",
+    "TRACE BRASIL SD"
   ],
-  "count": 96
+  "count": 104
 }
