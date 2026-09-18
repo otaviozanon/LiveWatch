@@ -23,24 +23,6 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2618
 [LiveWatch] [i] EPG ativado
-
-[LiveWatch] --- brasil ---
-[LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    3 listas encontradas
-[LiveWatch] [+] CanaisBR01.m3u8 (1/3)
-[LiveWatch]    292953 entradas (585908 linhas)
-[LiveWatch] [+] CanaisBR02.m3u8 (2/3)
-[LiveWatch]    298409 entradas (596820 linhas)
-[LiveWatch] [+] CanaisBR03.m3u8 (3/3)
-[LiveWatch]    988 entradas (1978 linhas)
-[LiveWatch] [*] 830 grupos remapeados
-[LiveWatch] [-] 587383 URLs bloqueadas
-[LiveWatch] [-] 1034 canais indesejados
-[LiveWatch] [*] 3906 canais recategorizados
-[LiveWatch] [*] 57 canais recategorizados (categorias)
-[LiveWatch] [-] 345 canais filtrados (grupo)
-
-[LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
 [LiveWatch]    31269 registros
 [LiveWatch]    821 canais BR
@@ -53,24 +35,10 @@
 [LiveWatch] [*] 318 canais recategorizados
 [LiveWatch] [*] 14 canais recategorizados (categorias)
 [LiveWatch] [-] 20 canais filtrados (grupo)
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    1983 entradas (6639 linhas)
-[LiveWatch] [*] 200 grupos remapeados
-[LiveWatch] [-] 1302 URLs bloqueadas
-[LiveWatch] [-] 210 canais indesejados
-[LiveWatch] [*] 447 canais recategorizados
-[LiveWatch] [*] 11 canais recategorizados (categorias)
-[LiveWatch] [-] 3 grupos excluidos
-[LiveWatch] [-] 20 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 4391
-[LiveWatch] [*] 3129 nomes normalizados
-[LiveWatch] [-] 1 canais indesejados
-[LiveWatch] [-] 43 duplicatas URL
-[LiveWatch] [*] 1391 conflitos renomeados
-[LiveWatch] [+] Final: 4347 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4347 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4347 canais)
+[LiveWatch] [i] Total pos-filtro: 355
+[LiveWatch] [*] 319 nomes normalizados
+[LiveWatch] [*] 143 conflitos renomeados
+[LiveWatch] [+] Final: 355 canais
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u (355 canais)
+[LiveWatch] [+] LiveWatch-PlaylistIPTVORG.m3u8 (355 canais)
 [LiveWatch] [+] Playlist salva!
