@@ -104,7 +104,13 @@
     "MULTISHOW SD [4]",
     "TRACE BRASIL FHD",
     "TRACE BRASIL HD",
-    "TRACE BRASIL SD"
+    "TRACE BRASIL SD",
+    "BIS",
+    "BIS FHD H.265",
+    "BIS FHD [4]",
+    "MULTISHOW",
+    "RÁDIO DA BISPA",
+    "TRACE BRASIL HD [2]"
   ],
-  "count": 104
+  "count": 110
 }

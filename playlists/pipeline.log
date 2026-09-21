@@ -26,23 +26,25 @@
 
 [LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    4 listas encontradas
-[LiveWatch] [+] CanaisBR01.m3u8 (1/4)
-[LiveWatch]    292953 entradas (585908 linhas)
-[LiveWatch] [+] CanaisBR02.m3u8 (2/4)
-[LiveWatch]    298409 entradas (596820 linhas)
-[LiveWatch] [+] CanaisBR03.m3u8 (3/4)
-[LiveWatch]    988 entradas (1978 linhas)
-[LiveWatch] [+] CanaisBR04.m3u8 (4/4)
+[LiveWatch]    5 listas encontradas
+[LiveWatch] [+] CanaisBR01.m3u8 (1/5)
+[LiveWatch]    312709 entradas (625420 linhas)
+[LiveWatch] [+] CanaisBR02.m3u8 (2/5)
+[LiveWatch]    300978 entradas (601958 linhas)
+[LiveWatch] [+] CanaisBR03.m3u8 (3/5)
+[LiveWatch]    286957 entradas (573915 linhas)
+[LiveWatch] [+] CanaisBR04.m3u8 (4/5)
 [LiveWatch]    1101 entradas (2204 linhas)
+[LiveWatch] [+] CanaisBR05.m3u8 (5/5)
+[LiveWatch]    24 entradas (320 linhas)
 [LiveWatch] [-] 343 grupos ignorados
-[LiveWatch] [*] 1480 grupos remapeados
-[LiveWatch] [-] 587383 URLs bloqueadas
-[LiveWatch] [-] 1229 canais indesejados
-[LiveWatch] [*] 4428 canais recategorizados
-[LiveWatch] [*] 82 canais recategorizados (categorias)
+[LiveWatch] [*] 650 grupos remapeados
+[LiveWatch] [-] 896238 URLs bloqueadas
+[LiveWatch] [-] 967 canais indesejados
+[LiveWatch] [*] 3777 canais recategorizados
+[LiveWatch] [*] 54 canais recategorizados (categorias)
 [LiveWatch] [-] 11 grupos excluidos
-[LiveWatch] [-] 495 canais filtrados (grupo)
+[LiveWatch] [-] 413 canais filtrados (grupo)
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
@@ -50,7 +52,7 @@
 [LiveWatch]    821 canais BR
 [LiveWatch]    816 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    17564 registros
+[LiveWatch]    17554 registros
 [LiveWatch]    458 streams
 [LiveWatch] [*] 79 grupos remapeados
 [LiveWatch] [-] 83 canais indesejados
@@ -69,12 +71,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 23 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4795
-[LiveWatch] [*] 3442 nomes normalizados
-[LiveWatch] [-] 1 canais indesejados
+[LiveWatch] [i] Total combinado: 4602
+[LiveWatch] [*] 3109 nomes normalizados
 [LiveWatch] [-] 43 duplicatas URL
-[LiveWatch] [*] 1655 conflitos renomeados
-[LiveWatch] [+] Final: 4751 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4751 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4751 canais)
+[LiveWatch] [*] 1155 conflitos renomeados
+[LiveWatch] [+] Final: 4559 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4559 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4559 canais)
 [LiveWatch] [+] Playlist salva!
