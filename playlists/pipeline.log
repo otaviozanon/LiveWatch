@@ -52,8 +52,8 @@
 [LiveWatch]    821 canais BR
 [LiveWatch]    816 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    17554 registros
-[LiveWatch]    458 streams
+[LiveWatch]    17498 registros
+[LiveWatch]    459 streams
 [LiveWatch] [*] 79 grupos remapeados
 [LiveWatch] [-] 83 canais indesejados
 [LiveWatch] [*] 318 canais recategorizados
@@ -71,11 +71,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 26 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4613
-[LiveWatch] [*] 3117 nomes normalizados
+[LiveWatch] [i] Total combinado: 4614
+[LiveWatch] [*] 3118 nomes normalizados
 [LiveWatch] [-] 42 duplicatas URL
 [LiveWatch] [*] 1167 conflitos renomeados
-[LiveWatch] [+] Final: 4571 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4571 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4571 canais)
+[LiveWatch] [+] Final: 4572 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4572 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4572 canais)
 [LiveWatch] [+] Playlist salva!
