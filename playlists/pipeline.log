@@ -4,7 +4,7 @@
 [EPG] Downloading IDs: epg_ripper_BR2.txt
 [EPG]   97 IDs found (via .txt)
 [EPG] Downloading IDs: epg_ripper_US2.txt
-[EPG]   766 IDs found (via .txt)
+[EPG]   768 IDs found (via .txt)
 [EPG] Downloading globetv EPG: brazil1.xml.gz
 [EPG]   801 channels found
 [EPG] Downloading globetv EPG: brazil2.xml.gz
@@ -21,10 +21,8 @@
 [EPG]   157 channels found
 [EPG] Downloading globetv EPG: usa4.xml.gz
 [EPG]   157 channels found
-[EPG] Total IDs (epgshare + globetv): 2618
+[EPG] Total IDs (epgshare + globetv): 2620
 [LiveWatch] [i] EPG ativado
-
-[LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    5 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/5)
@@ -45,37 +43,10 @@
 [LiveWatch] [*] 445 canais recategorizados (categorias)
 [LiveWatch] [-] 11 grupos excluidos
 [LiveWatch] [-] 413 canais filtrados (grupo)
-
-[LiveWatch] --- iptv-org ---
-[LiveWatch] [+] channels.json
-[LiveWatch]    31375 registros
-[LiveWatch]    821 canais BR
-[LiveWatch]    816 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    17519 registros
-[LiveWatch]    459 streams
-[LiveWatch] [*] 79 grupos remapeados
-[LiveWatch] [-] 83 canais indesejados
-[LiveWatch] [*] 318 canais recategorizados
-[LiveWatch] [*] 15 canais recategorizados (categorias)
-[LiveWatch] [-] 20 canais filtrados (grupo)
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2000 entradas (6639 linhas)
-[LiveWatch] [*] 212 grupos remapeados
-[LiveWatch] [-] 1300 URLs bloqueadas
-[LiveWatch] [-] 210 canais indesejados
-[LiveWatch] [*] 466 canais recategorizados
-[LiveWatch] [*] 12 canais recategorizados (categorias)
-[LiveWatch] [-] 3 grupos excluidos
-[LiveWatch] [-] 26 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 4614
-[LiveWatch] [*] 3118 nomes normalizados
-[LiveWatch] [-] 42 duplicatas URL
-[LiveWatch] [*] 1167 conflitos renomeados
-[LiveWatch] [+] Final: 4572 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4572 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4572 canais)
+[LiveWatch] [i] Total pos-filtro: 3797
+[LiveWatch] [*] 2430 nomes normalizados
+[LiveWatch] [*] 877 conflitos renomeados
+[LiveWatch] [+] Final: 3797 canais
+[LiveWatch] [+] LiveWatch-PlaylistBR.m3u (3797 canais)
+[LiveWatch] [+] LiveWatch-PlaylistBR.m3u8 (3797 canais)
 [LiveWatch] [+] Playlist salva!
