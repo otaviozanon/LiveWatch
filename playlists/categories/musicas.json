@@ -110,7 +110,17 @@
     "BIS FHD [4]",
     "MULTISHOW",
     "RÁDIO DA BISPA",
-    "TRACE BRASIL HD [2]"
+    "TRACE BRASIL HD [2]",
+    "BIS [H265 ] [3]",
+    "MULTISHOW [H265 ] [3]",
+    "MUSIC BOX BRAZIL FHD [3]",
+    "MUSIC BOX BRAZIL H265 [3]",
+    "MUSIC BOX BRAZIL [H265 ] [3]",
+    "TRACE BRAZUCA FHD [3]",
+    "TRACE BRAZUCA H265 [3]",
+    "TRACE BRAZUCA HD [3]",
+    "TRACE BRAZUCA SD [3]",
+    "TRACE BRAZUCA [H265 ] [3]"
   ],
-  "count": 110
+  "count": 120
 }

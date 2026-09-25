@@ -32,19 +32,18 @@
 [LiveWatch] [+] CanaisBR02.m3u8 (2/5)
 [LiveWatch]    300978 entradas (601958 linhas)
 [LiveWatch] [+] CanaisBR03.m3u8 (3/5)
-[LiveWatch]    286957 entradas (573915 linhas)
+[LiveWatch]    4498 entradas (9003 linhas)
 [LiveWatch] [+] CanaisBR04.m3u8 (4/5)
-[LiveWatch]    1101 entradas (2204 linhas)
+[LiveWatch]    2261 entradas (4524 linhas)
 [LiveWatch] [+] CanaisBR05.m3u8 (5/5)
 [LiveWatch]    24 entradas (320 linhas)
-[LiveWatch] [-] 343 grupos ignorados
-[LiveWatch] [*] 650 grupos remapeados
-[LiveWatch] [-] 896238 URLs bloqueadas
-[LiveWatch] [-] 967 canais indesejados
-[LiveWatch] [*] 3777 canais recategorizados
-[LiveWatch] [*] 445 canais recategorizados (categorias)
-[LiveWatch] [-] 11 grupos excluidos
-[LiveWatch] [-] 413 canais filtrados (grupo)
+[LiveWatch] [-] 2141 grupos ignorados
+[LiveWatch] [*] 2002 grupos remapeados
+[LiveWatch] [-] 610317 URLs bloqueadas
+[LiveWatch] [-] 1428 canais indesejados
+[LiveWatch] [*] 6272 canais recategorizados
+[LiveWatch] [*] 338 canais recategorizados (categorias)
+[LiveWatch] [-] 373 canais filtrados (grupo)
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
@@ -71,11 +70,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 26 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 4616
-[LiveWatch] [*] 3119 nomes normalizados
+[LiveWatch] [i] Total combinado: 7030
+[LiveWatch] [*] 6126 nomes normalizados
 [LiveWatch] [-] 42 duplicatas URL
-[LiveWatch] [*] 1169 conflitos renomeados
-[LiveWatch] [+] Final: 4574 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (4574 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (4574 canais)
+[LiveWatch] [*] 4134 conflitos renomeados
+[LiveWatch] [+] Final: 6988 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (6988 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (6988 canais)
 [LiveWatch] [+] Playlist salva!
