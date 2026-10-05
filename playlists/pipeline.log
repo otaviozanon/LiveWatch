@@ -28,23 +28,23 @@
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    5 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/5)
-[LiveWatch]    313683 entradas (627368 linhas)
+[LiveWatch]    314191 entradas (628384 linhas)
 [LiveWatch] [+] CanaisBR02.m3u8 (2/5)
-[LiveWatch]    302416 entradas (604834 linhas)
+[LiveWatch]    302721 entradas (605444 linhas)
 [LiveWatch] [+] CanaisBR03.m3u8 (3/5)
-[LiveWatch]    325791 entradas (651584 linhas)
+[LiveWatch]    326295 entradas (652592 linhas)
 [LiveWatch] [+] CanaisBR04.m3u8 (4/5)
-[LiveWatch]    313691 entradas (627384 linhas)
+[LiveWatch]    314195 entradas (628392 linhas)
 [LiveWatch] [+] CanaisBR05.m3u8 (5/5)
 [LiveWatch]    24 entradas (320 linhas)
-[LiveWatch] [-] 311417 grupos ignorados
-[LiveWatch] [-] 301535 grupos ignorados
-[LiveWatch] [-] 323428 grupos ignorados
-[LiveWatch] [-] 311424 grupos ignorados
-[LiveWatch] [*] 3714 grupos remapeados
-[LiveWatch] [-] 1383 canais indesejados
+[LiveWatch] [-] 311925 grupos ignorados
+[LiveWatch] [-] 301845 grupos ignorados
+[LiveWatch] [-] 323932 grupos ignorados
+[LiveWatch] [-] 311928 grupos ignorados
+[LiveWatch] [*] 3709 grupos remapeados
+[LiveWatch] [-] 1386 canais indesejados
 [LiveWatch] [*] 6252 canais recategorizados
-[LiveWatch] [*] 195 canais recategorizados (categorias)
+[LiveWatch] [*] 168 canais recategorizados (categorias)
 [LiveWatch] [-] 369 canais filtrados (grupo)
 
 [LiveWatch] --- iptv-org ---
@@ -72,11 +72,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 27 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 6872
-[LiveWatch] [*] 5982 nomes normalizados
+[LiveWatch] [i] Total combinado: 6864
+[LiveWatch] [*] 5979 nomes normalizados
 [LiveWatch] [-] 43 duplicatas URL
-[LiveWatch] [*] 4165 conflitos renomeados
-[LiveWatch] [+] Final: 6829 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (6829 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (6829 canais)
+[LiveWatch] [*] 4163 conflitos renomeados
+[LiveWatch] [+] Final: 6821 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (6821 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (6821 canais)
 [LiveWatch] [+] Playlist salva!
