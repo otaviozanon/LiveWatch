@@ -49,14 +49,14 @@
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
-[LiveWatch]    31562 registros
+[LiveWatch]    31570 registros
 [LiveWatch]    825 canais BR
 [LiveWatch]    820 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    17968 registros
-[LiveWatch]    464 streams
+[LiveWatch]    18022 registros
+[LiveWatch]    465 streams
 [LiveWatch] [*] 79 grupos remapeados
-[LiveWatch] [-] 83 canais indesejados
+[LiveWatch] [-] 84 canais indesejados
 [LiveWatch] [*] 324 canais recategorizados
 [LiveWatch] [*] 16 canais recategorizados (categorias)
 [LiveWatch] [-] 18 canais filtrados (grupo)
