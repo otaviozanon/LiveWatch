@@ -26,57 +26,17 @@
 
 [LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
-[LiveWatch]    5 listas encontradas
-[LiveWatch] [+] CanaisBR01.m3u8 (1/5)
-[LiveWatch]    314191 entradas (628384 linhas)
-[LiveWatch] [+] CanaisBR02.m3u8 (2/5)
-[LiveWatch]    302721 entradas (605444 linhas)
-[LiveWatch] [+] CanaisBR03.m3u8 (3/5)
-[LiveWatch]    326295 entradas (652592 linhas)
-[LiveWatch] [+] CanaisBR04.m3u8 (4/5)
-[LiveWatch]    314195 entradas (628392 linhas)
-[LiveWatch] [+] CanaisBR05.m3u8 (5/5)
-[LiveWatch]    24 entradas (320 linhas)
-[LiveWatch] [-] 311925 grupos ignorados
-[LiveWatch] [-] 301845 grupos ignorados
-[LiveWatch] [-] 323932 grupos ignorados
-[LiveWatch] [-] 311928 grupos ignorados
-[LiveWatch] [*] 3709 grupos remapeados
-[LiveWatch] [-] 1386 canais indesejados
-[LiveWatch] [*] 6252 canais recategorizados
-[LiveWatch] [*] 192 canais recategorizados (categorias)
-[LiveWatch] [-] 369 canais filtrados (grupo)
-
-[LiveWatch] --- iptv-org ---
-[LiveWatch] [+] channels.json
-[LiveWatch]    31570 registros
-[LiveWatch]    825 canais BR
-[LiveWatch]    820 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    18022 registros
-[LiveWatch]    465 streams
-[LiveWatch] [*] 79 grupos remapeados
-[LiveWatch] [-] 84 canais indesejados
-[LiveWatch] [*] 324 canais recategorizados
-[LiveWatch] [*] 16 canais recategorizados (categorias)
-[LiveWatch] [-] 18 canais filtrados (grupo)
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2005 entradas (6642 linhas)
-[LiveWatch] [*] 217 grupos remapeados
-[LiveWatch] [-] 1300 URLs bloqueadas
-[LiveWatch] [-] 210 canais indesejados
-[LiveWatch] [*] 471 canais recategorizados
-[LiveWatch] [*] 12 canais recategorizados (categorias)
-[LiveWatch] [-] 3 grupos excluidos
-[LiveWatch] [-] 27 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 6869
-[LiveWatch] [*] 5984 nomes normalizados
-[LiveWatch] [-] 43 duplicatas URL
-[LiveWatch] [*] 4165 conflitos renomeados
-[LiveWatch] [+] Final: 6826 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (6826 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (6826 canais)
-[LiveWatch] [+] Playlist salva!
+Traceback (most recent call last):
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 233, in <module>
+    main()
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 188, in main
+    entries = fetch_profile_entries(sp)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/merge.py", line 111, in fetch_profile_entries
+    sources = discover_github_sources(github_repo, p.get("source_pattern", ""))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/LiveWatch/LiveWatch/scripts/core/fetcher.py", line 51, in discover_github_sources
+    resp.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: rate limit exceeded for url: https://api.github.com/repos/Ramys/Iptv-Brasil-2026/contents/
