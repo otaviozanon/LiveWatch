@@ -1479,7 +1479,10 @@
     "WARNER CHANNEL HD [LEG] [3]",
     "WARNER CHANNEL SD [LEG] [3]",
     "WARNER CHANNEL [H265 ] [3]",
-    "TELECINE ACTION [2]"
+    "TELECINE ACTION [2]",
+    "MAX 1",
+    "MAX 2",
+    "MAX 3"
   ],
-  "count": 1479
+  "count": 1482
 }
