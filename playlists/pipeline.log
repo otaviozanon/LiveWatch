@@ -23,8 +23,6 @@
 [EPG]   157 channels found
 [EPG] Total IDs (epgshare + globetv): 2621
 [LiveWatch] [i] EPG ativado
-
-[LiveWatch] --- brasil ---
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    5 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/5)
@@ -46,37 +44,10 @@
 [LiveWatch] [*] 6252 canais recategorizados
 [LiveWatch] [*] 192 canais recategorizados (categorias)
 [LiveWatch] [-] 369 canais filtrados (grupo)
-
-[LiveWatch] --- iptv-org ---
-[LiveWatch] [+] channels.json
-[LiveWatch]    31587 registros
-[LiveWatch]    825 canais BR
-[LiveWatch]    820 canais validos
-[LiveWatch] [+] streams.json
-[LiveWatch]    18117 registros
-[LiveWatch]    465 streams
-[LiveWatch] [*] 79 grupos remapeados
-[LiveWatch] [-] 84 canais indesejados
-[LiveWatch] [*] 324 canais recategorizados
-[LiveWatch] [*] 16 canais recategorizados (categorias)
-[LiveWatch] [-] 18 canais filtrados (grupo)
-
-[LiveWatch] --- manotv ---
-[LiveWatch] [+] ManoTV.m3u (1/1)
-[LiveWatch]    2015 entradas (6692 linhas)
-[LiveWatch] [*] 210 grupos remapeados
-[LiveWatch] [-] 1312 URLs bloqueadas
-[LiveWatch] [-] 209 canais indesejados
-[LiveWatch] [*] 470 canais recategorizados
-[LiveWatch] [*] 12 canais recategorizados (categorias)
-[LiveWatch] [-] 3 grupos excluidos
-[LiveWatch] [-] 27 canais filtrados (grupo)
-
-[LiveWatch] [i] Total combinado: 6868
-[LiveWatch] [*] 5982 nomes normalizados
-[LiveWatch] [-] 44 duplicatas URL
-[LiveWatch] [*] 4163 conflitos renomeados
-[LiveWatch] [+] Final: 6824 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (6824 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (6824 canais)
+[LiveWatch] [i] Total pos-filtro: 6041
+[LiveWatch] [*] 5286 nomes normalizados
+[LiveWatch] [*] 3891 conflitos renomeados
+[LiveWatch] [+] Final: 6041 canais
+[LiveWatch] [+] LiveWatch-PlaylistBR.m3u (6041 canais)
+[LiveWatch] [+] LiveWatch-PlaylistBR.m3u8 (6041 canais)
 [LiveWatch] [+] Playlist salva!
