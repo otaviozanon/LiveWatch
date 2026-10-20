@@ -1482,7 +1482,12 @@
     "TELECINE ACTION [2]",
     "MAX 1",
     "MAX 2",
-    "MAX 3"
+    "MAX 3",
+    "MAX 1 TNT",
+    "MAX 1 TNT [2]",
+    "MAX 1 TNT [3]",
+    "MAX 2 SPACE",
+    "MAX 2 SPACE [2]"
   ],
-  "count": 1482
+  "count": 1487
 }
