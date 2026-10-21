@@ -37,7 +37,25 @@
     "DAZN 1 FHD [3]",
     "DAZN 1 SD [3]",
     "DAZN 2 FHD [3]",
-    "DAZN 2 SD [3]"
+    "DAZN 2 SD [3]",
+    "DAZN 3 FHD",
+    "DAZN 3 SD",
+    "DAZN 4 FHD",
+    "DAZN 4 SD",
+    "DAZN 5 FHD",
+    "DAZN 5 SD",
+    "DAZN 6 FHD",
+    "DAZN 6 HD",
+    "DAZN 6 SD",
+    "DAZN 7 FHD",
+    "DAZN 7 HD",
+    "DAZN 7 SD",
+    "DAZN 8 FHD",
+    "DAZN 8 HD",
+    "DAZN 8 SD",
+    "DAZN EXTRA 1",
+    "DAZN EXTRA 2",
+    "DAZN EXTRA 3"
   ],
-  "count": 37
+  "count": 55
 }

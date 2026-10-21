@@ -120,7 +120,16 @@
     "TRACE BRAZUCA H265 [3]",
     "TRACE BRAZUCA HD [3]",
     "TRACE BRAZUCA SD [3]",
-    "TRACE BRAZUCA [H265 ] [3]"
+    "TRACE BRAZUCA [H265 ] [3]",
+    "BIS UHD",
+    "CMTV HD",
+    "MTV PORTUGAL HD",
+    "TRACE URBAN",
+    "USL- MTV 2 ᴴᴰ",
+    "USL- MTV CLASSIC ᴴᴰ",
+    "USL- MTV HD",
+    "USL- VH1 ᴴᴰ",
+    "VH1 SD"
   ],
-  "count": 120
+  "count": 129
 }
