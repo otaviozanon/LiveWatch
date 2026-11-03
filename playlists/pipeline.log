@@ -28,22 +28,22 @@
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    4 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/4)
-[LiveWatch]    300550 entradas (601102 linhas)
+[LiveWatch]    312013 entradas (624028 linhas)
 [LiveWatch] [+] CanaisBR02.m3u8 (2/4)
-[LiveWatch]    304088 entradas (608178 linhas)
+[LiveWatch]    300087 entradas (600176 linhas)
 [LiveWatch] [+] CanaisBR03.m3u8 (3/4)
 [LiveWatch]    24 entradas (320 linhas)
 [LiveWatch] [+] CanaisBR04.m3u8 (4/4)
-[LiveWatch]    310188 entradas (620377 linhas)
-[LiveWatch] [-] 299715 grupos ignorados
-[LiveWatch] [-] 303202 grupos ignorados
-[LiveWatch] [-] 307413 grupos ignorados
-[LiveWatch] [*] 2086 grupos remapeados
-[LiveWatch] [-] 824 canais indesejados
-[LiveWatch] [*] 2840 canais recategorizados
-[LiveWatch] [*] 461 canais recategorizados (categorias)
+[LiveWatch]    311582 entradas (623165 linhas)
+[LiveWatch] [-] 311166 grupos ignorados
+[LiveWatch] [-] 299199 grupos ignorados
+[LiveWatch] [-] 308807 grupos ignorados
+[LiveWatch] [*] 2089 grupos remapeados
+[LiveWatch] [-] 826 canais indesejados
+[LiveWatch] [*] 2848 canais recategorizados
+[LiveWatch] [*] 466 canais recategorizados (categorias)
 [LiveWatch] [-] 373 grupos excluidos
-[LiveWatch] [-] 376 canais filtrados (grupo)
+[LiveWatch] [-] 377 canais filtrados (grupo)
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
@@ -51,7 +51,7 @@
 [LiveWatch]    827 canais BR
 [LiveWatch]    822 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    18451 registros
+[LiveWatch]    18457 registros
 [LiveWatch]    455 streams
 [LiveWatch] [*] 77 grupos remapeados
 [LiveWatch] [-] 83 canais indesejados
@@ -70,11 +70,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 22 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 3745
-[LiveWatch] [*] 2468 nomes normalizados
+[LiveWatch] [i] Total combinado: 3756
+[LiveWatch] [*] 2476 nomes normalizados
 [LiveWatch] [-] 49 duplicatas URL
-[LiveWatch] [*] 848 conflitos renomeados
-[LiveWatch] [+] Final: 3696 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3696 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3696 canais)
+[LiveWatch] [*] 858 conflitos renomeados
+[LiveWatch] [+] Final: 3707 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3707 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3707 canais)
 [LiveWatch] [+] Playlist salva!
