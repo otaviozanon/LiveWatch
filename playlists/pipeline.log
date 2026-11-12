@@ -28,22 +28,22 @@
 [LiveWatch] [+] Buscando Ramys/Iptv-Brasil-2026
 [LiveWatch]    4 listas encontradas
 [LiveWatch] [+] CanaisBR01.m3u8 (1/4)
-[LiveWatch]    312013 entradas (624028 linhas)
+[LiveWatch]    267234 entradas (534470 linhas)
 [LiveWatch] [+] CanaisBR02.m3u8 (2/4)
 [LiveWatch]    300087 entradas (600176 linhas)
 [LiveWatch] [+] CanaisBR03.m3u8 (3/4)
 [LiveWatch]    24 entradas (320 linhas)
 [LiveWatch] [+] CanaisBR04.m3u8 (4/4)
 [LiveWatch]    311582 entradas (623165 linhas)
-[LiveWatch] [-] 311166 grupos ignorados
+[LiveWatch] [-] 267234 grupos ignorados
 [LiveWatch] [-] 299199 grupos ignorados
 [LiveWatch] [-] 308807 grupos ignorados
-[LiveWatch] [*] 2089 grupos remapeados
-[LiveWatch] [-] 826 canais indesejados
-[LiveWatch] [*] 2848 canais recategorizados
-[LiveWatch] [*] 467 canais recategorizados (categorias)
-[LiveWatch] [-] 373 grupos excluidos
-[LiveWatch] [-] 377 canais filtrados (grupo)
+[LiveWatch] [*] 1567 grupos remapeados
+[LiveWatch] [-] 634 canais indesejados
+[LiveWatch] [*] 2320 canais recategorizados
+[LiveWatch] [*] 415 canais recategorizados (categorias)
+[LiveWatch] [-] 301 grupos excluidos
+[LiveWatch] [-] 272 canais filtrados (grupo)
 
 [LiveWatch] --- iptv-org ---
 [LiveWatch] [+] channels.json
@@ -70,11 +70,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 22 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 3712
-[LiveWatch] [*] 2431 nomes normalizados
+[LiveWatch] [i] Total combinado: 3234
+[LiveWatch] [*] 2061 nomes normalizados
 [LiveWatch] [-] 49 duplicatas URL
-[LiveWatch] [*] 815 conflitos renomeados
-[LiveWatch] [+] Final: 3663 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3663 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3663 canais)
+[LiveWatch] [*] 518 conflitos renomeados
+[LiveWatch] [+] Final: 3185 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3185 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3185 canais)
 [LiveWatch] [+] Playlist salva!
