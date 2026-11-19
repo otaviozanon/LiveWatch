@@ -51,13 +51,13 @@
 [LiveWatch]    828 canais BR
 [LiveWatch]    823 canais validos
 [LiveWatch] [+] streams.json
-[LiveWatch]    18765 registros
-[LiveWatch]    394 streams
-[LiveWatch] [*] 63 grupos remapeados
+[LiveWatch]    18882 registros
+[LiveWatch]    396 streams
+[LiveWatch] [*] 64 grupos remapeados
 [LiveWatch] [-] 74 canais indesejados
-[LiveWatch] [*] 267 canais recategorizados
+[LiveWatch] [*] 269 canais recategorizados
 [LiveWatch] [*] 13 canais recategorizados (categorias)
-[LiveWatch] [-] 16 canais filtrados (grupo)
+[LiveWatch] [-] 17 canais filtrados (grupo)
 
 [LiveWatch] --- manotv ---
 [LiveWatch] [+] ManoTV.m3u (1/1)
@@ -70,11 +70,11 @@
 [LiveWatch] [-] 3 grupos excluidos
 [LiveWatch] [-] 22 canais filtrados (grupo)
 
-[LiveWatch] [i] Total combinado: 3237
-[LiveWatch] [*] 2062 nomes normalizados
+[LiveWatch] [i] Total combinado: 3238
+[LiveWatch] [*] 2063 nomes normalizados
 [LiveWatch] [-] 51 duplicatas URL
 [LiveWatch] [*] 520 conflitos renomeados
-[LiveWatch] [+] Final: 3186 canais
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3186 canais)
-[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3186 canais)
+[LiveWatch] [+] Final: 3187 canais
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u (3187 canais)
+[LiveWatch] [+] LiveWatch-PlaylistAll.m3u8 (3187 canais)
 [LiveWatch] [+] Playlist salva!
